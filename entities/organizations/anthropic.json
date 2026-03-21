@@ -1,0 +1,13 @@
+{
+  "id": "org_anthropic",
+  "type": "organization",
+  "name": "Anthropic",
+  "founded": "2021-01-28",
+  "founders": ["person_amodei_dario", "person_amodei_daniela"],
+  "headquarters": "San Francisco, USA",
+  "org_type": "company",
+  "key_models": ["model_claude_series"],
+  "key_papers": ["paper_2022_constitutional_ai"],
+  "significance": 8,
+  "summary": "Anthropic was founded by Dario and Daniela Amodei, along with several other former OpenAI researchers, with a focus on AI safety research. The company developed Constitutional AI, a training methodology that uses a set of principles to guide model behavior rather than relying solely on human feedback. Anthropic's Claude model family represents a safety-first approach to frontier AI development. The company has become one of the leading AI labs and a major voice in responsible AI scaling."
+}

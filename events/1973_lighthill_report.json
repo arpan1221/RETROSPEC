@@ -1,0 +1,25 @@
+{
+  "id": "evt_1973_lighthill_report",
+  "type": "event",
+  "title": "The Lighthill Report to the British Science Research Council",
+  "date": "1973-01-01",
+  "epoch": "03_first_winter",
+  "significance": 7,
+  "summary": "Sir James Lighthill, Lucasian Professor of Mathematics at Cambridge, published a devastating report for the British Science Research Council arguing that AI had failed to achieve its 'grandiose objectives' and that the 'combinatorial explosion' problem made most AI approaches fundamentally unscalable. The report led to the near-total elimination of AI funding in the UK (except at Edinburgh and Essex) and significantly influenced DARPA funding decisions in the US.",
+  "entities": {
+    "people": ["person_lighthill_james"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1969_perceptrons_book"],
+  "succeeded_by": ["evt_1980_xcon_deployed"],
+  "tags": ["ai_winter", "funding", "criticism", "uk", "policy"],
+  "impact_description": "Triggered the collapse of British AI research funding and contributed to the global first AI winter. Set a precedent for government skepticism of AI that persisted for decades in the UK.",
+  "counterfactual": "Without the Lighthill Report, British AI research might have maintained continuity through the 1970s. The UK could have been a leading AI nation rather than ceding that position to the US and Japan.",
+  "query_hooks": [
+    "What caused the first AI winter?",
+    "Why did AI funding collapse in the 1970s?",
+    "What was the Lighthill Report?",
+    "Has AI been declared a failure before?"
+  ]
+}

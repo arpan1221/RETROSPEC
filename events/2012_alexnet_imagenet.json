@@ -1,0 +1,25 @@
+{
+  "id": "evt_2012_alexnet_imagenet",
+  "type": "event",
+  "title": "AlexNet Wins the ImageNet Large Scale Visual Recognition Challenge",
+  "date": "2012-09-30",
+  "epoch": "07_deep_learning_era",
+  "significance": 9,
+  "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to the ImageNet competition and won with a top-5 error rate of 15.3% — a 10.8 percentage point improvement over the runner-up at 26.2%. This was an unprecedented margin of victory. AlexNet used a deep convolutional neural network trained on two NVIDIA GPUs, incorporating ReLU activation, dropout, and data augmentation. This single result caused the entire machine learning community to pivot from hand-engineered features to deep learning.",
+  "entities": {
+    "people": ["person_krizhevsky_alex", "person_sutskever_ilya", "person_hinton_geoffrey"],
+    "organizations": ["org_university_of_toronto"],
+    "models_spawned": ["model_alexnet", "model_vgg", "model_googlenet", "model_resnet"]
+  },
+  "preceded_by": ["evt_2006_hinton_deep_belief_nets"],
+  "succeeded_by": ["evt_2014_gan_introduction", "evt_2014_seq2seq_attention"],
+  "tags": ["deep_learning", "computer_vision", "imagenet", "paradigm_shift", "gpu"],
+  "impact_description": "The 'big bang' of the deep learning era. Within two years, every top ImageNet entry used deep neural networks. Computer vision was transformed overnight. GPU-accelerated deep learning became the standard approach across all of AI.",
+  "counterfactual": "Without AlexNet, the deep learning revolution would have been delayed. The community might have taken several more years to recognize that deep neural networks trained on GPUs could dramatically outperform traditional approaches. The entire timeline of modern AI would shift.",
+  "query_hooks": [
+    "What started the deep learning revolution?",
+    "Why are GPUs important for AI?",
+    "What was the ImageNet moment?",
+    "How did deep learning prove itself?"
+  ]
+}

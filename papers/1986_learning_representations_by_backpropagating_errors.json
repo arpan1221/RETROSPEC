@@ -1,0 +1,31 @@
+{
+  "id": "paper_1986_learning_representations_by_backpropagating_errors",
+  "type": "paper",
+  "title": "Learning representations by back-propagating errors",
+  "authors": ["person_rumelhart_david", "person_hinton_geoffrey", "person_williams_ronald"],
+  "date": "1986-10-09",
+  "venue": "Nature, Vol. 323",
+  "arxiv_id": null,
+  "url": "https://doi.org/10.1038/323533a0",
+  "citation_count_approx": 45000,
+  "epoch": "04_expert_systems_boom",
+  "significance": 9,
+  "summary": "Demonstrated that backpropagation could effectively train multi-layer neural networks by propagating error gradients backward through the network. While backprop had been independently discovered before (by Werbos in 1974, among others), this paper made it practical, accessible, and widely known. It directly addressed the limitations that Minsky and Papert had identified in 'Perceptrons' and reignited interest in neural network research.",
+  "key_contributions": [
+    "Made backpropagation practical and widely accessible for training multi-layer networks",
+    "Showed that hidden layers could learn useful internal representations",
+    "Demonstrated gradient-based optimization of neural networks",
+    "Directly countered the Perceptrons critique by showing multi-layer networks could learn XOR and beyond"
+  ],
+  "preceded_by": ["paper_1969_perceptrons"],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_1986_backpropagation_revival"],
+  "related_concepts": ["concept_backpropagation", "concept_gradient_descent"],
+  "impact": "Revived neural network research and laid the computational foundation for all of modern deep learning. Every neural network trained today uses backpropagation or a variant of it.",
+  "query_hooks": [
+    "How does backpropagation work?",
+    "What revived neural networks?",
+    "How are neural networks trained?",
+    "What is gradient descent?"
+  ]
+}

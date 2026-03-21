@@ -1,0 +1,25 @@
+{
+  "id": "epoch_10_agentic_era",
+  "type": "epoch",
+  "name": "The Agentic Era",
+  "number": 10,
+  "date_start": "2024-07-01",
+  "date_end": null,
+  "summary": "The current epoch. AI systems transition from tools that respond to prompts into autonomous agents that plan, use tools, write code, browse the web, and complete multi-step tasks independently. The Model Context Protocol (MCP) standardizes how agents interact with external systems. Computer use capabilities emerge. Multi-agent architectures allow specialized AI systems to collaborate. Self-improving AI research pipelines run hundreds of experiments autonomously. The question shifts from 'What can AI do?' to 'What should AI be allowed to do on its own?'",
+  "key_events": ["evt_2024_mcp_protocol", "evt_2024_computer_use", "evt_2025_agent_frameworks"],
+  "key_figures": ["person_amodei_dario", "person_altman_sam", "person_hassabis_demis"],
+  "key_models": ["model_claude_series", "model_gpt_series", "model_gemini_series"],
+  "key_concepts": ["agentic_ai", "tool_use", "multi_agent_systems", "computer_use", "model_context_protocol", "self_improving_ai", "world_models"],
+  "defining_characteristics": [
+    "AI systems become autonomous agents, not just chat interfaces",
+    "Tool use and function calling become standard capabilities",
+    "MCP standardizes agent-to-tool communication",
+    "Computer use — AI can operate GUIs like a human",
+    "Multi-agent architectures: specialized agents collaborating on complex tasks",
+    "Self-improving AI research: agents running experiments and learning from results",
+    "The alignment and control problem becomes urgent, not theoretical"
+  ],
+  "preceded_by": "epoch_09_generative_explosion",
+  "succeeded_by": null,
+  "significance": 9
+}

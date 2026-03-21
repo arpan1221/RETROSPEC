@@ -1,0 +1,22 @@
+{
+  "id": "person_lecun_yann",
+  "type": "person",
+  "name": "Yann LeCun",
+  "born": "1960-07-08",
+  "died": null,
+  "nationality": "French-American",
+  "affiliations": ["org_meta_ai", "org_nyu", "org_bell_labs"],
+  "key_contributions": [
+    "Invented convolutional neural networks (ConvNets/CNNs)",
+    "Created LeNet-5 (1998) — the first practical CNN, used for handwriting recognition",
+    "Pioneered the use of backpropagation for training CNNs",
+    "Turing Award (2018) with Hinton and Bengio for deep learning",
+    "Chief AI Scientist at Meta, leading FAIR"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_hinton_geoffrey", "person_fukushima_kunihiko"],
+  "influenced": ["person_krizhevsky_alex"],
+  "papers": [],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Yann LeCun invented convolutional neural networks, the architecture that revolutionized computer vision and proved that deep learning could solve real-world problems. His LeNet-5, deployed at Bell Labs for reading checks, was one of the first practical applications of deep learning. He shared the 2018 Turing Award with Hinton and Bengio. As Meta's Chief AI Scientist, he leads one of the world's largest AI research labs and is a prominent advocate for open-source AI and self-supervised learning."
+}

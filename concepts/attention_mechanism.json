@@ -1,0 +1,21 @@
+{
+  "id": "concept_attention_mechanism",
+  "type": "concept",
+  "name": "Attention Mechanism",
+  "summary": "A mechanism that allows neural networks to selectively focus on relevant parts of the input when producing each element of the output. Instead of compressing an entire input sequence into a fixed-length vector, attention computes a weighted sum over all input positions, with weights determined by learned compatibility functions. Self-attention (attending within a single sequence) is the core operation of the Transformer architecture and the foundation of all modern LLMs.",
+  "introduced_date": "2014",
+  "introduced_by": ["person_bahdanau_dzmitry", "person_bengio_yoshua"],
+  "epoch_introduced": "07_deep_learning_era",
+  "significance": 10,
+  "prerequisites": ["concept_neural_networks", "concept_sequence_to_sequence"],
+  "enables": ["concept_transformer", "concept_self_attention", "concept_multi_head_attention"],
+  "related_papers": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2014_seq2seq_attention", "evt_2017_attention_is_all_you_need"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "How does attention work?",
+    "Why is attention important in AI?",
+    "What makes transformers work?",
+    "How do language models understand context?"
+  ]
+}

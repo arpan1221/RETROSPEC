@@ -1,0 +1,21 @@
+{
+  "id": "concept_scaling_laws",
+  "type": "concept",
+  "name": "Neural Scaling Laws",
+  "summary": "The empirical observation that language model performance follows predictable power-law relationships with model size (number of parameters), dataset size (number of tokens), and compute budget (FLOPs). Larger models trained on more data with more compute perform better in smooth, predictable ways with no observed plateaus. This discovery transformed AI research from an art into a more predictable engineering discipline and justified the multi-billion dollar investments in larger models.",
+  "introduced_date": "2020-01-23",
+  "introduced_by": ["person_kaplan_jared", "person_amodei_dario"],
+  "epoch_introduced": "08_transformer_age",
+  "significance": 8,
+  "prerequisites": ["concept_language_models", "concept_transformer"],
+  "enables": ["concept_compute_optimal_training", "concept_foundation_models"],
+  "related_papers": ["paper_2020_scaling_laws_for_neural_lms"],
+  "related_events": ["evt_2020_gpt3_released"],
+  "current_status": "active",
+  "query_hooks": [
+    "Why do bigger models perform better?",
+    "What are scaling laws?",
+    "Can you predict AI performance?",
+    "Why do AI companies spend billions on compute?"
+  ]
+}

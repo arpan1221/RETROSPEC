@@ -1,0 +1,23 @@
+{
+  "id": "epoch_00_philosophical_roots",
+  "type": "epoch",
+  "name": "Philosophical Roots",
+  "number": 0,
+  "date_start": "1305-01-01",
+  "date_end": "1942-12-31",
+  "summary": "The intellectual prehistory of AI, spanning six centuries of thinkers who imagined mechanical reasoning, universal computation, and thinking machines long before electronics made them possible. From Ramon Llull's combinatorial logic wheels to Ada Lovelace's first algorithm to George Boole's algebra of thought, this epoch laid the philosophical and mathematical foundations without which artificial intelligence could not exist.",
+  "key_events": ["evt_1305_llull_ars_magna", "evt_1837_babbage_analytical_engine", "evt_1843_lovelace_first_program", "evt_1854_boole_laws_of_thought"],
+  "key_figures": ["person_llull_ramon", "person_leibniz_gottfried", "person_babbage_charles", "person_lovelace_ada", "person_boole_george"],
+  "key_models": [],
+  "key_concepts": ["mechanical_reasoning", "universal_computation", "formal_logic", "symbolic_representation"],
+  "defining_characteristics": [
+    "Pure thought experiments — no working hardware existed for these ideas",
+    "The question 'Can machines think?' was philosophical, not engineering",
+    "Mathematics and logic as the language of reasoning — Boole, Leibniz, Frege",
+    "The concept of an algorithm predates the computer by centuries",
+    "Women's contributions (Lovelace) already present at the very beginning"
+  ],
+  "preceded_by": null,
+  "succeeded_by": "epoch_01_dawn",
+  "significance": 7
+}

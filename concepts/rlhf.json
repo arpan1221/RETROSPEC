@@ -1,0 +1,21 @@
+{
+  "id": "concept_rlhf",
+  "type": "concept",
+  "name": "Reinforcement Learning from Human Feedback (RLHF)",
+  "summary": "A technique for aligning language models with human preferences. The process involves three steps: (1) collect human comparisons of model outputs, (2) train a reward model to predict human preferences, and (3) use reinforcement learning (typically PPO) to fine-tune the language model to maximize the reward model's score. RLHF is what transformed GPT-3 from a raw language model into the helpful ChatGPT. It bridges the gap between 'predicting the next token' and 'being actually useful and safe.'",
+  "introduced_date": "2017",
+  "introduced_by": ["person_christiano_paul"],
+  "epoch_introduced": "08_transformer_age",
+  "significance": 9,
+  "prerequisites": ["concept_reinforcement_learning", "concept_language_models", "concept_reward_modeling"],
+  "enables": ["concept_constitutional_ai", "concept_instruction_following", "concept_ai_alignment"],
+  "related_papers": ["paper_2022_constitutional_ai"],
+  "related_events": ["evt_2022_chatgpt_launch"],
+  "current_status": "active",
+  "query_hooks": [
+    "What is RLHF?",
+    "How is ChatGPT trained?",
+    "How do you align AI with human preferences?",
+    "What makes language models helpful instead of just predictive?"
+  ]
+}

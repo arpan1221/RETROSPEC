@@ -1,0 +1,24 @@
+{
+  "id": "epoch_08_transformer_age",
+  "type": "epoch",
+  "name": "The Transformer Age",
+  "number": 8,
+  "date_start": "2017-06-12",
+  "date_end": "2022-11-29",
+  "summary": "The most consequential architectural revolution in AI history. 'Attention Is All You Need' (2017) introduced the Transformer, replacing recurrence with self-attention and enabling massive parallelization. BERT proved that pretrained transformers could dominate NLP. The GPT series demonstrated that scaling decoder-only transformers produces emergent capabilities. Scaling laws were discovered, predicting model performance from compute. The concept of 'foundation models' emerged. By the end of this epoch, it was clear that transformers would be the architecture that carries AI into the future.",
+  "key_events": ["evt_2017_attention_is_all_you_need", "evt_2018_bert_released", "evt_2018_gpt1_released", "evt_2020_gpt3_released"],
+  "key_figures": ["person_vaswani_ashish", "person_devlin_jacob", "person_radford_alec", "person_sutskever_ilya"],
+  "key_models": ["model_bert", "model_gpt_series", "model_t5"],
+  "key_concepts": ["attention_mechanism", "self_attention", "transformer_architecture", "pretraining", "few_shot_learning", "scaling_laws", "foundation_models"],
+  "defining_characteristics": [
+    "The Transformer replaces RNNs as the dominant architecture",
+    "Self-attention enables parallelization and scaling to billions of parameters",
+    "The encoder-only (BERT) vs. decoder-only (GPT) split defines the era",
+    "Scaling laws reveal predictable relationships between compute, data, and performance",
+    "Few-shot and zero-shot learning emerge as capabilities of large models",
+    "'Foundation model' becomes the organizing concept for the field"
+  ],
+  "preceded_by": "epoch_07_deep_learning_era",
+  "succeeded_by": "epoch_09_generative_explosion",
+  "significance": 10
+}

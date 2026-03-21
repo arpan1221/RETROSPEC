@@ -1,0 +1,25 @@
+{
+  "id": "evt_2022_chatgpt_launch",
+  "type": "event",
+  "title": "OpenAI Launches ChatGPT",
+  "date": "2022-11-30",
+  "epoch": "09_generative_explosion",
+  "significance": 9,
+  "summary": "OpenAI launched ChatGPT, a conversational AI interface built on GPT-3.5 fine-tuned with RLHF (Reinforcement Learning from Human Feedback). It reached 100 million users within two months — the fastest adoption of any consumer technology in history. ChatGPT made AI accessible to non-technical users for the first time at massive scale, triggering a global conversation about AI capabilities, risks, job displacement, and the need for regulation. It launched an industry-wide arms race and attracted billions in investment.",
+  "entities": {
+    "people": ["person_altman_sam"],
+    "organizations": ["org_openai"],
+    "models_spawned": ["model_gpt_series"]
+  },
+  "preceded_by": ["evt_2020_gpt3_released"],
+  "succeeded_by": ["evt_2023_gpt4_released"],
+  "tags": ["product_launch", "mainstream", "chatbot", "rlhf", "cultural_moment"],
+  "impact_description": "Made AI a mainstream cultural phenomenon. Triggered a global AI arms race among tech companies. Led directly to massive investment, government regulation efforts, and the founding of numerous AI startups. Changed the public understanding of what AI can do.",
+  "counterfactual": "Without ChatGPT, AI capabilities would have remained largely invisible to the general public. The generative AI investment boom might have been delayed by years. Government regulation efforts would have developed more slowly. The term 'AI' might not have dominated global discourse in 2023-2024.",
+  "query_hooks": [
+    "What made AI go mainstream?",
+    "When did ChatGPT launch?",
+    "What is the fastest-adopted technology ever?",
+    "What triggered the AI arms race?"
+  ]
+}

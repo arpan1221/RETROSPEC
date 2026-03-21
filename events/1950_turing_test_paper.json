@@ -1,0 +1,30 @@
+{
+  "id": "evt_1950_turing_test_paper",
+  "type": "event",
+  "title": "Publication of 'Computing Machinery and Intelligence'",
+  "date": "1950-10-01",
+  "epoch": "01_dawn",
+  "significance": 10,
+  "summary": "Alan Turing published 'Computing Machinery and Intelligence' in the journal Mind, opening with the question 'Can machines think?' He proposed the imitation game (later known as the Turing Test) as a practical framework for evaluating machine intelligence: if a human interrogator cannot reliably distinguish between a machine and a human through text-based conversation, the machine should be considered intelligent. This paper established the philosophical foundation for the entire field of artificial intelligence.",
+  "entities": {
+    "people": ["person_turing_alan"],
+    "organizations": ["org_university_of_manchester"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1943_mcculloch_pitts_neuron"],
+  "succeeded_by": ["evt_1956_dartmouth_conference"],
+  "tags": ["philosophy", "turing_test", "foundational", "thought_experiment"],
+  "impact_description": "Framed the central question of AI research and provided the first concrete criterion for evaluating machine intelligence. The Turing Test remained the most discussed benchmark for AI for over 70 years.",
+  "paper": {
+    "arxiv_id": null,
+    "citation_count_approx": 18000,
+    "url": "https://doi.org/10.1093/mind/LIX.236.433"
+  },
+  "counterfactual": "Without this paper, the field of AI would have lacked its foundational philosophical question. The Dartmouth Conference might never have happened, or would have been framed entirely differently. The debate about machine consciousness and intelligence would have developed along a different trajectory.",
+  "query_hooks": [
+    "Can machines think?",
+    "What is the Turing Test?",
+    "When did AI begin as a concept?",
+    "Who first asked whether machines could be intelligent?"
+  ]
+}

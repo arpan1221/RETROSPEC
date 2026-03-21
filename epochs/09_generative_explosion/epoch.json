@@ -1,0 +1,24 @@
+{
+  "id": "epoch_09_generative_explosion",
+  "type": "epoch",
+  "name": "The Generative Explosion",
+  "number": 9,
+  "date_start": "2022-11-30",
+  "date_end": "2024-06-30",
+  "summary": "The era when AI went mainstream. ChatGPT launched on November 30, 2022 and reached 100 million users in two months — the fastest adoption of any technology in history. GPT-4 passed professional exams. Claude, Gemini, and LLaMA emerged as competitors. DALL-E, Stable Diffusion, and Midjourney made AI image generation ubiquitous. Open-source AI exploded with LLaMA and its derivatives. Governments scrambled to regulate. The EU AI Act became law. The world woke up to both the potential and the risks of artificial intelligence.",
+  "key_events": ["evt_2022_chatgpt_launch", "evt_2023_gpt4_released", "evt_2023_llama_released", "evt_2024_eu_ai_act"],
+  "key_figures": ["person_altman_sam", "person_amodei_dario", "person_hassabis_demis"],
+  "key_models": ["model_gpt_series", "model_claude_series", "model_gemini_series", "model_llama_series", "model_stable_diffusion", "model_midjourney"],
+  "key_concepts": ["rlhf", "constitutional_ai", "chain_of_thought", "instruction_tuning", "open_weight_models", "multimodal_models"],
+  "defining_characteristics": [
+    "ChatGPT brings AI to mainstream public consciousness — 100M users in 2 months",
+    "An arms race between OpenAI, Anthropic, Google, and Meta",
+    "Open-source AI movement explodes with LLaMA and its derivatives",
+    "AI regulation begins in earnest — EU AI Act, executive orders, safety summits",
+    "Generative AI becomes a multi-billion dollar industry overnight",
+    "The safety vs. capabilities debate intensifies"
+  ],
+  "preceded_by": "epoch_08_transformer_age",
+  "succeeded_by": "epoch_10_agentic_era",
+  "significance": 9
+}

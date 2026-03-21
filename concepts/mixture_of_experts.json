@@ -1,0 +1,21 @@
+{
+  "id": "concept_mixture_of_experts",
+  "type": "concept",
+  "name": "Mixture of Experts (MoE)",
+  "summary": "An architecture where a model consists of multiple specialized sub-networks ('experts') and a gating mechanism that routes each input to a subset of experts. This allows models to have very large total parameter counts while only activating a fraction of them for any given input, dramatically improving computational efficiency. MoE enables models like Mixtral and reportedly GPT-4 to achieve frontier performance at a fraction of the inference cost of dense models of equivalent capability.",
+  "introduced_date": "1991",
+  "introduced_by": ["person_jacobs_robert", "person_jordan_michael"],
+  "epoch_introduced": "06_quiet_revolution",
+  "significance": 8,
+  "prerequisites": ["concept_neural_networks", "concept_gating_mechanisms"],
+  "enables": ["concept_efficient_scaling", "concept_sparse_models"],
+  "related_papers": [],
+  "related_events": [],
+  "current_status": "active",
+  "query_hooks": [
+    "What is Mixture of Experts?",
+    "How does Mixtral work?",
+    "How can AI models be more efficient?",
+    "What architecture does GPT-4 use?"
+  ]
+}

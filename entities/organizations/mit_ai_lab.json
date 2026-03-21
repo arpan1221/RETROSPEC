@@ -1,0 +1,13 @@
+{
+  "id": "org_mit_ai_lab",
+  "type": "organization",
+  "name": "MIT Artificial Intelligence Laboratory",
+  "founded": "1959-01-01",
+  "founders": ["person_mccarthy_john", "person_minsky_marvin"],
+  "headquarters": "Cambridge, Massachusetts, USA",
+  "org_type": "university",
+  "key_models": [],
+  "key_papers": ["paper_1969_perceptrons"],
+  "significance": 9,
+  "summary": "The MIT AI Laboratory, founded by John McCarthy and Marvin Minsky in 1959, was the birthplace of much of early AI research. It produced LISP, pioneered robotics and computer vision, developed knowledge representation frameworks, and trained generations of AI researchers. The lab (merged with the Lab for Computer Science in 2003 to form MIT CSAIL) was the epicenter of symbolic AI and the good old-fashioned AI (GOFAI) approach that dominated the field for its first four decades."
+}

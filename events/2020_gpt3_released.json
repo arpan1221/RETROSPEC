@@ -1,0 +1,30 @@
+{
+  "id": "evt_2020_gpt3_released",
+  "type": "event",
+  "title": "OpenAI Releases GPT-3",
+  "date": "2020-06-11",
+  "epoch": "08_transformer_age",
+  "significance": 9,
+  "summary": "OpenAI released GPT-3, a 175-billion parameter language model that demonstrated remarkable few-shot and zero-shot capabilities. Without any fine-tuning, GPT-3 could perform translation, question answering, code generation, and creative writing simply by being given a few examples in the prompt. The paper 'Language Models are Few-Shot Learners' showed that scaling model size produced emergent capabilities that smaller models lacked. GPT-3 was the first model to make the general public — and the tech industry — take notice that language models might be approaching general-purpose intelligence.",
+  "entities": {
+    "people": ["person_brown_tom"],
+    "organizations": ["org_openai"],
+    "models_spawned": ["model_gpt_series"]
+  },
+  "preceded_by": ["evt_2018_bert_released"],
+  "succeeded_by": ["evt_2022_chatgpt_launch"],
+  "tags": ["scaling", "few_shot", "language_model", "emergent_capabilities", "gpt"],
+  "impact_description": "Proved that scaling alone produces qualitatively new capabilities. Established in-context learning as a paradigm. Triggered the scaling race among AI labs and convinced the industry that large language models were the path to general AI capabilities.",
+  "paper": {
+    "arxiv_id": "2005.14165",
+    "citation_count_approx": 25000,
+    "url": "https://arxiv.org/abs/2005.14165"
+  },
+  "counterfactual": "Without GPT-3, the scaling hypothesis might not have been validated so dramatically. The AI industry's multi-billion dollar bet on large language models might have been delayed. ChatGPT would not have existed in its form, and the generative AI explosion of 2022-2024 might have been significantly different.",
+  "query_hooks": [
+    "What is few-shot learning?",
+    "When did large language models become impressive?",
+    "What are emergent capabilities?",
+    "Why did AI labs start building bigger models?"
+  ]
+}

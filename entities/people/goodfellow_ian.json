@@ -1,0 +1,20 @@
+{
+  "id": "person_goodfellow_ian",
+  "type": "person",
+  "name": "Ian Goodfellow",
+  "born": "1985-01-01",
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_google_brain", "org_openai", "org_apple"],
+  "key_contributions": [
+    "Invented Generative Adversarial Networks (GANs) in 2014",
+    "Co-authored the influential \"Deep Learning\" textbook (2016) with Bengio and Courville",
+    "Pioneered adversarial training as a paradigm for generative models"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_bengio_yoshua"],
+  "influenced": [],
+  "papers": ["paper_2014_generative_adversarial_nets"],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Ian Goodfellow invented Generative Adversarial Networks, one of the most creative ideas in modern machine learning. The legend goes that the idea came to him in a bar in Montreal in 2014. GANs introduced the concept of two neural networks — a generator and a discriminator — training against each other, producing increasingly realistic outputs. This framework enabled the generative AI revolution in images and influenced the development of diffusion models that followed."
+}

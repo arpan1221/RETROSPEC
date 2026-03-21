@@ -1,0 +1,21 @@
+{
+  "id": "concept_reinforcement_learning",
+  "type": "concept",
+  "name": "Reinforcement Learning",
+  "summary": "A learning paradigm where an agent learns to make decisions by interacting with an environment, receiving rewards or penalties for its actions, and learning a policy that maximizes cumulative reward over time. Unlike supervised learning (which requires labeled examples), RL discovers optimal behavior through trial and error. Key algorithms include Q-learning, policy gradient methods, and actor-critic architectures. RL powered AlphaGo's superhuman Go play and is a core component of RLHF for aligning language models.",
+  "introduced_date": "1989",
+  "introduced_by": ["person_sutton_richard", "person_barto_andrew"],
+  "epoch_introduced": "04_expert_systems_boom",
+  "significance": 9,
+  "prerequisites": ["concept_markov_decision_process", "concept_dynamic_programming"],
+  "enables": ["concept_rlhf", "concept_game_playing_ai", "concept_robotics"],
+  "related_papers": [],
+  "related_events": ["evt_2016_alphago_lee_sedol"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "What is reinforcement learning?",
+    "How did AlphaGo learn to play Go?",
+    "How do AI agents learn from experience?",
+    "What is the difference between supervised learning and RL?"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "person_amodei_dario",
+  "type": "person",
+  "name": "Dario Amodei",
+  "born": "1983-01-01",
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_anthropic", "org_openai"],
+  "key_contributions": [
+    "Co-founded Anthropic (2021) with a focus on AI safety research",
+    "Led the development of Constitutional AI — training AI systems to be helpful, harmless, and honest",
+    "Previously VP of Research at OpenAI, where he led GPT-2 and GPT-3 development",
+    "Pioneered the scaling laws research that predicted LLM capabilities",
+    "Key advocate for responsible scaling policies"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_hinton_geoffrey"],
+  "influenced": [],
+  "papers": ["paper_2022_constitutional_ai", "paper_2020_scaling_laws_for_neural_lms"],
+  "epoch_active": "09_generative_explosion",
+  "summary": "Dario Amodei co-founded Anthropic after leaving OpenAI over disagreements about safety and commercialization. Anthropic's approach — Constitutional AI, responsible scaling, and interpretability research — represents a distinct philosophy in the AI industry: that building frontier AI and prioritizing safety are not mutually exclusive. Under his leadership, Anthropic developed the Claude model family and became one of the leading AI labs alongside OpenAI and Google DeepMind."
+}

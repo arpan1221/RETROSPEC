@@ -1,0 +1,31 @@
+{
+  "id": "paper_2014_generative_adversarial_nets",
+  "type": "paper",
+  "title": "Generative Adversarial Nets",
+  "authors": ["person_goodfellow_ian", "person_bengio_yoshua"],
+  "date": "2014-06-10",
+  "venue": "NeurIPS 2014",
+  "arxiv_id": "1406.2661",
+  "url": "https://arxiv.org/abs/1406.2661",
+  "citation_count_approx": 60000,
+  "epoch": "07_deep_learning_era",
+  "significance": 8,
+  "summary": "Introduced the GAN framework: a generator network that produces synthetic data and a discriminator network that tries to distinguish real from fake. The two networks train adversarially, with the generator improving until its outputs are indistinguishable from real data. This elegantly simple idea produced remarkably realistic outputs and spawned an enormous family of generative models.",
+  "key_contributions": [
+    "Introduced adversarial training as a paradigm for generative modeling",
+    "Showed that two networks competing against each other could produce realistic outputs",
+    "Established a new class of generative models that didn't require explicit density estimation",
+    "Spawned thousands of GAN variants (DCGAN, StyleGAN, CycleGAN, etc.)"
+  ],
+  "preceded_by": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2014_gan_introduction"],
+  "related_concepts": ["concept_generative_models", "concept_adversarial_training"],
+  "impact": "Opened the door to generative AI. GANs were the dominant approach to image generation until diffusion models emerged. The adversarial training concept influenced approaches well beyond image generation.",
+  "query_hooks": [
+    "What are GANs?",
+    "How do generative models create images?",
+    "What is adversarial training?",
+    "What came before diffusion models?"
+  ]
+}

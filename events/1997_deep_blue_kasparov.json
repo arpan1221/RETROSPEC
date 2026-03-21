@@ -1,0 +1,25 @@
+{
+  "id": "evt_1997_deep_blue_kasparov",
+  "type": "event",
+  "title": "IBM Deep Blue Defeats World Chess Champion Garry Kasparov",
+  "date": "1997-05-11",
+  "epoch": "06_quiet_revolution",
+  "significance": 8,
+  "summary": "IBM's Deep Blue defeated reigning world chess champion Garry Kasparov 3.5-2.5 in a six-game match in New York City. This was the first time a computer had defeated a reigning world champion in a full match under standard tournament conditions. Deep Blue used brute-force search (evaluating 200 million positions per second) combined with hand-crafted evaluation functions — not machine learning. The victory was a global media event and demonstrated that machines could outperform humans in complex cognitive tasks.",
+  "entities": {
+    "people": ["person_kasparov_garry"],
+    "organizations": ["org_ibm"],
+    "models_spawned": []
+  },
+  "preceded_by": [],
+  "succeeded_by": ["evt_2011_watson_jeopardy", "evt_2016_alphago_lee_sedol"],
+  "tags": ["chess", "game_playing", "ibm", "human_vs_machine", "milestone"],
+  "impact_description": "Proved that machines could outperform the best human minds at complex strategic reasoning. Sparked global conversation about the future of human-machine competition. Though Deep Blue used search rather than learning, it demonstrated the power of computational approaches to intelligence.",
+  "counterfactual": "Without Deep Blue, the narrative of AI progress would have lacked its most dramatic early milestone. Public awareness and corporate investment in AI might have grown more slowly through the late 1990s.",
+  "query_hooks": [
+    "When did a computer first beat a human at chess?",
+    "What was Deep Blue?",
+    "Has AI ever beaten humans at games?",
+    "What is the history of game-playing AI?"
+  ]
+}

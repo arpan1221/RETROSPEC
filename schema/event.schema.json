@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://retrospec.dev/schema/event.schema.json",
+  "title": "RETROSPEC Event",
+  "description": "Schema for historical events in the RETROSPEC AI history repository. Events are discrete moments in AI history that changed the trajectory of the field.",
+  "type": "object",
+  "required": ["id", "type", "title", "date", "epoch", "significance", "summary", "entities", "tags", "impact_description", "counterfactual", "query_hooks"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^evt_[0-9]{4}_[a-z0-9_]+$",
+      "description": "Unique identifier following pattern: evt_YYYY_short_name"
+    },
+    "type": {
+      "const": "event"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "description": "Human-readable title of the event"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date (YYYY-MM-DD). Use best known date; if only year is known, use YYYY-01-01"
+    },
+    "epoch": {
+      "type": "string",
+      "enum": [
+        "00_philosophical_roots",
+        "01_dawn",
+        "02_golden_age",
+        "03_first_winter",
+        "04_expert_systems_boom",
+        "05_second_winter",
+        "06_quiet_revolution",
+        "07_deep_learning_era",
+        "08_transformer_age",
+        "09_generative_explosion",
+        "10_agentic_era"
+      ],
+      "description": "The epoch this event belongs to"
+    },
+    "significance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Historical significance score. 10 = paradigm shift, 7-9 = major milestone, 4-6 = notable event, 1-3 = minor but documented"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 50,
+      "description": "Detailed summary of what happened and why it matters"
+    },
+    "entities": {
+      "type": "object",
+      "properties": {
+        "people": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^person_" },
+          "description": "IDs of people involved"
+        },
+        "organizations": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^org_" },
+          "description": "IDs of organizations involved"
+        },
+        "models_spawned": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^model_" },
+          "description": "IDs of models that resulted from or were enabled by this event"
+        }
+      },
+      "additionalProperties": false
+    },
+    "preceded_by": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^evt_" },
+      "description": "IDs of events that directly preceded/enabled this one"
+    },
+    "succeeded_by": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^evt_" },
+      "description": "IDs of events that directly followed from this one"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Categorical tags for filtering and discovery"
+    },
+    "impact_description": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Specific description of what this event changed in the field"
+    },
+    "paper": {
+      "type": "object",
+      "properties": {
+        "arxiv_id": { "type": ["string", "null"] },
+        "citation_count_approx": { "type": "integer", "minimum": 0 },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "description": "Associated paper metadata, if applicable"
+    },
+    "counterfactual": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What would NOT exist or would be different if this event hadn't happened"
+    },
+    "query_hooks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Natural language questions that should route an agent to this entry"
+    }
+  },
+  "additionalProperties": false
+}

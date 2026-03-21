@@ -1,0 +1,24 @@
+{
+  "id": "epoch_04_expert_systems_boom",
+  "type": "epoch",
+  "name": "The Expert Systems Boom",
+  "number": 4,
+  "date_start": "1980-01-01",
+  "date_end": "1987-12-31",
+  "summary": "AI's first commercial era. Expert systems — rule-based programs encoding human expertise — proved they could solve real business problems. XCON saved DEC $40M per year configuring computer orders. Japan launched the ambitious Fifth Generation Computer Project. LISP machines became a billion-dollar industry. Corporate investment surged past $1 billion. But the systems were brittle, expensive to maintain, and couldn't learn — setting the stage for the second collapse.",
+  "key_events": ["evt_1980_xcon_deployed", "evt_1981_fifth_generation_project", "evt_1986_backpropagation_revival"],
+  "key_figures": ["person_feigenbaum_edward", "person_hinton_geoffrey", "person_rumelhart_david"],
+  "key_models": ["model_mycin", "model_xcon", "model_dendral"],
+  "key_concepts": ["expert_systems", "knowledge_engineering", "rule_based_reasoning", "backpropagation"],
+  "defining_characteristics": [
+    "AI becomes commercially viable for the first time",
+    "Rule-based systems dominate — 'if-then' knowledge engineering",
+    "Japan's Fifth Generation Project creates international AI competition",
+    "LISP machines create a hardware ecosystem around AI",
+    "The backpropagation revival (1986) plants seeds for the neural network renaissance",
+    "Brittleness of expert systems becomes apparent by the late 1980s"
+  ],
+  "preceded_by": "epoch_03_first_winter",
+  "succeeded_by": "epoch_05_second_winter",
+  "significance": 7
+}

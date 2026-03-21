@@ -1,0 +1,24 @@
+{
+  "id": "epoch_06_quiet_revolution",
+  "type": "epoch",
+  "name": "The Quiet Revolution",
+  "number": 6,
+  "date_start": "1993-01-01",
+  "date_end": "2011-12-31",
+  "summary": "The era when AI stopped making grand promises and started delivering. Statistical machine learning replaced hand-crafted rules. SVMs, Random Forests, and ensemble methods proved effective on real data. Deep Blue defeated Kasparov at chess. Watson won Jeopardy!. The explosion of web data gave ML algorithms fuel. The Netflix Prize made ML competitions mainstream. And quietly, in the background, early deep learning experiments and GPU computing were laying the groundwork for the revolution to come.",
+  "key_events": ["evt_1997_deep_blue_kasparov", "evt_2006_hinton_deep_belief_nets", "evt_2011_watson_jeopardy"],
+  "key_figures": ["person_hinton_geoffrey", "person_lecun_yann", "person_bengio_yoshua", "person_vapnik_vladimir"],
+  "key_models": ["model_deep_blue", "model_watson"],
+  "key_concepts": ["statistical_learning", "support_vector_machines", "ensemble_methods", "deep_belief_networks", "gpu_computing"],
+  "defining_characteristics": [
+    "Statistical ML replaces symbolic AI as the dominant paradigm",
+    "Data-driven approaches triumph over hand-crafted rules",
+    "Landmark human-vs-machine competitions: Deep Blue (chess), Watson (Jeopardy!)",
+    "The internet provides unprecedented amounts of training data",
+    "GPU computing begins to enable neural network training at scale",
+    "Modest, achievable goals replace grand AGI promises"
+  ],
+  "preceded_by": "epoch_05_second_winter",
+  "succeeded_by": "epoch_07_deep_learning_era",
+  "significance": 8
+}

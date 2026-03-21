@@ -1,0 +1,22 @@
+{
+  "id": "person_hinton_geoffrey",
+  "type": "person",
+  "name": "Geoffrey Hinton",
+  "born": "1947-12-06",
+  "died": null,
+  "nationality": "British-Canadian",
+  "affiliations": ["org_university_of_toronto", "org_google_brain", "org_vector_institute"],
+  "key_contributions": [
+    "Revived backpropagation for training multi-layer neural networks (1986, with Rumelhart and Williams)",
+    "Invented Boltzmann machines and restricted Boltzmann machines",
+    "Pioneered deep belief networks (2006) — sparked the deep learning revolution",
+    "Supervised Alex Krizhevsky who created AlexNet (2012)",
+    "Nobel Prize in Physics (2024) for foundational discoveries in machine learning with artificial neural networks"
+  ],
+  "significance": 10,
+  "influenced_by": ["person_rumelhart_david", "person_minsky_marvin"],
+  "influenced": ["person_lecun_yann", "person_bengio_yoshua", "person_krizhevsky_alex", "person_sutskever_ilya"],
+  "papers": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Geoffrey Hinton is known as the 'Godfather of Deep Learning.' He kept neural network research alive through two AI winters when the approach was deeply unfashionable. His 1986 backpropagation paper with Rumelhart and Williams revived interest in multi-layer networks. His 2006 work on deep belief networks launched the modern deep learning era. His students — including Ilya Sutskever, Alex Krizhevsky, and Yann LeCun — went on to build the architectures that power modern AI. He won the Nobel Prize in Physics in 2024 and has become an outspoken voice on AI existential risk."
+}

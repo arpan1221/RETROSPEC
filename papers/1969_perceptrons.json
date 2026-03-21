@@ -1,0 +1,31 @@
+{
+  "id": "paper_1969_perceptrons",
+  "type": "paper",
+  "title": "Perceptrons: An Introduction to Computational Geometry",
+  "authors": ["person_minsky_marvin", "person_papert_seymour"],
+  "date": "1969-01-01",
+  "venue": "MIT Press (book)",
+  "arxiv_id": null,
+  "url": null,
+  "citation_count_approx": 10000,
+  "epoch": "02_golden_age",
+  "significance": 8,
+  "summary": "A rigorous mathematical analysis demonstrating that single-layer perceptrons cannot compute certain functions, most famously XOR. While technically correct and mathematically important, the book was widely interpreted as a death sentence for all neural network research — an overreaction that the authors may or may not have intended. The resulting freeze in neural network funding lasted over a decade.",
+  "key_contributions": [
+    "Proved formal limitations of single-layer perceptrons",
+    "Demonstrated that linearly inseparable problems (XOR) cannot be solved by perceptrons",
+    "Established computational geometry as a tool for analyzing neural networks",
+    "Inadvertently triggered a decade-long freeze in neural network research"
+  ],
+  "preceded_by": ["paper_1950_computing_machinery_and_intelligence"],
+  "succeeded_by": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "related_events": ["evt_1969_perceptrons_book"],
+  "related_concepts": ["concept_perceptron", "concept_linear_separability"],
+  "impact": "One of the most consequential publications in AI history — not for what it proved, but for the chilling effect it had on an entire research paradigm. Multi-layer networks could solve the problems identified, but funding dried up before this was widely demonstrated.",
+  "query_hooks": [
+    "Why did neural network research stop?",
+    "What are the limitations of perceptrons?",
+    "What caused the first AI winter?",
+    "What is the XOR problem?"
+  ]
+}

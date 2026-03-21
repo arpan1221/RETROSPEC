@@ -1,0 +1,26 @@
+{
+  "id": "model_claude_series",
+  "type": "model",
+  "name": "Claude Series (Claude 1 through Claude 4)",
+  "organization": "org_anthropic",
+  "release_date": "2023-03-14",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "undisclosed",
+  "training_approach": "Pretraining + Constitutional AI (RLHF with AI-generated feedback based on a set of principles)",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "Constitutional AI — training with a set of principles rather than purely human feedback",
+    "Extended context windows (100K+ tokens from Claude 2 onward)",
+    "Strong reasoning and instruction-following capabilities",
+    "Emphasis on being helpful, harmless, and honest (HHH framework)"
+  ],
+  "benchmark_highlights": {
+    "MMLU": "competitive with GPT-4",
+    "HumanEval": "competitive with frontier models",
+    "context_window": "200K tokens (Claude 3)"
+  },
+  "lineage_path": "Transformer → GPT-style pretraining → RLHF → Constitutional AI → Claude 1 → Claude 2 → Claude 3 → Claude 3.5 → Claude 4",
+  "significance": 8,
+  "cultural_impact": "The Claude series represents the most prominent safety-focused approach to frontier AI development. Anthropic's Constitutional AI methodology — where the model is trained against a set of principles rather than relying solely on human raters — introduced a novel alignment paradigm. Claude has become one of the most widely used AI assistants for professional and technical work, particularly valued for nuanced reasoning and long-context capabilities."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "concept_chain_of_thought",
+  "type": "concept",
+  "name": "Chain-of-Thought Reasoning",
+  "summary": "A prompting technique and emergent capability where language models are encouraged to 'think step by step,' producing intermediate reasoning steps before arriving at a final answer. Chain-of-thought dramatically improves performance on math, logic, and complex reasoning tasks. It emerged as a capability of sufficiently large models and can be elicited through prompting (few-shot CoT) or trained directly into the model. Extended thinking and reasoning models represent the latest evolution of this concept.",
+  "introduced_date": "2022-01-28",
+  "introduced_by": ["person_wei_jason"],
+  "epoch_introduced": "09_generative_explosion",
+  "significance": 8,
+  "prerequisites": ["concept_language_models", "concept_few_shot_learning", "concept_emergent_capabilities"],
+  "enables": ["concept_reasoning_models", "concept_extended_thinking"],
+  "related_papers": [],
+  "related_events": [],
+  "current_status": "evolving",
+  "query_hooks": [
+    "How do AI models reason?",
+    "What is chain-of-thought?",
+    "Why does 'think step by step' work?",
+    "Can AI do math and logic?"
+  ]
+}

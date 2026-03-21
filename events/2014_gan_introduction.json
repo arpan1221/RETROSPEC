@@ -1,0 +1,30 @@
+{
+  "id": "evt_2014_gan_introduction",
+  "type": "event",
+  "title": "Introduction of Generative Adversarial Networks (GANs)",
+  "date": "2014-06-10",
+  "epoch": "07_deep_learning_era",
+  "significance": 8,
+  "summary": "Ian Goodfellow and colleagues published 'Generative Adversarial Nets', introducing a framework where two neural networks — a generator and a discriminator — are trained in opposition. The generator learns to produce realistic data, while the discriminator learns to distinguish real from fake. This adversarial training paradigm produced remarkably realistic outputs and opened the door to generative AI. Yann LeCun called GANs 'the most interesting idea in machine learning in the last 10 years.'",
+  "entities": {
+    "people": ["person_goodfellow_ian", "person_bengio_yoshua"],
+    "organizations": ["org_university_of_montreal"],
+    "models_spawned": ["model_dcgan", "model_stylegan", "model_pix2pix"]
+  },
+  "preceded_by": ["evt_2012_alexnet_imagenet"],
+  "succeeded_by": ["evt_2017_attention_is_all_you_need"],
+  "tags": ["generative_ai", "adversarial_training", "paper", "paradigm_shift"],
+  "impact_description": "Introduced adversarial training as a paradigm for generative models. GANs enabled photorealistic image generation, style transfer, and data augmentation. They were the dominant generative approach until diffusion models emerged in the early 2020s.",
+  "paper": {
+    "arxiv_id": "1406.2661",
+    "citation_count_approx": 60000,
+    "url": "https://arxiv.org/abs/1406.2661"
+  },
+  "counterfactual": "Without GANs, generative AI would have developed along a different trajectory. The concept of adversarial training influenced many subsequent approaches. Image generation capabilities would have been delayed, and the broader cultural awareness of AI-generated media might have emerged later.",
+  "query_hooks": [
+    "What are GANs?",
+    "How do generative models work?",
+    "What came before diffusion models?",
+    "Who invented adversarial training?"
+  ]
+}

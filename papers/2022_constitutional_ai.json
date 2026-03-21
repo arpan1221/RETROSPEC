@@ -1,0 +1,31 @@
+{
+  "id": "paper_2022_constitutional_ai",
+  "type": "paper",
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "authors": ["person_amodei_dario"],
+  "date": "2022-12-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2212.08073",
+  "url": "https://arxiv.org/abs/2212.08073",
+  "citation_count_approx": 2000,
+  "epoch": "09_generative_explosion",
+  "significance": 8,
+  "summary": "Introduced Constitutional AI (CAI), a method for training AI systems to be helpful, harmless, and honest using a set of explicit principles (a 'constitution') rather than relying solely on human feedback. The model critiques and revises its own responses based on these principles, then is trained via RLHF on AI-generated feedback. This reduces the need for human labelers to evaluate harmful content and provides a more transparent, auditable alignment methodology.",
+  "key_contributions": [
+    "Introduced principle-based AI alignment — a 'constitution' guides model behavior",
+    "Reduced reliance on human labelers for safety-related feedback",
+    "Made AI alignment more transparent and auditable",
+    "Demonstrated that AI-generated feedback can effectively train harmlessness"
+  ],
+  "preceded_by": ["paper_2020_scaling_laws_for_neural_lms"],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": ["concept_constitutional_ai", "concept_rlhf", "concept_ai_alignment"],
+  "impact": "Established an alternative to pure RLHF for AI alignment. The constitutional approach — explicit principles guiding model behavior — influenced how the industry thinks about AI safety and governance. It represents Anthropic's core philosophical contribution to the field.",
+  "query_hooks": [
+    "What is Constitutional AI?",
+    "How is Claude trained?",
+    "What is AI alignment?",
+    "How do you make AI safe?"
+  ]
+}

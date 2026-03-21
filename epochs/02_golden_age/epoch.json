@@ -1,0 +1,23 @@
+{
+  "id": "epoch_02_golden_age",
+  "type": "epoch",
+  "name": "The Golden Age",
+  "number": 2,
+  "date_start": "1956-01-01",
+  "date_end": "1974-12-31",
+  "summary": "A period of extraordinary optimism and rapid progress. Rosenblatt built the Perceptron. Weizenbaum created ELIZA. Newell and Simon built the General Problem Solver. LISP became the language of AI. Government funding flowed freely, and researchers made bold predictions about achieving human-level intelligence within a generation. The optimism would prove premature, but the foundational ideas laid here — neural networks, natural language processing, planning, and knowledge representation — remain central to AI today.",
+  "key_events": ["evt_1958_perceptron", "evt_1964_eliza", "evt_1966_shakey", "evt_1969_perceptrons_book"],
+  "key_figures": ["person_rosenblatt_frank", "person_minsky_marvin", "person_newell_allen", "person_simon_herbert", "person_weizenbaum_joseph"],
+  "key_models": ["model_perceptron", "model_eliza", "model_shakey"],
+  "key_concepts": ["perceptron", "symbolic_ai", "knowledge_representation", "natural_language_processing", "planning"],
+  "defining_characteristics": [
+    "Unbounded optimism — 'machines will be capable of doing any work a man can do within 20 years' (Simon, 1965)",
+    "Heavy government funding, especially from DARPA",
+    "The symbolic vs. connectionist debate begins",
+    "First demonstrations of language understanding (ELIZA), game playing, and theorem proving",
+    "The seeds of the first winter: overpromising relative to actual capabilities"
+  ],
+  "preceded_by": "epoch_01_dawn",
+  "succeeded_by": "epoch_03_first_winter",
+  "significance": 8
+}

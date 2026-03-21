@@ -1,0 +1,13 @@
+{
+  "id": "org_meta_ai",
+  "type": "organization",
+  "name": "Meta AI (FAIR)",
+  "founded": "2013-12-01",
+  "founders": ["person_lecun_yann"],
+  "headquarters": "Menlo Park, USA",
+  "org_type": "lab",
+  "key_models": ["model_llama_series"],
+  "key_papers": [],
+  "significance": 8,
+  "summary": "Meta AI, originally Facebook AI Research (FAIR), was founded in 2013 under Yann LeCun's leadership. FAIR has been one of the most prolific AI research labs, contributing fundamental advances in computer vision, NLP, and self-supervised learning. Meta's release of the LLaMA model family as open-weight models in 2023-2024 was a defining moment for the open-source AI movement, democratizing access to frontier-class language models and spawning a massive ecosystem of fine-tuned derivatives."
+}

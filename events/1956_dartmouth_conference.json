@@ -1,0 +1,25 @@
+{
+  "id": "evt_1956_dartmouth_conference",
+  "type": "event",
+  "title": "The Dartmouth Summer Research Project on Artificial Intelligence",
+  "date": "1956-06-18",
+  "epoch": "01_dawn",
+  "significance": 10,
+  "summary": "John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon organized a two-month workshop at Dartmouth College, bringing together the researchers who would define the field. The proposal coined the term 'artificial intelligence' and boldly stated that 'every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.' This workshop is universally recognized as the founding event of AI as a scientific discipline.",
+  "entities": {
+    "people": ["person_mccarthy_john", "person_minsky_marvin", "person_shannon_claude", "person_rochester_nathaniel"],
+    "organizations": ["org_dartmouth"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1950_turing_test_paper"],
+  "succeeded_by": ["evt_1958_perceptron", "evt_1958_lisp_created"],
+  "tags": ["foundational", "conference", "naming", "birth_of_ai"],
+  "impact_description": "Created AI as a formal academic discipline with its own name, research agenda, and community. Every subsequent AI researcher traces their intellectual lineage through this event.",
+  "counterfactual": "Without Dartmouth, AI research would have remained scattered across mathematics, psychology, and engineering departments without a unifying identity. The field might have coalesced eventually, but the shared vocabulary, community, and ambition that Dartmouth created would have been delayed by years or decades.",
+  "query_hooks": [
+    "When was AI invented?",
+    "Who founded artificial intelligence?",
+    "Where did the term 'artificial intelligence' come from?",
+    "What was the Dartmouth Conference?"
+  ]
+}

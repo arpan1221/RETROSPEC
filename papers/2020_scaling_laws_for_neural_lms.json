@@ -1,0 +1,31 @@
+{
+  "id": "paper_2020_scaling_laws_for_neural_lms",
+  "type": "paper",
+  "title": "Scaling Laws for Neural Language Models",
+  "authors": ["person_kaplan_jared", "person_amodei_dario"],
+  "date": "2020-01-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2001.08361",
+  "url": "https://arxiv.org/abs/2001.08361",
+  "citation_count_approx": 5000,
+  "epoch": "08_transformer_age",
+  "significance": 8,
+  "summary": "Discovered that language model performance follows predictable power-law relationships with model size, dataset size, and compute budget. The key finding: performance improves smoothly and predictably as you scale up, with no signs of plateauing. This paper provided the theoretical justification for the massive scaling investments that followed — if you could predict that spending 10x more compute would yield a specific improvement, the ROI became calculable.",
+  "key_contributions": [
+    "Discovered power-law scaling relationships for neural language models",
+    "Showed that model size matters more than dataset size for a fixed compute budget",
+    "Demonstrated smooth, predictable improvement with scale — no plateaus observed",
+    "Provided the quantitative basis for the multi-billion dollar scaling race"
+  ],
+  "preceded_by": ["paper_2018_bert_pretraining"],
+  "succeeded_by": ["paper_2022_constitutional_ai"],
+  "related_events": ["evt_2020_gpt3_released"],
+  "related_concepts": ["concept_scaling_laws"],
+  "impact": "Transformed AI research from an art into a more predictable science. Justified the massive compute investments by OpenAI, Google, Anthropic, and Meta. Made the 'bigger is better' hypothesis empirically testable.",
+  "query_hooks": [
+    "What are scaling laws?",
+    "Why do AI companies need so much compute?",
+    "Does bigger always mean better in AI?",
+    "Can you predict AI model performance?"
+  ]
+}

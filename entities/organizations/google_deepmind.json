@@ -1,0 +1,13 @@
+{
+  "id": "org_google_deepmind",
+  "type": "organization",
+  "name": "Google DeepMind",
+  "founded": "2010-01-01",
+  "founders": ["person_hassabis_demis", "person_legg_shane", "person_suleyman_mustafa"],
+  "headquarters": "London, UK",
+  "org_type": "lab",
+  "key_models": ["model_alphago", "model_alphafold", "model_gemini_series"],
+  "key_papers": ["paper_2017_attention_is_all_you_need"],
+  "significance": 9,
+  "summary": "Google DeepMind is the result of the 2023 merger between DeepMind (founded 2010, acquired by Google in 2014) and Google Brain. DeepMind created AlphaGo, which defeated world champion Lee Sedol at Go in 2016 — a milestone many thought was decades away. AlphaFold solved protein structure prediction. Google Brain produced the Transformer architecture. Together as Google DeepMind, they developed the Gemini model family and continue to push the frontier of AI capabilities and scientific applications."
+}

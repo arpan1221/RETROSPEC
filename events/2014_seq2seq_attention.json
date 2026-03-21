@@ -1,0 +1,30 @@
+{
+  "id": "evt_2014_seq2seq_attention",
+  "type": "event",
+  "title": "Bahdanau Attention Mechanism for Neural Machine Translation",
+  "date": "2014-09-01",
+  "epoch": "07_deep_learning_era",
+  "significance": 8,
+  "summary": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio published 'Neural Machine Translation by Jointly Learning to Align and Translate', introducing the attention mechanism. Instead of compressing an entire input sequence into a single fixed-length vector, their model learned to 'attend' to different parts of the input when generating each output word. This was a direct precursor to the self-attention mechanism that powers the Transformer.",
+  "entities": {
+    "people": ["person_bahdanau_dzmitry", "person_bengio_yoshua"],
+    "organizations": ["org_mila"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2012_alexnet_imagenet"],
+  "succeeded_by": ["evt_2017_attention_is_all_you_need"],
+  "tags": ["attention", "nmt", "sequence_to_sequence", "paper"],
+  "impact_description": "Introduced the attention mechanism that would become the core building block of the Transformer. By allowing models to selectively focus on relevant parts of the input, attention solved the information bottleneck problem in sequence-to-sequence models and dramatically improved machine translation quality.",
+  "paper": {
+    "arxiv_id": "1409.0473",
+    "citation_count_approx": 38000,
+    "url": "https://arxiv.org/abs/1409.0473"
+  },
+  "counterfactual": "Without the attention mechanism, the Transformer might not have been conceived — or would have taken a fundamentally different form. The self-attention mechanism in 'Attention Is All You Need' is a direct generalization of Bahdanau attention. No attention, no Transformer, no modern LLMs.",
+  "query_hooks": [
+    "Where did the attention mechanism come from?",
+    "What came before transformers?",
+    "How does attention work in neural networks?",
+    "What is the history of machine translation in AI?"
+  ]
+}

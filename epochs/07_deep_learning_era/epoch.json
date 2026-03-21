@@ -1,0 +1,24 @@
+{
+  "id": "epoch_07_deep_learning_era",
+  "type": "epoch",
+  "name": "The Deep Learning Era",
+  "number": 7,
+  "date_start": "2012-01-01",
+  "date_end": "2017-06-11",
+  "summary": "The era that changed everything — triggered by AlexNet's crushing victory in the 2012 ImageNet competition. Deep neural networks trained on GPUs proved they could demolish decades of hand-engineered computer vision. The entire field pivoted. AlphaGo stunned the world by defeating the world Go champion. GANs opened the door to generative AI. Word embeddings (Word2Vec) transformed NLP. And the three godfathers of deep learning — Hinton, LeCun, Bengio — were vindicated after decades of working against the mainstream.",
+  "key_events": ["evt_2012_alexnet_imagenet", "evt_2014_gan_introduction", "evt_2014_seq2seq_attention", "evt_2016_alphago_lee_sedol"],
+  "key_figures": ["person_hinton_geoffrey", "person_lecun_yann", "person_bengio_yoshua", "person_goodfellow_ian", "person_krizhevsky_alex"],
+  "key_models": ["model_alexnet", "model_alphago", "model_vgg", "model_resnet"],
+  "key_concepts": ["deep_learning", "convolutional_neural_networks", "generative_adversarial_networks", "word_embeddings", "batch_normalization", "dropout", "transfer_learning"],
+  "defining_characteristics": [
+    "AlexNet proves deep learning works — the entire field pivots",
+    "GPU computing becomes essential infrastructure for AI research",
+    "GANs introduce adversarial training for generative models",
+    "AlphaGo defeats Lee Sedol — a milestone thought to be decades away",
+    "The attention mechanism emerges, setting the stage for transformers",
+    "Deep learning moves from academic curiosity to industry standard"
+  ],
+  "preceded_by": "epoch_06_quiet_revolution",
+  "succeeded_by": "epoch_08_transformer_age",
+  "significance": 9
+}

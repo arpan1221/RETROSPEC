@@ -1,0 +1,22 @@
+{
+  "id": "person_minsky_marvin",
+  "type": "person",
+  "name": "Marvin Minsky",
+  "born": "1927-08-09",
+  "died": "2016-01-24",
+  "nationality": "American",
+  "affiliations": ["org_mit_ai_lab"],
+  "key_contributions": [
+    "Co-founded the MIT AI Laboratory (1959)",
+    "Co-authored \"Perceptrons\" (1969) with Seymour Papert — demonstrated limitations of single-layer neural networks",
+    "Developed the Society of Mind theory of intelligence",
+    "Built the SNARC — one of the first neural network machines (1951)",
+    "Pioneered frames as a knowledge representation scheme"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_turing_alan", "person_mccarthy_john"],
+  "influenced": ["person_hinton_geoffrey", "person_papert_seymour"],
+  "papers": ["paper_1969_perceptrons"],
+  "epoch_active": "02_golden_age",
+  "summary": "Marvin Minsky was one of the most influential and controversial figures in AI history. He co-founded the MIT AI Lab and made fundamental contributions to knowledge representation, robotics, and the theory of mind. However, his 1969 book Perceptrons, co-authored with Papert, demonstrated the limitations of single-layer perceptrons and is widely credited with triggering the first AI winter by discouraging neural network research for over a decade."
+}

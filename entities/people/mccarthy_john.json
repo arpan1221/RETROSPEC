@@ -1,0 +1,22 @@
+{
+  "id": "person_mccarthy_john",
+  "type": "person",
+  "name": "John McCarthy",
+  "born": "1927-09-04",
+  "died": "2011-10-24",
+  "nationality": "American",
+  "affiliations": ["org_mit", "org_stanford", "org_dartmouth"],
+  "key_contributions": [
+    "Coined the term \"artificial intelligence\" in the 1956 Dartmouth proposal",
+    "Organized the Dartmouth Conference — the founding event of AI as a field",
+    "Created LISP (1958) — the dominant AI programming language for decades",
+    "Invented garbage collection in programming",
+    "Pioneered time-sharing systems"
+  ],
+  "significance": 10,
+  "influenced_by": ["person_turing_alan", "person_shannon_claude"],
+  "influenced": ["person_minsky_marvin", "person_newell_allen", "person_simon_herbert"],
+  "papers": [],
+  "epoch_active": "01_dawn",
+  "summary": "John McCarthy gave artificial intelligence its name and its founding moment. By organizing the 1956 Dartmouth Conference, he brought together the researchers who would define the field for decades. His creation of LISP gave AI its first purpose-built programming language — one that remained dominant for 30 years. McCarthy believed that making machines intelligent was fundamentally a problem of knowledge representation and reasoning."
+}

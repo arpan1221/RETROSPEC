@@ -1,0 +1,28 @@
+{
+  "id": "model_gpt_series",
+  "type": "model",
+  "name": "GPT Series (GPT-1 through GPT-4)",
+  "organization": "org_openai",
+  "release_date": "2018-06-11",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "117M (GPT-1) → 1.5B (GPT-2) → 175B (GPT-3) → estimated 1.8T MoE (GPT-4)",
+  "training_approach": "Unsupervised pretraining on web text, then RLHF fine-tuning (from GPT-3.5 onward)",
+  "parent_models": [],
+  "child_models": ["model_chatgpt", "model_gpt4_turbo", "model_gpt4o"],
+  "key_innovations": [
+    "Demonstrated that scaling decoder-only transformers produces emergent capabilities",
+    "In-context learning and few-shot prompting (GPT-3)",
+    "Multimodal input — vision + text (GPT-4)",
+    "RLHF alignment to make models helpful and safe (InstructGPT/ChatGPT)",
+    "Proved that generative pretraining transfers effectively to downstream tasks"
+  ],
+  "benchmark_highlights": {
+    "bar_exam": "90th percentile (GPT-4)",
+    "SAT_math": "700+ (GPT-4)",
+    "USMLE": "passing (GPT-4)",
+    "MMLU": "86.4% (GPT-4)"
+  },
+  "lineage_path": "perceptron → MLP → RNN → LSTM → Transformer → GPT-1 → GPT-2 → GPT-3 → InstructGPT → GPT-3.5 → GPT-4",
+  "significance": 10,
+  "cultural_impact": "The GPT series is the most influential model family in AI history. GPT-3 demonstrated that scale alone could produce remarkable capabilities. ChatGPT (GPT-3.5) reached 100 million users in two months, making AI a mainstream cultural phenomenon. GPT-4 passed professional exams and triggered global conversations about AGI timelines, AI regulation, and existential risk. The series directly led to executive orders, the EU AI Act, and the AI Safety Summit."
+}

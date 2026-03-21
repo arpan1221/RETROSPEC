@@ -1,0 +1,26 @@
+{
+  "id": "model_alphago",
+  "type": "model",
+  "name": "AlphaGo",
+  "organization": "org_google_deepmind",
+  "release_date": "2015-10-01",
+  "architecture": "deep_reinforcement_learning_with_monte_carlo_tree_search",
+  "parameter_count": "~12M (policy network) + ~12M (value network)",
+  "training_approach": "Supervised learning from human expert games, then reinforcement learning via self-play",
+  "parent_models": [],
+  "child_models": ["model_alphago_zero", "model_alphazero", "model_muzero"],
+  "key_innovations": [
+    "Combined deep neural networks with Monte Carlo tree search",
+    "Learned to play Go at superhuman level — a game thought to be decades away from AI mastery",
+    "Self-play reinforcement learning to improve beyond human-level",
+    "AlphaGo Zero later achieved superhuman play with zero human knowledge"
+  ],
+  "benchmark_highlights": {
+    "vs_lee_sedol": "4-1 victory (March 2016)",
+    "vs_ke_jie": "3-0 victory (May 2017)",
+    "elo_rating": "~4500 (AlphaGo Master)"
+  },
+  "lineage_path": "TD-Gammon → deep reinforcement learning → AlphaGo → AlphaGo Zero → AlphaZero → MuZero",
+  "significance": 9,
+  "cultural_impact": "AlphaGo's 2016 victory over world champion Lee Sedol was a watershed moment for AI. Go has 10^170 possible board positions — brute-force search is impossible. AlphaGo proved that deep learning combined with reinforcement learning could master complex strategic reasoning. The match was watched by 200 million people, sparked massive AI investment in Asia, and demonstrated that neural networks could develop intuition-like capabilities that surprised even expert players with creative, unconventional moves."
+}

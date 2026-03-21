@@ -1,0 +1,30 @@
+{
+  "id": "evt_2017_attention_is_all_you_need",
+  "type": "event",
+  "title": "Publication of 'Attention Is All You Need'",
+  "date": "2017-06-12",
+  "epoch": "08_transformer_age",
+  "significance": 10,
+  "summary": "Eight Google researchers — Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Lukasz Kaiser, and Illia Polosukhin — introduced the Transformer architecture, replacing recurrence entirely with self-attention. This paper is the single most consequential architectural innovation in modern AI, enabling BERT, GPT, Claude, Gemini, LLaMA, and virtually every frontier model. The key insight was that attention alone, without any recurrent or convolutional layers, could model sequential dependencies — and could be massively parallelized for training.",
+  "entities": {
+    "people": ["person_vaswani_ashish", "person_shazeer_noam", "person_parmar_niki", "person_uszkoreit_jakob", "person_jones_llion", "person_gomez_aidan", "person_kaiser_lukasz", "person_polosukhin_illia"],
+    "organizations": ["org_google_brain"],
+    "models_spawned": ["model_bert", "model_gpt_series", "model_claude_series", "model_gemini_series", "model_llama_series", "model_t5"]
+  },
+  "preceded_by": ["evt_2014_seq2seq_attention"],
+  "succeeded_by": ["evt_2018_bert_released", "evt_2018_gpt1_released"],
+  "tags": ["architecture", "transformer", "attention", "paradigm_shift", "paper"],
+  "impact_description": "Eliminated the sequential bottleneck of RNNs, enabling massive parallelization and scaling to billions of parameters. Directly responsible for the LLM revolution. Every frontier AI model in 2024-2026 uses transformer architecture or derivatives.",
+  "paper": {
+    "arxiv_id": "1706.03762",
+    "citation_count_approx": 130000,
+    "url": "https://arxiv.org/abs/1706.03762"
+  },
+  "counterfactual": "Without this paper, modern LLMs would likely not exist in their current form. The field might still be iterating on LSTM-based architectures with significantly lower capabilities. The generative AI explosion of 2022-2024 would not have happened. This is arguably the highest-counterfactual-weight event in AI history after Turing's 1950 paper.",
+  "query_hooks": [
+    "Why do modern AI models use transformers?",
+    "What replaced RNNs?",
+    "Where did the attention mechanism come from?",
+    "What is the most important AI paper ever written?"
+  ]
+}

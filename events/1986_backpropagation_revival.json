@@ -1,0 +1,30 @@
+{
+  "id": "evt_1986_backpropagation_revival",
+  "type": "event",
+  "title": "Backpropagation Revival: 'Learning Representations by Back-propagating Errors'",
+  "date": "1986-10-09",
+  "epoch": "04_expert_systems_boom",
+  "significance": 9,
+  "summary": "David Rumelhart, Geoffrey Hinton, and Ronald Williams published their landmark Nature paper demonstrating that backpropagation could effectively train multi-layer neural networks — directly addressing the limitations that Minsky and Papert had identified in 'Perceptrons.' While backpropagation had been independently discovered multiple times before, this paper made it accessible, practical, and widely known. It reignited neural network research and planted the seeds for the deep learning revolution that would come 25 years later.",
+  "entities": {
+    "people": ["person_rumelhart_david", "person_hinton_geoffrey", "person_williams_ronald"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1969_perceptrons_book"],
+  "succeeded_by": ["evt_2006_hinton_deep_belief_nets", "evt_2012_alexnet_imagenet"],
+  "tags": ["neural_networks", "backpropagation", "revival", "paradigm_shift", "paper"],
+  "impact_description": "Reopened neural network research after a decade-long freeze. Demonstrated that multi-layer networks could learn complex representations. Without this revival, there would be no deep learning revolution.",
+  "paper": {
+    "arxiv_id": null,
+    "citation_count_approx": 45000,
+    "url": "https://doi.org/10.1038/323533a0"
+  },
+  "counterfactual": "Without this paper, neural network research might have remained dormant through the 1990s. The deep learning era would have been delayed significantly, and AI might still be dominated by symbolic and statistical approaches today.",
+  "query_hooks": [
+    "How does backpropagation work?",
+    "What revived neural network research?",
+    "Why is Geoffrey Hinton called the godfather of deep learning?",
+    "How did deep learning start?"
+  ]
+}

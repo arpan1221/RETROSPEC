@@ -1,0 +1,21 @@
+{
+  "id": "person_altman_sam",
+  "type": "person",
+  "name": "Sam Altman",
+  "born": "1985-04-22",
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_openai", "org_y_combinator"],
+  "key_contributions": [
+    "CEO of OpenAI — oversaw the development and launch of GPT-3, GPT-4, and ChatGPT",
+    "Led the commercialization of large language models, bringing AI to mainstream public awareness",
+    "Previously president of Y Combinator",
+    "Key figure in the debate over AGI timelines and AI safety"
+  ],
+  "significance": 8,
+  "influenced_by": [],
+  "influenced": [],
+  "papers": [],
+  "epoch_active": "09_generative_explosion",
+  "summary": "Sam Altman is the CEO of OpenAI and the most visible figure in the commercialization of large language models. Under his leadership, OpenAI launched ChatGPT in November 2022, which reached 100 million users in two months and triggered a global conversation about AI capabilities, risks, and regulation. His brief firing and reinstatement in November 2023 became a defining episode in AI governance. Altman is simultaneously credited with democratizing AI access and criticized for accelerating deployment without sufficient safety guardrails."
+}

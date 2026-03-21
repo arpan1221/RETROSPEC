@@ -1,0 +1,25 @@
+{
+  "id": "evt_2024_eu_ai_act",
+  "type": "event",
+  "title": "EU AI Act Enters into Force",
+  "date": "2024-08-01",
+  "epoch": "09_generative_explosion",
+  "significance": 7,
+  "summary": "The European Union's Artificial Intelligence Act — the world's first comprehensive AI regulation — entered into force. The Act establishes a risk-based framework classifying AI systems into unacceptable risk (banned), high risk (heavily regulated), limited risk (transparency requirements), and minimal risk (unregulated). It introduces specific requirements for foundation models and general-purpose AI, including transparency about training data and compute usage. The Act has extraterritorial reach, affecting any AI system deployed to EU users.",
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2023_gpt4_released"],
+  "succeeded_by": [],
+  "tags": ["regulation", "policy", "eu", "governance", "law"],
+  "impact_description": "Established the first comprehensive legal framework for AI worldwide. Set a precedent that other jurisdictions are following or reacting against. Created compliance requirements that affect every major AI company's global strategy.",
+  "counterfactual": "Without the EU AI Act, AI regulation might remain fragmented and voluntary for years longer. The act serves as a template — and a catalyst — for regulatory efforts worldwide. Its absence would leave AI governance in a more ambiguous state during a period of rapid capability growth.",
+  "query_hooks": [
+    "Is AI regulated?",
+    "What is the EU AI Act?",
+    "How are AI systems classified by risk?",
+    "What are the legal requirements for AI models?"
+  ]
+}

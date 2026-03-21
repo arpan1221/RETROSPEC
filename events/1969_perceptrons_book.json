@@ -1,0 +1,25 @@
+{
+  "id": "evt_1969_perceptrons_book",
+  "type": "event",
+  "title": "Publication of 'Perceptrons' by Minsky and Papert",
+  "date": "1969-01-01",
+  "epoch": "02_golden_age",
+  "significance": 8,
+  "summary": "Marvin Minsky and Seymour Papert published 'Perceptrons: An Introduction to Computational Geometry', which rigorously demonstrated that single-layer perceptrons cannot solve non-linearly separable problems like XOR. While mathematically correct, the book was widely interpreted as proving that neural networks in general were a dead end. This perception — whether intended by the authors or not — devastated neural network research funding and redirected the field toward symbolic AI for over a decade.",
+  "entities": {
+    "people": ["person_minsky_marvin", "person_papert_seymour"],
+    "organizations": ["org_mit_ai_lab"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1958_perceptron"],
+  "succeeded_by": ["evt_1973_lighthill_report", "evt_1986_backpropagation_revival"],
+  "tags": ["neural_networks", "criticism", "winter_catalyst", "book"],
+  "impact_description": "Effectively killed neural network research funding for over a decade. Redirected the entire field toward symbolic AI approaches. Multi-layer networks could solve the problems Minsky and Papert identified, but this wasn't widely understood until the backpropagation revival in 1986.",
+  "counterfactual": "Without this book, neural network research might have continued through the 1970s with consistent funding. The first AI winter might have been less severe, and deep learning could have emerged 10-15 years earlier. The history of AI would look fundamentally different.",
+  "query_hooks": [
+    "Why did neural network research stop in the 1970s?",
+    "What caused the first AI winter?",
+    "What are the limitations of perceptrons?",
+    "Why was there a gap between early neural networks and deep learning?"
+  ]
+}

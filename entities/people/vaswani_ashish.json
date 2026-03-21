@@ -1,0 +1,20 @@
+{
+  "id": "person_vaswani_ashish",
+  "type": "person",
+  "name": "Ashish Vaswani",
+  "born": "1986-01-01",
+  "died": null,
+  "nationality": "Indian-American",
+  "affiliations": ["org_google_brain", "org_essential_ai"],
+  "key_contributions": [
+    "Lead author of \"Attention Is All You Need\" (2017) — introduced the Transformer architecture",
+    "Co-founded Essential AI after leaving Google",
+    "The Transformer is the single most consequential architectural innovation in modern AI"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_bengio_yoshua", "person_bahdanau_dzmitry"],
+  "influenced": [],
+  "papers": ["paper_2017_attention_is_all_you_need"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Ashish Vaswani is the lead author of the paper that changed everything. 'Attention Is All You Need' (2017) introduced the Transformer architecture, which replaced recurrence with self-attention and enabled the massive parallelization that makes modern LLMs possible. Every frontier model — GPT, Claude, Gemini, LLaMA — descends from this architecture. After Google, Vaswani co-founded Essential AI to build enterprise AI products."
+}

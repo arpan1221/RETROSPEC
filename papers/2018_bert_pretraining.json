@@ -1,0 +1,31 @@
+{
+  "id": "paper_2018_bert_pretraining",
+  "type": "paper",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "authors": ["person_devlin_jacob"],
+  "date": "2018-10-11",
+  "venue": "NAACL 2019",
+  "arxiv_id": "1810.04805",
+  "url": "https://arxiv.org/abs/1810.04805",
+  "citation_count_approx": 95000,
+  "epoch": "08_transformer_age",
+  "significance": 9,
+  "summary": "Introduced BERT, which uses masked language modeling (randomly masking 15% of input tokens and predicting them) and next sentence prediction to pretrain a bidirectional transformer encoder. The pretrained model is then fine-tuned with a single output layer for specific tasks. BERT set new SOTA on 11 NLP benchmarks simultaneously, proving that large-scale pretraining followed by task-specific fine-tuning is the optimal paradigm for NLP.",
+  "key_contributions": [
+    "Introduced masked language modeling (MLM) as a pretraining objective",
+    "Demonstrated that bidirectional pretraining captures richer representations than left-to-right",
+    "Established the pretrain-then-fine-tune paradigm for NLP",
+    "Set new SOTA on 11 benchmarks simultaneously with a single architecture"
+  ],
+  "preceded_by": ["paper_2017_attention_is_all_you_need"],
+  "succeeded_by": ["paper_2020_scaling_laws_for_neural_lms"],
+  "related_events": ["evt_2018_bert_released"],
+  "related_concepts": ["concept_pretraining", "concept_masked_language_modeling", "concept_transfer_learning"],
+  "impact": "BERT proved that a single pretrained model could dominate virtually every NLP task. It spawned an enormous family of encoder models and established the paradigm that defines modern NLP.",
+  "query_hooks": [
+    "What is BERT?",
+    "What is masked language modeling?",
+    "How does pretraining work?",
+    "What is the pretrain-then-fine-tune paradigm?"
+  ]
+}

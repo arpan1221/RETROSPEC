@@ -1,0 +1,13 @@
+{
+  "id": "org_openai",
+  "type": "organization",
+  "name": "OpenAI",
+  "founded": "2015-12-11",
+  "founders": ["person_altman_sam", "person_musk_elon", "person_sutskever_ilya", "person_brockman_greg"],
+  "headquarters": "San Francisco, USA",
+  "org_type": "company",
+  "key_models": ["model_gpt_series", "model_dall_e", "model_codex", "model_whisper"],
+  "key_papers": ["paper_2020_scaling_laws_for_neural_lms"],
+  "significance": 9,
+  "summary": "OpenAI was founded in 2015 as a nonprofit AI research lab with the mission to ensure artificial general intelligence benefits all of humanity. It transitioned to a capped-profit structure in 2019. Under Sam Altman's leadership, OpenAI developed the GPT series of language models and launched ChatGPT in November 2022, triggering a global AI arms race. OpenAI is arguably the single most influential organization in bringing AI capabilities to mainstream public awareness and commercial adoption."
+}

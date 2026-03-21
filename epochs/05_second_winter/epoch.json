@@ -1,0 +1,23 @@
+{
+  "id": "epoch_05_second_winter",
+  "type": "epoch",
+  "name": "The Second AI Winter",
+  "number": 5,
+  "date_start": "1987-01-01",
+  "date_end": "1993-12-31",
+  "summary": "The second major collapse. Expert systems proved too brittle and expensive to maintain at scale. The LISP machine market collapsed as cheaper general-purpose hardware caught up. Japan's Fifth Generation Project was abandoned without achieving its goals. The Strategic Computing Initiative ended. AI funding dried up again, and once more the field's practitioners avoided the term 'artificial intelligence' in favor of more modest labels.",
+  "key_events": ["evt_1987_lisp_machine_collapse", "evt_1992_fifth_generation_ends"],
+  "key_figures": [],
+  "key_models": [],
+  "key_concepts": ["knowledge_bottleneck", "brittleness", "maintenance_cost"],
+  "defining_characteristics": [
+    "Expert systems couldn't scale — maintaining rule bases became prohibitively expensive",
+    "The LISP machine market crashed as general-purpose workstations became powerful enough",
+    "Japan's Fifth Generation Project officially ended without meeting its goals",
+    "AI researchers rebranded as 'machine learning', 'data mining', or 'computational intelligence'",
+    "A quieter, more humble research community emerged, focused on mathematical rigor"
+  ],
+  "preceded_by": "epoch_04_expert_systems_boom",
+  "succeeded_by": "epoch_06_quiet_revolution",
+  "significance": 7
+}

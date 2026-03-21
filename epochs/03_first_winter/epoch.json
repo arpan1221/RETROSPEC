@@ -1,0 +1,23 @@
+{
+  "id": "epoch_03_first_winter",
+  "type": "epoch",
+  "name": "The First AI Winter",
+  "number": 3,
+  "date_start": "1974-01-01",
+  "date_end": "1980-12-31",
+  "summary": "The first major collapse in AI funding and optimism. The Lighthill Report (1973) devastated British AI funding. Minsky and Papert's 'Perceptrons' (1969) had already shown the limitations of single-layer neural networks, freezing neural network research. DARPA cut AI funding after projects failed to deliver on their ambitious promises. The word 'AI' became toxic in grant applications. Researchers rebranded their work to survive.",
+  "key_events": ["evt_1969_perceptrons_book", "evt_1973_lighthill_report"],
+  "key_figures": ["person_lighthill_james", "person_minsky_marvin", "person_papert_seymour"],
+  "key_models": [],
+  "key_concepts": ["ai_winter", "funding_collapse", "overpromising"],
+  "defining_characteristics": [
+    "Dramatic funding cuts from DARPA, UK government, and other agencies",
+    "The Lighthill Report declared AI had failed to achieve its 'grandiose objectives'",
+    "Neural network research nearly abandoned for a decade",
+    "Researchers rebranded AI work as 'pattern recognition' or 'expert systems' to get funding",
+    "A cautionary lesson in the gap between promises and capabilities"
+  ],
+  "preceded_by": "epoch_02_golden_age",
+  "succeeded_by": "epoch_04_expert_systems_boom",
+  "significance": 8
+}

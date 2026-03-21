@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://retrospec.dev/schema/entity.schema.json",
+  "title": "RETROSPEC Entity",
+  "description": "Schema for entities in RETROSPEC: people, organizations, and models. Uses a discriminated union on the 'type' field.",
+  "oneOf": [
+    { "$ref": "#/$defs/person" },
+    { "$ref": "#/$defs/organization" },
+    { "$ref": "#/$defs/model" }
+  ],
+  "$defs": {
+    "person": {
+      "type": "object",
+      "required": ["id", "type", "name", "born", "nationality", "affiliations", "key_contributions", "significance", "summary"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^person_[a-z_]+$",
+          "description": "Unique ID: person_lastname_firstname"
+        },
+        "type": { "const": "person" },
+        "name": { "type": "string" },
+        "born": { "type": "string", "format": "date" },
+        "died": { "type": ["string", "null"], "format": "date" },
+        "nationality": { "type": "string" },
+        "affiliations": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Organization IDs or names of institutions"
+        },
+        "key_contributions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "significance": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "influenced_by": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "influenced": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "papers": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "epoch_active": { "type": "string" },
+        "summary": { "type": "string", "minLength": 20 }
+      },
+      "additionalProperties": false
+    },
+    "organization": {
+      "type": "object",
+      "required": ["id", "type", "name", "founded", "headquarters", "org_type", "significance", "summary"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^org_[a-z0-9_]+$",
+          "description": "Unique ID: org_name"
+        },
+        "type": { "const": "organization" },
+        "name": { "type": "string" },
+        "founded": { "type": "string", "format": "date" },
+        "founders": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "headquarters": { "type": "string" },
+        "org_type": {
+          "type": "string",
+          "enum": ["lab", "company", "research_group", "government", "nonprofit", "university"]
+        },
+        "key_models": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "key_papers": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "significance": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "summary": { "type": "string", "minLength": 20 }
+      },
+      "additionalProperties": false
+    },
+    "model": {
+      "type": "object",
+      "required": ["id", "type", "name", "organization", "release_date", "architecture", "significance"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^model_[a-z0-9_]+$",
+          "description": "Unique ID: model_name"
+        },
+        "type": { "const": "model" },
+        "name": { "type": "string" },
+        "organization": { "type": "string" },
+        "release_date": { "type": "string", "format": "date" },
+        "architecture": { "type": "string" },
+        "parameter_count": { "type": "string" },
+        "training_approach": { "type": "string" },
+        "parent_models": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "child_models": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "key_innovations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "benchmark_highlights": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "lineage_path": { "type": "string" },
+        "significance": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "cultural_impact": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

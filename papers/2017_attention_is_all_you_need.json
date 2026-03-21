@@ -1,0 +1,32 @@
+{
+  "id": "paper_2017_attention_is_all_you_need",
+  "type": "paper",
+  "title": "Attention Is All You Need",
+  "authors": ["person_vaswani_ashish", "person_shazeer_noam", "person_parmar_niki", "person_uszkoreit_jakob", "person_jones_llion", "person_gomez_aidan", "person_kaiser_lukasz", "person_polosukhin_illia"],
+  "date": "2017-06-12",
+  "venue": "NeurIPS 2017",
+  "arxiv_id": "1706.03762",
+  "url": "https://arxiv.org/abs/1706.03762",
+  "citation_count_approx": 130000,
+  "epoch": "08_transformer_age",
+  "significance": 10,
+  "summary": "Introduced the Transformer architecture, replacing recurrence entirely with multi-head self-attention. The key innovations: scaled dot-product attention, multi-head attention (allowing the model to attend to different representation subspaces), positional encoding (since the model has no inherent notion of sequence order), and the encoder-decoder structure with residual connections and layer normalization. Originally designed for machine translation, the architecture turned out to be the universal substrate for modern AI.",
+  "key_contributions": [
+    "Introduced the Transformer architecture — the foundation of all modern LLMs",
+    "Replaced recurrence with self-attention, enabling massive parallelization",
+    "Multi-head attention allows attending to multiple representation subspaces",
+    "Positional encoding solves the sequence ordering problem without recurrence",
+    "Achieved new SOTA on English-German and English-French translation"
+  ],
+  "preceded_by": ["paper_2014_generative_adversarial_nets"],
+  "succeeded_by": ["paper_2018_bert_pretraining", "paper_2020_scaling_laws_for_neural_lms"],
+  "related_events": ["evt_2017_attention_is_all_you_need"],
+  "related_concepts": ["concept_attention_mechanism", "concept_self_attention", "concept_transformer"],
+  "impact": "The most consequential architecture paper in AI history. Every frontier model — GPT, Claude, Gemini, LLaMA, Mixtral — is built on the Transformer. The paper has over 130,000 citations and counting.",
+  "query_hooks": [
+    "What is the Transformer architecture?",
+    "How does self-attention work?",
+    "What is multi-head attention?",
+    "What is the most cited AI paper?"
+  ]
+}

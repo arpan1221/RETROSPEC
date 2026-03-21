@@ -1,0 +1,30 @@
+{
+  "id": "evt_2018_bert_released",
+  "type": "event",
+  "title": "Google Releases BERT",
+  "date": "2018-10-11",
+  "epoch": "08_transformer_age",
+  "significance": 9,
+  "summary": "Jacob Devlin and colleagues at Google released BERT (Bidirectional Encoder Representations from Transformers), which used masked language modeling to pretrain a transformer encoder on unlabeled text, then fine-tuned on downstream tasks. BERT set new state-of-the-art results on 11 NLP benchmarks simultaneously, proving that a single pretrained model could dominate virtually every language understanding task. Google integrated BERT into Search in 2019, affecting 10% of queries.",
+  "entities": {
+    "people": ["person_devlin_jacob"],
+    "organizations": ["org_google_brain"],
+    "models_spawned": ["model_bert", "model_roberta", "model_albert", "model_deberta"]
+  },
+  "preceded_by": ["evt_2017_attention_is_all_you_need"],
+  "succeeded_by": ["evt_2020_gpt3_released"],
+  "tags": ["nlp", "pretraining", "encoder", "transformer", "benchmark"],
+  "impact_description": "Established the pretrain-then-fine-tune paradigm that defines modern NLP. Spawned a massive family of encoder models. Demonstrated that bidirectional pretraining captures richer language representations than left-to-right approaches.",
+  "paper": {
+    "arxiv_id": "1810.04805",
+    "citation_count_approx": 95000,
+    "url": "https://arxiv.org/abs/1810.04805"
+  },
+  "counterfactual": "Without BERT, the pretrain-then-fine-tune paradigm might have developed more slowly. NLP would have taken longer to achieve the quality levels that made practical applications viable. Google Search quality would have improved along a different trajectory.",
+  "query_hooks": [
+    "What is BERT?",
+    "How does pretraining work?",
+    "What is the difference between BERT and GPT?",
+    "How did NLP change in 2018?"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "epoch_01_dawn",
+  "type": "epoch",
+  "name": "The Dawn of AI",
+  "number": 1,
+  "date_start": "1943-01-01",
+  "date_end": "1956-12-31",
+  "summary": "The birth of artificial intelligence as a scientific discipline. McCulloch and Pitts created the first mathematical model of a neuron. Turing asked 'Can machines think?' and proposed the Turing Test. Shannon formalized information theory. The 1956 Dartmouth Conference officially launched AI as a field, bringing together the founding fathers who would define its trajectory for decades.",
+  "key_events": ["evt_1943_mcculloch_pitts_neuron", "evt_1950_turing_test_paper", "evt_1956_dartmouth_conference"],
+  "key_figures": ["person_turing_alan", "person_mccarthy_john", "person_minsky_marvin", "person_shannon_claude", "person_mcculloch_warren", "person_pitts_walter"],
+  "key_models": [],
+  "key_concepts": ["artificial_neuron", "turing_test", "information_theory", "symbolic_reasoning"],
+  "defining_characteristics": [
+    "The founding question: 'Can machines think?'",
+    "First mathematical models of neural computation",
+    "Unbounded optimism — the founders believed human-level AI was 10-20 years away",
+    "The Dartmouth Conference coined the term 'artificial intelligence'",
+    "The split between symbolic AI and connectionist approaches already visible"
+  ],
+  "preceded_by": "epoch_00_philosophical_roots",
+  "succeeded_by": "epoch_02_golden_age",
+  "significance": 10
+}

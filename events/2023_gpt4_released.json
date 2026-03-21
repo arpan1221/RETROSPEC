@@ -1,0 +1,25 @@
+{
+  "id": "evt_2023_gpt4_released",
+  "type": "event",
+  "title": "OpenAI Releases GPT-4",
+  "date": "2023-03-14",
+  "epoch": "09_generative_explosion",
+  "significance": 8,
+  "summary": "OpenAI released GPT-4, a multimodal model capable of processing both text and images. GPT-4 scored in the 90th percentile on the Bar Exam, passed the USMLE medical licensing exam, and achieved 86.4% on MMLU. It demonstrated significantly improved reasoning, reduced hallucinations compared to GPT-3.5, and handled much longer contexts. GPT-4 was widely seen as crossing a threshold in AI capabilities that made AGI timelines feel plausible to the broader research community for the first time.",
+  "entities": {
+    "people": ["person_altman_sam"],
+    "organizations": ["org_openai"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2022_chatgpt_launch"],
+  "succeeded_by": ["evt_2024_eu_ai_act"],
+  "tags": ["multimodal", "reasoning", "professional_exams", "gpt", "frontier_model"],
+  "impact_description": "Demonstrated that AI models could match or exceed human performance on professional exams and complex reasoning tasks. Accelerated the AGI debate and intensified calls for AI regulation. Led directly to the AI Safety Summit at Bletchley Park.",
+  "counterfactual": "Without GPT-4, the urgency around AI regulation and safety would have been less intense. The EU AI Act might have been less comprehensive. The public conversation about AGI timelines would have been more speculative and less grounded in demonstrated capabilities.",
+  "query_hooks": [
+    "What can GPT-4 do?",
+    "Can AI pass professional exams?",
+    "What is multimodal AI?",
+    "When did AI capabilities become concerning?"
+  ]
+}

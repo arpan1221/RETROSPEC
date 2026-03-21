@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://retrospec.dev/schema/relationship.schema.json",
+  "title": "RETROSPEC Relationship",
+  "description": "Schema for edges in the RETROSPEC knowledge graph. Relationships connect entities (people, organizations, models, events, concepts) to form traversable graphs.",
+  "type": "object",
+  "required": ["source", "target", "relationship_type", "description"],
+  "properties": {
+    "source": {
+      "type": "string",
+      "description": "ID of the source entity (person_, org_, model_, evt_, concept_)"
+    },
+    "target": {
+      "type": "string",
+      "description": "ID of the target entity"
+    },
+    "relationship_type": {
+      "type": "string",
+      "enum": [
+        "influenced",
+        "evolved_from",
+        "founded",
+        "created",
+        "published",
+        "trained_at",
+        "collaborated_with",
+        "preceded",
+        "succeeded",
+        "depends_on",
+        "enabled",
+        "employed",
+        "funded",
+        "competed_with",
+        "forked_from",
+        "inspired"
+      ],
+      "description": "The type of relationship between source and target"
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Strength of the relationship. 1.0 = direct/strong, 0.1 = weak/indirect"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 5,
+      "description": "Human-readable description of this specific relationship"
+    },
+    "bidirectional": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this relationship applies in both directions"
+    },
+    "epoch": {
+      "type": "string",
+      "description": "The epoch in which this relationship was established"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "person_turing_alan",
+  "type": "person",
+  "name": "Alan Turing",
+  "born": "1912-06-23",
+  "died": "1954-06-07",
+  "nationality": "British",
+  "affiliations": ["org_university_of_manchester", "org_bletchley_park", "org_national_physical_laboratory"],
+  "key_contributions": [
+    "Turing machine — the theoretical foundation of all computation",
+    "\"Computing Machinery and Intelligence\" (1950) — posed the question \"Can machines think?\" and proposed the Turing Test",
+    "Broke the Enigma code at Bletchley Park during WWII",
+    "Designed the Automatic Computing Engine (ACE)",
+    "Laid the philosophical and mathematical groundwork for artificial intelligence"
+  ],
+  "significance": 10,
+  "influenced_by": ["person_church_alonzo", "person_godel_kurt"],
+  "influenced": ["person_mccarthy_john", "person_minsky_marvin", "person_shannon_claude"],
+  "papers": ["paper_1950_computing_machinery_and_intelligence"],
+  "epoch_active": "01_dawn",
+  "summary": "Alan Turing is the father of both computer science and artificial intelligence. His 1936 paper on computable numbers defined the theoretical limits of computation. His 1950 paper \"Computing Machinery and Intelligence\" launched the philosophical inquiry into machine thought and proposed the imitation game (Turing Test) as a benchmark. Without Turing, the field of AI would lack its foundational question and its first rigorous framework for thinking about machine intelligence."
+}

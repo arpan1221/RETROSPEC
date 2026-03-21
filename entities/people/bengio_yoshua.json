@@ -1,0 +1,22 @@
+{
+  "id": "person_bengio_yoshua",
+  "type": "person",
+  "name": "Yoshua Bengio",
+  "born": "1964-03-05",
+  "died": null,
+  "nationality": "Canadian",
+  "affiliations": ["org_mila", "org_university_of_montreal"],
+  "key_contributions": [
+    "Pioneered neural language models and word embeddings",
+    "Co-developed the attention mechanism for neural machine translation (with Bahdanau)",
+    "Founded MILA — the Montreal Institute for Learning Algorithms",
+    "Turing Award (2018) with Hinton and LeCun",
+    "Key advocate for AI safety and responsible AI development"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_hinton_geoffrey"],
+  "influenced": ["person_bahdanau_dzmitry", "person_vaswani_ashish"],
+  "papers": [],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Yoshua Bengio is the third member of the 'deep learning trinity' alongside Hinton and LeCun. His work on neural language models laid the groundwork for modern NLP, and his lab's development of the attention mechanism (with student Dzmitry Bahdanau) was a direct precursor to the Transformer. He founded MILA, one of the world's premier AI research institutions, and has become one of the most prominent voices calling for AI safety regulation and responsible development."
+}

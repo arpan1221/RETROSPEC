@@ -1,0 +1,31 @@
+{
+  "id": "paper_1950_computing_machinery_and_intelligence",
+  "type": "paper",
+  "title": "Computing Machinery and Intelligence",
+  "authors": ["person_turing_alan"],
+  "date": "1950-10-01",
+  "venue": "Mind (journal), Vol. 59, No. 236",
+  "arxiv_id": null,
+  "url": "https://doi.org/10.1093/mind/LIX.236.433",
+  "citation_count_approx": 18000,
+  "epoch": "01_dawn",
+  "significance": 10,
+  "summary": "The paper that started it all. Turing opens with 'I propose to consider the question, Can machines think?' and introduces the imitation game as a practical test for machine intelligence. He systematically addresses nine objections to machine intelligence, including the mathematical objection (Gödel's theorem), Lady Lovelace's objection (machines can only do what we program), and the argument from consciousness. His responses remain remarkably relevant 75+ years later.",
+  "key_contributions": [
+    "Posed the foundational question of AI: 'Can machines think?'",
+    "Proposed the imitation game (Turing Test) as a criterion for machine intelligence",
+    "Addressed and rebutted major philosophical objections to AI",
+    "Predicted machines would pass the test by the year 2000 (premature but directionally correct)"
+  ],
+  "preceded_by": [],
+  "succeeded_by": ["paper_1969_perceptrons"],
+  "related_events": ["evt_1950_turing_test_paper"],
+  "related_concepts": ["concept_turing_test", "concept_machine_intelligence"],
+  "impact": "This paper defined the central question and the first evaluation criterion for the entire field of artificial intelligence. Every subsequent debate about machine consciousness, intelligence, and capability traces back to Turing's framing.",
+  "query_hooks": [
+    "What is the Turing Test?",
+    "Can machines think?",
+    "What was the first AI paper?",
+    "Who started the field of AI?"
+  ]
+}

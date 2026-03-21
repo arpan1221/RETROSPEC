@@ -1,0 +1,21 @@
+{
+  "id": "concept_backpropagation",
+  "type": "concept",
+  "name": "Backpropagation",
+  "summary": "The algorithm that makes neural network training possible. Backpropagation computes the gradient of a loss function with respect to each weight in the network by applying the chain rule of calculus, propagating error signals backward from the output layer to the input layer. These gradients are then used by an optimizer (typically stochastic gradient descent or Adam) to update the weights. Every deep neural network trained today uses backpropagation.",
+  "introduced_date": "1986",
+  "introduced_by": ["person_rumelhart_david", "person_hinton_geoffrey", "person_williams_ronald"],
+  "epoch_introduced": "04_expert_systems_boom",
+  "significance": 10,
+  "prerequisites": ["concept_calculus", "concept_chain_rule", "concept_neural_networks"],
+  "enables": ["concept_deep_learning", "concept_convolutional_neural_networks", "concept_transformer"],
+  "related_papers": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "related_events": ["evt_1986_backpropagation_revival"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "How are neural networks trained?",
+    "What is backpropagation?",
+    "How does gradient descent work?",
+    "What algorithm makes deep learning possible?"
+  ]
+}

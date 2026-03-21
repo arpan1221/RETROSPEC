@@ -1,0 +1,21 @@
+{
+  "id": "concept_constitutional_ai",
+  "type": "concept",
+  "name": "Constitutional AI",
+  "summary": "An alignment methodology developed by Anthropic where AI models are trained against an explicit set of principles (a 'constitution') rather than relying solely on human feedback. The model critiques and revises its own outputs based on these principles, then is trained via reinforcement learning on AI-generated feedback. This approach is more scalable than pure RLHF (reducing the need for human labelers to evaluate harmful content), more transparent (the principles are explicit and auditable), and embodies the philosophy that AI systems should be helpful, harmless, and honest.",
+  "introduced_date": "2022-12-15",
+  "introduced_by": ["person_amodei_dario"],
+  "epoch_introduced": "09_generative_explosion",
+  "significance": 8,
+  "prerequisites": ["concept_rlhf", "concept_language_models", "concept_ai_alignment"],
+  "enables": ["concept_principle_based_alignment", "concept_ai_self_critique"],
+  "related_papers": ["paper_2022_constitutional_ai"],
+  "related_events": [],
+  "current_status": "active",
+  "query_hooks": [
+    "What is Constitutional AI?",
+    "How is Claude different from ChatGPT?",
+    "How do you make AI safe?",
+    "What is principle-based AI alignment?"
+  ]
+}

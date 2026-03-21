@@ -1,0 +1,25 @@
+{
+  "id": "model_alexnet",
+  "type": "model",
+  "name": "AlexNet",
+  "organization": "org_university_of_toronto",
+  "release_date": "2012-09-30",
+  "architecture": "convolutional_neural_network",
+  "parameter_count": "60M",
+  "training_approach": "Supervised learning on ImageNet (1.2M images, 1000 classes) using two NVIDIA GTX 580 GPUs",
+  "parent_models": ["model_lenet"],
+  "child_models": ["model_vgg", "model_googlenet", "model_resnet"],
+  "key_innovations": [
+    "Used ReLU activation instead of sigmoid — enabling much faster training",
+    "Trained on GPUs — pioneering GPU-accelerated deep learning",
+    "Used dropout for regularization",
+    "Won ImageNet 2012 with 15.3% top-5 error vs. 26.2% for the runner-up"
+  ],
+  "benchmark_highlights": {
+    "imagenet_top5_error": "15.3% (vs 26.2% runner-up)",
+    "improvement": "10.8 percentage points over previous best"
+  },
+  "lineage_path": "perceptron → MLP → LeNet → AlexNet",
+  "significance": 9,
+  "cultural_impact": "AlexNet's dominant victory in the 2012 ImageNet Large Scale Visual Recognition Challenge was the 'big bang' of the deep learning era. The 10.8 percentage point improvement over the runner-up was unprecedented and proved definitively that deep neural networks trained on GPUs could crush traditional computer vision approaches. This single result caused the entire machine learning community to pivot toward deep learning. Within two years, every top ImageNet entry used deep neural networks."
+}
