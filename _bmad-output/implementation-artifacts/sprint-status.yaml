@@ -80,16 +80,16 @@ development_status:
   10-4-mcp-config: done
   epic-10-retrospective: optional
 
-  # === PHASE 2: PACKAGES (BACKLOG) ===
-  epic-11: backlog     # npm Package
-  11-1-npm-package-scaffold: backlog
-  11-2-query-api: backlog
-  11-3-npm-publish: backlog
+  # === PHASE 2: PACKAGES (DONE) ===
+  epic-11: done        # npm Package — published as @arpannookala/retrospec
+  11-1-npm-package-scaffold: done
+  11-2-query-api: done
+  11-3-npm-publish: done
 
-  epic-12: backlog     # Python Package
-  12-1-python-package-scaffold: backlog
-  12-2-query-api: backlog
-  12-3-pypi-publish: backlog
+  epic-12: done        # Python Package — published as retrospec on PyPI
+  12-1-python-package-scaffold: done
+  12-2-query-api: done
+  12-3-pypi-publish: done
 
   # === PHASE 2: SEMANTIC SEARCH (BACKLOG) ===
   epic-13: backlog     # Embeddings Index

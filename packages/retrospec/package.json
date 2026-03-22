@@ -1,5 +1,5 @@
 {
-  "name": "retrospec",
+  "name": "@arpannookala/retrospec",
   "version": "0.1.0",
   "description": "Query the RETROSPEC AI history knowledge graph — events, people, models, and concepts spanning 1305 to 2026",
   "type": "module",
