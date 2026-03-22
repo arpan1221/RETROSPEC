@@ -1,0 +1,21 @@
+{
+  "id": "concept_convolutional_neural_networks",
+  "type": "concept",
+  "name": "Convolutional Neural Networks (CNNs)",
+  "summary": "Convolutional Neural Networks are a class of neural networks that use learnable convolutional filters to automatically extract hierarchical spatial features from input data, particularly images. CNNs exploit translational invariance through weight sharing — the same filter is applied across all spatial positions. A typical CNN architecture stacks convolutional layers (feature extraction), pooling layers (spatial downsampling), and fully connected layers (classification). CNNs dominated computer vision from AlexNet's 2012 ImageNet breakthrough through the mid-2020s, when Vision Transformers began achieving competitive results.",
+  "introduced_date": "1989",
+  "introduced_by": ["person_lecun_yann"],
+  "epoch_introduced": "05_second_winter",
+  "significance": 9,
+  "prerequisites": ["concept_backpropagation"],
+  "enables": [],
+  "related_papers": ["paper_2015_resnet"],
+  "related_events": ["evt_1989_lecun_cnn_backprop", "evt_2012_alexnet_imagenet"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "What are convolutional neural networks?",
+    "How does computer vision work?",
+    "What is a CNN?",
+    "How do neural networks process images?"
+  ]
+}

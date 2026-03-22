@@ -1,0 +1,21 @@
+{
+  "id": "concept_generative_adversarial_networks",
+  "type": "concept",
+  "name": "Generative Adversarial Networks (GANs)",
+  "summary": "GANs are a framework for training generative models using an adversarial game between two neural networks: a generator that creates synthetic data and a discriminator that tries to distinguish real data from generated data. The generator improves by learning to fool the discriminator, while the discriminator improves by learning to detect fakes. This min-max game theoretically converges when the generator produces data indistinguishable from real data. Introduced by Ian Goodfellow in 2014, GANs dominated image generation until diffusion models surpassed them around 2021-2022. Key variants include DCGAN, StyleGAN, CycleGAN, and Pix2Pix.",
+  "introduced_date": "2014",
+  "introduced_by": ["person_goodfellow_ian"],
+  "epoch_introduced": "07_deep_learning_era",
+  "significance": 8,
+  "prerequisites": ["concept_backpropagation"],
+  "enables": ["concept_diffusion_models"],
+  "related_papers": ["paper_2014_generative_adversarial_nets"],
+  "related_events": ["evt_2014_gan_introduction"],
+  "current_status": "largely_superseded_by_diffusion_models",
+  "query_hooks": [
+    "What are GANs?",
+    "How do generative adversarial networks work?",
+    "What came before diffusion models?",
+    "How were deepfakes created?"
+  ]
+}

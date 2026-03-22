@@ -1,0 +1,21 @@
+{
+  "id": "concept_word_embeddings",
+  "type": "concept",
+  "name": "Word Embeddings",
+  "summary": "Word embeddings are dense, low-dimensional vector representations of words where semantically similar words are mapped to nearby points in vector space. Unlike one-hot encodings (which are sparse and carry no semantic information), embeddings capture meaning, allowing vector arithmetic like 'king - man + woman = queen'. Key methods include Word2Vec (2013), GloVe (2014), and FastText (2016). Word embeddings were the standard input representation for NLP systems from 2013 until contextual embeddings (ELMo, BERT) largely superseded static embeddings by providing different representations based on context.",
+  "introduced_date": "2013",
+  "introduced_by": ["person_mikolov_tomas"],
+  "epoch_introduced": "07_deep_learning_era",
+  "significance": 8,
+  "prerequisites": ["concept_backpropagation"],
+  "enables": ["concept_attention_mechanism", "concept_transformer"],
+  "related_papers": ["paper_2013_word2vec"],
+  "related_events": [],
+  "current_status": "superseded_by_contextual_embeddings",
+  "query_hooks": [
+    "What are word embeddings?",
+    "How do computers understand word meaning?",
+    "What is Word2Vec?",
+    "How are words represented in neural networks?"
+  ]
+}

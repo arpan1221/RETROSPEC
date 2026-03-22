@@ -1,0 +1,30 @@
+{
+  "id": "evt_1943_mcculloch_pitts_neuron",
+  "type": "event",
+  "title": "McCulloch and Pitts Publish 'A Logical Calculus of the Ideas Immanent in Nervous Activity'",
+  "date": "1943-12-01",
+  "epoch": "01_dawn",
+  "significance": 9,
+  "summary": "Warren McCulloch and Walter Pitts published 'A Logical Calculus of the Ideas Immanent in Nervous Activity' in the Bulletin of Mathematical Biophysics. The paper presented the first mathematical model of an artificial neuron, showing that networks of simple binary threshold units could compute any logical function. This established the theoretical foundation for neural networks and demonstrated that the brain's computational activity could be described in formal mathematical terms.",
+  "entities": {
+    "people": ["person_mcculloch_warren", "person_pitts_walter"],
+    "organizations": [],
+    "models_spawned": ["model_perceptron"]
+  },
+  "preceded_by": [],
+  "succeeded_by": ["evt_1950_turing_test_paper", "evt_1958_perceptron"],
+  "tags": ["neuroscience", "neural_networks", "foundational", "mathematical_model", "paradigm_shift"],
+  "impact_description": "Created the conceptual bridge between biological neurons and computation, establishing that networks of simple processing units could perform logical reasoning. This paper is the origin point of all neural network research and, by extension, all modern deep learning and large language models.",
+  "paper": {
+    "arxiv_id": null,
+    "citation_count_approx": 25000,
+    "url": "https://doi.org/10.1007/BF02478259"
+  },
+  "counterfactual": "Without the McCulloch-Pitts neuron model, the connection between biological neural systems and computation might not have been formalized for years or decades. Rosenblatt's Perceptron, which directly built on this work, would not have existed in its historical form, and the entire trajectory of neural network research would have been fundamentally altered.",
+  "query_hooks": [
+    "What was the first artificial neuron?",
+    "Where did neural networks come from?",
+    "Who invented the mathematical model of a neuron?",
+    "What is the origin of artificial neural networks?"
+  ]
+}
