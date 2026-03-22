@@ -1,0 +1,204 @@
+{
+  "locations": [
+    {
+      "id": "san_francisco",
+      "name": "San Francisco, USA",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "entities": ["org_openai", "org_anthropic", "person_altman_sam", "person_amodei_dario"],
+      "events": ["evt_2022_chatgpt_launch", "evt_2023_gpt4_released", "evt_2025_frontier_parity"],
+      "significance_sum": 34,
+      "epoch_range": ["09_generative_explosion", "10_agentic_era"]
+    },
+    {
+      "id": "mountain_view",
+      "name": "Mountain View, USA",
+      "lat": 37.3861,
+      "lng": -122.0839,
+      "entities": ["org_google_brain", "person_vaswani_ashish", "person_shazeer_noam", "person_kaiser_lukasz"],
+      "events": ["evt_2017_attention_is_all_you_need"],
+      "significance_sum": 30,
+      "epoch_range": ["08_transformer_age"]
+    },
+    {
+      "id": "menlo_park",
+      "name": "Menlo Park, USA",
+      "lat": 37.4529,
+      "lng": -122.1817,
+      "entities": ["org_meta_ai", "person_lecun_yann"],
+      "events": [],
+      "significance_sum": 17,
+      "epoch_range": ["09_generative_explosion"]
+    },
+    {
+      "id": "cambridge_ma",
+      "name": "Cambridge, Massachusetts, USA",
+      "lat": 42.3736,
+      "lng": -71.1097,
+      "entities": ["org_mit_ai_lab", "person_minsky_marvin", "person_papert_seymour"],
+      "events": ["evt_1969_perceptrons_book"],
+      "significance_sum": 25,
+      "epoch_range": ["01_dawn", "02_golden_age", "03_first_winter"]
+    },
+    {
+      "id": "hanover_nh",
+      "name": "Hanover, New Hampshire, USA",
+      "lat": 43.7022,
+      "lng": -72.2896,
+      "entities": ["org_dartmouth", "person_mccarthy_john"],
+      "events": ["evt_1956_dartmouth_conference"],
+      "significance_sum": 17,
+      "epoch_range": ["01_dawn"]
+    },
+    {
+      "id": "armonk_ny",
+      "name": "Armonk, New York, USA",
+      "lat": 41.1315,
+      "lng": -73.7140,
+      "entities": ["org_ibm", "person_rochester_nathaniel"],
+      "events": ["evt_1997_deep_blue_kasparov", "evt_2011_watson_jeopardy"],
+      "significance_sum": 21,
+      "epoch_range": ["06_quiet_revolution"]
+    },
+    {
+      "id": "london",
+      "name": "London, UK",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "entities": ["org_google_deepmind"],
+      "events": ["evt_1837_babbage_analytical_engine", "evt_1843_lovelace_first_program", "evt_1973_lighthill_report"],
+      "significance_sum": 30,
+      "epoch_range": ["00_philosophical_roots", "03_first_winter", "07_deep_learning_era"]
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester, UK",
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "entities": ["org_university_of_manchester", "person_turing_alan"],
+      "events": ["evt_1950_turing_test_paper"],
+      "significance_sum": 16,
+      "epoch_range": ["01_dawn"]
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto, Canada",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "entities": ["org_university_of_toronto", "person_hinton_geoffrey", "person_krizhevsky_alex", "person_sutskever_ilya"],
+      "events": ["evt_2012_alexnet_imagenet", "evt_2006_hinton_deep_belief_nets"],
+      "significance_sum": 35,
+      "epoch_range": ["06_quiet_revolution", "07_deep_learning_era"]
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal, Canada",
+      "lat": 45.5017,
+      "lng": -73.5673,
+      "entities": ["org_mila", "org_university_of_montreal", "person_bengio_yoshua", "person_bahdanau_dzmitry", "person_goodfellow_ian"],
+      "events": ["evt_2014_gan_introduction", "evt_2014_seq2seq_attention"],
+      "significance_sum": 33,
+      "epoch_range": ["07_deep_learning_era"]
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford, California, USA",
+      "lat": 37.4275,
+      "lng": -122.1697,
+      "entities": ["person_mccarthy_john"],
+      "events": ["evt_1958_lisp_created", "evt_1966_shakey", "evt_1979_stanford_cart", "evt_2009_imagenet_created"],
+      "significance_sum": 27,
+      "epoch_range": ["02_golden_age", "03_first_winter", "06_quiet_revolution"]
+    },
+    {
+      "id": "palma_mallorca",
+      "name": "Palma, Mallorca, Spain",
+      "lat": 39.5696,
+      "lng": 2.6502,
+      "entities": [],
+      "events": ["evt_1305_llull_ars_magna"],
+      "significance_sum": 5,
+      "epoch_range": ["00_philosophical_roots"]
+    },
+    {
+      "id": "leipzig",
+      "name": "Leipzig, Germany",
+      "lat": 51.3397,
+      "lng": 12.3731,
+      "entities": [],
+      "events": ["evt_1673_leibniz_stepped_reckoner"],
+      "significance_sum": 6,
+      "epoch_range": ["00_philosophical_roots"]
+    },
+    {
+      "id": "cork",
+      "name": "Cork, Ireland",
+      "lat": 51.8985,
+      "lng": -8.4756,
+      "entities": [],
+      "events": ["evt_1854_boole_laws_of_thought"],
+      "significance_sum": 7,
+      "epoch_range": ["00_philosophical_roots"]
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul, South Korea",
+      "lat": 37.5665,
+      "lng": 126.9780,
+      "entities": [],
+      "events": [],
+      "significance_sum": 9,
+      "epoch_range": ["07_deep_learning_era"]
+    },
+    {
+      "id": "hangzhou",
+      "name": "Hangzhou, China",
+      "lat": 30.2741,
+      "lng": 120.1551,
+      "entities": [],
+      "events": ["evt_2025_deepseek_r1"],
+      "significance_sum": 9,
+      "epoch_range": ["10_agentic_era"]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo, Japan",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "entities": [],
+      "events": ["evt_1981_fifth_generation_project", "evt_1992_fifth_generation_ends"],
+      "significance_sum": 14,
+      "epoch_range": ["04_expert_systems_boom", "05_second_winter"]
+    },
+    {
+      "id": "pittsburgh",
+      "name": "Pittsburgh, USA",
+      "lat": 40.4406,
+      "lng": -79.9959,
+      "entities": [],
+      "events": ["evt_1958_perceptron"],
+      "significance_sum": 8,
+      "epoch_range": ["02_golden_age"]
+    },
+    {
+      "id": "zurich",
+      "name": "Zurich, Switzerland",
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "entities": [],
+      "events": [],
+      "significance_sum": 9,
+      "epoch_range": ["06_quiet_revolution"]
+    },
+    {
+      "id": "brussels",
+      "name": "Brussels, Belgium",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "entities": [],
+      "events": ["evt_2024_eu_ai_act"],
+      "significance_sum": 7,
+      "epoch_range": ["09_generative_explosion"]
+    }
+  ]
+}

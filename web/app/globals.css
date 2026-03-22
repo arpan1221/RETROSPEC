@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-surface: #141420;
+  --amber: #f59e0b;
+  --amber-glow: rgba(245, 158, 11, 0.2);
+  --text-primary: #e2e8f0;
+  --text-muted: #94a3b8;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Mapbox container */
+.mapboxgl-map { font-family: inherit; }
+.mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right { display: none; }
+
+/* Pulsing glow for high-significance pins */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px var(--amber-glow); }
+  50% { box-shadow: 0 0 20px var(--amber-glow), 0 0 40px rgba(245, 158, 11, 0.1); }
+}
+.pin-glow { animation: pulse-glow 3s ease-in-out infinite; }
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
