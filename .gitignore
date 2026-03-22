@@ -3,3 +3,9 @@ web/.next/
 web/.env.local
 mcp/node_modules/
 mcp/dist/
+packages/retrospec/node_modules/
+packages/retrospec/dist/
+packages/retrospec-py/__pycache__/
+packages/retrospec-py/*.egg-info/
+packages/retrospec-py/dist/
+packages/retrospec-py/build/

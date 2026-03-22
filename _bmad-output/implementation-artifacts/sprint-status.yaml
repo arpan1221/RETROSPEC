@@ -1,0 +1,111 @@
+# RETROSPEC Sprint Status
+# Generated from epics.md — reflects actual completion state
+
+generated: "2026-03-22"
+last_updated: "2026-03-22"
+project: RETROSPEC
+project_key: RETRO
+tracking_system: bmad-epics
+story_location: "_bmad-output/planning-artifacts/epics.md"
+
+development_status:
+  # === PHASE 1: DATA ASSET (COMPLETE) ===
+  epic-1: done         # Resolve Dangling References & Entity Completion
+  1-1-transformer-authors: done
+  1-2-key-figures: done
+  1-3-missing-orgs: done
+
+  epic-2: done         # Epoch Content Expansion
+  2-1-epoch-00-roots: done
+  2-2-epoch-05-winter: done
+  2-3-epoch-10-agentic: done
+  2-4-expand-thin-epochs: done
+  2-5-expand-models-papers-concepts: done
+
+  epic-3: done         # AI Cycles & Winter Documentation
+  3-1-winter-cycles: done
+  3-2-hype-boom-cycles: done
+
+  epic-4: done         # Knowledge Graph Construction
+  4-1-influence-graph: done
+  4-2-architecture-graph: done
+  4-3-organization-graph: done
+  4-4-concept-dependency-graph: done
+
+  epic-5: done         # Transformer Family Tree & Lineage
+  5-1-decoder-only: done
+  5-2-encoder-only-encoder-decoder: done
+  5-3-pre-transformer-emerging: done
+
+  epic-6: done         # Validation Tooling & CI Pipeline
+  6-1-schema-validation: done
+  6-2-integrity-checker: done
+  6-3-github-actions-ci: done
+
+  epic-7: done         # Community Onboarding Documentation
+  7-1-contributing-md: done
+  7-2-schema-md: done
+
+  epic-8: done         # Repository Health Dashboard
+  8-1-health-script: done
+  8-2-balance-report: done
+
+  epic-1-retrospective: optional
+  epic-2-retrospective: optional
+  epic-3-retrospective: optional
+  epic-4-retrospective: optional
+  epic-5-retrospective: optional
+  epic-6-retrospective: optional
+  epic-7-retrospective: optional
+  epic-8-retrospective: optional
+
+  # === PHASE 1.5: WEB APP (COMPLETE) ===
+  epic-9: done         # Geographic Explorer Web App
+  9-1-scaffolding: done
+  9-2-types-data-layer: done
+  9-3-location-index: done
+  9-4-hero-component: done
+  9-5-map-clusters: done
+  9-6-city-panel-entity-detail: done
+  9-7-sidebar-search: done
+  9-8-epoch-timeline: done
+  9-9-vercel-deploy: done
+  epic-9-retrospective: optional
+
+  # === PHASE 2: MCP SERVER (COMPLETE) ===
+  epic-10: done        # MCP Server
+  10-1-mcp-scaffolding: done
+  10-2-data-layer: done
+  10-3-five-tools: done
+  10-4-mcp-config: done
+  epic-10-retrospective: optional
+
+  # === PHASE 2: PACKAGES (BACKLOG) ===
+  epic-11: backlog     # npm Package
+  11-1-npm-package-scaffold: backlog
+  11-2-query-api: backlog
+  11-3-npm-publish: backlog
+
+  epic-12: backlog     # Python Package
+  12-1-python-package-scaffold: backlog
+  12-2-query-api: backlog
+  12-3-pypi-publish: backlog
+
+  # === PHASE 2: SEMANTIC SEARCH (BACKLOG) ===
+  epic-13: backlog     # Embeddings Index
+  13-1-embedding-generation: backlog
+  13-2-semantic-search-api: backlog
+
+  # === PHASE 3: LIVING REPOSITORY (BACKLOG) ===
+  epic-14: backlog     # Auto-Ingest Pipeline
+  14-1-arxiv-ingest: backlog
+  14-2-huggingface-ingest: backlog
+
+  epic-15: backlog     # Web App Enhancements
+  15-1-flyover-animation: backlog
+  15-2-connections-graph: backlog
+  15-3-mobile-polish: backlog
+
+  epic-16: backlog     # Community Growth
+  16-1-launch-campaign: backlog
+  16-2-contributor-outreach: backlog

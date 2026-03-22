@@ -1,0 +1,19 @@
+{
+  "name": "retrospec",
+  "version": "0.1.0",
+  "description": "Query the RETROSPEC AI history knowledge graph — events, people, models, and concepts spanning 1305 to 2026",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai", "history", "knowledge-graph", "machine-learning", "retrospec"],
+  "license": "MIT",
+  "dependencies": { "fuse.js": "^7.0.0" },
+  "devDependencies": { "typescript": "^5.5.0", "@types/node": "^20.0.0" }
+}
