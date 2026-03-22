@@ -13,12 +13,14 @@ interface MapExplorerProps {
   locations: LocationData[];
   epochs: Epoch[];
   entities?: AnyEntity[];
+  graphEdgeCount?: number;
 }
 
 export default function MapExplorer({
   locations,
   epochs,
   entities = [],
+  graphEdgeCount = 0,
 }: MapExplorerProps) {
   return (
     <MapProvider>
@@ -26,7 +28,7 @@ export default function MapExplorer({
         {/* Main layout: sidebar + map side by side */}
         <div className="flex h-[75vh] md:h-[85vh]">
           {/* Sidebar — desktop only, fixed width */}
-          <Sidebar epochs={epochs} entities={entities} />
+          <Sidebar epochs={epochs} entities={entities} graphEdgeCount={graphEdgeCount} />
 
           {/* Map fills remaining space */}
           <div className="relative flex-1 flex flex-col">
