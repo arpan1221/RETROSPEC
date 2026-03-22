@@ -1,0 +1,24 @@
+{
+  "id": "model_dall_e",
+  "type": "model",
+  "name": "DALL-E Series (DALL-E, DALL-E 2, DALL-E 3)",
+  "organization": "org_openai",
+  "release_date": "2021-01-05",
+  "architecture": "transformer_vae_diffusion",
+  "parameter_count": "12B (DALL-E 1) → 3.5B (DALL-E 2) → Undisclosed (DALL-E 3)",
+  "training_approach": "DALL-E 1: discrete VAE + autoregressive transformer. DALL-E 2: CLIP + diffusion. DALL-E 3: diffusion with improved captioning",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "First demonstration that large-scale text-to-image generation was possible (DALL-E 1)",
+    "CLIP-guided diffusion for semantically faithful image generation (DALL-E 2)",
+    "Integrated with ChatGPT for natural language image creation (DALL-E 3)",
+    "Showed that transformers could bridge text and image modalities"
+  ],
+  "benchmark_highlights": {
+    "FID_COCO_256": "10.39 (DALL-E 2)"
+  },
+  "lineage_path": "VAE -> CLIP -> DDPM -> DALL-E -> DALL-E 2 -> DALL-E 3",
+  "significance": 7,
+  "cultural_impact": "DALL-E was the first widely publicized text-to-image AI model, demonstrating to the public that AI could generate creative visual content from text descriptions. The series helped launch the generative AI movement and inspired competitors like Stable Diffusion and Midjourney."
+}

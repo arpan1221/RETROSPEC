@@ -2,7 +2,7 @@
   "id": "person_parmar_niki",
   "type": "person",
   "name": "Niki Parmar",
-  "born": null,
+  "born": "1985-01-01",
   "died": null,
   "nationality": "Indian-American",
   "affiliations": ["org_google_brain", "org_essential_ai"],

@@ -1,3 +1,5 @@
 web/node_modules/
 web/.next/
 web/.env.local
+mcp/node_modules/
+mcp/dist/

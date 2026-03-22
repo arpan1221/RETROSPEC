@@ -1,0 +1,24 @@
+{
+  "id": "model_stable_diffusion",
+  "type": "model",
+  "name": "Stable Diffusion",
+  "organization": "org_stability_ai",
+  "release_date": "2022-08-22",
+  "architecture": "latent_diffusion_model",
+  "parameter_count": "890M (SD 1.5) → 865M (SD 2.0) → 2.6B (SDXL) → 8B (SD 3)",
+  "training_approach": "Denoising diffusion in latent space with CLIP text conditioning, trained on LAION-5B dataset",
+  "parent_models": [],
+  "child_models": ["model_sdxl", "model_sd3"],
+  "key_innovations": [
+    "Applied diffusion process in compressed latent space rather than pixel space, dramatically reducing compute",
+    "Open-source release enabled an explosion of community fine-tuning and LoRA adaptations",
+    "Cross-attention conditioning on CLIP text embeddings for text-to-image generation",
+    "ControlNet and other community extensions added precise image control"
+  ],
+  "benchmark_highlights": {
+    "FID_COCO": "Competitive with DALL-E 2 at fraction of compute cost"
+  },
+  "lineage_path": "VAE -> DDPM -> Latent Diffusion -> Stable Diffusion -> SDXL -> SD 3",
+  "significance": 8,
+  "cultural_impact": "Stable Diffusion was the first high-quality open-source image generation model, making AI art accessible to anyone with a consumer GPU. It spawned a massive ecosystem of tools, fine-tunes, and community models on platforms like Civitai and HuggingFace, and ignited heated debates about AI art, copyright, and the future of creative work."
+}

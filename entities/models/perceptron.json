@@ -1,0 +1,24 @@
+{
+  "id": "model_perceptron",
+  "type": "model",
+  "name": "Mark I Perceptron",
+  "organization": "org_cornell",
+  "release_date": "1958-07-01",
+  "architecture": "single_layer_neural_network",
+  "parameter_count": "400 photocells connected to a single layer of weights — approximately 512 adjustable parameters",
+  "training_approach": "Supervised learning via the perceptron learning algorithm — iterative weight adjustment on labeled examples",
+  "parent_models": [],
+  "child_models": ["model_adaline"],
+  "key_innovations": [
+    "First hardware implementation of an artificial neural network",
+    "Demonstrated that a machine could learn from examples rather than being explicitly programmed",
+    "Perceptron convergence theorem proved that the algorithm would converge for linearly separable problems",
+    "Inspired the modern field of neural network research"
+  ],
+  "benchmark_highlights": {
+    "note": "Could recognize simple shapes and letters from visual input via photocells"
+  },
+  "lineage_path": "McCulloch-Pitts Neuron -> Perceptron -> Adaline -> MLP -> Modern Neural Networks",
+  "significance": 7,
+  "cultural_impact": "The Perceptron, built by Frank Rosenblatt at Cornell, generated enormous media excitement — the New York Times reported it as the embryo of a machine that would 'be able to walk, talk, see, write, reproduce itself, and be conscious of its existence.' This overpromising contributed to the backlash when Minsky and Papert's 1969 book 'Perceptrons' exposed its limitations, helping trigger the first AI winter."
+}

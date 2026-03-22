@@ -1,0 +1,26 @@
+{
+  "id": "model_mixtral",
+  "type": "model",
+  "name": "Mixtral 8x7B",
+  "organization": "org_mistral",
+  "release_date": "2023-12-11",
+  "architecture": "sparse_mixture_of_experts_transformer",
+  "parameter_count": "46.7B total (12.9B active per token, 8 experts with top-2 routing)",
+  "training_approach": "Pretraining on multilingual web data with sparse MoE routing",
+  "parent_models": ["model_mistral_7b"],
+  "child_models": ["model_mixtral_8x22b"],
+  "key_innovations": [
+    "Proved that sparse MoE could work at practical scale with open weights",
+    "Matched or exceeded GPT-3.5 and LLaMA 2 70B while using only 12.9B active parameters",
+    "Efficient inference — runs at the speed of a 13B model while having 47B total parameters",
+    "Open-weight release under Apache 2.0 license"
+  ],
+  "benchmark_highlights": {
+    "MMLU": "70.6%",
+    "HellaSwag": "86.7%",
+    "ARC_Challenge": "66.4%"
+  },
+  "lineage_path": "Transformer -> GPT -> Mistral 7B -> Mixtral 8x7B",
+  "significance": 7,
+  "cultural_impact": "Mixtral demonstrated that mixture-of-experts architectures could deliver frontier performance with dramatically lower inference costs. Released by the French startup Mistral AI, it challenged the US-centric AI landscape and showed that a small European team could compete with much larger organizations. The model became a popular choice for cost-effective AI deployment."
+}

@@ -2,7 +2,7 @@
   "id": "person_williams_ronald",
   "type": "person",
   "name": "Ronald Williams",
-  "born": null,
+  "born": "1945-01-01",
   "died": null,
   "nationality": "American",
   "affiliations": ["org_northeastern_university", "org_ucsd"],

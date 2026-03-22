@@ -1,0 +1,30 @@
+{
+  "id": "paper_2019_bert_roberta",
+  "type": "paper",
+  "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+  "authors": ["person_liu_yinhan", "person_ott_myle", "person_goyal_naman", "person_du_jingfei", "person_joshi_mandar", "person_chen_danqi", "person_levy_omer", "person_lewis_mike", "person_zettlemoyer_luke", "person_stoyanov_veselin"],
+  "date": "2019-07-26",
+  "venue": "arXiv preprint (adopted at NeurIPS 2019 workshops)",
+  "arxiv_id": "1907.11692",
+  "url": "https://arxiv.org/abs/1907.11692",
+  "citation_count_approx": 18000,
+  "epoch": "08_transformer_age",
+  "significance": 7,
+  "summary": "Showed that BERT was significantly undertrained and that with careful hyperparameter tuning, longer training, bigger batches, more data, and removal of the next sentence prediction objective, BERT's performance could be substantially improved. RoBERTa matched or exceeded all post-BERT methods on GLUE, SQuAD, and RACE benchmarks.",
+  "key_contributions": [
+    "Demonstrated that BERT's original training was suboptimal",
+    "Showed that training longer with bigger batches and more data significantly improves performance",
+    "Removed the next sentence prediction (NSP) objective with no loss in performance",
+    "Dynamic masking improved over static masking patterns"
+  ],
+  "preceded_by": ["paper_2018_bert_pretraining"],
+  "succeeded_by": [],
+  "related_events": ["evt_2018_bert_released"],
+  "related_concepts": ["concept_transfer_learning"],
+  "impact": "RoBERTa showed that training recipe matters as much as architecture, establishing that many apparent architectural advances were actually just training improvements. This insight influenced the broader field's approach to model development and ablation studies.",
+  "query_hooks": [
+    "What is RoBERTa?",
+    "How was BERT improved?",
+    "Why was BERT undertrained?"
+  ]
+}

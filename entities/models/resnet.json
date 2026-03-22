@@ -1,0 +1,25 @@
+{
+  "id": "model_resnet",
+  "type": "model",
+  "name": "ResNet (Deep Residual Network)",
+  "organization": "org_microsoft_research",
+  "release_date": "2015-12-10",
+  "architecture": "deep_convolutional_neural_network_with_skip_connections",
+  "parameter_count": "25.6M (ResNet-50) → 60.2M (ResNet-152)",
+  "training_approach": "Supervised learning on ImageNet with residual (skip) connections enabling training of very deep networks",
+  "parent_models": ["model_vgg", "model_alexnet"],
+  "child_models": ["model_resnext", "model_densenet"],
+  "key_innovations": [
+    "Introduced residual (skip) connections that allow training of networks with 100+ layers",
+    "Solved the degradation problem — deeper networks had been performing worse than shallow ones",
+    "Won ILSVRC 2015 with 3.57% top-5 error (first to surpass human-level performance on ImageNet)",
+    "Skip connections became a standard component in virtually all deep architectures including Transformers"
+  ],
+  "benchmark_highlights": {
+    "ImageNet_top5_error": "3.57% (ResNet-152, surpassing human-level 5.1%)",
+    "ILSVRC_2015": "1st place in classification and detection"
+  },
+  "lineage_path": "LeNet -> AlexNet -> VGG -> ResNet -> ResNeXt -> DenseNet",
+  "significance": 8,
+  "cultural_impact": "ResNet's skip connections are one of the most important architectural innovations in deep learning history. By enabling the training of very deep networks, ResNet broke through a fundamental barrier and became the standard backbone for computer vision. The residual connection concept was later adopted in Transformers (as residual connections around attention and feed-forward layers), making ResNet an intellectual ancestor of modern LLMs."
+}

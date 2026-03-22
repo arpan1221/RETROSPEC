@@ -1,0 +1,32 @@
+{
+  "id": "paper_2024_mamba",
+  "type": "paper",
+  "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "authors": ["person_gu_albert", "person_dao_tri"],
+  "date": "2023-12-01",
+  "venue": "COLM 2024",
+  "arxiv_id": "2312.00752",
+  "url": "https://arxiv.org/abs/2312.00752",
+  "citation_count_approx": 3000,
+  "epoch": "09_generative_explosion",
+  "significance": 8,
+  "summary": "Introduced Mamba, a selective state space model that achieves linear-time sequence modeling while matching or exceeding Transformer performance. By making the state space parameters input-dependent (selective), Mamba can perform content-based reasoning that previous SSMs could not. The hardware-aware implementation achieves 3-5x faster inference than Transformers of equivalent size.",
+  "key_contributions": [
+    "Introduced selective state spaces — making SSM parameters input-dependent",
+    "Achieved linear-time scaling in sequence length vs. quadratic for attention",
+    "Hardware-aware parallel scan implementation for efficient GPU computation",
+    "Matched Transformer performance on language modeling while being significantly faster",
+    "Opened a credible alternative path to the dominant Transformer architecture"
+  ],
+  "preceded_by": ["paper_2017_attention_is_all_you_need"],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": ["concept_attention_mechanism", "concept_transformer"],
+  "impact": "Mamba represents the most credible challenge to Transformer dominance since the architecture was introduced. Its linear-time scaling could enable efficient processing of much longer sequences, and it sparked significant research interest in state space models as alternatives or complements to attention-based architectures.",
+  "query_hooks": [
+    "What is Mamba?",
+    "Are there alternatives to Transformers?",
+    "What are state space models?",
+    "What is selective state space modeling?"
+  ]
+}

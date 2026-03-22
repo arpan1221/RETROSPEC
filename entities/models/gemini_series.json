@@ -1,0 +1,26 @@
+{
+  "id": "model_gemini_series",
+  "type": "model",
+  "name": "Gemini Series (Gemini 1.0, 1.5, 2.0)",
+  "organization": "org_google_deepmind",
+  "release_date": "2023-12-06",
+  "architecture": "multimodal_decoder_only_transformer_moe",
+  "parameter_count": "Undisclosed; Gemini Ultra is estimated to be one of the largest models ever trained",
+  "training_approach": "Multimodal pretraining on text, image, audio, video, and code data with RLHF alignment",
+  "parent_models": ["model_palm2"],
+  "child_models": [],
+  "key_innovations": [
+    "Natively multimodal — trained jointly on text, images, audio, and video from the start",
+    "Gemini 1.5 introduced a 1M+ token context window using mixture-of-experts",
+    "Gemini 2.0 added agentic capabilities with tool use and code execution",
+    "Near-perfect recall on needle-in-a-haystack evaluations at 1M tokens"
+  ],
+  "benchmark_highlights": {
+    "MMLU": "90.0% (Gemini Ultra)",
+    "HumanEval": "74.4% (Gemini Ultra)",
+    "MATH": "53.2% (Gemini Ultra)"
+  },
+  "lineage_path": "Transformer -> BERT -> T5 -> PaLM -> PaLM 2 -> Gemini 1.0 -> Gemini 1.5 -> Gemini 2.0",
+  "significance": 8,
+  "cultural_impact": "Gemini represented Google DeepMind's flagship response to GPT-4 and established Google as a leading competitor in the frontier model race. The 1M+ token context window in Gemini 1.5 set a new standard for long-context AI, and the series demonstrated that natively multimodal training could produce models competitive with or exceeding text-first approaches."
+}

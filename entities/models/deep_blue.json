@@ -1,0 +1,24 @@
+{
+  "id": "model_deep_blue",
+  "type": "model",
+  "name": "Deep Blue",
+  "organization": "org_ibm",
+  "release_date": "1997-05-11",
+  "architecture": "specialized_chess_hardware_with_alpha_beta_search",
+  "parameter_count": "Not applicable — hardware-based evaluation function with 480 custom chess chips",
+  "training_approach": "Hand-tuned evaluation function with grandmaster consultation, alpha-beta pruning search, and specialized VLSI chess processors",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "First computer system to defeat a reigning world chess champion under tournament conditions",
+    "Evaluated 200 million positions per second using custom chess hardware",
+    "Combined brute-force search depth with hand-crafted chess knowledge",
+    "Demonstrated that specialized hardware could solve problems previously considered exclusive to human intelligence"
+  ],
+  "benchmark_highlights": {
+    "kasparov_match": "Won 3.5-2.5 against Garry Kasparov, May 1997"
+  },
+  "lineage_path": "Shannon Chess Programming -> Minimax -> Alpha-Beta Pruning -> Deep Blue",
+  "significance": 7,
+  "cultural_impact": "Deep Blue's 1997 victory over Garry Kasparov was one of the most widely covered AI events in history, appearing on front pages worldwide. It became a cultural touchstone for AI capability and raised fundamental questions about machine intelligence. Kasparov's accusation of cheating reflected the deep psychological impact of a machine surpassing human expertise in a domain considered to require deep intelligence."
+}

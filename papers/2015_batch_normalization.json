@@ -1,0 +1,30 @@
+{
+  "id": "paper_2015_batch_normalization",
+  "type": "paper",
+  "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+  "authors": ["person_ioffe_sergey", "person_szegedy_christian"],
+  "date": "2015-02-11",
+  "venue": "ICML 2015",
+  "arxiv_id": "1502.03167",
+  "url": "https://arxiv.org/abs/1502.03167",
+  "citation_count_approx": 50000,
+  "epoch": "07_deep_learning_era",
+  "significance": 7,
+  "summary": "Introduced batch normalization, a technique that normalizes layer inputs by re-centering and re-scaling during training. This addressed the 'internal covariate shift' problem and allowed much higher learning rates, faster convergence, and reduced sensitivity to weight initialization. Batch normalization became a standard component in virtually all deep neural networks.",
+  "key_contributions": [
+    "Introduced batch normalization as a trainable layer that normalizes activations",
+    "Enabled higher learning rates and faster training convergence",
+    "Reduced the need for careful weight initialization",
+    "Acted as a regularizer, sometimes eliminating the need for dropout"
+  ],
+  "preceded_by": [],
+  "succeeded_by": ["paper_2015_resnet"],
+  "related_events": ["evt_2012_alexnet_imagenet"],
+  "related_concepts": ["concept_backpropagation"],
+  "impact": "Batch normalization became one of the most universally adopted techniques in deep learning, used in nearly every major architecture from ResNet to modern GANs. Later variants (layer normalization, group normalization) adapted the concept for transformers and other architectures.",
+  "query_hooks": [
+    "What is batch normalization?",
+    "How does batch norm help training?",
+    "What is internal covariate shift?"
+  ]
+}

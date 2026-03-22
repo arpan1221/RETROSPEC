@@ -2,10 +2,17 @@
 
 ### Repository for the Evolutionary Trajectory and Record of Sentient-Parallel Engineered Cognition
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Entries](https://img.shields.io/badge/entries-170%2B-blue)]()
+[![Epochs](https://img.shields.io/badge/epochs-11-green)]()
+[![GitHub stars](https://img.shields.io/github/stars/arpan1221/RETROSPEC?style=social)](https://github.com/arpan1221/RETROSPEC)
+
 > *"Those who cannot remember the past are condemned to repeat it."*
 > *— George Santayana*
 >
 > *This repository exists so that artificial intelligence never forgets where it came from.*
+
+**[Live Demo](https://retrospec.vercel.app)** | **[Contributing](CONTRIBUTING.md)** | **[Schema Docs](SCHEMA.md)**
 
 ---
 
@@ -31,6 +38,34 @@ Unlike static timelines or human-facing Wikipedia articles, RETROSPEC is designe
 
 ---
 
+## Quick Start
+
+### Explore the knowledge graph
+
+```bash
+# Browse an epoch
+cat epochs/08_transformer_age/epoch.json
+
+# Read a landmark event
+cat events/2017_attention_is_all_you_need.json
+
+# Trace a model's lineage
+cat entities/models/gpt_series.json | jq '.lineage_path'
+
+# Find who influenced whom
+cat graphs/influence_graph.json | jq '.edges[] | select(.source == "person_hinton_geoffrey")'
+```
+
+### Run the interactive web explorer
+
+```bash
+cd web && npm install && npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) to explore the timeline, knowledge graph, and entity profiles in your browser.
+
+---
+
 ## Repository Structure
 
 ```
@@ -53,32 +88,18 @@ retrospec/
 ├── graphs/                    # Relationship graphs for agent traversal
 ├── api/                       # Query interface for agents
 ├── tools/                     # Ingest, validate, visualize, export utilities
+├── web/                       # Interactive Next.js web explorer
 └── meta/                      # RETROSPEC documents itself
 ```
 
 ---
 
-## Quick Start
+## Built With
 
-**Explore an epoch:**
-```bash
-cat epochs/08_transformer_age/epoch.json
-```
-
-**Read a landmark event:**
-```bash
-cat events/2017_attention_is_all_you_need.json
-```
-
-**Trace a model's lineage:**
-```bash
-cat entities/models/gpt_series.json | jq '.lineage_path'
-```
-
-**Find who influenced whom:**
-```bash
-cat graphs/influence_graph.json | jq '.edges[] | select(.source == "person_hinton_geoffrey")'
-```
+- **[Next.js](https://nextjs.org/)** — React framework powering the interactive web explorer
+- **[Mapbox GL](https://www.mapbox.com/mapbox-gljs)** — Geographic and spatial visualizations
+- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first styling for the web interface
+- **[BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD)** — AI-agent-driven knowledge engineering workflow
 
 ---
 
@@ -88,12 +109,12 @@ RETROSPEC uses the [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) w
 
 | Agent | Name | Role | Invoke |
 |---|---|---|---|
-| 📜 Historian | **Clio** | Surveys gaps, prioritizes what to document next | `/retrospec-historian` |
-| 🏛️ Archivist | **Thoth** | Schema guardian, validates data integrity | `/retrospec-archivist` |
-| 🔬 Researcher | **Ada** | Researches topics, produces structured JSON entries | `/retrospec-researcher` |
-| 🗺️ Cartographer | **Euler** | Maintains knowledge graphs and lineage trees | `/retrospec-cartographer` |
-| 🔍 Critic | **Diogenes** | Fact-checks, challenges significance, detects bias | `/retrospec-critic` |
-| 🔮 Oracle | **Pythia** | Repository health monitor, coverage metrics | `/retrospec-oracle` |
+| Historian | **Clio** | Surveys gaps, prioritizes what to document next | `/retrospec-historian` |
+| Archivist | **Thoth** | Schema guardian, validates data integrity | `/retrospec-archivist` |
+| Researcher | **Ada** | Researches topics, produces structured JSON entries | `/retrospec-researcher` |
+| Cartographer | **Euler** | Maintains knowledge graphs and lineage trees | `/retrospec-cartographer` |
+| Critic | **Diogenes** | Fact-checks, challenges significance, detects bias | `/retrospec-critic` |
+| Oracle | **Pythia** | Repository health monitor, coverage metrics | `/retrospec-oracle` |
 
 **Workflow pipeline:**
 ```
@@ -145,7 +166,7 @@ Clio (Discover) → Ada (Research) → Thoth (Validate) → Euler (Connect) → 
 
 ## Contributing
 
-This project is open to everyone. If you know AI history, have access to primary sources, or just want to help build the world's first self-aware repository, contributions are welcome.
+This project is open to everyone. If you know AI history, have access to primary sources, or just want to help build the world's first self-aware repository, contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 

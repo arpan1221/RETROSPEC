@@ -1,0 +1,30 @@
+{
+  "id": "paper_2021_dall_e",
+  "type": "paper",
+  "title": "Zero-Shot Text-to-Image Generation",
+  "authors": ["person_ramesh_aditya", "person_pavlov_mikhail", "person_goh_gabriel", "person_gray_scott", "person_voss_chelsea", "person_radford_alec", "person_chen_mark", "person_sutskever_ilya"],
+  "date": "2021-02-24",
+  "venue": "ICML 2021",
+  "arxiv_id": "2102.12092",
+  "url": "https://arxiv.org/abs/2102.12092",
+  "citation_count_approx": 5000,
+  "epoch": "09_generative_explosion",
+  "significance": 7,
+  "summary": "Introduced DALL-E, a 12-billion parameter autoregressive transformer that generates images from text descriptions. The model treats image generation as a sequence-to-sequence problem, encoding images as discrete tokens using a dVAE and generating them autoregressively conditioned on text tokens. DALL-E demonstrated remarkable ability to compose concepts, attributes, and styles it had never seen together.",
+  "key_contributions": [
+    "First large-scale demonstration of text-to-image generation using a transformer",
+    "Used discrete VAE to encode images as token sequences for autoregressive generation",
+    "Showed zero-shot generalization to novel text descriptions and concept compositions",
+    "Demonstrated that language model architectures could bridge text and image modalities"
+  ],
+  "preceded_by": ["paper_2020_gpt3_paper"],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": ["concept_diffusion_models", "concept_transformer"],
+  "impact": "DALL-E demonstrated that AI could generate creative visual content from natural language descriptions, launching the text-to-image revolution. It directly inspired DALL-E 2, Stable Diffusion, and Midjourney, and triggered broad public and cultural discussion about AI creativity and copyright.",
+  "query_hooks": [
+    "What is DALL-E?",
+    "How does text-to-image generation work?",
+    "When could AI first generate images from text?"
+  ]
+}

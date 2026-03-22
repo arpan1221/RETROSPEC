@@ -1,0 +1,31 @@
+{
+  "id": "paper_2015_resnet",
+  "type": "paper",
+  "title": "Deep Residual Learning for Image Recognition",
+  "authors": ["person_he_kaiming", "person_zhang_xiangyu", "person_ren_shaoqing", "person_sun_jian"],
+  "date": "2015-12-10",
+  "venue": "CVPR 2016",
+  "arxiv_id": "1512.03385",
+  "url": "https://arxiv.org/abs/1512.03385",
+  "citation_count_approx": 200000,
+  "epoch": "07_deep_learning_era",
+  "significance": 8,
+  "summary": "Introduced residual learning with skip connections, enabling the training of networks with over 150 layers. ResNet won the ILSVRC 2015 competition with 3.57% top-5 error, surpassing human-level performance on ImageNet for the first time. The residual connection became one of the most widely adopted architectural innovations in deep learning, later appearing in Transformers.",
+  "key_contributions": [
+    "Introduced skip (residual) connections to solve the degradation problem in deep networks",
+    "Trained networks with 152 layers — 8x deeper than previous architectures",
+    "First model to surpass human-level performance on ImageNet classification",
+    "Residual connections became a standard component in virtually all deep architectures"
+  ],
+  "preceded_by": ["paper_2014_generative_adversarial_nets"],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2012_alexnet_imagenet"],
+  "related_concepts": ["concept_convolutional_neural_networks", "concept_backpropagation"],
+  "impact": "ResNet is one of the most cited papers in computer science history. Its skip connections solved the fundamental problem of training very deep networks and were later incorporated into the Transformer architecture, making ResNet an intellectual ancestor of every modern LLM.",
+  "query_hooks": [
+    "What are skip connections?",
+    "How do residual networks work?",
+    "What solved the vanishing gradient problem in deep networks?",
+    "When did AI surpass human performance on ImageNet?"
+  ]
+}

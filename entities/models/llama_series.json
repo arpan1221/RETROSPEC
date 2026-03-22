@@ -1,0 +1,27 @@
+{
+  "id": "model_llama_series",
+  "type": "model",
+  "name": "LLaMA Series (LLaMA, LLaMA 2, LLaMA 3)",
+  "organization": "org_meta_ai",
+  "release_date": "2023-02-24",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "7B / 13B / 33B / 65B (LLaMA 1) → 7B / 13B / 70B (LLaMA 2) → 8B / 70B / 405B (LLaMA 3)",
+  "training_approach": "Unsupervised pretraining on publicly available data; LLaMA 2+ added RLHF fine-tuning",
+  "parent_models": ["model_gpt_series"],
+  "child_models": ["model_code_llama", "model_alpaca", "model_vicuna"],
+  "key_innovations": [
+    "Demonstrated that open-weight models trained on public data can match proprietary models",
+    "Showed that smaller models trained on more tokens can outperform larger models trained on fewer tokens",
+    "Catalyzed the open-source LLM ecosystem — spawned hundreds of derivative models",
+    "LLaMA 3 405B approached GPT-4 level performance as a fully open-weight model",
+    "Grouped Query Attention (GQA) for efficient inference in LLaMA 2+"
+  ],
+  "benchmark_highlights": {
+    "MMLU": "68.9% (LLaMA 65B), 86.1% (LLaMA 3 405B)",
+    "HumanEval": "61.6% (LLaMA 3 70B)",
+    "GSM8K": "93.0% (LLaMA 3 405B)"
+  },
+  "lineage_path": "perceptron -> MLP -> RNN -> LSTM -> Transformer -> GPT-1 -> GPT-2 -> GPT-3 -> LLaMA -> LLaMA 2 -> LLaMA 3",
+  "significance": 8,
+  "cultural_impact": "LLaMA democratized access to frontier-class language models. Meta's decision to release model weights under permissive licenses created an explosion of open-source AI development, challenging the closed-model paradigm of OpenAI and Anthropic. The LLaMA ecosystem became the foundation for thousands of fine-tuned models and research projects worldwide."
+}

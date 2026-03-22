@@ -1,0 +1,30 @@
+{
+  "id": "paper_2015_attention_effective_approaches",
+  "type": "paper",
+  "title": "Effective Approaches to Attention-based Neural Machine Translation",
+  "authors": ["person_luong_minh_thang", "person_pham_hieu", "person_manning_christopher"],
+  "date": "2015-08-17",
+  "venue": "EMNLP 2015",
+  "arxiv_id": "1508.04025",
+  "url": "https://arxiv.org/abs/1508.04025",
+  "citation_count_approx": 15000,
+  "epoch": "07_deep_learning_era",
+  "significance": 7,
+  "summary": "Proposed and compared two classes of attention mechanisms for neural machine translation: global attention (attending to all source words) and local attention (attending to a subset of source words). Introduced the general, dot-product, and concat scoring functions for computing attention weights. The dot-product attention variant became the basis for the scaled dot-product attention in the Transformer.",
+  "key_contributions": [
+    "Introduced global and local attention mechanisms as systematic attention variants",
+    "Proposed multiple attention scoring functions including dot-product attention",
+    "Dot-product attention became the foundation of the Transformer's attention mechanism",
+    "Showed that attention mechanisms could be simplified while maintaining or improving performance"
+  ],
+  "preceded_by": [],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2014_seq2seq_attention"],
+  "related_concepts": ["concept_attention_mechanism", "concept_self_attention"],
+  "impact": "This paper systematized attention mechanisms and introduced the dot-product attention scoring function that would later become the core operation of the Transformer. It bridged the gap between Bahdanau's original attention and the self-attention mechanism that powers all modern LLMs.",
+  "query_hooks": [
+    "What types of attention mechanisms exist?",
+    "Where did dot-product attention come from?",
+    "How did attention mechanisms evolve before Transformers?"
+  ]
+}

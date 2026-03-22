@@ -1,0 +1,32 @@
+{
+  "id": "paper_2020_gpt3_paper",
+  "type": "paper",
+  "title": "Language Models are Few-Shot Learners",
+  "authors": ["person_brown_tom", "person_mann_benjamin", "person_ryder_nick", "person_subbiah_melanie", "person_kaplan_jared", "person_dhariwal_prafulla", "person_neelakantan_arvind", "person_shyam_pranav", "person_sastry_girish", "person_askell_amanda"],
+  "date": "2020-05-28",
+  "venue": "NeurIPS 2020",
+  "arxiv_id": "2005.14165",
+  "url": "https://arxiv.org/abs/2005.14165",
+  "citation_count_approx": 30000,
+  "epoch": "08_transformer_age",
+  "significance": 9,
+  "summary": "Introduced GPT-3, a 175-billion parameter autoregressive language model, and demonstrated that scaling model size enables remarkable few-shot, one-shot, and zero-shot learning. By simply providing examples in the prompt (in-context learning), GPT-3 could perform tasks without any gradient updates or fine-tuning. This paper established the scaling paradigm and showed that model size alone could unlock emergent abilities.",
+  "key_contributions": [
+    "Scaled language models to 175B parameters — 100x larger than GPT-2",
+    "Discovered in-context learning: task performance from examples in the prompt alone",
+    "Demonstrated emergent abilities in few-shot, one-shot, and zero-shot settings",
+    "Established scaling laws as the primary driver of language model capability",
+    "Showed that a single model could perform hundreds of NLP tasks without task-specific training"
+  ],
+  "preceded_by": ["paper_2020_scaling_laws_for_neural_lms", "paper_2018_bert_pretraining"],
+  "succeeded_by": ["paper_2022_constitutional_ai"],
+  "related_events": ["evt_2020_gpt3_released"],
+  "related_concepts": ["concept_scaling_laws", "concept_transfer_learning"],
+  "impact": "The GPT-3 paper is one of the most influential AI papers ever published. It demonstrated that scale alone could produce remarkable generalization, established in-context learning as a new paradigm, and directly led to ChatGPT and the generative AI revolution. The paper shifted the entire field toward scaling up models and compute.",
+  "query_hooks": [
+    "What is GPT-3?",
+    "What is in-context learning?",
+    "How does few-shot learning work in language models?",
+    "Why does scaling improve AI capabilities?"
+  ]
+}

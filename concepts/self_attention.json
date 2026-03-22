@@ -1,0 +1,21 @@
+{
+  "id": "concept_self_attention",
+  "type": "concept",
+  "name": "Self-Attention",
+  "summary": "Self-attention is a mechanism where each element in a sequence computes attention weights over all other elements in the same sequence, allowing the model to capture dependencies regardless of distance. Unlike cross-attention (which attends to a different sequence), self-attention operates within a single sequence. In the Transformer, self-attention uses queries, keys, and values derived from the same input, computing scaled dot-product attention scores that determine how much each position attends to every other position. Multi-head self-attention runs multiple attention functions in parallel, allowing the model to attend to different types of relationships simultaneously.",
+  "introduced_date": "2017",
+  "introduced_by": ["person_vaswani_ashish"],
+  "epoch_introduced": "08_transformer_age",
+  "significance": 9,
+  "prerequisites": ["concept_attention_mechanism"],
+  "enables": ["concept_transformer"],
+  "related_papers": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2017_attention_is_all_you_need"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "What is self-attention?",
+    "How does self-attention differ from attention?",
+    "What are queries, keys, and values?",
+    "How do transformers understand context?"
+  ]
+}

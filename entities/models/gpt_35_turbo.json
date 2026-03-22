@@ -1,0 +1,24 @@
+{
+  "id": "model_gpt_35_turbo",
+  "type": "model",
+  "name": "GPT-3.5 Turbo",
+  "organization": "org_openai",
+  "release_date": "2022-11-30",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "Estimated 20B (undisclosed, significantly smaller than GPT-3 175B through distillation)",
+  "training_approach": "Pretraining + supervised fine-tuning + RLHF (Reinforcement Learning from Human Feedback)",
+  "parent_models": ["model_gpt_series"],
+  "child_models": ["model_gpt4"],
+  "key_innovations": [
+    "First model to power ChatGPT — the fastest-growing consumer application in history",
+    "Demonstrated that RLHF alignment could make language models dramatically more useful and safe",
+    "Proved that a well-tuned smaller model could outperform a larger untuned model (GPT-3) in practice",
+    "Established the chat-based interface as the dominant paradigm for AI interaction"
+  ],
+  "benchmark_highlights": {
+    "users": "100 million in 2 months (fastest adoption in history)"
+  },
+  "lineage_path": "Transformer -> GPT-1 -> GPT-2 -> GPT-3 -> InstructGPT -> GPT-3.5 Turbo",
+  "significance": 8,
+  "cultural_impact": "GPT-3.5 Turbo, as the engine behind ChatGPT's launch, triggered the generative AI revolution. Its release on November 30, 2022, is arguably the most consequential product launch in AI history. Within two months it reached 100 million users, forcing every major technology company to accelerate their AI strategies. It made AI a mainstream cultural phenomenon and shifted public discourse about the future of work, education, and creativity."
+}

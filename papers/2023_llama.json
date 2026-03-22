@@ -1,0 +1,32 @@
+{
+  "id": "paper_2023_llama",
+  "type": "paper",
+  "title": "LLaMA: Open and Efficient Foundation Language Models",
+  "authors": ["person_touvron_hugo", "person_lavril_thibaut", "person_izacard_gautier", "person_martinet_xavier", "person_lachaux_marie_anne", "person_lacroix_timothee", "person_roziere_baptiste", "person_goyal_naman", "person_hambro_eric", "person_azhar_faisal"],
+  "date": "2023-02-27",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2302.13971",
+  "url": "https://arxiv.org/abs/2302.13971",
+  "citation_count_approx": 10000,
+  "epoch": "09_generative_explosion",
+  "significance": 8,
+  "summary": "Introduced the LLaMA family of open-weight foundation models ranging from 7B to 65B parameters. Crucially, LLaMA showed that models trained on more tokens (1.4T) at smaller sizes could match or exceed much larger models, with LLaMA-13B outperforming GPT-3 (175B) on most benchmarks. This challenged the prevailing assumption that bigger is always better.",
+  "key_contributions": [
+    "Showed that smaller models trained on more data can outperform larger models",
+    "Trained exclusively on publicly available data, proving proprietary data is not necessary",
+    "LLaMA-13B outperformed GPT-3 (175B) on most benchmarks",
+    "Released model weights enabling open-source LLM research",
+    "Used RMSNorm, SwiGLU activations, and rotary embeddings as architectural improvements"
+  ],
+  "preceded_by": ["paper_2020_gpt3_paper"],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": ["concept_scaling_laws", "concept_transformer"],
+  "impact": "LLaMA catalyzed the open-source AI movement. Within weeks of its release (initially for research only, then widely leaked), hundreds of fine-tuned variants appeared. It proved that competitive language models could be built on public data and spawned an ecosystem that challenged the dominance of proprietary models.",
+  "query_hooks": [
+    "What is LLaMA?",
+    "Can open-source models compete with proprietary ones?",
+    "How did Meta change the AI landscape?",
+    "Do you need more parameters or more data?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "model_vgg",
+  "type": "model",
+  "name": "VGGNet",
+  "organization": "org_oxford_vgg",
+  "release_date": "2014-09-04",
+  "architecture": "deep_convolutional_neural_network",
+  "parameter_count": "138M (VGG-16) → 144M (VGG-19)",
+  "training_approach": "Supervised learning on ImageNet using exclusively small 3x3 convolutional filters stacked to great depth",
+  "parent_models": ["model_alexnet"],
+  "child_models": ["model_resnet"],
+  "key_innovations": [
+    "Showed that network depth with very small (3x3) convolution filters is critical for good performance",
+    "Demonstrated that stacking small filters achieves the same receptive field as larger filters with fewer parameters",
+    "Simple, uniform architecture made VGG easy to understand and replicate",
+    "Became the most widely used feature extractor for transfer learning in computer vision"
+  ],
+  "benchmark_highlights": {
+    "ILSVRC_2014": "2nd place classification (7.3% top-5 error), 1st place localization",
+    "ImageNet_top5_error": "7.3% (VGG-16)"
+  },
+  "lineage_path": "LeNet -> AlexNet -> VGG -> ResNet",
+  "significance": 6,
+  "cultural_impact": "VGGNet demonstrated that depth matters in neural networks and established a simple, repeatable architectural pattern. Its pretrained weights became the de facto starting point for transfer learning in computer vision, used in thousands of research papers and applications. The VGG architecture's simplicity made it an essential teaching tool for understanding deep convolutional networks."
+}

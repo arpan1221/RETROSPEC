@@ -1,0 +1,30 @@
+{
+  "id": "paper_2013_word2vec",
+  "type": "paper",
+  "title": "Efficient Estimation of Word Representations in Vector Space",
+  "authors": ["person_mikolov_tomas", "person_chen_kai", "person_corrado_greg", "person_dean_jeff"],
+  "date": "2013-01-16",
+  "venue": "ICLR 2013 Workshop",
+  "arxiv_id": "1301.3781",
+  "url": "https://arxiv.org/abs/1301.3781",
+  "citation_count_approx": 40000,
+  "epoch": "07_deep_learning_era",
+  "significance": 8,
+  "summary": "Introduced Word2Vec — two efficient architectures (Skip-gram and CBOW) for learning distributed representations of words from large unlabeled text corpora. Showed that the resulting word vectors capture remarkable semantic and syntactic relationships, enabling vector arithmetic like 'king - man + woman = queen'. Word2Vec became the foundation of modern NLP by replacing sparse one-hot encodings with dense, meaningful word embeddings.",
+  "key_contributions": [
+    "Introduced Skip-gram and CBOW architectures for learning word embeddings",
+    "Demonstrated that word vectors capture semantic relationships via linear algebra",
+    "Made training efficient enough to handle billion-word corpora",
+    "Established word embeddings as the standard input representation for NLP"
+  ],
+  "preceded_by": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": [],
+  "related_concepts": ["concept_word_embeddings"],
+  "impact": "Word2Vec transformed NLP by providing pre-trained word representations that captured meaning. It paved the way for transfer learning in NLP and was a conceptual precursor to the contextual embeddings of ELMo, BERT, and GPT.",
+  "query_hooks": [
+    "How do word embeddings work?",
+    "What is Word2Vec?",
+    "How did NLP represent word meaning before transformers?"
+  ]
+}

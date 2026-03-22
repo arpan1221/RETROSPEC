@@ -1,0 +1,30 @@
+{
+  "id": "paper_2014_dropout",
+  "type": "paper",
+  "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+  "authors": ["person_srivastava_nitish", "person_hinton_geoffrey", "person_krizhevsky_alex", "person_sutskever_ilya", "person_salakhutdinov_ruslan"],
+  "date": "2014-06-15",
+  "venue": "Journal of Machine Learning Research (JMLR)",
+  "arxiv_id": null,
+  "url": "https://jmlr.org/papers/v15/srivastava14a.html",
+  "citation_count_approx": 35000,
+  "epoch": "07_deep_learning_era",
+  "significance": 7,
+  "summary": "Formalized dropout as a regularization technique where random neurons are temporarily removed during training. By forcing the network to learn redundant representations, dropout dramatically reduces overfitting. The technique can be interpreted as training an exponential ensemble of sub-networks that share parameters, providing implicit model averaging at test time.",
+  "key_contributions": [
+    "Formalized dropout as a general regularization technique for neural networks",
+    "Showed significant reduction in overfitting across vision, speech, and text tasks",
+    "Provided theoretical interpretation as approximate Bayesian model averaging",
+    "Made training of large neural networks practical without extensive data augmentation"
+  ],
+  "preceded_by": [],
+  "succeeded_by": ["paper_2015_batch_normalization"],
+  "related_events": ["evt_2012_alexnet_imagenet"],
+  "related_concepts": ["concept_backpropagation"],
+  "impact": "Dropout became one of the foundational regularization techniques in deep learning. Along with batch normalization, it enabled the practical training of the large-scale neural networks that power modern AI. The concept influenced later techniques like DropConnect, DropBlock, and stochastic depth.",
+  "query_hooks": [
+    "What is dropout in neural networks?",
+    "How does dropout prevent overfitting?",
+    "What regularization techniques do neural networks use?"
+  ]
+}

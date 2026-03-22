@@ -1,0 +1,21 @@
+{
+  "id": "concept_transformer",
+  "type": "concept",
+  "name": "Transformer Architecture",
+  "summary": "The Transformer is a neural network architecture introduced in 2017 that replaces recurrence entirely with self-attention mechanisms. It processes all positions in a sequence simultaneously, enabling massive parallelization during training. The architecture consists of stacked layers of multi-head self-attention and position-wise feed-forward networks, with residual connections and layer normalization. Transformers are the foundation of virtually every frontier AI model, including GPT, Claude, Gemini, LLaMA, and BERT.",
+  "introduced_date": "2017",
+  "introduced_by": ["person_vaswani_ashish", "person_shazeer_noam", "person_parmar_niki", "person_uszkoreit_jakob", "person_jones_llion", "person_gomez_aidan", "person_kaiser_lukasz", "person_polosukhin_illia"],
+  "epoch_introduced": "08_transformer_age",
+  "significance": 10,
+  "prerequisites": ["concept_attention_mechanism", "concept_self_attention", "concept_backpropagation"],
+  "enables": ["concept_scaling_laws", "concept_chain_of_thought", "concept_rlhf", "concept_constitutional_ai"],
+  "related_papers": ["paper_2017_attention_is_all_you_need"],
+  "related_events": ["evt_2017_attention_is_all_you_need"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "What is a Transformer?",
+    "How do modern AI models work?",
+    "What architecture do LLMs use?",
+    "What replaced RNNs?"
+  ]
+}

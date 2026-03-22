@@ -1,0 +1,32 @@
+{
+  "id": "paper_2016_alphago",
+  "type": "paper",
+  "title": "Mastering the game of Go with deep neural networks and tree search",
+  "authors": ["person_silver_david", "person_huang_aja", "person_maddison_chris", "person_guez_arthur", "person_sifre_laurent", "person_van_den_driessche_george", "person_schrittwieser_julian", "person_antonoglou_ioannis", "person_panneershelvam_veda", "person_lanctot_marc", "person_dieleman_sander", "person_grewe_dominik", "person_nham_john", "person_kalchbrenner_nal", "person_sutskever_ilya", "person_lillicrap_timothy", "person_leach_madeleine", "person_kavukcuoglu_koray", "person_graepel_thore", "person_hassabis_demis"],
+  "date": "2016-01-27",
+  "venue": "Nature",
+  "arxiv_id": null,
+  "url": "https://doi.org/10.1038/nature16961",
+  "citation_count_approx": 20000,
+  "epoch": "07_deep_learning_era",
+  "significance": 9,
+  "summary": "Described AlphaGo, the first computer program to defeat a professional Go player. AlphaGo combined deep convolutional neural networks (for position evaluation and move selection) with Monte Carlo tree search. It defeated European champion Fan Hui 5-0 in October 2015 and world champion Lee Sedol 4-1 in March 2016. Go had been considered a grand challenge for AI due to its enormous search space (10^170 possible positions).",
+  "key_contributions": [
+    "First AI system to defeat a professional Go player — a long-standing grand challenge",
+    "Combined deep neural networks with Monte Carlo tree search in a novel architecture",
+    "Policy network for move selection trained via supervised learning on expert games then reinforcement learning via self-play",
+    "Value network for position evaluation eliminated the need for handcrafted heuristics",
+    "Demonstrated that deep RL could solve problems previously considered decades away"
+  ],
+  "preceded_by": ["paper_2014_generative_adversarial_nets"],
+  "succeeded_by": ["paper_2017_attention_is_all_you_need"],
+  "related_events": [],
+  "related_concepts": ["concept_reinforcement_learning"],
+  "impact": "AlphaGo's victory over Lee Sedol was a watershed moment for AI, comparable to Deep Blue's chess victory. It demonstrated that deep reinforcement learning could master the most complex board game ever devised and reignited global interest in AI capabilities. The match was watched by over 200 million people worldwide.",
+  "query_hooks": [
+    "How did AlphaGo beat humans at Go?",
+    "What is Monte Carlo tree search?",
+    "What was the significance of AlphaGo?",
+    "When did AI master Go?"
+  ]
+}

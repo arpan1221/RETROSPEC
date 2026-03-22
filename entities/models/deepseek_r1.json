@@ -1,0 +1,28 @@
+{
+  "id": "model_deepseek_r1",
+  "type": "model",
+  "name": "DeepSeek-R1",
+  "organization": "org_deepseek",
+  "release_date": "2025-01-20",
+  "architecture": "decoder_only_transformer_moe",
+  "parameter_count": "671B total (37B active per token via MoE)",
+  "training_approach": "Large-scale pretraining followed by reinforcement learning for reasoning without supervised fine-tuning on chain-of-thought data",
+  "parent_models": ["model_deepseek_v3"],
+  "child_models": [],
+  "key_innovations": [
+    "Achieved reasoning performance comparable to OpenAI o1 at a fraction of the training cost (under $6M estimated)",
+    "Used pure reinforcement learning to develop chain-of-thought reasoning without supervised CoT examples",
+    "Demonstrated that MoE architectures with far fewer active parameters can match dense model performance",
+    "Open-weight release under MIT license challenged the assumption that frontier AI requires massive budgets",
+    "Showed emergent self-verification and reflection behaviors from RL training alone"
+  ],
+  "benchmark_highlights": {
+    "AIME_2024": "79.8% (pass@1)",
+    "MATH_500": "97.3%",
+    "Codeforces": "96.3 percentile",
+    "MMLU": "90.8%"
+  },
+  "lineage_path": "Transformer -> GPT -> MoE -> DeepSeek-V2 -> DeepSeek-V3 -> DeepSeek-R1",
+  "significance": 9,
+  "cultural_impact": "DeepSeek-R1 sent shockwaves through the AI industry in January 2025, demonstrating that a Chinese lab could produce frontier reasoning capabilities for under $6M in compute — a fraction of what Western labs spent. The release triggered a stock market selloff in AI chip companies and forced a reassessment of the scaling hypothesis. It proved that algorithmic innovation could substitute for brute-force compute scaling."
+}

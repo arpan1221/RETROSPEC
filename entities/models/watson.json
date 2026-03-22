@@ -1,0 +1,24 @@
+{
+  "id": "model_watson",
+  "type": "model",
+  "name": "IBM Watson",
+  "organization": "org_ibm",
+  "release_date": "2011-02-14",
+  "architecture": "hybrid_nlp_pipeline",
+  "parameter_count": "Not applicable — ensemble of NLP, information retrieval, and machine learning components",
+  "training_approach": "Combination of rule-based NLP, statistical machine learning, and knowledge graph traversal over structured and unstructured data",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "Demonstrated AI could understand natural language questions and retrieve answers from unstructured text",
+    "DeepQA architecture combined over 100 different techniques for answer generation and scoring",
+    "Massively parallel hypothesis generation and evidence-based confidence scoring",
+    "Processed 200 million pages of content including encyclopedias and databases"
+  ],
+  "benchmark_highlights": {
+    "jeopardy": "Defeated champions Ken Jennings and Brad Rutter in February 2011"
+  },
+  "lineage_path": "Expert Systems -> Information Retrieval -> Statistical NLP -> Watson",
+  "significance": 7,
+  "cultural_impact": "Watson's Jeopardy! victory was a landmark public demonstration of AI capabilities, following in the tradition of Deep Blue's chess victory. However, IBM's subsequent commercialization of Watson as an enterprise AI platform largely failed to meet expectations, becoming a cautionary tale about the gap between AI demonstrations and real-world deployment."
+}

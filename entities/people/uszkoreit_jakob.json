@@ -2,7 +2,7 @@
   "id": "person_uszkoreit_jakob",
   "type": "person",
   "name": "Jakob Uszkoreit",
-  "born": null,
+  "born": "1985-01-01",
   "died": null,
   "nationality": "German-American",
   "affiliations": ["org_google", "org_inceptive"],

@@ -2,7 +2,7 @@
   "id": "person_jones_llion",
   "type": "person",
   "name": "Llion Jones",
-  "born": null,
+  "born": "1985-01-01",
   "died": null,
   "nationality": "British",
   "affiliations": ["org_google", "org_sakana_ai"],

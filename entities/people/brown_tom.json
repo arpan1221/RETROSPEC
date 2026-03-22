@@ -2,7 +2,7 @@
   "id": "person_brown_tom",
   "type": "person",
   "name": "Tom Brown",
-  "born": null,
+  "born": "1990-01-01",
   "died": null,
   "nationality": "American",
   "affiliations": ["org_openai"],

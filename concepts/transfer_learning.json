@@ -1,0 +1,21 @@
+{
+  "id": "concept_transfer_learning",
+  "type": "concept",
+  "name": "Transfer Learning",
+  "summary": "Transfer learning is the practice of pre-training a model on a large, general dataset and then fine-tuning it on a smaller, task-specific dataset. The key insight is that features learned during pre-training (language patterns, visual features, etc.) transfer effectively to downstream tasks. In NLP, this paradigm was revolutionized by models like BERT and GPT, which are pre-trained on massive text corpora and fine-tuned for specific applications. Transfer learning dramatically reduced the data and compute needed for individual tasks and became the dominant paradigm in both computer vision (via ImageNet pre-training) and NLP (via language model pre-training).",
+  "introduced_date": "1976",
+  "introduced_by": ["person_stevo_bozinovski"],
+  "epoch_introduced": "06_quiet_revolution",
+  "significance": 8,
+  "prerequisites": ["concept_backpropagation"],
+  "enables": ["concept_transformer", "concept_scaling_laws"],
+  "related_papers": ["paper_2018_bert_pretraining", "paper_2020_gpt3_paper"],
+  "related_events": ["evt_2018_bert_released"],
+  "current_status": "foundational",
+  "query_hooks": [
+    "What is transfer learning?",
+    "Why do we pre-train models?",
+    "How does fine-tuning work?",
+    "Why don't we train models from scratch for every task?"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "model_eliza",
+  "type": "model",
+  "name": "ELIZA",
+  "organization": "org_mit_ai_lab",
+  "release_date": "1966-01-01",
+  "architecture": "pattern_matching_script",
+  "parameter_count": "Not applicable — rule-based pattern matching with approximately 200 rules",
+  "training_approach": "Hand-written pattern matching rules and scripts; no machine learning",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "First program to simulate human-like conversation (first chatbot)",
+    "DOCTOR script simulated a Rogerian psychotherapist using simple pattern matching and reflection",
+    "Demonstrated the ELIZA effect — humans' tendency to attribute understanding to machines that produce seemingly intelligent responses",
+    "Showed that simple rules could create surprisingly convincing conversational behavior"
+  ],
+  "benchmark_highlights": {
+    "note": "Predates formal AI benchmarks; evaluated by human perception of conversational quality"
+  },
+  "lineage_path": "Rule-based systems -> ELIZA -> PARRY -> A.L.I.C.E. -> Modern chatbots",
+  "significance": 6,
+  "cultural_impact": "ELIZA, created by Joseph Weizenbaum at MIT, was the first program many people ever 'talked' to. The ELIZA effect — where users attributed genuine understanding to the program — deeply troubled Weizenbaum himself and led him to become one of AI's earliest critics. ELIZA is the direct ancestor of every chatbot and conversational AI system that followed."
+}

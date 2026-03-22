@@ -1,0 +1,24 @@
+{
+  "id": "model_midjourney",
+  "type": "model",
+  "name": "Midjourney",
+  "organization": "org_midjourney",
+  "release_date": "2022-07-12",
+  "architecture": "diffusion_model",
+  "parameter_count": "Undisclosed",
+  "training_approach": "Diffusion-based image generation with proprietary training on curated aesthetic datasets",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [
+    "Optimized for aesthetic quality and artistic style over photorealism",
+    "Discord-based interface made AI image generation social and accessible",
+    "Iterative version improvements (V1-V6) showed rapid capability gains",
+    "Pioneered the concept of AI as creative collaborator rather than just tool"
+  ],
+  "benchmark_highlights": {
+    "user_base": "Over 16 million users by 2023"
+  },
+  "lineage_path": "DDPM -> CLIP -> Diffusion Models -> Midjourney",
+  "significance": 7,
+  "cultural_impact": "Midjourney became the most popular AI art tool among creative professionals and hobbyists. Its V5 and V6 outputs won art competitions, including the 2022 Colorado State Fair, sparking intense debate about AI authorship and the definition of art. Midjourney demonstrated that AI image generation had crossed the quality threshold for professional creative work."
+}

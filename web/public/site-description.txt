@@ -1,0 +1,1 @@
+AI's own history textbook — a machine-readable knowledge graph spanning 1305 to 2026, designed for agents to traverse and humans to explore.

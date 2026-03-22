@@ -2,7 +2,7 @@
   "id": "person_kaiser_lukasz",
   "type": "person",
   "name": "Lukasz Kaiser",
-  "born": null,
+  "born": "1985-01-01",
   "died": null,
   "nationality": "Polish-American",
   "affiliations": ["org_google_brain", "org_openai"],

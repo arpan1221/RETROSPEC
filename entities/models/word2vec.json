@@ -1,0 +1,24 @@
+{
+  "id": "model_word2vec",
+  "type": "model",
+  "name": "Word2Vec",
+  "organization": "org_google",
+  "release_date": "2013-01-16",
+  "architecture": "shallow_neural_network_embedding",
+  "parameter_count": "Depends on vocabulary size and embedding dimension; typically ~300M for standard configurations",
+  "training_approach": "Self-supervised learning using either Skip-gram (predict context from word) or CBOW (predict word from context) on large text corpora",
+  "parent_models": [],
+  "child_models": ["model_glove", "model_fasttext"],
+  "key_innovations": [
+    "Demonstrated that distributed word representations capture semantic relationships as vector arithmetic (king - man + woman = queen)",
+    "Showed that simple shallow networks trained on massive data produce rich semantic embeddings",
+    "Skip-gram with negative sampling made training efficient enough for billion-word corpora",
+    "Established word embeddings as the standard first layer of NLP systems for years"
+  ],
+  "benchmark_highlights": {
+    "word_analogy": "Demonstrated semantic and syntactic analogies via vector arithmetic"
+  },
+  "lineage_path": "Distributional Semantics -> Neural Language Models (Bengio 2003) -> Word2Vec -> GloVe -> ELMo -> BERT embeddings",
+  "significance": 8,
+  "cultural_impact": "Word2Vec transformed NLP by showing that word meanings could be captured as dense vectors with remarkable algebraic properties. The 'king - man + woman = queen' example became one of the most widely cited demonstrations in AI, making word embeddings intuitive to researchers and the public. Word2Vec laid the conceptual groundwork for the embedding-based approaches that underpin all modern LLMs."
+}

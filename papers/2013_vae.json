@@ -1,0 +1,31 @@
+{
+  "id": "paper_2013_vae",
+  "type": "paper",
+  "title": "Auto-Encoding Variational Bayes",
+  "authors": ["person_kingma_diederik", "person_welling_max"],
+  "date": "2013-12-20",
+  "venue": "ICLR 2014",
+  "arxiv_id": "1312.6114",
+  "url": "https://arxiv.org/abs/1312.6114",
+  "citation_count_approx": 25000,
+  "epoch": "07_deep_learning_era",
+  "significance": 7,
+  "summary": "Introduced the Variational Autoencoder (VAE), a framework for learning latent representations by combining neural network encoders/decoders with variational Bayesian inference. The reparameterization trick made it possible to backpropagate through stochastic sampling, enabling end-to-end training of generative models with principled probabilistic foundations.",
+  "key_contributions": [
+    "Introduced the VAE framework combining variational inference with neural networks",
+    "The reparameterization trick enabled backpropagation through stochastic nodes",
+    "Provided a principled probabilistic framework for generative modeling",
+    "Established the encoder-decoder paradigm for learning meaningful latent spaces"
+  ],
+  "preceded_by": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "succeeded_by": ["paper_2014_generative_adversarial_nets"],
+  "related_events": [],
+  "related_concepts": ["concept_diffusion_models"],
+  "impact": "VAEs established a principled framework for deep generative models that predated and complemented GANs. The latent space concept became central to image generation, drug discovery, and representation learning. VAEs are a direct ancestor of latent diffusion models like Stable Diffusion.",
+  "query_hooks": [
+    "What is a variational autoencoder?",
+    "How do VAEs work?",
+    "What is the reparameterization trick?",
+    "What are generative models?"
+  ]
+}
