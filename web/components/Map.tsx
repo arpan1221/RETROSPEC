@@ -8,6 +8,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { LocationData, EpochId } from "@/lib/types";
 import { useMapState } from "./MapProvider";
 import MapClusters, { INTERACTIVE_LAYER_IDS } from "./MapClusters";
+import FlyoverOverlay from "./FlyoverOverlay";
+import { FLYOVER_STOPS, FlyoverStop, getTotalDuration } from "@/lib/flyover";
 
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
 
@@ -44,8 +46,15 @@ export default function Map({ locations }: MapProps) {
   const [loaded, setLoaded] = useState(false);
   const { activeEpoch, setSelectedLocation } = useMapState();
 
+  // Flyover state
+  const [flyoverActive, setFlyoverActive] = useState(false);
+  const [flyoverStop, setFlyoverStop] = useState<FlyoverStop | null>(null);
+  const [flyoverProgress, setFlyoverProgress] = useState(0);
+  const flyoverAbort = useRef(false);
+
   const handleMapClick = useCallback(
     (e: MapLayerMouseEvent) => {
+      if (flyoverActive) return;
       if (!e.features?.length || !mapRef.current) return;
       const feature = e.features[0];
       const layerId = feature.layer?.id;
@@ -70,7 +79,7 @@ export default function Map({ locations }: MapProps) {
         if (loc) setSelectedLocation(loc);
       }
     },
-    [locations, setSelectedLocation]
+    [locations, setSelectedLocation, flyoverActive]
   );
 
   const handleMouseEnter = useCallback(() => {
@@ -85,9 +94,9 @@ export default function Map({ locations }: MapProps) {
     setLoaded(true);
   }, []);
 
-  // Fly to epoch center of gravity when epoch filter changes
+  // Fly to epoch center when filter changes
   useEffect(() => {
-    if (!mapRef.current || !loaded) return;
+    if (!mapRef.current || !loaded || flyoverActive) return;
     if (!activeEpoch) {
       mapRef.current.flyTo({
         center: [INITIAL_VIEW.longitude, INITIAL_VIEW.latitude],
@@ -103,7 +112,94 @@ export default function Map({ locations }: MapProps) {
       zoom: 3.5,
       duration: 1200,
     });
-  }, [activeEpoch, locations, loaded]);
+  }, [activeEpoch, locations, loaded, flyoverActive]);
+
+  // Run flyover sequence
+  const startFlyover = useCallback(async () => {
+    if (!mapRef.current || !loaded) return;
+    flyoverAbort.current = false;
+    setFlyoverActive(true);
+    setFlyoverProgress(0);
+
+    const totalDuration = getTotalDuration();
+    let elapsed = 0;
+
+    for (let i = 0; i < FLYOVER_STOPS.length; i++) {
+      if (flyoverAbort.current) break;
+
+      const stop = FLYOVER_STOPS[i];
+      setFlyoverStop(stop);
+
+      mapRef.current.flyTo({
+        center: [stop.lng, stop.lat],
+        zoom: stop.zoom,
+        bearing: stop.bearing ?? 0,
+        pitch: stop.pitch ?? 0,
+        duration: stop.duration,
+        essential: true,
+      });
+
+      // Wait for fly animation
+      await new Promise<void>((resolve) => {
+        let waited = 0;
+        const interval = setInterval(() => {
+          waited += 100;
+          elapsed += 100;
+          setFlyoverProgress(Math.min(elapsed / totalDuration, 1));
+          if (waited >= stop.duration || flyoverAbort.current) {
+            clearInterval(interval);
+            resolve();
+          }
+        }, 100);
+      });
+
+      if (flyoverAbort.current) break;
+
+      // Pause at stop
+      await new Promise<void>((resolve) => {
+        let waited = 0;
+        const interval = setInterval(() => {
+          waited += 100;
+          elapsed += 100;
+          setFlyoverProgress(Math.min(elapsed / totalDuration, 1));
+          if (waited >= stop.pause || flyoverAbort.current) {
+            clearInterval(interval);
+            resolve();
+          }
+        }, 100);
+      });
+    }
+
+    setFlyoverActive(false);
+    setFlyoverStop(null);
+    setFlyoverProgress(0);
+
+    if (mapRef.current && !flyoverAbort.current) {
+      mapRef.current.flyTo({
+        center: [INITIAL_VIEW.longitude, INITIAL_VIEW.latitude],
+        zoom: INITIAL_VIEW.zoom,
+        bearing: 0,
+        pitch: 0,
+        duration: 2000,
+      });
+    }
+  }, [loaded]);
+
+  const stopFlyover = useCallback(() => {
+    flyoverAbort.current = true;
+    setFlyoverActive(false);
+    setFlyoverStop(null);
+    setFlyoverProgress(0);
+    if (mapRef.current) {
+      mapRef.current.flyTo({
+        center: [INITIAL_VIEW.longitude, INITIAL_VIEW.latitude],
+        zoom: INITIAL_VIEW.zoom,
+        bearing: 0,
+        pitch: 0,
+        duration: 1500,
+      });
+    }
+  }, []);
 
   return (
     <div className="relative w-full h-full">
@@ -114,6 +210,28 @@ export default function Map({ locations }: MapProps) {
           </p>
         </div>
       )}
+
+      {/* Watch the Story button */}
+      {loaded && !flyoverActive && (
+        <button
+          onClick={startFlyover}
+          className="absolute top-4 left-4 z-20 flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--bg-surface)] border border-[var(--amber)]/30 text-[var(--amber)] text-sm hover:bg-[var(--amber)]/10 transition-colors shadow-lg"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          Watch the Story
+        </button>
+      )}
+
+      {/* Flyover cinematic overlay */}
+      <FlyoverOverlay
+        active={flyoverActive}
+        currentStop={flyoverStop}
+        progress={flyoverProgress}
+        onStop={stopFlyover}
+      />
+
       <MapGL
         ref={mapRef}
         initialViewState={INITIAL_VIEW}
