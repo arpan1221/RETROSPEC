@@ -1,0 +1,20 @@
+{
+  "id": "person_parmar_niki",
+  "type": "person",
+  "name": "Niki Parmar",
+  "born": null,
+  "died": null,
+  "nationality": "Indian-American",
+  "affiliations": ["org_google_brain", "org_essential_ai"],
+  "key_contributions": [
+    "Co-authored \"Attention Is All You Need\" (2017) — introduced the Transformer architecture",
+    "Worked on image generation models at Google Brain",
+    "Co-founded Essential AI with Ashish Vaswani after leaving Google"
+  ],
+  "significance": 6,
+  "influenced_by": ["person_vaswani_ashish"],
+  "influenced": [],
+  "papers": ["paper_2017_attention_is_all_you_need"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Niki Parmar is a co-author of 'Attention Is All You Need' (2017), the paper that introduced the Transformer architecture. At Google Brain, she contributed to research on image generation and attention-based models. After Google, she co-founded Essential AI with fellow Transformer co-author Ashish Vaswani to build enterprise AI products."
+}

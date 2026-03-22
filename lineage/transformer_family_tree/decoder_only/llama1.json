@@ -1,0 +1,23 @@
+{
+  "id": "lineage_llama1",
+  "type": "lineage",
+  "name": "LLaMA",
+  "family": "decoder_only_transformer",
+  "organization": "Meta AI",
+  "year": 2023,
+  "parent": "lineage_transformer",
+  "children": ["lineage_llama2"],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "open_weights_foundation_model",
+    "training_efficiency_on_more_tokens_fewer_params",
+    "rotary_positional_embeddings",
+    "pre_normalization_with_rmsnorm",
+    "swiglu_activation"
+  ],
+  "parameter_count": "7B / 13B / 33B / 65B",
+  "training_approach": "pretraining on 1T-1.4T tokens of publicly available data",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> LLaMA",
+  "significance": 8,
+  "summary": "LLaMA democratized access to large language models by releasing open weights for models ranging from 7B to 65B parameters, showing that smaller models trained on more data could match or exceed much larger proprietary models. Its leak and subsequent open-source proliferation ignited the open-source LLM movement, spawning hundreds of derivative models and fundamentally challenging the closed-source approach of OpenAI and Google."
+}

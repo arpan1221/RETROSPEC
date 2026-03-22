@@ -1,0 +1,25 @@
+{
+  "id": "evt_1958_lisp_created",
+  "type": "event",
+  "title": "John McCarthy Creates LISP",
+  "date": "1958-01-01",
+  "epoch": "02_golden_age",
+  "significance": 8,
+  "summary": "John McCarthy at MIT created LISP (LISt Processing), the second-oldest high-level programming language still in use (after Fortran). LISP introduced revolutionary concepts: recursive functions as a core programming construct, dynamic typing, garbage collection, tree data structures, and the concept of programs as data (homoiconicity). The language was specifically designed for symbolic AI research — for manipulating symbols, lists, and logical expressions rather than numerical data. LISP became the dominant language of AI research for over three decades and spawned an entire ecosystem of dialects, machines, and programming paradigms.",
+  "entities": {
+    "people": ["person_mccarthy_john"],
+    "organizations": ["org_mit"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1956_dartmouth_conference"],
+  "succeeded_by": ["evt_1964_eliza"],
+  "tags": ["programming_language", "symbolic_ai", "lisp", "software", "foundations"],
+  "impact_description": "LISP defined the programming paradigm for AI research for three decades and introduced computer science concepts that influenced virtually every modern programming language. Garbage collection (now in Java, Python, Go), dynamic typing (Python, Ruby, JavaScript), and first-class functions (JavaScript, Python, Rust) all trace back to LISP. The language was so central to AI that dedicated LISP machines were built in the 1980s, and its decline paralleled the decline of symbolic AI itself.",
+  "counterfactual": "Without LISP, early AI research would have been constrained to languages designed for numerical computation like Fortran. The symbolic AI paradigm might have developed more slowly or differently without a language purpose-built for symbol manipulation. Many foundational programming concepts that LISP pioneered might have been invented later or not at all, potentially altering the trajectory of computer science beyond just AI.",
+  "query_hooks": [
+    "What programming language was used for early AI?",
+    "Who created LISP?",
+    "What programming concepts did AI research pioneer?",
+    "Why was LISP important to AI?"
+  ]
+}

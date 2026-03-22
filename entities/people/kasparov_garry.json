@@ -1,0 +1,22 @@
+{
+  "id": "person_kasparov_garry",
+  "type": "person",
+  "name": "Garry Kasparov",
+  "born": "1963-04-13",
+  "died": null,
+  "nationality": "Russian-Croatian",
+  "affiliations": [],
+  "key_contributions": [
+    "World Chess Champion from 1985 to 2000",
+    "Defeated by IBM's Deep Blue in a six-game match in 1997 — a landmark moment in AI history",
+    "The Deep Blue defeat became a cultural symbol of machine intelligence surpassing human expertise",
+    "Became an advocate for human-AI collaboration (\"Advanced Chess\" / \"Centaur Chess\")",
+    "Authored \"Deep Thinking\" (2017) reflecting on the implications of AI"
+  ],
+  "significance": 6,
+  "influenced_by": [],
+  "influenced": [],
+  "papers": [],
+  "epoch_active": "06_quiet_revolution",
+  "summary": "Garry Kasparov was the reigning World Chess Champion when IBM's Deep Blue defeated him in a six-game match in May 1997. This event became one of the most iconic moments in AI history — the first time a computer defeated a reigning world champion at chess under tournament conditions. While Deep Blue used brute-force search rather than machine learning, the cultural impact was enormous, demonstrating to the public that machines could outperform humans at tasks requiring deep strategic thinking. Kasparov later became an advocate for human-AI collaboration rather than competition."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "org_university_of_manchester",
+  "type": "organization",
+  "name": "University of Manchester",
+  "founded": "1824-01-01",
+  "founders": [],
+  "headquarters": "Manchester, UK",
+  "org_type": "university",
+  "key_models": [],
+  "key_papers": ["paper_1950_computing_machinery_and_intelligence"],
+  "significance": 6,
+  "summary": "The University of Manchester holds a foundational place in both computing and AI history. Alan Turing joined the university in 1948, where he worked on the Manchester Mark 1 — one of the world's first stored-program computers — and wrote his landmark 1950 paper 'Computing Machinery and Intelligence,' which posed the question 'Can machines think?' and proposed the Turing Test. The university was also home to the Manchester Baby (1948), the world's first stored-program computer to run a program. Turing's work at Manchester laid the philosophical and computational groundwork for the entire field of artificial intelligence."
+}

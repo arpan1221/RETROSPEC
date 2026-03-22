@@ -1,0 +1,22 @@
+{
+  "id": "lineage_ddpm",
+  "type": "lineage",
+  "name": "Denoising Diffusion Probabilistic Model (DDPM)",
+  "family": "diffusion_model",
+  "organization": "UC Berkeley (Ho, Jain, Abbeel)",
+  "year": 2020,
+  "parent": null,
+  "children": ["lineage_stable_diffusion"],
+  "architecture": "diffusion_model",
+  "key_innovations": [
+    "simplified_denoising_diffusion_training",
+    "connection_to_score_matching",
+    "iterative_refinement_generation",
+    "high_quality_unconditional_image_generation"
+  ],
+  "parameter_count": "variable (UNet backbone)",
+  "training_approach": "train neural network to reverse a gradual noising process via simplified variational bound",
+  "lineage_path": "Thermodynamic diffusion (Sohl-Dickstein 2015) -> DDPM",
+  "significance": 8,
+  "summary": "DDPM revived and simplified diffusion-based generative models by showing that a straightforward training objective (predicting noise added at each step) could generate images rivaling GANs in quality without their training instability. Building on Sohl-Dickstein's 2015 thermodynamic diffusion framework, Ho, Jain, and Abbeel at UC Berkeley demonstrated that iterative denoising could produce high-fidelity samples, launching the diffusion model revolution that would power Stable Diffusion, DALL-E 2, and Midjourney."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "evt_1966_shakey",
+  "type": "event",
+  "title": "SRI International Begins Development of Shakey the Robot",
+  "date": "1966-01-01",
+  "epoch": "02_golden_age",
+  "significance": 6,
+  "summary": "SRI International began development of Shakey, the first general-purpose mobile robot capable of reasoning about its own actions. Shakey could perceive its environment through a TV camera, navigate rooms, push objects, and plan multi-step actions to achieve goals. It integrated computer vision, natural language understanding, route planning, and physical manipulation into a single system. Shakey's planning system, STRIPS (Stanford Research Institute Problem Solver), became one of the most influential AI planning algorithms ever developed and remains the foundation of automated planning to this day.",
+  "entities": {
+    "people": ["person_nilsson_nils", "person_fikes_richard"],
+    "organizations": ["org_sri_international"],
+    "models_spawned": ["model_shakey"]
+  },
+  "preceded_by": ["evt_1964_eliza"],
+  "succeeded_by": ["evt_1969_perceptrons_book"],
+  "tags": ["robotics", "planning", "computer_vision", "embodied_ai", "strips"],
+  "impact_description": "Shakey was the first robot to integrate perception, planning, and action — the template for all autonomous robots that followed. STRIPS became the foundational algorithm for AI planning and influenced every subsequent planning system. The project demonstrated both the promise and limitations of classical AI: Shakey could reason and plan, but operated painfully slowly in a simplified block-world environment, highlighting the gap between laboratory demonstrations and real-world capability.",
+  "counterfactual": "Without Shakey, the field of autonomous robotics would have lacked its founding demonstration. STRIPS' influence on AI planning was so profound that planning research might have developed along fundamentally different lines. The concept of an integrated perceive-plan-act loop, which Shakey pioneered, remains the core architecture of modern autonomous systems from self-driving cars to warehouse robots.",
+  "query_hooks": [
+    "What was the first autonomous robot?",
+    "What is the STRIPS planning algorithm?",
+    "How did AI robotics begin?",
+    "What was Shakey the Robot?"
+  ]
+}

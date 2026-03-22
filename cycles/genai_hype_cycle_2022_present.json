@@ -1,0 +1,60 @@
+{
+  "id": "cycle_genai_hype_cycle_2022_present",
+  "type": "cycle",
+  "name": "Generative AI Hype Cycle",
+  "cycle_type": "hype",
+  "date_start": "2022-11-30",
+  "date_end": "2026-03-22",
+  "duration_years": 3.3,
+  "summary": "The Generative AI Hype Cycle is the most intense and rapid technology investment cycle in modern history, triggered by the launch of ChatGPT on November 30, 2022. OpenAI's conversational interface to GPT-3.5 reached 100 million users within two months — the fastest adoption of any consumer technology ever, surpassing TikTok (9 months) and Instagram (2.5 years). The public's sudden ability to interact with a large language model through natural conversation created a Cambrian explosion of investment, products, and cultural anxiety. Within months, Microsoft invested $10B+ in OpenAI, Google declared a 'code red' and rushed Bard (later Gemini) to market, Meta released LLaMA to the open-source community, and Anthropic raised billions to build Claude as a safety-focused alternative. Image generation models — DALL-E 2, Stable Diffusion, Midjourney — demonstrated that AI could produce photorealistic images from text descriptions, terrifying creative industries. By 2024, investment in generative AI exceeded $100B annually. Every major corporation launched AI initiatives. The talent war for ML engineers drove compensation to $500K-$1M+ for senior researchers. NVIDIA's market cap tripled as GPU demand outstripped supply. Yet the cycle carries unmistakable signs of hype: many enterprise deployments fail to reach production, hallucination remains an unsolved problem for mission-critical applications, the cost of running frontier models is staggering, and public discourse oscillates between utopian (AGI will solve everything) and dystopian (AI will destroy all jobs) extremes. Crucially, however, this hype cycle differs from the expert systems bubble in one fundamental way: the underlying technology demonstrably works. LLMs can write code, translate languages, summarize documents, and engage in complex reasoning at a level that genuinely augments human productivity. The question is not whether generative AI is real — it is — but whether the pace and scale of investment are proportionate to the near-term returns.",
+  "trigger_signals": [
+    "ChatGPT reached 100 million users in 2 months, the fastest consumer technology adoption in history",
+    "Microsoft's $10B+ investment in OpenAI legitimized generative AI as a strategic platform bet",
+    "DALL-E 2, Stable Diffusion, and Midjourney demonstrated photorealistic image generation from text, capturing public imagination",
+    "Google's internal 'code red' response and rushed launch of Bard signaled that Big Tech viewed GenAI as an existential competitive threat",
+    "Open-source release of LLaMA by Meta democratized access to frontier-class language models"
+  ],
+  "peak_indicators": [
+    "Global generative AI investment exceeded $100B annually by 2024, with projections of $200B+ by 2026",
+    "NVIDIA's market capitalization surpassed $3T, making it periodically the world's most valuable company",
+    "Senior ML engineer compensation reached $500K-$1M+ at frontier labs, with signing bonuses exceeding $5M for top researchers",
+    "Every Fortune 500 company announced AI strategies; 'AI' appeared in over 60% of S&P 500 earnings calls by Q4 2024"
+  ],
+  "collapse_factors": [
+    "Enterprise 'AI pilot purgatory': Gartner estimated that over 70% of corporate generative AI pilots fail to reach production deployment",
+    "Hallucination and factual unreliability prevent deployment in legal, medical, financial, and safety-critical domains without extensive human oversight",
+    "Frontier model training costs approaching $1B-$10B per run, with unclear paths to proportionate revenue returns",
+    "Energy consumption of AI data centers projected to rival small nations, creating political and environmental backlash",
+    "Regulatory uncertainty: EU AI Act, potential US federal regulation, and copyright lawsuits create compliance risks"
+  ],
+  "recovery_factors": [
+    "Unlike expert systems, LLMs demonstrably work: code generation, translation, summarization, and analysis provide measurable productivity gains",
+    "Open-source ecosystem (LLaMA, Mistral, Qwen, Gemma) ensures continued access to capable models regardless of market corrections",
+    "AI-native companies (not just AI-adjacent) are generating real revenue: GitHub Copilot, Cursor, and similar tools have paying customers",
+    "Agentic AI and autonomous workflows represent a genuine next frontier that could justify current infrastructure investment"
+  ],
+  "funding_impact": "The generative AI hype cycle has produced the largest technology investment surge since the dot-com era. OpenAI raised over $20B in cumulative funding by 2025. Anthropic raised over $10B. Inflection, Cohere, Mistral, and dozens of other startups raised billions more. Microsoft, Google, Amazon, and Meta each committed $30-60B+ annually in AI-related capital expenditure. Total global AI investment in 2025 exceeded $300B. However, revenue remains heavily concentrated: the majority of actual GenAI revenue flows to a handful of companies (OpenAI, Microsoft, Google, NVIDIA), while thousands of AI startups remain pre-revenue or unprofitable.",
+  "lessons_learned": [
+    "Consumer virality (ChatGPT's 100M users) can trigger investment cycles faster and larger than any previous technology wave — speed of adoption is a new variable in hype dynamics",
+    "The 'technology demonstrably works' factor is necessary but not sufficient to prevent a correction — expert systems also worked in demos; what matters is reliable, cost-effective production deployment",
+    "Open-source release (LLaMA) permanently altered the competitive landscape, making it impossible to contain capabilities within a few labs — this is a structural change from all previous AI cycles",
+    "The oscillation between utopian and dystopian public narratives (AGI salvation vs. job apocalypse) mirrors the pattern of every previous technology hype cycle, from railways to the internet"
+  ],
+  "related_epochs": [
+    "09_generative_explosion",
+    "10_agentic_era"
+  ],
+  "related_events": [
+    "evt_2022_chatgpt_launch",
+    "evt_2023_gpt4_released",
+    "evt_2024_eu_ai_act"
+  ],
+  "warning_signs_for_current": "This entry IS the current cycle, so the warning signs are observations rather than historical parallels. As of early 2026, the following patterns warrant careful monitoring: (1) The gap between investment ($300B+/year) and AI-specific revenue (estimated $50-80B/year) is widening, not narrowing — this is the classic pre-correction signature. (2) Enterprise deployment failure rates remain high, and 'AI fatigue' is emerging in corporate boardrooms as pilots fail to deliver promised ROI. (3) The energy and compute requirements of frontier models are scaling faster than efficiency gains, creating a potential physical bottleneck. (4) Public sentiment is beginning to fragment, with growing backlash over job displacement, copyright issues, and deepfakes. (5) However, critical differences from previous busts include: the technology genuinely works, the investment base is the world's most profitable companies (not speculative startups or government grants), and the open-source ecosystem provides a floor of capability that cannot be defunded. The most likely scenario is not a 'winter' but a 'correction' — a rationalization of investment toward proven use cases, consolidation of startups, and a recalibration of timelines for AGI and autonomous agents.",
+  "significance": 8,
+  "query_hooks": [
+    "Are we in an AI bubble?",
+    "How does the current AI hype compare to previous cycles?",
+    "What could cause another AI winter?",
+    "Is generative AI investment sustainable?"
+  ]
+}

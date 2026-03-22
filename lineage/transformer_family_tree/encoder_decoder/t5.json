@@ -1,0 +1,22 @@
+{
+  "id": "lineage_t5",
+  "type": "lineage",
+  "name": "T5",
+  "family": "encoder_decoder_transformer",
+  "organization": "Google Research",
+  "year": 2019,
+  "parent": "lineage_transformer",
+  "children": ["lineage_mt5", "lineage_flan_t5"],
+  "architecture": "encoder_decoder_transformer",
+  "key_innovations": [
+    "text_to_text_framework_for_all_nlp_tasks",
+    "systematic_study_of_transfer_learning",
+    "c4_colossal_clean_crawled_corpus",
+    "unified_input_output_format"
+  ],
+  "parameter_count": "60M (Small) / 220M (Base) / 770M (Large) / 3B (XL) / 11B (XXL)",
+  "training_approach": "self-supervised pretraining with span corruption on C4 corpus",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> T5",
+  "significance": 8,
+  "summary": "T5 (Text-to-Text Transfer Transformer) unified all NLP tasks into a single text-to-text format, treating every problem from translation to classification as generating text from text. The accompanying paper systematically explored transfer learning approaches, pretraining objectives, and scaling strategies, producing one of the most comprehensive empirical studies in NLP history. Its C4 dataset and text-to-text paradigm influenced the design of subsequent models."
+}

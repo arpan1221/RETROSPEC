@@ -1,0 +1,22 @@
+{
+  "id": "person_lighthill_james",
+  "type": "person",
+  "name": "Sir James Lighthill",
+  "born": "1924-01-23",
+  "died": "1998-07-17",
+  "nationality": "British",
+  "affiliations": ["org_university_of_cambridge", "org_royal_society"],
+  "key_contributions": [
+    "Authored the Lighthill Report (1973) — a devastating critique of AI research in the UK",
+    "The report concluded that AI had failed to deliver on its promises and recommended severe funding cuts",
+    "Directly triggered the first AI winter in the UK and influenced funding decisions worldwide",
+    "Distinguished mathematician and Lucasian Professor of Mathematics at Cambridge",
+    "His critique focused on the failure of combinatorial explosion approaches and lack of generalization"
+  ],
+  "significance": 6,
+  "influenced_by": [],
+  "influenced": [],
+  "papers": [],
+  "epoch_active": "03_first_winter",
+  "summary": "Sir James Lighthill was a distinguished British mathematician who authored the Lighthill Report in 1973, commissioned by the UK Science Research Council. The report delivered a withering assessment of AI research, concluding that the field had failed to achieve its ambitious goals and that most AI systems could not generalize beyond toy problems. The report led to the near-complete collapse of AI funding in the UK and contributed to the broader first AI winter (1974-1980). Lighthill's critique was technically sound regarding the limitations of 1970s approaches, but its sweeping conclusions set back neural network and machine learning research for years."
+}

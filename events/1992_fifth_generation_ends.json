@@ -1,0 +1,25 @@
+{
+  "id": "evt_1992_fifth_generation_ends",
+  "type": "event",
+  "title": "Japan's Fifth Generation Computer Project Officially Ends",
+  "date": "1992-06-01",
+  "epoch": "05_second_winter",
+  "significance": 7,
+  "summary": "Japan's Ministry of International Trade and Industry (MITI) officially concluded the Fifth Generation Computer Systems (FGCS) project after spending approximately 57 billion yen (~$400M USD) over ten years. Launched in 1982 with the ambitious goal of creating massively parallel computers that could perform knowledge-based reasoning, the project failed to achieve its primary objectives. The parallel inference machines worked but found no market. The knowledge representation and natural language processing goals proved far beyond reach. The project's failure was a major international embarrassment and deepened the Second AI Winter globally.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_miti", "org_icot"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1981_fifth_generation_project"],
+  "succeeded_by": ["evt_1993_connectionist_revival"],
+  "tags": ["ai_winter", "government_project", "failure", "japan", "parallel_computing", "knowledge_representation"],
+  "impact_description": "The Fifth Generation Project's failure demonstrated that massive government funding could not brute-force AI breakthroughs through hardware and logic programming alone. It discredited top-down, government-directed AI research strategies for decades. The project's emphasis on Prolog and logic programming was overtaken by the statistical and neural network approaches that would dominate the next era. Japan's AI research community did not fully recover its international standing until the 2020s.",
+  "counterfactual": "If the Fifth Generation Project had succeeded, Japan might have become the world leader in AI, and logic programming / symbolic AI might have remained dominant. The US might have faced a 'Sputnik moment' in computing. Instead, the project's failure reinforced the narrative that AI was overhyped, contributing to reduced global funding for AI research throughout the early 1990s.",
+  "query_hooks": [
+    "What was Japan's Fifth Generation Computer Project?",
+    "Has government-funded AI research failed before?",
+    "Why did the Fifth Generation Project fail?",
+    "What role did Japan play in AI history?"
+  ]
+}

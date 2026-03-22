@@ -1,0 +1,22 @@
+{
+  "id": "lineage_gru",
+  "type": "lineage",
+  "name": "Gated Recurrent Unit (GRU)",
+  "family": "recurrent_neural_network",
+  "organization": "Universit\u00e9 de Montr\u00e9al (Cho et al.)",
+  "year": 2014,
+  "parent": "lineage_rnn",
+  "children": [],
+  "architecture": "gated_recurrent_neural_network",
+  "key_innovations": [
+    "simplified_gating_mechanism",
+    "merged_cell_and_hidden_state",
+    "reset_and_update_gates_only",
+    "fewer_parameters_than_lstm"
+  ],
+  "parameter_count": "variable",
+  "training_approach": "backpropagation through time (BPTT)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> GRU",
+  "significance": 6,
+  "summary": "The Gated Recurrent Unit simplified the LSTM architecture by merging the cell state and hidden state and using only two gates (reset and update) instead of three. Proposed by Cho et al. at Universit\u00e9 de Montr\u00e9al in 2014, it achieved comparable performance to LSTM on many tasks with fewer parameters and faster training, demonstrating that simpler gating mechanisms could be equally effective for many sequence modeling problems."
+}

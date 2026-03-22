@@ -1,0 +1,13 @@
+{
+  "id": "org_university_of_montreal",
+  "type": "organization",
+  "name": "Universite de Montreal",
+  "founded": "1878-01-01",
+  "founders": [],
+  "headquarters": "Montreal, Canada",
+  "org_type": "university",
+  "key_models": [],
+  "key_papers": ["paper_2014_generative_adversarial_nets", "paper_2014_attention_nmt"],
+  "significance": 7,
+  "summary": "The Universite de Montreal is Yoshua Bengio's home institution and the birthplace of MILA, one of the world's leading deep learning research centers. Through Bengio's decades-long tenure, the university became a global hub for neural network research, particularly in areas such as attention mechanisms, generative adversarial networks, and representation learning. Dzmitry Bahdanau invented the attention mechanism here in 2014 as Bengio's student, and Ian Goodfellow introduced GANs here the same year. The university's role in maintaining and advancing deep learning research through periods of broader skepticism was critical to the field's eventual explosion."
+}

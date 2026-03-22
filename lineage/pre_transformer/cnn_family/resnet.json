@@ -1,0 +1,23 @@
+{
+  "id": "lineage_resnet",
+  "type": "lineage",
+  "name": "ResNet",
+  "family": "convolutional_neural_network",
+  "organization": "Microsoft Research (He et al.)",
+  "year": 2015,
+  "parent": "lineage_vgg",
+  "children": ["lineage_efficientnet"],
+  "architecture": "residual_convolutional_neural_network",
+  "key_innovations": [
+    "skip_connections_residual_learning",
+    "enabled_training_of_very_deep_networks_152_layers",
+    "batch_normalization",
+    "identity_mappings_for_gradient_flow",
+    "won_imagenet_2015_surpassing_human_level"
+  ],
+  "parameter_count": "25.6M (ResNet-50) / 60M (ResNet-152)",
+  "training_approach": "supervised training on ImageNet",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> LeNet -> AlexNet -> VGGNet -> ResNet",
+  "significance": 8,
+  "summary": "ResNet introduced skip connections (residual learning) that allowed training of networks over 150 layers deep by providing shortcut paths for gradient flow. It won the 2015 ImageNet competition with superhuman accuracy and the skip connection concept became one of the most influential architectural innovations in deep learning, later adopted by transformers and virtually every deep architecture. ResNet proved that the degradation problem in very deep networks was solvable through residual learning."
+}

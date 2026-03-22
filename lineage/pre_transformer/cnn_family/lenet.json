@@ -1,0 +1,22 @@
+{
+  "id": "lineage_lenet",
+  "type": "lineage",
+  "name": "LeNet",
+  "family": "convolutional_neural_network",
+  "organization": "AT&T Bell Labs (LeCun et al.)",
+  "year": 1998,
+  "parent": null,
+  "children": ["lineage_alexnet"],
+  "architecture": "convolutional_neural_network",
+  "key_innovations": [
+    "convolutional_layers_for_spatial_feature_extraction",
+    "pooling_layers_for_spatial_invariance",
+    "end_to_end_trainable_with_backpropagation",
+    "practical_handwritten_digit_recognition"
+  ],
+  "parameter_count": "~60K",
+  "training_approach": "supervised training with backpropagation on MNIST handwritten digits",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> LeNet",
+  "significance": 8,
+  "summary": "LeNet-5, designed by Yann LeCun at AT&T Bell Labs, was the first convolutional neural network to achieve practical success, deployed for reading handwritten zip codes on US mail. It established the foundational CNN architecture pattern of alternating convolutional and pooling layers followed by fully connected layers, proving that learned spatial feature hierarchies could outperform hand-engineered features. LeNet laid dormant for over a decade before the deep learning revolution vindicated its approach."
+}

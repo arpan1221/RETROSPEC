@@ -1,0 +1,21 @@
+{
+  "id": "person_rumelhart_david",
+  "type": "person",
+  "name": "David Rumelhart",
+  "born": "1942-06-12",
+  "died": "2011-03-13",
+  "nationality": "American",
+  "affiliations": ["org_ucsd", "org_stanford"],
+  "key_contributions": [
+    "Co-authored the seminal 1986 Nature paper \"Learning representations by back-propagating errors\" with Hinton and Williams",
+    "Popularized backpropagation as a practical training method for multi-layer neural networks",
+    "Co-edited \"Parallel Distributed Processing\" (1986) — the bible of connectionism",
+    "Developed the connectionist framework for understanding cognition"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_minsky_marvin", "person_rosenblatt_frank"],
+  "influenced": ["person_hinton_geoffrey", "person_lecun_yann"],
+  "papers": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "epoch_active": "06_quiet_revolution",
+  "summary": "David Rumelhart was a cognitive scientist whose 1986 Nature paper with Hinton and Williams, 'Learning representations by back-propagating errors,' revived neural network research after the devastation of the first AI winter. By demonstrating that backpropagation could train multi-layer networks to learn useful internal representations, Rumelhart helped rescue connectionism from the graveyard to which Minsky and Papert's 'Perceptrons' critique had consigned it. His co-edited volumes 'Parallel Distributed Processing' became foundational texts for an entire generation of neural network researchers."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lineage_albert",
+  "type": "lineage",
+  "name": "ALBERT",
+  "family": "encoder_only_transformer",
+  "organization": "Google Research",
+  "year": 2019,
+  "parent": "lineage_bert",
+  "children": [],
+  "architecture": "encoder_only_transformer",
+  "key_innovations": [
+    "factorized_embedding_parameterization",
+    "cross_layer_parameter_sharing",
+    "sentence_order_prediction_replacing_nsp",
+    "dramatically_reduced_parameter_count"
+  ],
+  "parameter_count": "12M (Base) / 18M (Large) / 235M (xxLarge)",
+  "training_approach": "self-supervised pretraining with MLM and sentence order prediction",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BERT -> ALBERT",
+  "significance": 6,
+  "summary": "ALBERT (A Lite BERT) addressed BERT's memory consumption and training speed by introducing factorized embedding parameterization and cross-layer parameter sharing, reducing parameters by up to 89% while maintaining competitive performance. It replaced next sentence prediction with sentence order prediction and proved that parameter efficiency was a viable path for scaling encoder-only models."
+}

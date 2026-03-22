@@ -1,0 +1,23 @@
+{
+  "id": "lineage_mixtral_moe",
+  "type": "lineage",
+  "name": "Mixtral 8x7B (MoE)",
+  "family": "mixture_of_experts",
+  "organization": "Mistral AI",
+  "year": 2023,
+  "parent": "lineage_switch_transformer",
+  "children": [],
+  "architecture": "sparse_mixture_of_experts_transformer",
+  "key_innovations": [
+    "open_weights_sparse_moe_at_frontier_quality",
+    "8_experts_2_active_per_token",
+    "efficient_routing_for_consumer_deployment",
+    "competitive_with_llama2_70b_and_gpt35",
+    "sliding_window_attention"
+  ],
+  "parameter_count": "46.7B total (12.9B active per token)",
+  "training_approach": "pretraining with 8 sparse expert groups, top-2 routing per token",
+  "lineage_path": "MoE concept (Jacobs 1991) -> Sparsely-Gated MoE (Shazeer 2017) -> Switch Transformer -> Mixtral 8x7B",
+  "significance": 7,
+  "summary": "Mixtral 8x7B was the first open-weights sparse MoE model to achieve frontier-quality results, matching LLaMA 2 70B and GPT-3.5 while using only 12.9B active parameters per token out of 46.7B total. Released by Mistral AI, it proved that sparse MoE could be practically deployed in open-source settings with dramatic efficiency gains, accelerating adoption of expert routing across the industry and validating MoE as the path forward for efficient scaling."
+}

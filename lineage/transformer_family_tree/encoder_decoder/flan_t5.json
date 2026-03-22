@@ -1,0 +1,22 @@
+{
+  "id": "lineage_flan_t5",
+  "type": "lineage",
+  "name": "Flan-T5",
+  "family": "encoder_decoder_transformer",
+  "organization": "Google Research",
+  "year": 2022,
+  "parent": "lineage_t5",
+  "children": [],
+  "architecture": "encoder_decoder_transformer",
+  "key_innovations": [
+    "instruction_finetuning_at_scale",
+    "1836_finetuning_tasks",
+    "chain_of_thought_finetuning",
+    "improved_zero_shot_and_few_shot_performance"
+  ],
+  "parameter_count": "80M (Small) / 250M (Base) / 780M (Large) / 3B (XL) / 11B (XXL)",
+  "training_approach": "T5 pretrained model + instruction finetuning on 1,836 tasks with chain-of-thought data",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> T5 -> Flan-T5",
+  "significance": 7,
+  "summary": "Flan-T5 applied instruction finetuning to T5 across 1,836 tasks with chain-of-thought examples, dramatically improving zero-shot and few-shot performance. It proved that instruction tuning was a general technique that improved models across scales, and that including chain-of-thought reasoning data in finetuning improved performance on reasoning tasks. Flan-T5 became one of the most popular open-source instruction-following models."
+}

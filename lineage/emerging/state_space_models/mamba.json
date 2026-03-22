@@ -1,0 +1,23 @@
+{
+  "id": "lineage_mamba",
+  "type": "lineage",
+  "name": "Mamba",
+  "family": "state_space_model",
+  "organization": "Carnegie Mellon / Princeton (Gu & Dao)",
+  "year": 2023,
+  "parent": "lineage_s4",
+  "children": [],
+  "architecture": "selective_state_space_model",
+  "key_innovations": [
+    "input_dependent_selective_state_spaces",
+    "hardware_aware_parallel_scan",
+    "linear_time_inference",
+    "competitive_with_transformers_on_language",
+    "no_attention_mechanism_required"
+  ],
+  "parameter_count": "130M / 370M / 790M / 1.4B / 2.8B",
+  "training_approach": "pretraining on language data with selective state space layers",
+  "lineage_path": "Classical state space models -> HiPPO -> S4 -> Mamba",
+  "significance": 8,
+  "summary": "Mamba introduced selective state spaces with input-dependent parameters, allowing the model to selectively remember or forget information based on the input, addressing S4's limitation of content-independent dynamics. Developed by Gu and Dao, it achieved transformer-competitive performance on language modeling with linear-time inference scaling, making it the first serious non-attention architecture to challenge transformers on their home turf. Its hardware-aware parallel scan algorithm enabled efficient GPU implementation, sparking a wave of hybrid transformer-SSM architectures."
+}

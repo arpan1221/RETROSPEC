@@ -1,0 +1,22 @@
+{
+  "id": "person_papert_seymour",
+  "type": "person",
+  "name": "Seymour Papert",
+  "born": "1928-02-29",
+  "died": "2016-07-31",
+  "nationality": "South African-American",
+  "affiliations": ["org_mit", "org_mit_ai_lab"],
+  "key_contributions": [
+    "Co-authored \"Perceptrons\" (1969) with Marvin Minsky — demonstrated limitations of single-layer perceptrons",
+    "The \"Perceptrons\" book contributed to the first AI winter by dampening enthusiasm for neural networks",
+    "Created the Logo programming language for children's education",
+    "Pioneered constructionism — the theory that learning happens through building things",
+    "Co-founded the MIT AI Lab with Minsky"
+  ],
+  "significance": 7,
+  "influenced_by": ["person_piaget_jean", "person_minsky_marvin"],
+  "influenced": ["person_hinton_geoffrey"],
+  "papers": ["paper_1969_perceptrons"],
+  "epoch_active": "02_golden_age",
+  "summary": "Seymour Papert was a mathematician, computer scientist, and educator who co-authored 'Perceptrons' (1969) with Marvin Minsky. This book rigorously demonstrated the mathematical limitations of single-layer perceptrons, showing they could not compute simple functions like XOR. While technically correct, the book's conclusions were widely (mis)interpreted as condemning all neural network research, contributing directly to the first AI winter. Papert's legacy is thus paradoxical: he helped trigger the near-death of connectionism, yet the field's eventual resurrection proved far more powerful than what he had critiqued."
+}

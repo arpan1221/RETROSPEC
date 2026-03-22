@@ -1,0 +1,21 @@
+{
+  "id": "person_kaiser_lukasz",
+  "type": "person",
+  "name": "Lukasz Kaiser",
+  "born": null,
+  "died": null,
+  "nationality": "Polish-American",
+  "affiliations": ["org_google_brain", "org_openai"],
+  "key_contributions": [
+    "Co-authored \"Attention Is All You Need\" (2017) — introduced the Transformer architecture",
+    "Key contributor to sequence-to-sequence learning research at Google Brain",
+    "Co-created the Tensor2Tensor library for deep learning research",
+    "Later joined OpenAI to work on reasoning and code generation"
+  ],
+  "significance": 6,
+  "influenced_by": ["person_vaswani_ashish"],
+  "influenced": [],
+  "papers": ["paper_2017_attention_is_all_you_need"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Lukasz Kaiser is a co-author of 'Attention Is All You Need' (2017), the paper that introduced the Transformer architecture. At Google Brain, he made significant contributions to sequence-to-sequence learning and co-created the Tensor2Tensor library, which became widely used for deep learning research. He later joined OpenAI, where he worked on reasoning and code generation capabilities."
+}

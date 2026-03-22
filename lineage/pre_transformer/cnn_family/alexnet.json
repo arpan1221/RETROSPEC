@@ -1,0 +1,23 @@
+{
+  "id": "lineage_alexnet",
+  "type": "lineage",
+  "name": "AlexNet",
+  "family": "convolutional_neural_network",
+  "organization": "University of Toronto (Krizhevsky, Sutskever, Hinton)",
+  "year": 2012,
+  "parent": "lineage_lenet",
+  "children": ["lineage_vgg"],
+  "architecture": "convolutional_neural_network",
+  "key_innovations": [
+    "gpu_training_for_deep_networks",
+    "relu_activation_function",
+    "dropout_regularization",
+    "data_augmentation",
+    "deep_cnn_at_scale"
+  ],
+  "parameter_count": "60M",
+  "training_approach": "supervised training on ImageNet (1.2M images, 1000 classes) using two GPUs",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> LeNet -> AlexNet",
+  "significance": 9,
+  "summary": "AlexNet's dominant victory in the 2012 ImageNet competition (reducing top-5 error by 10.8 percentage points) single-handedly ignited the deep learning revolution. Built by Krizhevsky, Sutskever, and Hinton, it demonstrated that deep CNNs trained on GPUs with ReLU activations and dropout could dramatically outperform all traditional computer vision approaches. This result convinced the entire AI field that deep learning worked, triggering a paradigm shift that led directly to the modern AI era."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "evt_1981_fifth_generation_project",
+  "type": "event",
+  "title": "Japan Launches the Fifth Generation Computer Systems Project",
+  "date": "1981-10-01",
+  "epoch": "04_expert_systems_boom",
+  "significance": 7,
+  "summary": "Japan's Ministry of International Trade and Industry (MITI) announced the Fifth Generation Computer Systems (FGCS) project, a 10-year national initiative to build massively parallel computers optimized for logic programming and artificial intelligence. The project aimed to create machines capable of knowledge-based reasoning, natural language understanding, and intelligent problem-solving, all built on Prolog rather than conventional programming languages. With an initial budget of 57 billion yen (~$400M), the announcement sent shockwaves through the Western technology establishment, triggering fear of Japanese AI dominance and spurring reactive funding from the US (MCC, DARPA Strategic Computing Initiative) and UK (Alvey Programme).",
+  "entities": {
+    "people": [],
+    "organizations": ["org_miti", "org_icot"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1980_xcon_deployed"],
+  "succeeded_by": ["evt_1984_cyc_project", "evt_1992_fifth_generation_ends"],
+  "tags": ["government_project", "japan", "parallel_computing", "logic_programming", "prolog", "competition"],
+  "impact_description": "The Fifth Generation Project was one of the largest government-funded AI initiatives in history and triggered a global AI arms race. Fear of Japanese AI dominance led to massive reactive spending by Western governments and helped end the First AI Winter. However, the project's ultimate failure became a cautionary tale about top-down government AI initiatives and the limits of the logic programming paradigm.",
+  "counterfactual": "Without Japan's Fifth Generation announcement, the reactive Western AI funding that helped end the First AI Winter might not have materialized. DARPA's Strategic Computing Initiative, the UK Alvey Programme, and the US MCC consortium were all direct responses to perceived Japanese AI threat. The expert systems boom might have been smaller and shorter without this geopolitical catalyst.",
+  "query_hooks": [
+    "What was the Fifth Generation Computer Project?",
+    "How did Japan influence AI history?",
+    "What ended the First AI Winter?",
+    "Has there been an AI arms race before?"
+  ]
+}

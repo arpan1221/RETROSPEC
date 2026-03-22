@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_vibe_coding",
+  "type": "event",
+  "title": "Vibe Coding Emerges as a New Software Development Paradigm",
+  "date": "2025-02-15",
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "The term 'vibe coding,' coined by Andrej Karpathy, described a new software development paradigm where developers described what they wanted in natural language and AI agents wrote the implementation. Tools like Cursor, Windsurf, Replit Agent, and Claude Code enabled developers to build complete applications through conversational interaction with AI rather than writing code line by line. The approach dramatically lowered the barrier to software creation, enabling non-programmers to build functional applications and allowing experienced developers to work at significantly higher levels of abstraction.",
+  "entities": {
+    "people": ["person_karpathy_andrej"],
+    "organizations": ["org_cursor", "org_anthropic", "org_replit"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2025_frontier_parity"],
+  "succeeded_by": [],
+  "tags": ["software_development", "coding", "developer_tools", "productivity", "natural_language_programming"],
+  "impact_description": "Vibe coding represented the most significant shift in software development practices since the introduction of high-level programming languages. It compressed the time from idea to working prototype from weeks to hours, accelerated startup formation, and began reshaping software engineering education and hiring practices. The approach also raised important questions about code quality, security, and the long-term maintainability of AI-generated codebases.",
+  "counterfactual": "Without vibe coding tools, the impact of frontier AI models on software development would have been incremental — better autocomplete rather than a paradigm shift. The democratization of software creation to non-programmers would have been delayed, and the explosion of AI-native applications built in 2025 would have been significantly smaller in scope.",
+  "query_hooks": [
+    "What is vibe coding?",
+    "How did AI change software development?",
+    "Who coined the term vibe coding?",
+    "Can non-programmers build software with AI?"
+  ]
+}

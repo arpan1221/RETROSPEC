@@ -1,0 +1,13 @@
+{
+  "id": "org_google_brain",
+  "type": "organization",
+  "name": "Google Brain",
+  "founded": "2011-01-01",
+  "founders": ["person_dean_jeff", "person_ng_andrew", "person_corrado_greg"],
+  "headquarters": "Mountain View, USA",
+  "org_type": "lab",
+  "key_models": ["model_transformer", "model_t5", "model_switch_transformer"],
+  "key_papers": ["paper_2017_attention_is_all_you_need"],
+  "significance": 9,
+  "summary": "Google Brain was a deep learning research lab within Google, founded in 2011 by Jeff Dean, Andrew Ng, and Greg Corrado. It produced the Transformer architecture ('Attention Is All You Need,' 2017), arguably the most consequential innovation in modern AI. Google Brain also created TensorFlow, the most widely used deep learning framework for years, and made pioneering contributions to sequence-to-sequence learning, Mixture of Experts, and large-scale distributed training. In 2023, Google Brain merged with DeepMind to form Google DeepMind. Nearly every frontier AI model in existence traces its architectural lineage to Google Brain's Transformer."
+}

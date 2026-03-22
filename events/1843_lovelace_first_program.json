@@ -1,0 +1,25 @@
+{
+  "id": "evt_1843_lovelace_first_program",
+  "type": "event",
+  "title": "Ada Lovelace Publishes the First Computer Program",
+  "date": "1843-10-01",
+  "epoch": "00_philosophical_roots",
+  "significance": 7,
+  "summary": "Ada Lovelace published her translation of Luigi Menabrea's article on Babbage's Analytical Engine, supplemented with extensive 'Notes' that were three times longer than the original article. Note G contained an algorithm for computing Bernoulli numbers — widely recognized as the first computer program ever written. Crucially, Lovelace went beyond Babbage's vision by recognizing that the Engine could manipulate symbols, not just numbers, writing: 'The Engine might compose elaborate and scientific pieces of music of any degree of complexity or extent.' She also articulated the first known discussion of machine limitations, noting the Engine could only do what it was instructed to do.",
+  "entities": {
+    "people": ["person_lovelace_ada"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1837_babbage_analytical_engine"],
+  "succeeded_by": ["evt_1854_boole_laws_of_thought"],
+  "tags": ["programming", "algorithm", "computation_theory", "origins", "first_program"],
+  "impact_description": "Lovelace established that computation could extend beyond arithmetic to any domain representable by symbols — the conceptual seed of general-purpose computing and, eventually, artificial intelligence. Her observation about machine limitations anticipated debates about AI capabilities that continue to this day. She is universally recognized as the first computer programmer.",
+  "counterfactual": "Without Lovelace's Notes, the insight that computation could extend beyond numbers to symbols and music might have been delayed by decades. The Analytical Engine might have been remembered only as a calculator rather than a general-purpose computing concept. Her articulation of machine limitations also seeded an intellectual tradition that shaped the Turing Test and ongoing AI philosophy.",
+  "query_hooks": [
+    "Who wrote the first computer program?",
+    "What did Ada Lovelace contribute to computing?",
+    "When was the first algorithm written?",
+    "Who first recognized that computers could process symbols, not just numbers?"
+  ]
+}

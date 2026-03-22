@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_frontier_parity",
+  "type": "event",
+  "title": "Frontier AI Models Reach Approximate Parity",
+  "date": "2025-03-15",
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "By early-to-mid 2025, the leading AI labs — OpenAI, Anthropic, Google DeepMind, Meta, and DeepSeek — had converged on roughly comparable capability levels across their frontier models. GPT-4.5/o3, Claude 3.7 Sonnet, Gemini 2.0 Pro, Llama 4, and DeepSeek R1/V3 traded benchmark leads depending on the task. The era of any single model holding a decisive across-the-board advantage had ended. Competition shifted from raw capability to reliability, safety, efficiency, tool use, and specialized domain performance. This parity was unprecedented in AI history, where previous eras had clear capability leaders.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_openai", "org_anthropic", "org_google_deepmind", "org_meta_ai", "org_deepseek"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2025_reasoning_models"],
+  "succeeded_by": ["evt_2025_vibe_coding"],
+  "tags": ["frontier_models", "competition", "parity", "benchmarks", "market_dynamics"],
+  "impact_description": "Frontier parity transformed the AI industry from a capability race to a product and ecosystem race. With no single model holding a decisive advantage, differentiation shifted to developer experience, safety practices, pricing, latency, tool ecosystems, and enterprise features. This commoditization of base capabilities accelerated the focus on agentic applications and vertical AI products built on top of comparable foundation models.",
+  "counterfactual": "If one lab had maintained a decisive capability lead, the AI industry might have consolidated around a single provider, creating a monopolistic dynamic similar to early search engines. Instead, parity fostered a competitive ecosystem with multiple viable providers, driving down costs and accelerating innovation in applications, safety, and agent frameworks.",
+  "query_hooks": [
+    "When did AI models become roughly equivalent?",
+    "Which AI model is the best in 2025?",
+    "How did frontier AI become commoditized?",
+    "Why are there so many competing AI models?"
+  ]
+}

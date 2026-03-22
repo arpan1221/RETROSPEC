@@ -1,0 +1,22 @@
+{
+  "id": "lineage_bert",
+  "type": "lineage",
+  "name": "BERT",
+  "family": "encoder_only_transformer",
+  "organization": "Google AI",
+  "year": 2018,
+  "parent": "lineage_transformer",
+  "children": ["lineage_roberta", "lineage_albert", "lineage_distilbert", "lineage_deberta"],
+  "architecture": "encoder_only_transformer",
+  "key_innovations": [
+    "masked_language_modeling",
+    "next_sentence_prediction",
+    "bidirectional_pretraining",
+    "transfer_learning_for_nlp_via_finetuning"
+  ],
+  "parameter_count": "110M (Base) / 340M (Large)",
+  "training_approach": "self-supervised pretraining with MLM and NSP on BooksCorpus + English Wikipedia",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BERT",
+  "significance": 9,
+  "summary": "BERT revolutionized NLP by introducing bidirectional pretraining via masked language modeling, allowing the model to attend to both left and right context simultaneously. It achieved state-of-the-art results across 11 NLP benchmarks upon release and established the pretrain-then-finetune paradigm that became the dominant approach in NLP, spawning an entire family of encoder-only models and making transfer learning standard practice in the field."
+}

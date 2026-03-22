@@ -1,0 +1,22 @@
+{
+  "id": "person_brown_tom",
+  "type": "person",
+  "name": "Tom Brown",
+  "born": null,
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_openai"],
+  "key_contributions": [
+    "Lead author of \"Language Models are Few-Shot Learners\" (2020) — the GPT-3 paper",
+    "GPT-3 demonstrated that scaling language models to 175B parameters unlocked emergent few-shot learning abilities",
+    "The GPT-3 paper established the scaling paradigm that drove the field toward ever-larger models",
+    "Showed that large language models could perform tasks via in-context learning without fine-tuning",
+    "GPT-3 directly led to ChatGPT and the generative AI explosion"
+  ],
+  "significance": 7,
+  "influenced_by": ["person_sutskever_ilya", "person_vaswani_ashish"],
+  "influenced": [],
+  "papers": ["paper_2020_gpt3_released"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Tom Brown was the lead author of the GPT-3 paper ('Language Models are Few-Shot Learners,' 2020), one of the most influential papers in modern AI. GPT-3 demonstrated that scaling a language model to 175 billion parameters unlocked remarkable few-shot learning abilities — the model could perform tasks it had never been explicitly trained for simply by being given a few examples in the prompt. This result established the scaling paradigm that dominated AI research and directly led to ChatGPT, Claude, and the generative AI revolution."
+}

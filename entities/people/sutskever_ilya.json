@@ -1,0 +1,23 @@
+{
+  "id": "person_sutskever_ilya",
+  "type": "person",
+  "name": "Ilya Sutskever",
+  "born": "1986-01-01",
+  "died": null,
+  "nationality": "Israeli-Canadian",
+  "affiliations": ["org_university_of_toronto", "org_google_brain", "org_openai", "org_ssi"],
+  "key_contributions": [
+    "Co-founded OpenAI in 2015, served as Chief Scientist until 2024",
+    "Co-authored AlexNet with Alex Krizhevsky and Geoffrey Hinton (2012) — sparked the deep learning revolution",
+    "Pioneered sequence-to-sequence learning with neural networks (2014)",
+    "Key architect behind the GPT series scaling strategy at OpenAI",
+    "Co-founded Safe Superintelligence Inc. (SSI) in 2024 after departing OpenAI",
+    "Student of Geoffrey Hinton at the University of Toronto"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_hinton_geoffrey", "person_krizhevsky_alex"],
+  "influenced": ["person_brown_tom"],
+  "papers": ["paper_2012_alexnet_imagenet", "paper_2020_scaling_laws_for_neural_lms"],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Ilya Sutskever is one of the most important figures in modern AI. As a student of Geoffrey Hinton at the University of Toronto, he co-created AlexNet (2012), the convolutional neural network that ignited the deep learning revolution by winning the ImageNet competition by a massive margin. He co-founded OpenAI in 2015 and served as its Chief Scientist, playing a central role in the development of the GPT series and the scaling philosophy that led to GPT-3 and GPT-4. His departure from OpenAI in 2024 and co-founding of Safe Superintelligence Inc. (SSI) signaled a shift toward prioritizing AI safety over rapid capability development."
+}

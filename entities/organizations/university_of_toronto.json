@@ -1,0 +1,13 @@
+{
+  "id": "org_university_of_toronto",
+  "type": "organization",
+  "name": "University of Toronto",
+  "founded": "1827-03-15",
+  "founders": [],
+  "headquarters": "Toronto, Canada",
+  "org_type": "university",
+  "key_models": ["model_alexnet"],
+  "key_papers": ["paper_2012_alexnet_imagenet"],
+  "significance": 8,
+  "summary": "The University of Toronto is one of the most important institutions in the history of deep learning. Geoffrey Hinton's research group at U of T produced AlexNet (2012), the convolutional neural network that ignited the deep learning revolution by winning the ImageNet competition by a record margin. Hinton's students — including Ilya Sutskever, Alex Krizhevsky, and Yann LeCun (postdoc) — went on to co-found or lead AI efforts at OpenAI, Google, and Meta. The university's Department of Computer Science and the associated Vector Institute became a global epicenter for neural network research during a period when few other institutions took the approach seriously."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_a2a_protocol",
+  "type": "event",
+  "title": "Google Introduces Agent-to-Agent (A2A) Protocol",
+  "date": "2025-04-09",
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Google introduced the Agent-to-Agent (A2A) protocol, an open standard enabling AI agents built by different vendors to communicate, negotiate, and collaborate with each other. While MCP standardized how agents connect to tools, A2A standardized how agents connect to other agents — enabling multi-agent workflows where specialized agents could delegate subtasks, share context, and coordinate complex operations. The protocol was developed in collaboration with over 50 technology partners and complemented MCP to form a two-layer infrastructure stack for the agentic era.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_google"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2025_mcp_standard"],
+  "succeeded_by": [],
+  "tags": ["protocol", "standard", "multi_agent", "interoperability", "agentic_ai", "infrastructure"],
+  "impact_description": "A2A extended the interoperability vision of MCP from agent-to-tool communication to agent-to-agent communication. Together, MCP and A2A created the foundational protocol stack for agentic AI, analogous to how HTTP and TCP/IP provided the protocol stack for the web. This infrastructure enabled the development of complex multi-agent systems where heterogeneous agents could collaborate on tasks too complex for any single agent.",
+  "counterfactual": "Without a standardized agent-to-agent communication protocol, multi-agent systems would have remained siloed within single vendors. The vision of heterogeneous agents from different providers collaborating seamlessly would have been delayed, and the agentic AI ecosystem would have fragmented along vendor lines rather than developing as an interoperable network.",
+  "query_hooks": [
+    "How do AI agents communicate with each other?",
+    "What is the A2A protocol?",
+    "How do multi-agent systems work?",
+    "What standards enable agentic AI?"
+  ]
+}

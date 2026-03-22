@@ -1,0 +1,25 @@
+{
+  "id": "evt_1673_leibniz_stepped_reckoner",
+  "type": "event",
+  "title": "Leibniz Demonstrates the Stepped Reckoner",
+  "date": "1673-01-01",
+  "epoch": "00_philosophical_roots",
+  "significance": 6,
+  "summary": "Gottfried Wilhelm Leibniz demonstrated the Stepped Reckoner, a mechanical calculator capable of addition, subtraction, multiplication, and division. Beyond the machine itself, Leibniz articulated the vision of a 'calculus ratiocinator' — a universal logical calculus that could resolve all disputes by computation. He wrote: 'Let us calculate, without further ado, to see who is right.' This dual contribution — a physical calculating machine and a philosophical framework for mechanized reasoning — makes Leibniz a critical bridge between medieval logic and modern computation.",
+  "entities": {
+    "people": ["person_leibniz_gottfried"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1305_llull_ars_magna"],
+  "succeeded_by": ["evt_1837_babbage_analytical_engine"],
+  "tags": ["mechanical_computation", "philosophy", "calculator", "logic", "origins"],
+  "impact_description": "Leibniz's calculus ratiocinator concept directly anticipated formal logic systems and ultimately digital computation. His binary number system (developed 1679-1703) became the foundation of all digital computing. The Stepped Reckoner demonstrated that complex arithmetic could be automated mechanically, a necessary conceptual precursor to programmable computation.",
+  "counterfactual": "Without Leibniz's binary system, digital computing might have developed on a different numerical foundation, potentially delaying the electronic computing revolution. His philosophical vision of mechanized reasoning provided intellectual legitimacy to the idea that machines could perform cognitive tasks, seeding a tradition that would not bear fruit for 270 years.",
+  "query_hooks": [
+    "Who invented the binary number system?",
+    "What early machines could do arithmetic?",
+    "Who envisioned universal logical computation?",
+    "What is the calculus ratiocinator?"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "person_devlin_jacob",
+  "type": "person",
+  "name": "Jacob Devlin",
+  "born": null,
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_google"],
+  "key_contributions": [
+    "Created BERT (Bidirectional Encoder Representations from Transformers) in 2018",
+    "BERT demonstrated that pre-training bidirectional transformers on unlabeled text produced state-of-the-art results across NLP tasks",
+    "Introduced masked language modeling as a pre-training objective",
+    "BERT became the most widely used NLP model in industry for several years",
+    "Showed that the encoder side of the Transformer was immensely powerful for understanding tasks"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_vaswani_ashish", "person_hinton_geoffrey"],
+  "influenced": [],
+  "papers": ["paper_2018_bert_pretraining"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Jacob Devlin created BERT (Bidirectional Encoder Representations from Transformers) at Google in 2018, one of the most impactful applications of the Transformer architecture. BERT demonstrated that pre-training a bidirectional Transformer encoder on large amounts of unlabeled text, using masked language modeling, produced representations that could be fine-tuned to achieve state-of-the-art results on virtually every NLP benchmark. BERT spawned an entire family of encoder-only models (RoBERTa, ALBERT, DistilBERT, DeBERTa) and became the backbone of Google Search for years."
+}

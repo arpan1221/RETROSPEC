@@ -1,0 +1,25 @@
+{
+  "id": "evt_1987_lisp_machine_collapse",
+  "type": "event",
+  "title": "Collapse of the LISP Machine Market",
+  "date": "1987-01-01",
+  "epoch": "05_second_winter",
+  "significance": 7,
+  "summary": "The specialized LISP machine market collapsed as general-purpose workstations from Sun Microsystems and others matched or exceeded their performance at a fraction of the cost. Symbolics, Lisp Machines Inc., and Texas Instruments all faced devastating losses. Symbolics, once the most prominent AI hardware company and the registrant of the first .com domain, began its slide toward bankruptcy. The collapse demonstrated a recurring pattern in computing: specialized AI hardware loses to general-purpose machines that benefit from broader market economies of scale.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_symbolics", "org_lisp_machines_inc", "org_texas_instruments"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1984_cyc_project"],
+  "succeeded_by": ["evt_1988_expert_system_crisis"],
+  "tags": ["ai_winter", "hardware", "market_collapse", "lisp", "economics"],
+  "impact_description": "The LISP machine collapse was a leading indicator of the broader Second AI Winter. It destroyed the AI hardware industry and demonstrated that AI-specific infrastructure could not sustain itself without delivering clear advantages over commodity hardware. This pattern would repeat with AI-specific chips in later decades, though GPUs would eventually break the cycle by finding dual use in gaming and AI.",
+  "counterfactual": "If LISP machines had maintained a performance advantage, the AI industry might have retained a viable hardware sector through the late 1980s, potentially softening the Second AI Winter. The symbolic AI paradigm might have persisted longer with dedicated hardware support, possibly delaying the shift to statistical and connectionist approaches.",
+  "query_hooks": [
+    "What caused the Second AI Winter?",
+    "Why did LISP machines fail?",
+    "What happened to Symbolics?",
+    "Has specialized AI hardware failed before?"
+  ]
+}

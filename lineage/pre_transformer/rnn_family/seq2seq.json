@@ -1,0 +1,22 @@
+{
+  "id": "lineage_seq2seq",
+  "type": "lineage",
+  "name": "Sequence-to-Sequence (Seq2Seq)",
+  "family": "recurrent_neural_network",
+  "organization": "Google (Sutskever, Vinyals, Le)",
+  "year": 2014,
+  "parent": "lineage_lstm",
+  "children": ["lineage_transformer"],
+  "architecture": "encoder_decoder_rnn",
+  "key_innovations": [
+    "encoder_decoder_architecture",
+    "variable_length_input_to_variable_length_output",
+    "reversing_input_sequence_trick",
+    "foundation_for_neural_machine_translation"
+  ],
+  "parameter_count": "variable",
+  "training_approach": "supervised training on parallel corpora (e.g., translation pairs)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq",
+  "significance": 8,
+  "summary": "Sequence-to-Sequence learning introduced the encoder-decoder framework where one LSTM encodes an input sequence into a fixed-length vector and another LSTM decodes it into an output sequence of arbitrary length. Proposed by Sutskever, Vinyals, and Le at Google in 2014, it enabled end-to-end neural machine translation and established the encoder-decoder pattern that directly evolved into the transformer architecture. The addition of attention mechanisms to Seq2Seq by Bahdanau et al. was the immediate precursor to 'Attention Is All You Need.'"
+}

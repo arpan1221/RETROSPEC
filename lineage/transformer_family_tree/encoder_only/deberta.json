@@ -1,0 +1,22 @@
+{
+  "id": "lineage_deberta",
+  "type": "lineage",
+  "name": "DeBERTa",
+  "family": "encoder_only_transformer",
+  "organization": "Microsoft Research",
+  "year": 2020,
+  "parent": "lineage_bert",
+  "children": [],
+  "architecture": "encoder_only_transformer",
+  "key_innovations": [
+    "disentangled_attention_content_and_position",
+    "enhanced_mask_decoder",
+    "virtual_adversarial_training",
+    "first_to_surpass_human_on_superglue"
+  ],
+  "parameter_count": "134M (Base) / 384M (Large) / 1.5B (xxLarge)",
+  "training_approach": "self-supervised pretraining with MLM + enhanced mask decoder + virtual adversarial training",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BERT -> DeBERTa",
+  "significance": 7,
+  "summary": "DeBERTa (Decoding-enhanced BERT with disentangled attention) introduced disentangled attention that separately encodes content and position, along with an enhanced mask decoder for pretraining. It was the first model to surpass human performance on the SuperGLUE benchmark, demonstrating that architectural refinements to the encoder-only paradigm could still yield meaningful gains even after the community shifted focus to decoder-only models."
+}

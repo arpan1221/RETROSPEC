@@ -1,0 +1,25 @@
+{
+  "id": "evt_1854_boole_laws_of_thought",
+  "type": "event",
+  "title": "George Boole Publishes 'An Investigation of the Laws of Thought'",
+  "date": "1854-01-01",
+  "epoch": "00_philosophical_roots",
+  "significance": 7,
+  "summary": "George Boole published 'An Investigation of the Laws of Thought,' establishing Boolean algebra — a formal system for representing logical propositions as mathematical equations using binary variables (0 and 1), AND, OR, and NOT operations. Boole demonstrated that the laws of human reasoning could be expressed in purely algebraic terms, creating the mathematical foundation that would underpin all digital circuit design and computer logic. His work transformed logic from a branch of philosophy into a branch of mathematics.",
+  "entities": {
+    "people": ["person_boole_george"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1843_lovelace_first_program"],
+  "succeeded_by": ["evt_1950_turing_test_paper"],
+  "tags": ["logic", "mathematics", "boolean_algebra", "foundations", "origins"],
+  "impact_description": "Boolean algebra became the mathematical bedrock of all digital computing. Claude Shannon's 1937 master's thesis demonstrated that Boolean algebra could be implemented with electrical switches, directly enabling digital circuit design. Every transistor, logic gate, CPU, and neural network ultimately operates on Boolean foundations. Without Boolean algebra, there is no digital computation.",
+  "counterfactual": "Without Boole's formalization, the connection between logic and mathematics would have remained informal for longer. Shannon's critical insight connecting Boolean algebra to electrical circuits might have been delayed or never occurred in the same form. Digital computing as we know it depends on Boolean logic at every level — from transistors to programming languages to the binary representations inside neural networks.",
+  "query_hooks": [
+    "What is the mathematical foundation of computing?",
+    "Who invented Boolean algebra?",
+    "How did logic become mathematical?",
+    "What made digital circuits possible?"
+  ]
+}

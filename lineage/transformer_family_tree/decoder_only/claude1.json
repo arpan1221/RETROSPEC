@@ -1,0 +1,21 @@
+{
+  "id": "lineage_claude1",
+  "type": "lineage",
+  "name": "Claude 1",
+  "family": "decoder_only_transformer",
+  "organization": "Anthropic",
+  "year": 2023,
+  "parent": "lineage_transformer",
+  "children": ["lineage_claude3"],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "constitutional_ai_alignment",
+    "rlhf_with_ai_feedback",
+    "harmlessness_focused_training"
+  ],
+  "parameter_count": "undisclosed",
+  "training_approach": "pretraining + RLHF + Constitutional AI (RLAIF)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> Claude 1",
+  "significance": 7,
+  "summary": "Claude 1 was Anthropic's first commercially released model, distinguished by its Constitutional AI training approach where the model was guided by a set of principles rather than purely human feedback. It demonstrated that alignment techniques could produce models that were both capable and notably more cautious about harmful outputs, establishing Anthropic as a safety-focused competitor in the frontier model space."
+}

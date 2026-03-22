@@ -1,0 +1,59 @@
+{
+  "id": "cycle_winter_1_1974_1980",
+  "type": "cycle",
+  "name": "First AI Winter",
+  "cycle_type": "winter",
+  "date_start": "1974-01-01",
+  "date_end": "1980-12-31",
+  "duration_years": 6,
+  "summary": "The First AI Winter was a devastating period of disillusionment that followed two decades of extravagant promises about imminent machine intelligence. The proximate triggers were Sir James Lighthill's 1973 report to the UK Science Research Council, which declared that AI had failed to achieve its 'grandiose objectives' and that combinatorial explosion made most AI problems intractable, and the publication of Minsky and Papert's 'Perceptrons' (1969), which mathematically proved that single-layer perceptrons could not solve XOR or other linearly inseparable problems — a result that was widely (and incorrectly) generalized to imply that all neural networks were fundamentally limited. DARPA, which had been the primary funder of AI research in the United States, drastically cut funding for AI projects, redirecting resources toward more applied research with clearer deliverables. In the UK, the Lighthill Report led to the near-total elimination of AI research funding outside of Edinburgh and Essex. The field lost an entire generation of researchers who either left academia or rebranded their work to avoid the toxic 'AI' label. The winter demonstrated a pattern that would repeat: inflated expectations, followed by inability to deliver, followed by a funding collapse that set back even the promising research threads.",
+  "trigger_signals": [
+    "Lighthill Report (1973) publicly condemned AI research as failing its promises to the UK Science Research Council",
+    "Minsky and Papert's 'Perceptrons' (1969) created widespread belief that neural networks were a dead end",
+    "DARPA's Mansfield Amendment (1969) required defense funding to have direct military relevance, squeezing basic AI research",
+    "Repeated failure of machine translation projects, notably the ALPAC report (1966) which had already killed MT funding",
+    "Growing gap between AI researchers' public promises (10-year timelines for human-level AI) and actual capabilities"
+  ],
+  "peak_indicators": [
+    "UK Science Research Council formally adopted Lighthill's recommendations to defund AI",
+    "DARPA shifted from basic AI research to applied projects with measurable military outcomes",
+    "Major university AI labs saw budget cuts of 50-80%",
+    "Neural network research nearly ceased globally — fewer than a dozen active research groups by 1975"
+  ],
+  "collapse_factors": [
+    "Combinatorial explosion made real-world problems intractable with 1970s hardware",
+    "No clear commercial applications had emerged from 20 years of research",
+    "AI researchers had repeatedly overpromised human-level capabilities within 10-20 years",
+    "The field lacked rigorous evaluation metrics, making it hard to demonstrate measurable progress",
+    "Political backlash from funding agencies burned by undelivered promises"
+  ],
+  "recovery_factors": [
+    "Expert systems (particularly MYCIN and DENDRAL) demonstrated narrow commercial value in the late 1970s",
+    "Japan's Fifth Generation Computer Project (announced 1982) triggered competitive panic in the US and UK",
+    "The Hopfield network (1982) and Boltzmann machines renewed interest in neural approaches",
+    "Feigenbaum's advocacy for knowledge engineering opened a new paradigm that sidestepped the neural network stigma"
+  ],
+  "funding_impact": "The UK effectively eliminated all AI funding outside two universities. DARPA cut its AI budget by an estimated 60-70% between 1974 and 1978, redirecting funds to applied military computing. NRC and NSF reduced AI-specific grants. Corporate labs (like those at SRI and BBN) saw dramatic staff reductions. The total US AI research funding dropped from roughly $300M/year (adjusted) to under $100M/year. An entire generation of graduate students was advised to avoid AI as a career.",
+  "lessons_learned": [
+    "Overpromising destroys credibility — the gap between predicted and actual capabilities was the primary cause of the funding collapse",
+    "A single influential negative report (Lighthill) can redirect an entire nation's research agenda",
+    "Technical limitations presented as fundamental (Perceptrons' XOR proof) can halt promising research directions for decades, even when the limitation is narrow",
+    "Government funding concentration creates fragility — when the dominant funder pulls out, the entire field collapses"
+  ],
+  "related_epochs": [
+    "02_golden_age",
+    "03_first_winter"
+  ],
+  "related_events": [
+    "evt_1969_perceptrons_book",
+    "evt_1973_lighthill_report"
+  ],
+  "warning_signs_for_current": "The First AI Winter pattern — overpromising followed by inability to deliver — has clear parallels to 2025-2026. Current AI companies project AGI timelines of 2-5 years, eerily similar to the 10-year predictions of the 1960s. The key difference is that modern AI has demonstrable commercial value (unlike 1970s AI), but the gap between what is promised (autonomous agents, artificial general intelligence) and what is reliably delivered (autocomplete with hallucinations) could trigger a correction if enterprise ROI fails to materialize.",
+  "significance": 8,
+  "query_hooks": [
+    "What caused the first AI winter?",
+    "Why did AI funding collapse in the 1970s?",
+    "What was the Lighthill Report and why did it matter?",
+    "Has AI research been defunded before?"
+  ]
+}

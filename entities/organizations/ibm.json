@@ -1,0 +1,13 @@
+{
+  "id": "org_ibm",
+  "type": "organization",
+  "name": "IBM",
+  "founded": "1911-06-16",
+  "founders": ["person_flint_charles"],
+  "headquarters": "Armonk, New York, USA",
+  "org_type": "company",
+  "key_models": ["model_deep_blue", "model_watson"],
+  "key_papers": [],
+  "significance": 7,
+  "summary": "IBM (International Business Machines) has been involved in artificial intelligence since the field's inception. Nathaniel Rochester, an IBM engineer, co-organized the 1956 Dartmouth Conference that founded AI as a discipline. IBM created Deep Blue, the chess-playing computer that defeated world champion Garry Kasparov in 1997, and Watson, the question-answering system that won Jeopardy! in 2011. While IBM's influence in AI has waned relative to newer entrants like Google and OpenAI, its historical contributions — including pioneering mainframe computing, early neural network simulations, and high-profile AI demonstrations — cemented its place in the field's lineage."
+}

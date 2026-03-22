@@ -1,0 +1,23 @@
+{
+  "id": "lineage_stable_diffusion",
+  "type": "lineage",
+  "name": "Stable Diffusion",
+  "family": "diffusion_model",
+  "organization": "Stability AI / CompVis (Rombach et al.)",
+  "year": 2022,
+  "parent": "lineage_ddpm",
+  "children": [],
+  "architecture": "latent_diffusion_model",
+  "key_innovations": [
+    "latent_space_diffusion_for_efficiency",
+    "text_conditioning_via_clip",
+    "open_source_release",
+    "consumer_gpu_image_generation",
+    "cross_attention_for_conditioning"
+  ],
+  "parameter_count": "~890M (UNet) + CLIP text encoder",
+  "training_approach": "latent diffusion with CLIP text conditioning trained on LAION-5B dataset",
+  "lineage_path": "Thermodynamic diffusion (Sohl-Dickstein 2015) -> DDPM -> Stable Diffusion",
+  "significance": 8,
+  "summary": "Stable Diffusion brought high-quality text-to-image generation to consumer hardware by performing the diffusion process in a compressed latent space rather than pixel space, dramatically reducing computational requirements. Released as open source by Stability AI based on the Latent Diffusion Model research by Rombach et al., it democratized AI image generation and triggered an explosion of creative applications, derivative models, and intense debate about AI art, copyright, and the future of creative work."
+}

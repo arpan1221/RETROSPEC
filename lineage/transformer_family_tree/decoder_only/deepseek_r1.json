@@ -1,0 +1,23 @@
+{
+  "id": "lineage_deepseek_r1",
+  "type": "lineage",
+  "name": "DeepSeek-R1",
+  "family": "decoder_only_transformer",
+  "organization": "DeepSeek",
+  "year": 2025,
+  "parent": "lineage_transformer",
+  "children": [],
+  "architecture": "decoder_only_transformer_moe",
+  "key_innovations": [
+    "reinforcement_learning_for_reasoning",
+    "chain_of_thought_via_rl_without_supervised_finetuning",
+    "massive_moe_architecture",
+    "open_weights_reasoning_model",
+    "competitive_with_o1_at_fraction_of_cost"
+  ],
+  "parameter_count": "671B total MoE (37B active per token)",
+  "training_approach": "pretraining + large-scale reinforcement learning for reasoning (no SFT for reasoning)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> DeepSeek-R1",
+  "significance": 9,
+  "summary": "DeepSeek-R1 demonstrated that reinforcement learning alone, without supervised finetuning on reasoning traces, could produce a model with frontier-level reasoning capabilities competitive with OpenAI's o1. Released as an open-weights model by Chinese AI lab DeepSeek, it challenged assumptions about the necessity of Western compute advantages and proprietary techniques, sending shockwaves through the AI industry and public markets. Its MoE architecture activating only 37B of 671B parameters per token proved that efficient routing could achieve top-tier reasoning at dramatically lower inference cost."
+}

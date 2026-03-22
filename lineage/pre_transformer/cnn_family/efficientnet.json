@@ -1,0 +1,22 @@
+{
+  "id": "lineage_efficientnet",
+  "type": "lineage",
+  "name": "EfficientNet",
+  "family": "convolutional_neural_network",
+  "organization": "Google Research (Tan & Le)",
+  "year": 2019,
+  "parent": "lineage_resnet",
+  "children": [],
+  "architecture": "convolutional_neural_network",
+  "key_innovations": [
+    "compound_scaling_depth_width_resolution",
+    "neural_architecture_search_for_base_model",
+    "mobile_inverted_bottleneck_blocks",
+    "superior_accuracy_efficiency_tradeoff"
+  ],
+  "parameter_count": "5.3M (B0) to 66M (B7)",
+  "training_approach": "supervised training on ImageNet with AutoML-discovered base architecture",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> LeNet -> AlexNet -> VGGNet -> ResNet -> EfficientNet",
+  "significance": 7,
+  "summary": "EfficientNet introduced compound scaling, a principled method for uniformly scaling network depth, width, and input resolution using a fixed ratio discovered through neural architecture search. It achieved state-of-the-art ImageNet accuracy while being 8.4x smaller and 6.1x faster than the best existing CNNs, demonstrating that efficient model design through systematic scaling could outperform brute-force approaches. It represented the culmination of the CNN scaling paradigm before vision transformers emerged."
+}

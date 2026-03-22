@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_mcp_standard",
+  "type": "event",
+  "title": "Model Context Protocol (MCP) Achieves Industry-Wide Adoption",
+  "date": "2025-03-01",
+  "epoch": "10_agentic_era",
+  "significance": 9,
+  "summary": "Anthropic's Model Context Protocol (MCP), first introduced in late 2024, achieved broad industry adoption in early 2025 as a universal open standard for connecting AI models to external tools, data sources, and services. MCP provided a standardized JSON-RPC-based protocol that allowed any AI agent to discover and invoke tools through a consistent interface, eliminating the need for custom integrations. Major platforms including development tools, enterprise software, and cloud services implemented MCP servers, creating an interoperable ecosystem where AI agents could seamlessly interact with the digital world.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_anthropic"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2022_chatgpt_launch"],
+  "succeeded_by": ["evt_2025_a2a_protocol"],
+  "tags": ["protocol", "standard", "tool_use", "interoperability", "agentic_ai", "infrastructure"],
+  "impact_description": "MCP became the USB-C of AI integration — a universal connector that standardized how agents interact with the external world. By providing a common protocol, MCP eliminated the N-times-M integration problem (N models times M tools) and reduced it to N-plus-M. This dramatically accelerated the development of agentic AI by allowing any model to use any tool through a single protocol, enabling the ecosystem of autonomous agents that defined 2025.",
+  "counterfactual": "Without MCP, the AI tool ecosystem would have remained fragmented with proprietary integrations, significantly slowing the agentic AI revolution. Each AI provider would have built incompatible tool-calling interfaces, creating vendor lock-in and limiting agent capabilities. The standardization MCP provided was a necessary precondition for the explosion of autonomous AI agents in 2025-2026.",
+  "query_hooks": [
+    "How do AI agents connect to tools?",
+    "What is the Model Context Protocol?",
+    "What standard enabled agentic AI?",
+    "How did AI tool integration get standardized?"
+  ]
+}

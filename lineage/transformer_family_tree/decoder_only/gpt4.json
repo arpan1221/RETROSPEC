@@ -1,0 +1,23 @@
+{
+  "id": "lineage_gpt4",
+  "type": "lineage",
+  "name": "GPT-4",
+  "family": "decoder_only_transformer",
+  "organization": "OpenAI",
+  "year": 2023,
+  "parent": "lineage_gpt3",
+  "children": [],
+  "architecture": "decoder_only_transformer_moe",
+  "key_innovations": [
+    "multimodal_input_vision_and_text",
+    "improved_reasoning_and_factuality",
+    "rlhf_alignment",
+    "mixture_of_experts_architecture",
+    "longer_context_windows"
+  ],
+  "parameter_count": "estimated 1.8T MoE",
+  "training_approach": "pretraining + RLHF + red-teaming",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> GPT-1 -> GPT-2 -> GPT-3 -> GPT-4",
+  "significance": 9,
+  "summary": "GPT-4 represented a massive leap in reasoning, factuality, and multimodal capability, reportedly using a mixture-of-experts architecture at an estimated 1.8T parameters. It achieved human-level performance on professional exams including the bar exam (90th percentile) and triggered a global conversation about AGI timelines, AI regulation, and existential risk, directly leading to executive orders and the EU AI Act."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "org_mila",
+  "type": "organization",
+  "name": "MILA (Montreal Institute for Learning Algorithms)",
+  "founded": "1993-01-01",
+  "founders": ["person_bengio_yoshua"],
+  "headquarters": "Montreal, Canada",
+  "org_type": "lab",
+  "key_models": [],
+  "key_papers": ["paper_2014_attention_nmt"],
+  "significance": 8,
+  "summary": "MILA (originally the Montreal Institute for Learning Algorithms, now Mila - Quebec AI Institute) was founded by Yoshua Bengio in 1993 at the Universite de Montreal. It is one of the world's largest academic research centers for deep learning. MILA's most consequential contribution was the invention of the attention mechanism for neural machine translation by Dzmitry Bahdanau (Bengio's student) in 2014 — the direct precursor to the Transformer's self-attention. MILA has also made foundational contributions to generative adversarial networks, variational autoencoders, and representation learning. Along with the University of Toronto (Hinton) and NYU (LeCun), MILA formed the triumvirate of institutions that kept neural network research alive and drove the deep learning revolution."
+}

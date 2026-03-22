@@ -1,0 +1,22 @@
+{
+  "id": "lineage_bart",
+  "type": "lineage",
+  "name": "BART",
+  "family": "encoder_decoder_transformer",
+  "organization": "Meta AI",
+  "year": 2019,
+  "parent": "lineage_transformer",
+  "children": [],
+  "architecture": "encoder_decoder_transformer",
+  "key_innovations": [
+    "denoising_autoencoder_pretraining",
+    "flexible_noise_functions_deletion_infilling_permutation",
+    "strong_performance_on_generation_tasks",
+    "combines_bert_bidirectional_encoder_with_gpt_autoregressive_decoder"
+  ],
+  "parameter_count": "140M (Base) / 400M (Large)",
+  "training_approach": "self-supervised pretraining as denoising autoencoder with text corruption and reconstruction",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BART",
+  "significance": 7,
+  "summary": "BART (Bidirectional and Auto-Regressive Transformers) combined a bidirectional encoder (like BERT) with an autoregressive decoder (like GPT), pretrained by corrupting text with various noise functions and learning to reconstruct the original. It excelled at text generation tasks including summarization and proved particularly effective for sequence-to-sequence problems, offering a bridge between the encoder-only and decoder-only paradigms."
+}

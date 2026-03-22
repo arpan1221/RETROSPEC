@@ -1,0 +1,25 @@
+{
+  "id": "evt_1305_llull_ars_magna",
+  "type": "event",
+  "title": "Ramon Llull Publishes 'Ars Magna'",
+  "date": "1305-01-01",
+  "epoch": "00_philosophical_roots",
+  "significance": 5,
+  "summary": "Majorcan philosopher Ramon Llull completed 'Ars Magna' (The Great Art), a method for combining fundamental concepts using mechanical rotating discs to produce all possible statements and determine their truth. Llull's combinatorial logic machines are widely regarded as the earliest conceptual ancestors of computational reasoning, predating formal computation by over 600 years. His paper discs with concentric rings of symbols could be rotated to generate logical combinations mechanically.",
+  "entities": {
+    "people": ["person_llull_ramon"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": [],
+  "succeeded_by": ["evt_1673_leibniz_stepped_reckoner"],
+  "tags": ["philosophy", "combinatorics", "mechanical_reasoning", "logic", "origins"],
+  "impact_description": "Established the foundational idea that reasoning could be mechanized through systematic combination of symbols. Influenced Leibniz directly, who cited Llull's work when developing his own calculus ratiocinator. Represents the earliest known attempt to reduce thought to mechanical procedure.",
+  "counterfactual": "Without Llull's combinatorial approach, the philosophical lineage connecting mechanical reasoning to computation would lack its earliest anchor. Leibniz might still have developed his ideas independently, but the explicit tradition of 'thinking machines' as a philosophical pursuit would have a later and weaker origin point.",
+  "query_hooks": [
+    "What is the earliest concept of mechanical reasoning?",
+    "Who first tried to mechanize thought?",
+    "What are the philosophical roots of AI?",
+    "How far back does the idea of artificial intelligence go?"
+  ]
+}

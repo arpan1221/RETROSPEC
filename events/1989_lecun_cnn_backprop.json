@@ -1,0 +1,25 @@
+{
+  "id": "evt_1989_lecun_cnn_backprop",
+  "type": "event",
+  "title": "Yann LeCun Demonstrates Convolutional Neural Networks with Backpropagation",
+  "date": "1989-01-01",
+  "epoch": "05_second_winter",
+  "significance": 6,
+  "summary": "Yann LeCun and colleagues at Bell Labs published 'Backpropagation Applied to Handwritten Zip Code Recognition,' demonstrating that convolutional neural networks (CNNs) trained with backpropagation could recognize handwritten digits directly from pixel images. The system, later refined into LeNet-5, was deployed by the US Postal Service to read zip codes on mail. This was one of the first successful commercial applications of neural networks and proved that learning from data could solve real-world pattern recognition tasks that rule-based systems could not.",
+  "entities": {
+    "people": ["person_lecun_yann"],
+    "organizations": ["org_bell_labs", "org_att"],
+    "models_spawned": ["model_lenet"]
+  },
+  "preceded_by": ["evt_1986_backpropagation_revival"],
+  "succeeded_by": ["evt_2012_alexnet_imagenet"],
+  "tags": ["neural_networks", "cnn", "backpropagation", "computer_vision", "commercial_application"],
+  "impact_description": "LeCun's work established convolutional neural networks as the dominant approach for visual recognition, a position they held for over 25 years until vision transformers emerged. LeNet's architecture — convolution, pooling, fully-connected layers — became the template for AlexNet, VGG, ResNet, and all subsequent CNN architectures. The postal zip code application proved neural networks could deliver commercial value.",
+  "counterfactual": "Without LeCun's CNN work, the deep learning revolution might have lacked its computer vision foundation. AlexNet (2012) was a direct architectural descendant of LeNet. The entire trajectory of deep learning — ImageNet, autonomous vehicles, medical imaging — depended on CNNs that trace back to this 1989 demonstration. Neural networks might have remained a curiosity without this early commercial success.",
+  "query_hooks": [
+    "Who invented convolutional neural networks?",
+    "What was the first commercial neural network application?",
+    "How did computer vision develop?",
+    "What is LeNet?"
+  ]
+}

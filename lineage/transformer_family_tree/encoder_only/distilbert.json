@@ -1,0 +1,22 @@
+{
+  "id": "lineage_distilbert",
+  "type": "lineage",
+  "name": "DistilBERT",
+  "family": "encoder_only_transformer",
+  "organization": "Hugging Face",
+  "year": 2019,
+  "parent": "lineage_bert",
+  "children": [],
+  "architecture": "encoder_only_transformer",
+  "key_innovations": [
+    "knowledge_distillation_from_bert",
+    "60_percent_faster_40_percent_smaller",
+    "triple_loss_mlm_distillation_cosine",
+    "practical_deployment_focused"
+  ],
+  "parameter_count": "66M",
+  "training_approach": "knowledge distillation from BERT-Base using triple loss (MLM + distillation + cosine embedding)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BERT -> DistilBERT",
+  "significance": 6,
+  "summary": "DistilBERT applied knowledge distillation to compress BERT into a model 40% smaller and 60% faster while retaining 97% of its language understanding capabilities. Created by Hugging Face, it demonstrated that distillation could make transformer models practical for edge deployment and resource-constrained environments, and became one of the most widely deployed NLP models in production."
+}

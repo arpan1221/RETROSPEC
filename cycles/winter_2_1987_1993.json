@@ -1,0 +1,57 @@
+{
+  "id": "cycle_winter_2_1987_1993",
+  "type": "cycle",
+  "name": "Second AI Winter",
+  "cycle_type": "winter",
+  "date_start": "1987-01-01",
+  "date_end": "1993-12-31",
+  "duration_years": 6,
+  "summary": "The Second AI Winter was triggered by the spectacular collapse of the expert systems industry and the failure of Japan's Fifth Generation Computer Project. Throughout the early 1980s, expert systems had been hailed as the commercial salvation of AI — companies like Teknowledge, IntelliCorp, and Carnegie Group went public or attracted massive venture capital, while Fortune 500 companies built internal AI departments. LISP machine manufacturers (Symbolics, LMI, Texas Instruments) sold specialized hardware at premium prices. But by 1987, the fundamental brittleness of expert systems became undeniable: they could not learn, could not handle edge cases, and required enormous ongoing maintenance by expensive knowledge engineers. When general-purpose workstations from Sun Microsystems and DEC surpassed LISP machines in price-performance, the dedicated hardware market collapsed virtually overnight. Symbolics went bankrupt. The $400M LISP machine market evaporated within two years. Japan's Fifth Generation project, which had aimed to build massively parallel logic-programming computers, was quietly wound down after spending over $400M with little to show. The 'AI' label became commercially toxic — companies rebranded their products as 'decision support systems,' 'business intelligence,' or 'knowledge management' to avoid the stigma. Corporate AI budgets were slashed across the board, and the field entered another period of reduced funding and diminished expectations.",
+  "trigger_signals": [
+    "Expert systems proved brittle in production — unable to handle novel inputs or learn from mistakes",
+    "LISP machine market collapsed as general-purpose Unix workstations achieved superior price-performance",
+    "Japan's Fifth Generation Computer Project failed to deliver on its parallel logic programming vision after $400M+ investment",
+    "Symbolics, the flagship LISP machine company, entered financial distress (bankrupt by 1993)",
+    "Corporate AI departments were dissolved or renamed as 'AI' became a toxic label in boardrooms"
+  ],
+  "peak_indicators": [
+    "The LISP machine market peaked at approximately $400M annually before collapsing",
+    "Corporate AI spending in the US peaked at roughly $1B annually in 1986-1987",
+    "The term 'AI' was actively purged from product marketing materials across the industry",
+    "DARPA's Strategic Computing Initiative was scaled back and eventually terminated"
+  ],
+  "collapse_factors": [
+    "Expert systems required continuous, expensive maintenance by specialized knowledge engineers",
+    "Rule-based systems could not scale — adding new rules often broke existing functionality",
+    "The LISP machine's niche hardware was rendered obsolete by rapidly improving general-purpose computers",
+    "Japan's Fifth Generation Project set unrealistic goals rooted in logic programming, which proved insufficient for real-world AI",
+    "No expert system ever demonstrated genuine understanding or learning — they were sophisticated lookup tables"
+  ],
+  "recovery_factors": [
+    "Statistical and probabilistic methods gained traction, replacing brittle rule-based approaches",
+    "The World Wide Web (1991 onwards) began generating the massive datasets that machine learning needed",
+    "Moore's Law continued to deliver exponentially more computing power at lower cost",
+    "Researchers rebranded as 'machine learning' and 'data mining,' escaping the AI stigma while continuing core research",
+    "Support Vector Machines (Vapnik, 1995) and ensemble methods demonstrated reliable, mathematically grounded performance"
+  ],
+  "funding_impact": "Corporate AI spending in the US dropped from approximately $1B/year in 1987 to under $200M/year by 1993. DARPA's Strategic Computing Initiative was defunded. Venture capital for AI-labeled startups virtually disappeared. Academic positions in 'AI' became scarce, though positions in 'machine learning' or 'computational intelligence' remained available — the same researchers doing the same work under different names. The total economic damage from the expert systems bust is estimated at $2-4B in destroyed market value.",
+  "lessons_learned": [
+    "Brittle systems that cannot learn or adapt will always fail in production, no matter how impressive the demos",
+    "Hardware monocultures (LISP machines) are existential risks — general-purpose computing always wins in the long run",
+    "Government megaprojects driven by competitive panic (Fifth Generation) tend to set unrealistic goals and waste resources",
+    "When a technology label becomes toxic, the underlying research continues under new branding — 'AI winter' is partly a marketing phenomenon"
+  ],
+  "related_epochs": [
+    "04_expert_systems_boom",
+    "05_second_winter"
+  ],
+  "related_events": [],
+  "warning_signs_for_current": "The Second AI Winter offers the most relevant cautionary tale for 2025-2026. Expert systems were hyped as transformative, attracted billions in investment, and failed because they were brittle and required expensive ongoing maintenance. Today's LLMs face analogous challenges: hallucinations make them unreliable for critical applications, fine-tuning and prompt engineering are the modern equivalents of knowledge engineering, and the infrastructure costs are enormous. The key question is whether LLMs' genuine capability (unlike expert systems, they can generalize) is sufficient to sustain investment through the inevitable disappointment cycle. The rebranding pattern is already visible — 'AI' is being replaced by 'intelligence' in some marketing contexts.",
+  "significance": 7,
+  "query_hooks": [
+    "What caused the second AI winter?",
+    "Why did expert systems fail?",
+    "What happened to LISP machines?",
+    "Why was 'AI' considered a toxic label in the 1990s?"
+  ]
+}

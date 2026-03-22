@@ -1,0 +1,22 @@
+{
+  "id": "person_shazeer_noam",
+  "type": "person",
+  "name": "Noam Shazeer",
+  "born": "1977-01-01",
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_google_brain", "org_character_ai"],
+  "key_contributions": [
+    "Co-authored \"Attention Is All You Need\" (2017) — introduced the Transformer architecture",
+    "Co-invented multi-head attention, a core mechanism of the Transformer",
+    "Pioneered Mixture of Experts approaches at Google (Switch Transformer, 2021)",
+    "Co-founded Character.AI in 2021, building large language models for interactive AI characters",
+    "Returned to Google in 2024 as part of Character.AI deal"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_vaswani_ashish", "person_hinton_geoffrey"],
+  "influenced": [],
+  "papers": ["paper_2017_attention_is_all_you_need"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Noam Shazeer is one of the most prolific and inventive researchers in modern AI. As a co-author of 'Attention Is All You Need,' he helped create the Transformer architecture that underpins every frontier model. His contributions to multi-head attention and Mixture of Experts architectures have been particularly influential. After leaving Google, he co-founded Character.AI, which became one of the most popular consumer AI applications before he returned to Google in 2024."
+}

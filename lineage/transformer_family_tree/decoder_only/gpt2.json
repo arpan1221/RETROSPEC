@@ -1,0 +1,22 @@
+{
+  "id": "lineage_gpt2",
+  "type": "lineage",
+  "name": "GPT-2",
+  "family": "decoder_only_transformer",
+  "organization": "OpenAI",
+  "year": 2019,
+  "parent": "lineage_gpt1",
+  "children": ["lineage_gpt3"],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "zero_shot_task_transfer",
+    "scaling_to_1.5B_parameters",
+    "task_conditioning_via_natural_language",
+    "staged_release_for_safety"
+  ],
+  "parameter_count": "1.5B",
+  "training_approach": "unsupervised pretraining on WebText (40GB curated web data)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> GPT-1 -> GPT-2",
+  "significance": 8,
+  "summary": "GPT-2 showed that scaling a decoder-only transformer to 1.5B parameters on diverse web text produced a model capable of zero-shot task performance without any finetuning. It triggered the first major AI safety debate around language model release, with OpenAI initially withholding the full model due to concerns about misuse, establishing a precedent for responsible disclosure in AI."
+}

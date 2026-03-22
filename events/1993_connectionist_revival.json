@@ -1,0 +1,25 @@
+{
+  "id": "evt_1993_connectionist_revival",
+  "type": "event",
+  "title": "Connectionist and Statistical Methods Begin Quiet Revival",
+  "date": "1993-01-01",
+  "epoch": "05_second_winter",
+  "significance": 5,
+  "summary": "By 1993, while mainstream AI funding remained depressed, a quiet revival of connectionist and statistical approaches was underway. Researchers including Vapnik (SVMs), Schmidhuber (recurrent networks), and Hochreiter (early LSTM ideas) were laying groundwork that would define the next two decades. The field was shifting from knowledge engineering to data-driven learning, from symbolic representations to distributed representations, and from hand-crafted rules to optimization-based training. This was not a single event but an inflection point where the seeds of the machine learning revolution were planted during AI's darkest hour.",
+  "entities": {
+    "people": ["person_vapnik_vladimir", "person_schmidhuber_juergen", "person_hochreiter_sepp"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1992_fifth_generation_ends"],
+  "succeeded_by": ["evt_1997_deep_blue_kasparov"],
+  "tags": ["revival", "machine_learning", "statistical_methods", "connectionism", "transition"],
+  "impact_description": "This quiet revival period set the stage for the machine learning revolution of the late 1990s and 2000s. SVMs would dominate practical ML for a decade. LSTM networks (published 1997) would become the backbone of sequence modeling until transformers. The philosophical shift from symbolic to statistical AI that occurred during this period remains the dominant paradigm today.",
+  "counterfactual": "If the connectionist revival had not occurred during the winter, the field might have stagnated for longer. The researchers who persisted through the funding drought — often in unfashionable departments and with minimal support — produced the foundational work that enabled everything that followed. Without their persistence, the deep learning revolution might have been delayed by a decade or more.",
+  "query_hooks": [
+    "How did AI recover from the Second AI Winter?",
+    "When did machine learning start replacing symbolic AI?",
+    "What happened in AI during the early 1990s?",
+    "Who kept working on neural networks during the AI Winter?"
+  ]
+}

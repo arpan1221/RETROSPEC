@@ -1,0 +1,25 @@
+{
+  "id": "evt_1974_dreyfus_criticism",
+  "type": "event",
+  "title": "Hubert Dreyfus Publishes 'What Computers Can't Do'",
+  "date": "1974-01-01",
+  "epoch": "03_first_winter",
+  "significance": 6,
+  "summary": "Philosopher Hubert Dreyfus published 'What Computers Can't Do,' the most influential philosophical critique of artificial intelligence. Drawing on Heidegger and Merleau-Ponty, Dreyfus argued that human intelligence was fundamentally embodied, intuitive, and contextual in ways that symbolic computation could never replicate. He attacked the cognitivist assumption that intelligence could be reduced to symbol manipulation, arguing that expertise relied on unconscious pattern recognition developed through bodily experience. Initially dismissed and even ridiculed by the AI community, Dreyfus's arguments proved prescient as symbolic AI systems failed to scale.",
+  "entities": {
+    "people": ["person_dreyfus_hubert"],
+    "organizations": ["org_uc_berkeley"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1973_lighthill_report"],
+  "succeeded_by": ["evt_1974_darpa_cuts"],
+  "tags": ["philosophy", "criticism", "symbolic_ai", "embodiment", "limitations"],
+  "impact_description": "Dreyfus's critique provided the philosophical framework for understanding why symbolic AI failed. His arguments about embodied cognition influenced the development of situated robotics, embodied AI, and connectionist approaches. His observation that expertise is largely unconscious and pattern-based rather than rule-based anticipated the shift from expert systems to neural networks that would define the next era of AI.",
+  "counterfactual": "Without Dreyfus's philosophical critique, the AI community might have lacked a coherent framework for understanding the failures of symbolic AI. His ideas about embodied cognition influenced robotics researchers like Rodney Brooks and helped legitimate the connectionist approach. The eventual paradigm shift from symbolic to statistical AI was partially enabled by the intellectual groundwork Dreyfus laid.",
+  "query_hooks": [
+    "What are the philosophical arguments against AI?",
+    "Why did symbolic AI fail?",
+    "Who criticized early AI research?",
+    "What is embodied cognition in AI?"
+  ]
+}

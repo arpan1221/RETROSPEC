@@ -1,0 +1,22 @@
+{
+  "id": "lineage_mt5",
+  "type": "lineage",
+  "name": "mT5",
+  "family": "encoder_decoder_transformer",
+  "organization": "Google Research",
+  "year": 2020,
+  "parent": "lineage_t5",
+  "children": [],
+  "architecture": "encoder_decoder_transformer",
+  "key_innovations": [
+    "multilingual_text_to_text_framework",
+    "coverage_of_101_languages",
+    "mc4_multilingual_c4_corpus",
+    "cross_lingual_transfer_learning"
+  ],
+  "parameter_count": "300M (Small) / 580M (Base) / 1.2B (Large) / 3.7B (XL) / 13B (XXL)",
+  "training_approach": "self-supervised pretraining with span corruption on mC4 multilingual corpus covering 101 languages",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> T5 -> mT5",
+  "significance": 6,
+  "summary": "mT5 extended the T5 text-to-text framework to 101 languages by pretraining on the mC4 multilingual corpus, a filtered version of Common Crawl covering diverse languages. It demonstrated that the text-to-text paradigm scaled effectively across languages and enabled strong cross-lingual transfer, becoming a standard multilingual baseline for NLP research."
+}

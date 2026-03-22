@@ -1,0 +1,22 @@
+{
+  "id": "person_rochester_nathaniel",
+  "type": "person",
+  "name": "Nathaniel Rochester",
+  "born": "1919-01-18",
+  "died": "2001-06-08",
+  "nationality": "American",
+  "affiliations": ["org_ibm"],
+  "key_contributions": [
+    "Co-organized the Dartmouth Conference (1956) — the founding event of AI as a field",
+    "Co-authored the Dartmouth Conference proposal with McCarthy, Minsky, and Shannon",
+    "Designed the IBM 701, IBM's first commercial scientific computer",
+    "Led IBM's first attempts at neural network simulation in the 1950s",
+    "Brought IBM's institutional weight and computing resources to the nascent AI effort"
+  ],
+  "significance": 6,
+  "influenced_by": ["person_turing_alan"],
+  "influenced": [],
+  "papers": [],
+  "epoch_active": "01_dawn",
+  "summary": "Nathaniel Rochester was an IBM engineer and computer architect who co-organized the 1956 Dartmouth Conference, the event that formally established artificial intelligence as a field. Along with John McCarthy, Marvin Minsky, and Claude Shannon, he co-authored the conference proposal that coined the term 'artificial intelligence.' Rochester brought IBM's computing resources and engineering expertise to the early AI effort and led some of the first attempts to simulate neural networks on digital computers. He also designed the IBM 701, IBM's first commercial scientific computer."
+}

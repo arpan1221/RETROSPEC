@@ -1,0 +1,22 @@
+{
+  "id": "lineage_roberta",
+  "type": "lineage",
+  "name": "RoBERTa",
+  "family": "encoder_only_transformer",
+  "organization": "Meta AI",
+  "year": 2019,
+  "parent": "lineage_bert",
+  "children": [],
+  "architecture": "encoder_only_transformer",
+  "key_innovations": [
+    "removed_next_sentence_prediction",
+    "dynamic_masking",
+    "larger_batch_sizes",
+    "longer_training_on_more_data"
+  ],
+  "parameter_count": "125M (Base) / 355M (Large)",
+  "training_approach": "self-supervised pretraining with dynamic MLM on 160GB of text",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> BERT -> RoBERTa",
+  "significance": 7,
+  "summary": "RoBERTa (Robustly Optimized BERT Pretraining Approach) demonstrated that BERT was significantly undertrained and that careful tuning of hyperparameters, removing the next sentence prediction objective, training on more data with dynamic masking, and using larger batches could match or exceed all post-BERT methods. It became a widely used baseline and demonstrated the importance of training methodology over architectural novelty."
+}

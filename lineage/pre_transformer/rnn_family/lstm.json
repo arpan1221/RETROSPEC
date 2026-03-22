@@ -1,0 +1,23 @@
+{
+  "id": "lineage_lstm",
+  "type": "lineage",
+  "name": "Long Short-Term Memory (LSTM)",
+  "family": "recurrent_neural_network",
+  "organization": "IDSIA (Hochreiter & Schmidhuber)",
+  "year": 1997,
+  "parent": "lineage_rnn",
+  "children": ["lineage_seq2seq"],
+  "architecture": "gated_recurrent_neural_network",
+  "key_innovations": [
+    "cell_state_for_long_range_memory",
+    "forget_gate",
+    "input_gate",
+    "output_gate",
+    "solved_vanishing_gradient_problem"
+  ],
+  "parameter_count": "variable",
+  "training_approach": "backpropagation through time (BPTT) with gated gradients",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM",
+  "significance": 9,
+  "summary": "LSTM solved the vanishing gradient problem that crippled standard RNNs by introducing a gated cell architecture with forget, input, and output gates controlling information flow. Proposed by Hochreiter and Schmidhuber in 1997, it enabled learning of long-range dependencies in sequences and became the dominant architecture for speech recognition, machine translation, and text generation for nearly two decades. LSTM was the critical stepping stone that made sequence-to-sequence models and eventually the transformer possible."
+}

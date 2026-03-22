@@ -1,0 +1,20 @@
+{
+  "id": "person_jones_llion",
+  "type": "person",
+  "name": "Llion Jones",
+  "born": null,
+  "died": null,
+  "nationality": "British",
+  "affiliations": ["org_google", "org_sakana_ai"],
+  "key_contributions": [
+    "Co-authored \"Attention Is All You Need\" (2017) — introduced the Transformer architecture",
+    "Co-founded Sakana AI in 2023 in Tokyo, focused on nature-inspired AI research",
+    "Longest-serving Transformer co-author at Google before departure"
+  ],
+  "significance": 6,
+  "influenced_by": ["person_vaswani_ashish"],
+  "influenced": [],
+  "papers": ["paper_2017_attention_is_all_you_need"],
+  "epoch_active": "08_transformer_age",
+  "summary": "Llion Jones is a co-author of 'Attention Is All You Need' (2017), the paper that introduced the Transformer architecture. He remained at Google longer than most of his Transformer co-authors before co-founding Sakana AI in Tokyo in 2023. Sakana AI takes a nature-inspired approach to AI research, drawing on principles from evolution and collective intelligence."
+}

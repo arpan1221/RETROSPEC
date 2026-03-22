@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_reasoning_models",
+  "type": "event",
+  "title": "Reasoning Models Become the New Frontier Paradigm",
+  "date": "2025-02-01",
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "By early 2025, extended thinking and reasoning capabilities became the defining feature of frontier AI models. Following OpenAI's o1 (2024) and DeepSeek's R1, Anthropic released Claude with extended thinking, Google released Gemini 2.0 Flash Thinking, and other labs followed. These models could spend variable compute at inference time, using chain-of-thought reasoning to work through complex problems step by step. The paradigm shifted from 'bigger pre-training' to 'smarter inference' — models that could think longer on harder problems rather than simply being trained on more data.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_openai", "org_anthropic", "org_google_deepmind", "org_deepseek"],
+    "models_spawned": ["model_o1", "model_deepseek_r1", "model_claude_37_sonnet"]
+  },
+  "preceded_by": ["evt_2025_deepseek_r1"],
+  "succeeded_by": ["evt_2025_frontier_parity"],
+  "tags": ["reasoning", "inference_compute", "chain_of_thought", "paradigm_shift", "extended_thinking"],
+  "impact_description": "The reasoning model paradigm represented the most significant shift in AI capabilities since the original transformer architecture. By allocating compute at inference time rather than only at training time, models achieved breakthrough performance on mathematics, coding, and scientific reasoning tasks. This shift also made AI more interpretable, as the reasoning traces provided visibility into model thinking processes.",
+  "counterfactual": "Without the reasoning model paradigm, AI capabilities might have plateaued as pre-training scaling hit diminishing returns. The ability to trade inference compute for better answers opened a new scaling axis that extended the capability frontier. Tasks requiring multi-step reasoning, such as complex coding and mathematical proofs, might have remained beyond AI capabilities for years longer.",
+  "query_hooks": [
+    "What are reasoning models?",
+    "How did AI learn to think step by step?",
+    "What replaced the scaling paradigm?",
+    "Why can modern AI models reason about complex problems?"
+  ]
+}

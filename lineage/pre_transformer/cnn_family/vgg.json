@@ -1,0 +1,22 @@
+{
+  "id": "lineage_vgg",
+  "type": "lineage",
+  "name": "VGGNet",
+  "family": "convolutional_neural_network",
+  "organization": "University of Oxford (Simonyan & Zisserman)",
+  "year": 2014,
+  "parent": "lineage_alexnet",
+  "children": ["lineage_resnet"],
+  "architecture": "convolutional_neural_network",
+  "key_innovations": [
+    "very_deep_networks_16_19_layers",
+    "uniform_3x3_convolution_filters",
+    "simplicity_and_depth_over_complexity",
+    "strong_feature_extractor_for_transfer_learning"
+  ],
+  "parameter_count": "138M (VGG-16) / 144M (VGG-19)",
+  "training_approach": "supervised training on ImageNet",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> LeNet -> AlexNet -> VGGNet",
+  "significance": 7,
+  "summary": "VGGNet demonstrated that network depth was a critical factor for performance by using a uniform architecture of stacked 3x3 convolution filters to reach 16-19 layers deep. Its simplicity and strong performance made it one of the most widely used feature extractors for transfer learning in computer vision, and it proved the principle that deeper networks with smaller filters could represent the same receptive fields as shallower networks with larger filters."
+}

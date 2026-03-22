@@ -1,0 +1,25 @@
+{
+  "id": "evt_1979_stanford_cart",
+  "type": "event",
+  "title": "Stanford Cart Autonomously Navigates a Room of Obstacles",
+  "date": "1979-01-01",
+  "epoch": "03_first_winter",
+  "significance": 5,
+  "summary": "Hans Moravec's Stanford Cart successfully navigated a chair-filled room autonomously using computer vision, becoming one of the first demonstrations of autonomous vehicle navigation. The cart used a single TV camera mounted on a sliding rail to capture stereo images, built 3D models of its environment, and planned obstacle-free paths. The journey across the 20-meter room took approximately 5 hours, as the cart stopped every meter to capture images and spend 10-15 minutes computing its next move. Despite its glacial pace, the Stanford Cart demonstrated that autonomous navigation using computer vision was possible.",
+  "entities": {
+    "people": ["person_moravec_hans"],
+    "organizations": ["org_stanford"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1974_darpa_cuts"],
+  "succeeded_by": ["evt_1980_xcon_deployed"],
+  "tags": ["robotics", "computer_vision", "autonomous_navigation", "first_winter"],
+  "impact_description": "The Stanford Cart was a crucial proof of concept for autonomous navigation, demonstrating that a robot could perceive and navigate through an unstructured environment using vision alone. Though impossibly slow for practical use, it established the fundamental approach — sense, build world model, plan path, execute — that modern self-driving vehicles still follow. Moravec's work also led to his formulation of Moravec's Paradox: tasks easy for humans (perception, mobility) are hard for computers, while tasks hard for humans (chess, math) are easy.",
+  "counterfactual": "Without the Stanford Cart, autonomous vehicle research might have lacked its foundational demonstration. The proof that vision-based autonomous navigation was possible, even at a glacial pace, motivated decades of subsequent robotics research. Moravec's Paradox, which emerged from this work, remains one of the most important insights in AI — explaining why ChatGPT can pass the bar exam but robots still struggle to fold laundry.",
+  "query_hooks": [
+    "What was the first autonomous vehicle?",
+    "What is Moravec's Paradox?",
+    "How did self-driving car research begin?",
+    "What AI progress happened during the First AI Winter?"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "person_krizhevsky_alex",
+  "type": "person",
+  "name": "Alex Krizhevsky",
+  "born": "1986-01-01",
+  "died": null,
+  "nationality": "Ukrainian-Canadian",
+  "affiliations": ["org_university_of_toronto", "org_google"],
+  "key_contributions": [
+    "Created AlexNet (2012) — the convolutional neural network that won ImageNet and launched the deep learning era",
+    "Demonstrated that deep CNNs trained on GPUs could dramatically outperform traditional computer vision approaches",
+    "Student of Geoffrey Hinton at the University of Toronto",
+    "AlexNet's ImageNet victory is widely considered the single event that ignited the deep learning revolution"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_hinton_geoffrey", "person_lecun_yann"],
+  "influenced": ["person_sutskever_ilya"],
+  "papers": ["paper_2012_alexnet_imagenet"],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Alex Krizhevsky created AlexNet, the deep convolutional neural network that won the 2012 ImageNet Large Scale Visual Recognition Challenge by a historic margin, reducing the top-5 error rate from 26% to 15.3%. This single result convinced the machine learning community that deep neural networks trained on GPUs were the future. As a student of Geoffrey Hinton at the University of Toronto, Krizhevsky demonstrated that the ideas Hinton had championed through two AI winters could finally deliver transformative results at scale."
+}

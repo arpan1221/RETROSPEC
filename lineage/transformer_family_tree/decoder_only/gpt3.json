@@ -1,0 +1,22 @@
+{
+  "id": "lineage_gpt3",
+  "type": "lineage",
+  "name": "GPT-3",
+  "family": "decoder_only_transformer",
+  "organization": "OpenAI",
+  "year": 2020,
+  "parent": "lineage_gpt2",
+  "children": ["lineage_gpt4"],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "few_shot_learning_via_in_context_examples",
+    "scaling_to_175B_parameters",
+    "emergent_abilities_at_scale",
+    "api_based_model_access"
+  ],
+  "parameter_count": "175B",
+  "training_approach": "unsupervised pretraining on 300B tokens from filtered Common Crawl, WebText2, Books, Wikipedia",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> GPT-1 -> GPT-2 -> GPT-3",
+  "significance": 9,
+  "summary": "GPT-3 proved that scaling a decoder-only transformer to 175B parameters produced emergent few-shot learning abilities, allowing the model to perform tasks from just a few examples in the prompt. It launched the API-as-a-product model for LLMs, catalyzed the scaling laws hypothesis, and made large language models accessible to developers worldwide, fundamentally shifting the AI industry toward foundation models."
+}

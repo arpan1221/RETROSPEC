@@ -1,0 +1,25 @@
+{
+  "id": "evt_1837_babbage_analytical_engine",
+  "type": "event",
+  "title": "Charles Babbage Designs the Analytical Engine",
+  "date": "1837-01-01",
+  "epoch": "00_philosophical_roots",
+  "significance": 7,
+  "summary": "Charles Babbage designed the Analytical Engine, the first general-purpose mechanical computer. Unlike his earlier Difference Engine (a fixed-function calculator), the Analytical Engine incorporated a 'mill' (processor), 'store' (memory), input via punched cards (borrowed from Jacquard looms), and conditional branching — making it Turing-complete in design over a century before Turing. Though never fully built due to funding and engineering limitations of the era, its design contained every essential element of a modern computer: ALU, control flow, memory, and I/O.",
+  "entities": {
+    "people": ["person_babbage_charles"],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1673_leibniz_stepped_reckoner"],
+  "succeeded_by": ["evt_1843_lovelace_first_program"],
+  "tags": ["computation", "hardware", "design", "general_purpose_computer", "origins"],
+  "impact_description": "The Analytical Engine's design was the first to separate processing from memory and incorporate conditional logic, establishing the architectural template that every computer since has followed. Its use of punched cards for programming anticipated stored-program concepts by over a century. The design proved that general-purpose computation was theoretically achievable with mechanical means.",
+  "counterfactual": "Without Babbage's design, the concept of a general-purpose programmable computer might have emerged decades later, potentially delaying Ada Lovelace's insights about computation and algorithms. The intellectual bridge between mechanical calculators and electronic computers would have been weaker, possibly delaying the theoretical foundations that Turing later formalized.",
+  "query_hooks": [
+    "What was the first general-purpose computer design?",
+    "Who designed the first programmable computer?",
+    "What is the Analytical Engine?",
+    "How did computer architecture originate?"
+  ]
+}

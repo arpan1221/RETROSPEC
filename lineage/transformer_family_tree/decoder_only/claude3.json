@@ -1,0 +1,23 @@
+{
+  "id": "lineage_claude3",
+  "type": "lineage",
+  "name": "Claude 3",
+  "family": "decoder_only_transformer",
+  "organization": "Anthropic",
+  "year": 2024,
+  "parent": "lineage_claude1",
+  "children": [],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "multimodal_vision_capability",
+    "tiered_model_family_opus_sonnet_haiku",
+    "extended_context_200k_tokens",
+    "improved_reasoning_and_instruction_following",
+    "reduced_hallucination"
+  ],
+  "parameter_count": "undisclosed",
+  "training_approach": "pretraining + RLHF + Constitutional AI (RLAIF)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> Claude 1 -> Claude 3",
+  "significance": 8,
+  "summary": "Claude 3 introduced a tiered model family (Opus, Sonnet, Haiku) offering different capability-cost tradeoffs, with Claude 3 Opus achieving frontier-level performance competitive with GPT-4. It added multimodal vision capabilities, a 200K token context window, and demonstrated substantial improvements in reasoning and reduced hallucination, solidifying Anthropic's position as a leading AI lab."
+}

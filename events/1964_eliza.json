@@ -1,0 +1,25 @@
+{
+  "id": "evt_1964_eliza",
+  "type": "event",
+  "title": "Joseph Weizenbaum Creates ELIZA",
+  "date": "1964-01-01",
+  "epoch": "02_golden_age",
+  "significance": 7,
+  "summary": "Joseph Weizenbaum at MIT created ELIZA, a natural language processing program that simulated conversation by using pattern matching and substitution rules to transform user inputs into Rogerian psychotherapist responses. Despite having no understanding of language whatsoever, ELIZA convinced many users they were talking to a real therapist — Weizenbaum's own secretary reportedly asked him to leave the room so she could have a private conversation with the program. This phenomenon, later called the 'ELIZA effect,' demonstrated humans' powerful tendency to attribute understanding and intelligence to machines that merely mimic conversational patterns.",
+  "entities": {
+    "people": ["person_weizenbaum_joseph"],
+    "organizations": ["org_mit"],
+    "models_spawned": ["model_eliza"]
+  },
+  "preceded_by": ["evt_1958_lisp_created", "evt_1958_perceptron"],
+  "succeeded_by": ["evt_1966_shakey"],
+  "tags": ["natural_language_processing", "chatbot", "human_computer_interaction", "eliza_effect"],
+  "impact_description": "ELIZA was the first program to pass a rudimentary conversational test with naive users and established the chatbot as a concept. The ELIZA effect — humans anthropomorphizing simple programs — remains one of the most important phenomena in human-AI interaction, directly relevant to modern LLM chatbots. Weizenbaum himself was so disturbed by people's willingness to attribute understanding to his simple program that he became one of AI's earliest and most vocal critics.",
+  "counterfactual": "Without ELIZA, the chatbot concept might have emerged later, and the critical insight about human tendency to anthropomorphize machines might have been delayed. The ELIZA effect remains essential context for understanding public reactions to modern AI chatbots like ChatGPT — the same phenomenon Weizenbaum observed in 1964 plays out at scale in 2025.",
+  "query_hooks": [
+    "What was the first chatbot?",
+    "What is the ELIZA effect?",
+    "When did humans first talk to computers?",
+    "Who created the first conversational AI?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_us_ai_preemption",
+  "type": "event",
+  "title": "US Federal Government Moves to Preempt State AI Regulation",
+  "date": "2025-02-20",
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "The US federal government under the Trump administration took aggressive steps to preempt state-level AI regulation, rescinding Biden's October 2023 executive order on AI safety and signaling a deregulatory approach. This created a sharp contrast with the EU's comprehensive AI Act and reflected a deliberate strategy to maintain US AI competitiveness by reducing regulatory burden on domestic AI companies. Multiple states, led by California, had been advancing their own AI safety legislation, creating a patchwork regulatory landscape that industry argued would stifle innovation. The federal preemption debate became one of the defining AI policy battles of 2025.",
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2024_eu_ai_act", "evt_2025_aaif_founded"],
+  "succeeded_by": [],
+  "tags": ["regulation", "policy", "united_states", "deregulation", "competition", "governance"],
+  "impact_description": "The US deregulatory stance created a global regulatory divergence, with the EU pursuing comprehensive regulation and the US favoring industry self-governance. This divergence shaped where AI companies headquartered, how they designed products, and which markets they prioritized. The tension between innovation speed and safety guardrails became the central policy debate of the agentic era.",
+  "counterfactual": "If the US had maintained or strengthened the Biden-era AI safety executive order, the global regulatory landscape might have converged toward stricter oversight. US AI labs might have faced constraints similar to European companies, potentially slowing deployment but providing stronger safety guarantees. The absence of federal regulation accelerated US AI deployment but left unresolved questions about long-term safety governance.",
+  "query_hooks": [
+    "How does the US regulate AI?",
+    "Why did the US take a different approach to AI regulation than the EU?",
+    "What happened to the Biden AI executive order?",
+    "How does AI regulation differ between countries?"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cycle_dot_com_ai_quiet_1993_2011",
+  "type": "cycle",
+  "name": "The Quiet Period: AI's Rebranding as Machine Learning",
+  "cycle_type": "quiet",
+  "date_start": "1993-01-01",
+  "date_end": "2011-12-31",
+  "duration_years": 18,
+  "summary": "The Quiet Period was the longest and arguably most productive phase in AI history, despite — or perhaps because of — the near-total absence of hype. After the Second AI Winter made 'artificial intelligence' a toxic label, researchers rebranded their work as 'machine learning,' 'data mining,' 'pattern recognition,' 'computational intelligence,' and 'informatics.' Freed from the burden of overpromising, the field made steady, foundational progress. Vladimir Vapnik's Support Vector Machines (1995) provided a mathematically rigorous framework for classification. Leo Breiman's Random Forests (2001) offered robust ensemble methods. Yann LeCun's convolutional neural networks quietly proved themselves on handwriting recognition (used by the US Postal Service). Meanwhile, spectacular public demonstrations kept AI in the cultural consciousness: IBM's Deep Blue defeated world chess champion Garry Kasparov in 1997, and IBM Watson won Jeopardy! against champions Ken Jennings and Brad Rutter in 2011. The rise of the World Wide Web and Web 2.0 generated unprecedented volumes of text, images, and behavioral data — the raw material that machine learning needed. Google's founding (1998) and subsequent dominance demonstrated that statistical approaches to language (PageRank, statistical machine translation) could create enormous commercial value. Moore's Law delivered exponential increases in computing power. By the end of this period, all the ingredients for the deep learning revolution were in place: massive datasets, cheap computation, proven algorithms, and a generation of researchers who had been quietly refining their methods for two decades.",
+  "trigger_signals": [
+    "The Second AI Winter made 'AI' a toxic commercial label, forcing rebranding to 'machine learning' and 'data mining'",
+    "The World Wide Web (1991+) began generating massive datasets for training statistical models",
+    "Vapnik's Support Vector Machines (1995) provided mathematically rigorous ML with provable guarantees",
+    "Google's founding (1998) proved that statistical approaches to language understanding had enormous commercial value",
+    "GPU computing began to emerge as researchers like Raina, Madhavan, and Ng demonstrated neural network training on GPUs (2009)"
+  ],
+  "peak_indicators": [
+    "IBM Deep Blue defeated Garry Kasparov (1997), demonstrating superhuman performance in a narrow domain",
+    "IBM Watson won Jeopardy! (2011), showcasing natural language understanding capabilities",
+    "Netflix Prize (2006-2009) demonstrated that ML could solve real commercial problems and attracted broad interest",
+    "Google Translate launched (2006), bringing statistical MT to hundreds of millions of users"
+  ],
+  "collapse_factors": [
+    "There was no collapse — this was a period of steady accumulation rather than a boom-bust cycle",
+    "The dot-com bust (2000-2002) temporarily reduced technology investment broadly but did not specifically target AI/ML",
+    "Progress was real but incremental, never generating the kind of hype that precedes a crash"
+  ],
+  "recovery_factors": [
+    "The quiet period itself was the recovery from the Second AI Winter",
+    "Rebranding allowed researchers to secure funding under less stigmatized labels",
+    "The web provided free, abundant training data at a scale previously unimaginable",
+    "Exponential growth in computing power (Moore's Law) steadily made previously intractable problems feasible"
+  ],
+  "funding_impact": "Funding for AI-labeled research remained suppressed throughout the 1990s, but funding for 'machine learning,' 'data mining,' and 'information retrieval' grew steadily. NSF and DARPA funded ML research under various program names. Corporate research labs — particularly Google, Microsoft Research, Yahoo Labs, and AT&T Labs — became major employers of ML researchers. By the late 2000s, total ML research spending likely exceeded the peak of the expert systems era, though it was distributed across many labels. The Netflix Prize ($1M, 2006) and Kaggle competitions (founded 2010) created new incentive structures for applied ML research.",
+  "lessons_learned": [
+    "Steady, unglamorous progress often produces more lasting results than hype-driven booms — nearly all foundations of modern AI were laid during this 'quiet' period",
+    "Rebranding can save a field: the same researchers doing the same work under the label 'machine learning' attracted funding that 'AI' could not",
+    "Data availability matters as much as algorithmic innovation — the web provided the training data that made modern ML possible",
+    "Commercial applications (search, recommendation, spam filtering) provided sustainable funding that did not depend on government grants or hype cycles"
+  ],
+  "related_epochs": [
+    "06_quiet_revolution"
+  ],
+  "related_events": [
+    "evt_1997_deep_blue_kasparov"
+  ],
+  "warning_signs_for_current": "The Quiet Period demonstrates that the most productive periods in AI are often the least hyped. In 2025-2026, as generative AI investment reaches fever pitch, the Quiet Period offers a counterpoint: the foundations being laid by researchers working on alignment, interpretability, efficient architectures, and multimodal integration may prove more consequential than the headline-grabbing product launches. If the current hype cycle does correct, history suggests the field will not die — it will rebrand, refocus, and continue building, just as it did from 1993 to 2011.",
+  "significance": 6,
+  "query_hooks": [
+    "What happened to AI research between the 1990s and 2010s?",
+    "Why was AI rebranded as machine learning?",
+    "What were the foundations that enabled the deep learning revolution?",
+    "Was there ever a quiet period in AI history?"
+  ]
+}

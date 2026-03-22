@@ -1,0 +1,22 @@
+{
+  "id": "lineage_llama2",
+  "type": "lineage",
+  "name": "LLaMA 2",
+  "family": "decoder_only_transformer",
+  "organization": "Meta AI",
+  "year": 2023,
+  "parent": "lineage_llama1",
+  "children": [],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "officially_open_source_with_commercial_license",
+    "grouped_query_attention",
+    "rlhf_aligned_chat_variants",
+    "doubled_context_length_4096"
+  ],
+  "parameter_count": "7B / 13B / 70B",
+  "training_approach": "pretraining on 2T tokens + RLHF for chat variants",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> LLaMA -> LLaMA 2",
+  "significance": 7,
+  "summary": "LLaMA 2 was Meta's first officially open-source large language model with a permissive commercial license, trained on 2T tokens with RLHF-aligned chat variants. It introduced grouped-query attention for efficient inference and became the foundation for a vast ecosystem of finetuned and derivative models, establishing the standard for open-weight LLMs."
+}

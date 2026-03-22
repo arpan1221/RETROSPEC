@@ -1,0 +1,23 @@
+{
+  "id": "lineage_s4",
+  "type": "lineage",
+  "name": "Structured State Space for Sequence Modeling (S4)",
+  "family": "state_space_model",
+  "organization": "Stanford (Gu, Goel, Re)",
+  "year": 2021,
+  "parent": null,
+  "children": ["lineage_mamba"],
+  "architecture": "state_space_model",
+  "key_innovations": [
+    "hippo_initialization_for_long_range_memory",
+    "diagonal_plus_low_rank_parameterization",
+    "linear_time_sequence_processing",
+    "continuous_time_formulation",
+    "long_range_arena_benchmark_dominance"
+  ],
+  "parameter_count": "variable",
+  "training_approach": "supervised and self-supervised training with efficient convolutional computation",
+  "lineage_path": "Classical state space models -> HiPPO -> S4",
+  "significance": 7,
+  "summary": "S4 demonstrated that structured state space models with HiPPO initialization could model extremely long-range dependencies with linear complexity in sequence length, achieving breakthrough results on the Long Range Arena benchmark where transformers struggled. Developed by Gu, Goel, and Re at Stanford, it revived interest in alternatives to the attention mechanism by showing that continuous-time linear recurrences could be computed efficiently as convolutions during training, opening a new research direction for sequence modeling beyond transformers."
+}

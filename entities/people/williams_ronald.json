@@ -1,0 +1,21 @@
+{
+  "id": "person_williams_ronald",
+  "type": "person",
+  "name": "Ronald Williams",
+  "born": null,
+  "died": null,
+  "nationality": "American",
+  "affiliations": ["org_northeastern_university", "org_ucsd"],
+  "key_contributions": [
+    "Co-authored the 1986 Nature paper \"Learning representations by back-propagating errors\" with Rumelhart and Hinton",
+    "Invented the REINFORCE algorithm (1992) — the foundation of modern policy gradient methods in reinforcement learning",
+    "REINFORCE is a direct ancestor of the PPO algorithm used in RLHF for training ChatGPT, Claude, and other LLMs",
+    "Contributed to the mathematical foundations of training neural networks"
+  ],
+  "significance": 7,
+  "influenced_by": ["person_rumelhart_david"],
+  "influenced": ["person_sutton_richard"],
+  "papers": ["paper_1986_learning_representations_by_backpropagating_errors"],
+  "epoch_active": "06_quiet_revolution",
+  "summary": "Ronald Williams is a computer scientist whose contributions span two of the most critical developments in modern AI: backpropagation and policy gradient reinforcement learning. As a co-author of the 1986 Nature paper with Rumelhart and Hinton, he helped make backpropagation practical for training multi-layer neural networks. His REINFORCE algorithm (1992) established the policy gradient framework that would eventually lead to PPO and RLHF — the techniques used to align modern LLMs like ChatGPT and Claude with human preferences."
+}

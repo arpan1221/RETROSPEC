@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_aaif_founded",
+  "type": "event",
+  "title": "Autonomous AI Framework Governance Initiatives Emerge",
+  "date": "2025-03-10",
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Multiple governance frameworks for autonomous AI agents were established in early 2025, as the rapid deployment of agentic systems created urgent questions about liability, oversight, and safety. Industry coalitions, standards bodies, and government agencies began developing frameworks to address key challenges: Who is responsible when an autonomous agent causes harm? How should agents identify themselves? What tasks should require human approval? These initiatives represented the first serious institutional responses to AI systems that could act autonomously in the real world, going beyond the text-generation focus of earlier AI governance efforts like the EU AI Act.",
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2024_eu_ai_act"],
+  "succeeded_by": ["evt_2025_us_ai_preemption"],
+  "tags": ["governance", "regulation", "safety", "autonomous_agents", "policy", "liability"],
+  "impact_description": "These governance initiatives established the first frameworks specifically designed for autonomous AI agents, addressing novel challenges that prior AI regulation had not anticipated. They began defining the legal and ethical boundaries within which agentic AI systems would operate, setting precedents that would shape the development of autonomous systems for years to come.",
+  "counterfactual": "Without early governance frameworks for agentic AI, the deployment of autonomous agents might have proceeded without guardrails, potentially leading to high-profile failures or harms that could trigger a backlash similar to previous AI winters. Alternatively, the absence of governance might have allowed faster innovation but at the cost of public trust.",
+  "query_hooks": [
+    "How are autonomous AI agents governed?",
+    "Who is liable when an AI agent causes harm?",
+    "What regulations apply to agentic AI?",
+    "How did AI governance evolve beyond chatbots?"
+  ]
+}

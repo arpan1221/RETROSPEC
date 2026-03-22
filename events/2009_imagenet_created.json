@@ -1,0 +1,25 @@
+{
+  "id": "evt_2009_imagenet_created",
+  "type": "event",
+  "title": "Fei-Fei Li Creates the ImageNet Dataset",
+  "date": "2009-06-01",
+  "epoch": "06_quiet_revolution",
+  "significance": 8,
+  "summary": "Fei-Fei Li and colleagues at Stanford University published the ImageNet dataset, containing over 14 million labeled images organized into more than 20,000 categories using the WordNet hierarchy. Li's key insight was that the bottleneck in computer vision was not algorithms but data — models needed to see the full diversity of the visual world to learn effectively. She leveraged Amazon Mechanical Turk to crowdsource the labeling of millions of images, creating a dataset orders of magnitude larger than anything previously available. The associated ImageNet Large Scale Visual Recognition Challenge (ILSVRC), launched in 2010, became the benchmark that would crown AlexNet in 2012 and ignite the deep learning explosion.",
+  "entities": {
+    "people": ["person_li_feifei"],
+    "organizations": ["org_stanford", "org_princeton"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_2006_hinton_deep_belief_nets"],
+  "succeeded_by": ["evt_2011_watson_jeopardy", "evt_2012_alexnet_imagenet"],
+  "tags": ["dataset", "computer_vision", "benchmark", "data", "crowdsourcing"],
+  "impact_description": "ImageNet was the catalyst that made the deep learning revolution possible. Without a large-scale benchmark dataset, there would have been no AlexNet moment. ImageNet demonstrated a principle that would define the AI era: data is as important as algorithms. The dataset became the standard benchmark for computer vision, and the annual ILSVRC competition drove rapid progress in image recognition from 2010 to 2017. Li's work established the paradigm that large, diverse, labeled datasets are prerequisites for breakthrough AI performance.",
+  "counterfactual": "Without ImageNet, the deep learning revolution might have been delayed by years. AlexNet's landmark 2012 victory was possible only because ImageNet provided the large-scale training data and competitive benchmark needed to demonstrate deep learning's superiority. The entire trajectory of computer vision — and by extension, deep learning's credibility as a paradigm — depended on ImageNet's existence.",
+  "query_hooks": [
+    "What dataset enabled the deep learning revolution?",
+    "Who created ImageNet?",
+    "Why is training data so important for AI?",
+    "What benchmark did AlexNet win?"
+  ]
+}

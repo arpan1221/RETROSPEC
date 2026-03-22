@@ -1,0 +1,25 @@
+{
+  "id": "evt_1974_darpa_cuts",
+  "type": "event",
+  "title": "DARPA Dramatically Cuts AI Research Funding",
+  "date": "1974-01-01",
+  "epoch": "03_first_winter",
+  "significance": 7,
+  "summary": "The Defense Advanced Research Projects Agency (DARPA), which had been the primary funder of American AI research, dramatically reduced its AI budget following the Lighthill Report (UK, 1973) and growing disillusionment with AI's failure to deliver on its ambitious promises. DARPA shifted funding toward applied projects with clear military applications and away from basic AI research. Combined with similar cuts by the UK Science Research Council, this created a cascading funding collapse across the Western AI research community. University AI labs lost grants, graduate students fled to other fields, and several prominent research groups disbanded or pivoted entirely.",
+  "entities": {
+    "people": [],
+    "organizations": ["org_darpa"],
+    "models_spawned": []
+  },
+  "preceded_by": ["evt_1973_lighthill_report", "evt_1974_dreyfus_criticism"],
+  "succeeded_by": ["evt_1979_stanford_cart"],
+  "tags": ["ai_winter", "funding", "government", "darpa", "research_collapse"],
+  "impact_description": "DARPA's funding cuts were the single most consequential action in triggering the First AI Winter. As the primary source of AI research funding in the US, DARPA's withdrawal created a cascade of lab closures, talent exodus, and lost institutional knowledge. The cuts established a pattern that would repeat: overcommitting to ambitious promises, failing to deliver, and triggering a funding backlash that set the field back by years.",
+  "counterfactual": "If DARPA had maintained AI funding at 1960s levels, the First AI Winter might have been avoided entirely. Sustained funding would have allowed researchers to work through the limitations of symbolic AI more gradually, potentially discovering connectionist and statistical approaches sooner. The decade of lost progress from 1974-1984 might have produced foundational advances instead.",
+  "query_hooks": [
+    "What caused the First AI Winter?",
+    "Why did DARPA cut AI funding?",
+    "How does government funding affect AI research?",
+    "What happens when AI fails to deliver on promises?"
+  ]
+}

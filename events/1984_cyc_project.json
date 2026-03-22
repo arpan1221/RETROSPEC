@@ -1,0 +1,25 @@
+{
+  "id": "evt_1984_cyc_project",
+  "type": "event",
+  "title": "Doug Lenat Launches the Cyc Project",
+  "date": "1984-01-01",
+  "epoch": "04_expert_systems_boom",
+  "significance": 6,
+  "summary": "Doug Lenat launched the Cyc project at MCC (Microelectronics and Computer Technology Corporation) with the goal of encoding all of human commonsense knowledge into a formal knowledge base that AI systems could reason with. Lenat argued that AI systems failed because they lacked commonsense knowledge — the millions of implicit facts humans take for granted (e.g., 'water is wet,' 'dead people don't buy things,' 'you can't fit inside a matchbox'). The project aimed to hand-code enough knowledge to cross a threshold where the system could begin learning on its own. Over the following decades, Cyc consumed over $60 million and 600 person-years of effort.",
+  "entities": {
+    "people": ["person_lenat_doug"],
+    "organizations": ["org_mcc", "org_cycorp"],
+    "models_spawned": ["model_cyc"]
+  },
+  "preceded_by": ["evt_1981_fifth_generation_project"],
+  "succeeded_by": ["evt_1987_lisp_machine_collapse"],
+  "tags": ["knowledge_engineering", "commonsense", "symbolic_ai", "long_running_project", "cautionary_tale"],
+  "impact_description": "Cyc became the most ambitious and expensive knowledge engineering project in AI history. While it produced a knowledge base of millions of assertions, it never achieved its goal of crossing the threshold to self-learning. The project demonstrated the fundamental limitation of the symbolic approach: commonsense knowledge is too vast, too context-dependent, and too implicit to encode by hand. Modern LLMs effectively solved the commonsense knowledge problem through data-driven learning, vindicating Cyc's diagnosis of the problem while rejecting its solution.",
+  "counterfactual": "Without Cyc's spectacular demonstration that hand-coded commonsense knowledge doesn't scale, the field might have continued pursuing symbolic approaches to commonsense reasoning for longer. Cyc's failure was an important negative result that helped justify the shift to statistical and neural approaches. The $60M+ spent on Cyc served as a powerful cautionary tale about the limits of knowledge engineering.",
+  "query_hooks": [
+    "What is the Cyc project?",
+    "Why can't you hand-code commonsense knowledge?",
+    "What is the most expensive AI failure?",
+    "How did LLMs solve the commonsense problem that Cyc couldn't?"
+  ]
+}

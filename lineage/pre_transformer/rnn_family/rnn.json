@@ -1,0 +1,22 @@
+{
+  "id": "lineage_rnn",
+  "type": "lineage",
+  "name": "Recurrent Neural Network (RNN)",
+  "family": "recurrent_neural_network",
+  "organization": "Various (Rumelhart, Hopfield, Elman, Jordan)",
+  "year": 1986,
+  "parent": null,
+  "children": ["lineage_lstm", "lineage_gru"],
+  "architecture": "recurrent_neural_network",
+  "key_innovations": [
+    "sequential_processing_with_hidden_state",
+    "weight_sharing_across_time_steps",
+    "temporal_dependency_modeling",
+    "backpropagation_through_time"
+  ],
+  "parameter_count": "variable",
+  "training_approach": "backpropagation through time (BPTT)",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN",
+  "significance": 8,
+  "summary": "Recurrent Neural Networks introduced the concept of processing sequential data by maintaining a hidden state that carries information across time steps, with weights shared across the sequence. Emerging from work by Rumelhart, Hopfield, Elman, and Jordan in the 1980s, RNNs were the first neural architecture designed for sequential and temporal data. Despite suffering from vanishing and exploding gradient problems that limited their ability to learn long-range dependencies, they established the foundation for all subsequent sequence modeling architectures."
+}

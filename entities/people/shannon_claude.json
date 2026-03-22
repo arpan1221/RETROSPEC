@@ -1,0 +1,23 @@
+{
+  "id": "person_shannon_claude",
+  "type": "person",
+  "name": "Claude Shannon",
+  "born": "1916-04-30",
+  "died": "2001-02-24",
+  "nationality": "American",
+  "affiliations": ["org_bell_labs", "org_mit"],
+  "key_contributions": [
+    "Founded information theory with \"A Mathematical Theory of Communication\" (1948)",
+    "Defined the bit as the fundamental unit of information",
+    "Proved that reliable communication is possible over noisy channels (Shannon's theorem)",
+    "Master's thesis (1937) applied Boolean algebra to electrical circuits — arguably the most important master's thesis ever written",
+    "Built early chess-playing programs and maze-solving machines",
+    "Laid the mathematical foundation for data compression, error correction, and digital communication"
+  ],
+  "significance": 9,
+  "influenced_by": ["person_turing_alan", "person_boole_george"],
+  "influenced": ["person_mccarthy_john", "person_minsky_marvin"],
+  "papers": ["paper_1948_mathematical_theory_of_communication"],
+  "epoch_active": "01_dawn",
+  "summary": "Claude Shannon is the father of information theory, a field without which modern AI would be impossible. His 1948 paper 'A Mathematical Theory of Communication' defined the bit, established the mathematical framework for data transmission, and proved the existence of reliable communication over noisy channels. His 1937 master's thesis showed that Boolean algebra could be applied to electrical circuits, forming the theoretical basis for digital computing. Shannon also built early chess programs and contributed to the 1956 Dartmouth Conference proposal. Anthropic's Claude model series is named after him."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lineage_gpt1",
+  "type": "lineage",
+  "name": "GPT-1",
+  "family": "decoder_only_transformer",
+  "organization": "OpenAI",
+  "year": 2018,
+  "parent": "lineage_transformer",
+  "children": ["lineage_gpt2"],
+  "architecture": "decoder_only_transformer",
+  "key_innovations": [
+    "unsupervised_pretraining_with_supervised_finetuning",
+    "generative_pretraining_for_nlp",
+    "transfer_learning_via_language_modeling"
+  ],
+  "parameter_count": "117M",
+  "training_approach": "unsupervised pretraining on BooksCorpus + supervised finetuning",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> GPT-1",
+  "significance": 8,
+  "summary": "GPT-1 demonstrated that generative pretraining on a large unlabeled text corpus followed by discriminative finetuning could achieve strong performance across diverse NLP tasks. It validated the decoder-only transformer as a powerful architecture for language understanding, establishing the paradigm that scaling this approach would yield increasingly capable models."
+}

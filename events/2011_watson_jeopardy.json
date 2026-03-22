@@ -1,0 +1,25 @@
+{
+  "id": "evt_2011_watson_jeopardy",
+  "type": "event",
+  "title": "IBM Watson Defeats Jeopardy! Champions",
+  "date": "2011-02-16",
+  "epoch": "06_quiet_revolution",
+  "significance": 7,
+  "summary": "IBM's Watson system defeated Jeopardy! champions Ken Jennings and Brad Rutter in a televised two-game match, winning $77,147 to Jennings's $24,000 and Rutter's $21,600. Watson used a hybrid approach called DeepQA, combining natural language processing, information retrieval, knowledge representation, and machine learning across 2,880 POWER7 processor cores with 15 terabytes of RAM. Unlike Deep Blue's brute-force chess approach, Watson had to understand natural language, including Jeopardy!'s notoriously tricky wordplay, puns, and oblique references. Ken Jennings famously wrote on his Final Jeopardy answer: 'I, for one, welcome our new computer overlords.'",
+  "entities": {
+    "people": ["person_ferrucci_david", "person_jennings_ken"],
+    "organizations": ["org_ibm"],
+    "models_spawned": ["model_watson"]
+  },
+  "preceded_by": ["evt_2009_imagenet_created"],
+  "succeeded_by": ["evt_2012_alexnet_imagenet"],
+  "tags": ["natural_language_processing", "question_answering", "public_demonstration", "ibm", "milestone"],
+  "impact_description": "Watson's Jeopardy! victory was the most high-profile AI demonstration since Deep Blue defeated Kasparov in 1997 and helped restore public interest in AI after years of quiet progress. It demonstrated that AI could process and understand natural language at a useful level, paving the way for the question-answering and conversational AI systems that would follow. However, IBM's subsequent failure to commercialize Watson effectively became a cautionary tale about the gap between AI demonstrations and AI products.",
+  "counterfactual": "Without Watson's televised victory, public awareness of AI's advancing capabilities might have remained low until the deep learning breakthroughs of 2012-2013. The demonstration helped attract talent and investment to NLP research at a critical moment. However, IBM's failure to capitalize on Watson commercially also demonstrated that winning a game show does not translate to business value — a lesson the industry would eventually learn from other AI demonstrations.",
+  "query_hooks": [
+    "What happened when AI competed on Jeopardy?",
+    "What was IBM Watson?",
+    "How did AI progress in natural language understanding?",
+    "What was the most famous AI demonstration before ChatGPT?"
+  ]
+}

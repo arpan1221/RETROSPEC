@@ -1,0 +1,22 @@
+{
+  "id": "person_bahdanau_dzmitry",
+  "type": "person",
+  "name": "Dzmitry Bahdanau",
+  "born": "1991-01-01",
+  "died": null,
+  "nationality": "Belarusian-Canadian",
+  "affiliations": ["org_mila", "org_university_of_montreal"],
+  "key_contributions": [
+    "Invented the attention mechanism for neural machine translation (2014)",
+    "Paper \"Neural Machine Translation by Jointly Learning to Align and Translate\" introduced additive attention",
+    "This attention mechanism was the direct precursor to the Transformer's self-attention",
+    "Student of Yoshua Bengio at MILA",
+    "Demonstrated that neural networks could learn to focus on relevant parts of input sequences"
+  ],
+  "significance": 8,
+  "influenced_by": ["person_bengio_yoshua"],
+  "influenced": ["person_vaswani_ashish"],
+  "papers": ["paper_2014_attention_nmt"],
+  "epoch_active": "07_deep_learning_era",
+  "summary": "Dzmitry Bahdanau invented the attention mechanism for neural machine translation in 2014, while a student of Yoshua Bengio at MILA. His paper 'Neural Machine Translation by Jointly Learning to Align and Translate' showed that a neural network could learn to selectively attend to relevant parts of an input sequence when generating each word of a translation. This insight — that models should learn where to look — was the direct intellectual ancestor of the self-attention mechanism in the Transformer. Without Bahdanau's attention, 'Attention Is All You Need' would not have been possible."
+}

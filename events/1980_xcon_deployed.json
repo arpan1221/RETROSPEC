@@ -1,0 +1,25 @@
+{
+  "id": "evt_1980_xcon_deployed",
+  "type": "event",
+  "title": "XCON Expert System Deployed at Digital Equipment Corporation",
+  "date": "1980-01-01",
+  "epoch": "04_expert_systems_boom",
+  "significance": 7,
+  "summary": "Digital Equipment Corporation (DEC) deployed XCON (also known as R1), an expert system for configuring VAX computer orders. Developed by John McDermott at Carnegie Mellon University, XCON used approximately 2,500 rules to validate and configure customer orders, checking that all components were compatible and complete. By 1986, XCON had grown to 10,000 rules and was saving DEC an estimated $40 million per year by reducing configuration errors. XCON was the first expert system to demonstrate massive commercial value and triggered an industry-wide rush to adopt expert systems.",
+  "entities": {
+    "people": ["person_mcdermott_john"],
+    "organizations": ["org_digital_equipment_corporation", "org_carnegie_mellon"],
+    "models_spawned": ["model_xcon"]
+  },
+  "preceded_by": ["evt_1979_stanford_cart"],
+  "succeeded_by": ["evt_1981_fifth_generation_project"],
+  "tags": ["expert_systems", "commercial_ai", "knowledge_engineering", "enterprise"],
+  "impact_description": "XCON's commercial success was the spark that ignited the expert systems boom of the 1980s. Its $40M/year savings proved that AI could deliver measurable business value, convincing Fortune 500 companies to invest heavily in expert systems. This triggered billions of dollars in corporate AI spending and the creation of dedicated AI departments across major corporations. However, XCON's eventual maintenance burden — it required a team of engineers to continuously update its growing rule base — foreshadowed the scalability problems that would bring down the expert system paradigm.",
+  "counterfactual": "Without XCON's dramatic commercial success, the expert systems boom might never have occurred. Corporate America's enthusiasm for AI in the 1980s was largely driven by XCON's proof of ROI. Without this catalyst, AI might have remained an academic pursuit through the 1980s, potentially avoiding the Second AI Winter but also missing the massive corporate investment that funded AI research during that period.",
+  "query_hooks": [
+    "What was the first commercially successful AI system?",
+    "What triggered the expert systems boom?",
+    "What is XCON?",
+    "How did AI first enter the corporate world?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "evt_1958_perceptron",
+  "type": "event",
+  "title": "Frank Rosenblatt Demonstrates the Perceptron",
+  "date": "1958-07-01",
+  "epoch": "02_golden_age",
+  "significance": 8,
+  "summary": "Frank Rosenblatt at Cornell Aeronautical Laboratory demonstrated the Mark I Perceptron, the first machine capable of learning to recognize patterns through training rather than explicit programming. Implemented on custom hardware using 400 photocells connected to a grid of potentiometers (adjustable resistors serving as weights), the Perceptron could learn to classify simple visual patterns. Rosenblatt's Perceptron Convergence Theorem proved mathematically that the algorithm would converge to a solution for any linearly separable problem. The New York Times reported that the Navy expected the Perceptron to 'be able to walk, talk, see, write, reproduce itself and be conscious of its existence.'",
+  "entities": {
+    "people": ["person_rosenblatt_frank"],
+    "organizations": ["org_cornell_aeronautical_lab", "org_us_navy"],
+    "models_spawned": ["model_perceptron"]
+  },
+  "preceded_by": ["evt_1956_dartmouth_conference"],
+  "succeeded_by": ["evt_1964_eliza", "evt_1969_perceptrons_book"],
+  "tags": ["neural_networks", "learning", "pattern_recognition", "hardware", "paradigm_shift"],
+  "impact_description": "The Perceptron was the first artificial neural network implemented in hardware and the direct ancestor of all modern neural networks. Its learning algorithm — adjusting weights based on errors — established the fundamental principle that persists in every neural network today: learning through iterative weight adjustment. The overhyped press coverage also established the pattern of AI hype cycles that would repeat for decades.",
+  "counterfactual": "Without the Perceptron, the neural network approach to AI might have remained purely theoretical. Minsky and Papert's devastating 1969 critique would have had no target, and the entire connectionist tradition might have developed along different lines. Every modern neural network, from CNNs to transformers to LLMs, traces its architectural ancestry back to Rosenblatt's single-layer Perceptron.",
+  "query_hooks": [
+    "What was the first neural network?",
+    "Who invented the Perceptron?",
+    "How did machine learning begin?",
+    "What is the ancestor of modern neural networks?"
+  ]
+}

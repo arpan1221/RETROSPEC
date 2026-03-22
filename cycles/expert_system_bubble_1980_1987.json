@@ -1,0 +1,55 @@
+{
+  "id": "cycle_expert_system_bubble_1980_1987",
+  "type": "cycle",
+  "name": "Expert Systems Boom",
+  "cycle_type": "boom",
+  "date_start": "1980-01-01",
+  "date_end": "1987-12-31",
+  "duration_years": 7,
+  "summary": "The Expert Systems Boom was the first major commercial wave of artificial intelligence, driven by the stunning success of systems like XCON (R1), which saved Digital Equipment Corporation an estimated $40M per year by automating VAX computer configuration, and MYCIN, which diagnosed bacterial infections with accuracy rivaling human experts. These successes convinced corporate America that encoding human expertise into rule-based systems was the path to automation. Between 1980 and 1987, hundreds of companies invested in building expert systems. Startups like Teknowledge, IntelliCorp, Applied Intelligence Systems, and Carnegie Group attracted venture capital and went public. LISP machines — specialized computers optimized for running AI programs — became a booming hardware market, with Symbolics, Lisp Machines Inc., and Texas Instruments competing for sales at $50,000-$100,000 per unit. Japan's Ministry of International Trade and Industry announced the Fifth Generation Computer Project in 1982, aiming to build massively parallel computers capable of logic programming and 'intelligent' behavior. This triggered panic in the US and UK, leading to DARPA's Strategic Computing Initiative ($1B over 10 years) and the UK's Alvey Programme. At the peak, over two-thirds of Fortune 500 companies had AI departments or active expert system projects. Total annual investment in AI exceeded $1B. But the bubble contained the seeds of its own destruction: expert systems were hand-coded, brittle, expensive to maintain, and unable to learn or adapt. When general-purpose workstations became cheaper and faster than LISP machines, the hardware market collapsed, taking much of the software industry with it.",
+  "trigger_signals": [
+    "XCON (R1) at DEC demonstrated $40M/year in savings from automated computer configuration",
+    "MYCIN achieved expert-level medical diagnosis, proving AI could match human specialists in narrow domains",
+    "Japan's Fifth Generation Computer Project (announced 1982) created competitive fear across Western governments",
+    "Edward Feigenbaum's advocacy and his book 'The Fifth Generation' (1983) evangelized expert systems to business audiences",
+    "Venture capital discovered AI — Teknowledge IPO'd in 1986, IntelliCorp raised $36M"
+  ],
+  "peak_indicators": [
+    "Over two-thirds of Fortune 500 companies had AI departments or expert system initiatives by 1985",
+    "The LISP machine market reached approximately $400M/year, with Symbolics alone shipping thousands of units",
+    "DARPA launched the $1B Strategic Computing Initiative in direct response to Japan's Fifth Generation",
+    "Annual corporate and government AI spending in the US exceeded $1B by 1986"
+  ],
+  "collapse_factors": [
+    "Expert systems proved catastrophically brittle — they failed silently on inputs outside their training domain",
+    "Knowledge engineering was labor-intensive and expensive: extracting rules from human experts took months per domain",
+    "Maintenance costs escalated as rule bases grew — adding new rules frequently introduced contradictions",
+    "Sun Microsystems and DEC workstations surpassed LISP machines in price-performance by 1987, destroying the hardware market",
+    "Japan's Fifth Generation Project failed to produce practical results, undermining the competitive narrative that had driven Western investment"
+  ],
+  "recovery_factors": [
+    "Lessons from expert system limitations directly motivated the shift toward learning-based approaches",
+    "Some expert system concepts survived in rebranded forms as 'business rules engines' and 'decision support systems'",
+    "The talent pool trained during the boom period became the workforce for the statistical ML revolution that followed"
+  ],
+  "funding_impact": "The boom drove AI spending from under $100M/year in 1980 to over $1B/year by 1986. DARPA alone committed $1B over a decade through the Strategic Computing Initiative. The UK invested approximately £350M through the Alvey Programme. Venture capital flowed freely — at least a dozen AI startups raised $10M+ rounds. The LISP machine market created $400M+ in annual hardware revenue. When the bubble burst, essentially all of this investment evaporated within 3-4 years, with total losses estimated at $2-4B across the industry.",
+  "lessons_learned": [
+    "A single dramatic success story (XCON) can inflate an entire industry bubble — context and generalizability matter more than isolated wins",
+    "Hand-coded knowledge does not scale: systems that cannot learn will always be outpaced by the complexity of the real world",
+    "Government megaprojects driven by geopolitical competition (Fifth Generation, Strategic Computing) often set goals based on fear rather than feasibility",
+    "Hardware monocultures are fragile — specialized AI hardware loses to general-purpose computing improvements nearly every time"
+  ],
+  "related_epochs": [
+    "04_expert_systems_boom",
+    "05_second_winter"
+  ],
+  "related_events": [],
+  "warning_signs_for_current": "The Expert Systems Boom bears striking structural similarity to the 2023-2026 generative AI investment wave. Both were triggered by genuinely impressive demonstrations (XCON/ChatGPT), both attracted massive corporate investment with every Fortune 500 company scrambling to adopt, and both relied on expensive specialized infrastructure (LISP machines/GPU clusters). The critical question is whether LLMs' ability to generalize — which expert systems fundamentally lacked — is sufficient to sustain the current cycle, or whether hallucinations, high compute costs, and the difficulty of reliable deployment will trigger another correction.",
+  "significance": 7,
+  "query_hooks": [
+    "What was the expert systems boom?",
+    "Why did companies invest billions in AI in the 1980s?",
+    "What was XCON and why did it matter?",
+    "How did the LISP machine market rise and fall?"
+  ]
+}

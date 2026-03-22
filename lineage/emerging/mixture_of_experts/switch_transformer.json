@@ -1,0 +1,23 @@
+{
+  "id": "lineage_switch_transformer",
+  "type": "lineage",
+  "name": "Switch Transformer",
+  "family": "mixture_of_experts",
+  "organization": "Google Brain (Fedus, Zoph, Shazeer)",
+  "year": 2021,
+  "parent": null,
+  "children": ["lineage_mixtral_moe"],
+  "architecture": "sparse_mixture_of_experts_transformer",
+  "key_innovations": [
+    "simplified_moe_routing_single_expert_per_token",
+    "scaling_to_trillion_parameters",
+    "reduced_communication_cost",
+    "expert_parallelism",
+    "demonstrated_moe_scaling_advantages"
+  ],
+  "parameter_count": "up to 1.6T (with 2048 experts)",
+  "training_approach": "pretraining with sparse MoE layers replacing dense FFN layers",
+  "lineage_path": "MoE concept (Jacobs 1991) -> Sparsely-Gated MoE (Shazeer 2017) -> Switch Transformer",
+  "significance": 7,
+  "summary": "Switch Transformer simplified sparse mixture-of-experts routing by sending each token to a single expert instead of multiple, dramatically reducing communication costs while scaling to over a trillion parameters. Developed at Google Brain, it demonstrated that MoE could provide 4-7x speedups over dense models at equivalent computational cost, validating sparse expert routing as a practical scaling strategy. It laid the groundwork for the MoE architectures later adopted by GPT-4, Mixtral, and DeepSeek."
+}

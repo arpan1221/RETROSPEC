@@ -1,0 +1,25 @@
+{
+  "id": "evt_2025_deepseek_r1",
+  "type": "event",
+  "title": "DeepSeek Releases R1 Reasoning Model",
+  "date": "2025-01-20",
+  "epoch": "10_agentic_era",
+  "significance": 9,
+  "summary": "Chinese AI lab DeepSeek released R1, an open-weights reasoning model that matched or exceeded OpenAI's o1 on major benchmarks at a fraction of the training cost. DeepSeek reported training costs of approximately $5.6 million — orders of magnitude less than comparable frontier models. R1 used a mixture-of-experts architecture with reinforcement learning for reasoning, demonstrating that frontier-level AI capabilities could be achieved without the massive compute budgets of US labs. The release sent shockwaves through global markets, briefly wiping hundreds of billions from US tech valuations and fundamentally challenging the assumption that AI leadership required enormous capital expenditure.",
+  "entities": {
+    "people": ["person_liang_wenfeng"],
+    "organizations": ["org_deepseek"],
+    "models_spawned": ["model_deepseek_r1"]
+  },
+  "preceded_by": ["evt_2024_eu_ai_act"],
+  "succeeded_by": ["evt_2025_reasoning_models", "evt_2025_frontier_parity"],
+  "tags": ["reasoning", "open_weights", "china", "efficiency", "market_shock", "mixture_of_experts"],
+  "impact_description": "DeepSeek R1 shattered the narrative that AI leadership required billions in compute spending. It demonstrated that architectural innovation and training efficiency could substitute for raw capital, democratizing frontier AI capabilities. The release accelerated open-source AI development globally and forced Western labs to reconsider their scaling-only strategies. It also intensified US-China AI competition and raised questions about the effectiveness of chip export controls.",
+  "counterfactual": "Without DeepSeek R1, the assumption that frontier AI required massive capital might have persisted unchallenged for years. US labs might have continued their compute-scaling approach without pressure to innovate on efficiency. The open-source AI movement would have lacked its most compelling proof point that open models could compete with closed frontier systems.",
+  "query_hooks": [
+    "How did DeepSeek challenge US AI dominance?",
+    "Can frontier AI be trained cheaply?",
+    "What disrupted the AI scaling narrative?",
+    "Why did DeepSeek R1 crash the stock market?"
+  ]
+}

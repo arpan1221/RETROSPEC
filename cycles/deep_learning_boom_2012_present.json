@@ -1,0 +1,65 @@
+{
+  "id": "cycle_deep_learning_boom_2012_present",
+  "type": "cycle",
+  "name": "Deep Learning Boom",
+  "cycle_type": "boom",
+  "date_start": "2012-10-01",
+  "date_end": "2026-03-22",
+  "duration_years": 14,
+  "summary": "The Deep Learning Boom is the longest sustained investment cycle in AI history, triggered by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton's AlexNet winning the 2012 ImageNet Large Scale Visual Recognition Challenge with a convolutional neural network that reduced the error rate from 26% to 15% — a margin of victory so dramatic that it effectively ended the debate between hand-engineered features and learned representations. AlexNet's secret weapon was training on NVIDIA GPUs, demonstrating that commodity graphics hardware could accelerate neural network training by orders of magnitude. The result was an avalanche of investment and research. Google acquired DeepMind for $500M in 2014. Facebook hired Yann LeCun to lead FAIR. Baidu invested heavily in AI under Andrew Ng. NVIDIA pivoted its entire business strategy toward AI computing, eventually becoming one of the most valuable companies in the world. Key milestones cascaded rapidly: Generative Adversarial Networks (2014), residual networks enabling 100+ layer training (2015), AlphaGo defeating Lee Sedol (2016), the Transformer architecture (2017), BERT (2018), GPT-2 (2019), GPT-3 (2020), and the generative AI explosion of 2022-2024. This cycle differs from previous booms in critical ways: the technology demonstrably works, commercial applications generate real revenue, and the investment is coming from the world's most valuable companies (not just government grants and speculative startups). However, as of 2026, annual AI investment exceeds $300B globally, and the question of whether returns will justify this spending looms increasingly large.",
+  "trigger_signals": [
+    "AlexNet's ImageNet victory (2012) demonstrated that deep neural networks trained on GPUs dramatically outperformed all traditional approaches",
+    "Google's $500M acquisition of DeepMind (2014) signaled that Big Tech considered AI a strategic priority",
+    "AlphaGo's defeat of Lee Sedol (2016) captured global public attention and demonstrated superhuman AI performance in a complex domain",
+    "The Transformer paper (2017) enabled unprecedented scaling and parallelization of neural networks",
+    "GPT-3 (2020) demonstrated emergent capabilities from scale, including few-shot learning that surprised even its creators"
+  ],
+  "peak_indicators": [
+    "NVIDIA's market capitalization exceeded $3T, driven almost entirely by AI GPU demand",
+    "Global annual AI investment surpassed $300B by 2025, with major hyperscalers spending $50B+ each on AI infrastructure",
+    "Every Fortune 500 company has an AI strategy; 'AI-first' became a standard corporate positioning",
+    "AI research papers on arXiv exceeded 100,000 per year, making it the fastest-growing research field in history"
+  ],
+  "collapse_factors": [
+    "No collapse has occurred as of 2026, but potential risk factors include:",
+    "Enterprise ROI on AI investments remains unclear for many deployments — 'AI pilot purgatory' affects a majority of corporate initiatives",
+    "Training costs for frontier models are approaching $1B+ per run, creating concentration and sustainability concerns",
+    "Energy consumption of AI data centers is straining power grids and raising environmental concerns",
+    "Hallucination and reliability problems limit deployment in safety-critical domains"
+  ],
+  "recovery_factors": [
+    "Not applicable — the boom is ongoing as of 2026",
+    "However, the depth and breadth of commercial applications (search, coding, translation, content creation, drug discovery) provide a fundamentally stronger floor than any previous AI cycle",
+    "Open-source models (LLaMA, Mistral, Qwen) ensure that even a funding correction would not eliminate access to frontier-class capabilities"
+  ],
+  "funding_impact": "The Deep Learning Boom has generated more AI investment than all previous cycles combined by several orders of magnitude. Global AI venture capital investment grew from approximately $2B in 2012 to over $100B annually by 2025. Big Tech capital expenditure on AI infrastructure alone exceeded $200B in 2025. Government AI funding programs have been launched in the US (CHIPS Act, National AI Initiative), EU (Horizon Europe), China (New Generation AI Development Plan), UK, Japan, South Korea, Saudi Arabia, and UAE. Total cumulative AI investment since 2012 likely exceeds $1 trillion.",
+  "lessons_learned": [
+    "Hardware breakthroughs (GPU training) can be as consequential as algorithmic breakthroughs — AlexNet's architecture was not new, but training it on GPUs was transformative",
+    "Scale matters more than anyone expected: the 'scaling laws' discovered by Kaplan et al. (2020) showed that performance improves predictably with compute, data, and parameters",
+    "Open research accelerates progress: the rapid pace of this boom was enabled by arXiv preprints, open-source frameworks (TensorFlow, PyTorch), and shared benchmarks",
+    "Commercial viability sustains investment: unlike previous cycles, this boom is funded primarily by companies earning revenue from AI, not by government grants with political expiration dates"
+  ],
+  "related_epochs": [
+    "07_deep_learning_era",
+    "08_transformer_age",
+    "09_generative_explosion",
+    "10_agentic_era"
+  ],
+  "related_events": [
+    "evt_2012_alexnet_imagenet",
+    "evt_2014_gan_introduction",
+    "evt_2017_attention_is_all_you_need",
+    "evt_2018_bert_released",
+    "evt_2020_gpt3_released",
+    "evt_2022_chatgpt_launch",
+    "evt_2023_gpt4_released"
+  ],
+  "warning_signs_for_current": "The Deep Learning Boom IS the current cycle. As of early 2026, there are reasons for both optimism and concern. On the optimistic side: the technology works, revenue is real, and the applications are broadly useful. On the concerning side: investment levels ($300B+/year) require enormous returns to justify; many enterprise AI deployments fail to reach production; frontier model training costs are escalating faster than revenue; and the energy requirements are becoming a political liability. Historical pattern matching suggests that no boom lasts forever, but the depth of this one — spanning hardware, software, applications, and fundamental research — suggests any correction would be partial rather than catastrophic.",
+  "significance": 9,
+  "query_hooks": [
+    "What triggered the deep learning revolution?",
+    "Why did AlexNet matter so much?",
+    "How much money has been invested in AI since 2012?",
+    "Is the current AI boom sustainable?"
+  ]
+}

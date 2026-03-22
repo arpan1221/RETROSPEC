@@ -1,0 +1,22 @@
+{
+  "id": "lineage_mixtral",
+  "type": "lineage",
+  "name": "Mixtral 8x7B",
+  "family": "decoder_only_transformer",
+  "organization": "Mistral AI",
+  "year": 2023,
+  "parent": "lineage_transformer",
+  "children": [],
+  "architecture": "decoder_only_transformer_sparse_moe",
+  "key_innovations": [
+    "sparse_mixture_of_experts_in_open_model",
+    "8_expert_groups_2_active_per_token",
+    "efficient_inference_with_moe_routing",
+    "open_weights_competitive_with_gpt35"
+  ],
+  "parameter_count": "46.7B total (12.9B active per token)",
+  "training_approach": "pretraining with sparse MoE architecture",
+  "lineage_path": "McCulloch-Pitts neuron -> Perceptron -> MLP -> RNN -> LSTM -> Seq2Seq -> Transformer -> Mixtral 8x7B",
+  "significance": 7,
+  "summary": "Mixtral 8x7B brought sparse mixture-of-experts to the open-source frontier, using 8 expert groups with 2 active per token to achieve GPT-3.5-level performance at a fraction of the inference cost. Released by the Paris-based Mistral AI, it proved that MoE architectures could be open-sourced effectively and spurred widespread adoption of sparse expert routing in both open and closed models."
+}
