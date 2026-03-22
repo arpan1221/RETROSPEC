@@ -23,14 +23,21 @@ export default function MapExplorer({
   return (
     <MapProvider>
       <section id="map" className="relative w-full bg-[#0a0a0f]">
-        {/* Sidebar */}
-        <Sidebar epochs={epochs} entities={entities} />
+        {/* Main layout: sidebar + map side by side */}
+        <div className="flex h-[75vh] md:h-[85vh]">
+          {/* Sidebar — desktop only, fixed width */}
+          <Sidebar epochs={epochs} entities={entities} />
 
-        {/* Map + Timeline */}
-        <Map locations={locations} />
-        <EpochTimeline />
+          {/* Map fills remaining space */}
+          <div className="relative flex-1 flex flex-col">
+            <div className="flex-1">
+              <Map locations={locations} />
+            </div>
+            <EpochTimeline />
+          </div>
+        </div>
 
-        {/* Panels that appear on interaction */}
+        {/* Overlay panels — positioned absolutely on top */}
         <CityPanel entities={entities} />
         <EntityDetail allEntities={entities} />
         <ContributeCTA />

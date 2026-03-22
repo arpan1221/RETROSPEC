@@ -153,7 +153,7 @@ export default function Sidebar({ epochs, entities, graphEdgeCount = 0 }: Sideba
             </div>
             <div className="px-3 pt-2">
               <a
-                href="https://github.com"
+                href="https://github.com/arpan1221/RETROSPEC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border border-[var(--amber)]/30 text-[var(--amber)] hover:bg-[var(--amber)]/10 transition-colors"

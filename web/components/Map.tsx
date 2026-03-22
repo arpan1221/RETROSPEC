@@ -106,7 +106,7 @@ export default function Map({ locations }: MapProps) {
   }, [activeEpoch, locations, loaded]);
 
   return (
-    <div className="relative w-full h-[60vh] md:h-[75vh]">
+    <div className="relative w-full h-full">
       {!loaded && (
         <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#0a0a0f]">
           <p className="text-sm text-[#e2e8f0]/50 tracking-wide">

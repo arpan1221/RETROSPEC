@@ -12,7 +12,7 @@
 >
 > *This repository exists so that artificial intelligence never forgets where it came from.*
 
-**[Live Demo](https://retrospec.vercel.app)** | **[Contributing](CONTRIBUTING.md)** | **[Schema Docs](SCHEMA.md)**
+**[Live Demo](https://retrospec-phi.vercel.app)** | **[Contributing](CONTRIBUTING.md)** | **[Schema Docs](SCHEMA.md)**
 
 ---
 
