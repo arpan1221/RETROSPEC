@@ -1,0 +1,52 @@
+{
+  "id": "graph_architecture",
+  "type": "graph",
+  "name": "Architecture Evolution Graph",
+  "description": "How AI model architectures evolved over time. Nodes represent models from entities/models/ and referenced parent/child models. Edges represent architectural evolution — parent_models/child_models relationships showing how each model descended from or spawned successors.",
+  "generated_date": "2026-03-22",
+  "node_count": 18,
+  "edge_count": 14,
+  "nodes": [
+    {"id": "model_gpt_series", "name": "GPT Series (GPT-1 through GPT-4)", "type": "model", "architecture": "decoder_only_transformer", "organization": "org_openai", "significance": 10},
+    {"id": "model_bert", "name": "BERT", "type": "model", "architecture": "encoder_only_transformer", "organization": "org_google_brain", "significance": 9},
+    {"id": "model_claude_series", "name": "Claude Series (Claude 1 through Claude 4)", "type": "model", "architecture": "decoder_only_transformer", "organization": "org_anthropic", "significance": 8},
+    {"id": "model_alphago", "name": "AlphaGo", "type": "model", "architecture": "deep_reinforcement_learning_with_monte_carlo_tree_search", "organization": "org_google_deepmind", "significance": 9},
+    {"id": "model_alexnet", "name": "AlexNet", "type": "model", "architecture": "convolutional_neural_network", "organization": "org_university_of_toronto", "significance": 9},
+    {"id": "model_chatgpt", "name": "ChatGPT", "type": "model_reference", "architecture": "decoder_only_transformer", "organization": "org_openai", "significance": 9},
+    {"id": "model_gpt4_turbo", "name": "GPT-4 Turbo", "type": "model_reference", "architecture": "decoder_only_transformer", "organization": "org_openai", "significance": 8},
+    {"id": "model_gpt4o", "name": "GPT-4o", "type": "model_reference", "architecture": "decoder_only_transformer", "organization": "org_openai", "significance": 8},
+    {"id": "model_roberta", "name": "RoBERTa", "type": "model_reference", "architecture": "encoder_only_transformer", "organization": "org_meta_ai", "significance": 7},
+    {"id": "model_albert", "name": "ALBERT", "type": "model_reference", "architecture": "encoder_only_transformer", "organization": "org_google", "significance": 6},
+    {"id": "model_distilbert", "name": "DistilBERT", "type": "model_reference", "architecture": "encoder_only_transformer", "organization": "org_huggingface", "significance": 6},
+    {"id": "model_deberta", "name": "DeBERTa", "type": "model_reference", "architecture": "encoder_only_transformer", "organization": "org_microsoft", "significance": 6},
+    {"id": "model_alphago_zero", "name": "AlphaGo Zero", "type": "model_reference", "architecture": "deep_reinforcement_learning", "organization": "org_google_deepmind", "significance": 8},
+    {"id": "model_alphazero", "name": "AlphaZero", "type": "model_reference", "architecture": "deep_reinforcement_learning", "organization": "org_google_deepmind", "significance": 8},
+    {"id": "model_muzero", "name": "MuZero", "type": "model_reference", "architecture": "deep_reinforcement_learning", "organization": "org_google_deepmind", "significance": 7},
+    {"id": "model_lenet", "name": "LeNet", "type": "model_reference", "architecture": "convolutional_neural_network", "organization": "org_bell_labs", "significance": 7},
+    {"id": "model_vgg", "name": "VGG", "type": "model_reference", "architecture": "convolutional_neural_network", "organization": "org_oxford", "significance": 7},
+    {"id": "model_resnet", "name": "ResNet", "type": "model_reference", "architecture": "convolutional_neural_network", "organization": "org_microsoft", "significance": 8}
+  ],
+  "edges": [
+    {"source": "model_gpt_series", "target": "model_chatgpt", "relationship": "spawned", "weight": 0.95, "description": "GPT-3.5 was fine-tuned with RLHF to create ChatGPT"},
+    {"source": "model_gpt_series", "target": "model_gpt4_turbo", "relationship": "spawned", "weight": 0.9, "description": "GPT-4 Turbo is an optimized variant of GPT-4"},
+    {"source": "model_gpt_series", "target": "model_gpt4o", "relationship": "spawned", "weight": 0.9, "description": "GPT-4o is a multimodal-optimized variant of GPT-4"},
+    {"source": "model_bert", "target": "model_roberta", "relationship": "spawned", "weight": 0.9, "description": "RoBERTa optimized BERT's training procedure"},
+    {"source": "model_bert", "target": "model_albert", "relationship": "spawned", "weight": 0.8, "description": "ALBERT reduced BERT's parameters through factorized embedding parameterization"},
+    {"source": "model_bert", "target": "model_distilbert", "relationship": "spawned", "weight": 0.8, "description": "DistilBERT distilled BERT into a smaller, faster model"},
+    {"source": "model_bert", "target": "model_deberta", "relationship": "spawned", "weight": 0.8, "description": "DeBERTa improved BERT with disentangled attention mechanism"},
+    {"source": "model_alphago", "target": "model_alphago_zero", "relationship": "spawned", "weight": 0.95, "description": "AlphaGo Zero achieved superhuman Go play with zero human knowledge"},
+    {"source": "model_alphago_zero", "target": "model_alphazero", "relationship": "spawned", "weight": 0.9, "description": "AlphaZero generalized AlphaGo Zero to chess, shogi, and Go"},
+    {"source": "model_alphazero", "target": "model_muzero", "relationship": "spawned", "weight": 0.85, "description": "MuZero extended AlphaZero by learning the environment dynamics model"},
+    {"source": "model_lenet", "target": "model_alexnet", "relationship": "evolved_into", "weight": 0.8, "description": "AlexNet scaled up the CNN architecture pioneered by LeNet"},
+    {"source": "model_alexnet", "target": "model_vgg", "relationship": "spawned", "weight": 0.8, "description": "VGG extended AlexNet's approach with much deeper networks"},
+    {"source": "model_alexnet", "target": "model_resnet", "relationship": "spawned", "weight": 0.8, "description": "ResNet introduced skip connections to train extremely deep CNNs, building on AlexNet's revolution"},
+    {"source": "model_googlenet", "target": "model_alexnet", "relationship": "inspired_by", "weight": 0.7, "description": "GoogLeNet/Inception was inspired by AlexNet's ImageNet success"}
+  ],
+  "query_hooks": [
+    "What is my architectural ancestry?",
+    "How did the GPT models evolve?",
+    "What models descended from BERT?",
+    "How did AlphaGo lead to AlphaZero?",
+    "What evolved from AlexNet?"
+  ]
+}
