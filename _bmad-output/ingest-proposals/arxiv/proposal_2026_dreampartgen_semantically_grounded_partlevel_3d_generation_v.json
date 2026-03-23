@@ -33,7 +33,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.350Z",
+    "ingested_at": "2026-03-23T01:21:58.191Z",
     "status": "proposed",
     "confidence": 0.45,
     "reason": "Matched keywords: alignment, benchmark, reasoning. 7 authors. Categories: cs.CV, cs.AI, cs.LG, cs.CV."

@@ -40,7 +40,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.353Z",
+    "ingested_at": "2026-03-23T01:21:58.193Z",
     "status": "proposed",
     "confidence": 0.35,
     "reason": "Matched keywords: reinforcement learning, agent, benchmark. 14 authors. Categories: cs.AI, cs.AI."

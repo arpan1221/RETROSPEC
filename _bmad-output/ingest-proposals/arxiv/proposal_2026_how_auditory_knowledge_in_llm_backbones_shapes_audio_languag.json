@@ -42,7 +42,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.352Z",
+    "ingested_at": "2026-03-23T01:21:58.193Z",
     "status": "proposed",
     "confidence": 0.45,
     "reason": "Matched keywords: language model, large language model, llm, benchmark. 16 authors. Categories: eess.AS, cs.CL, cs.SD, eess.AS."

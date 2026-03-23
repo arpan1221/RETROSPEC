@@ -37,7 +37,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.342Z",
+    "ingested_at": "2026-03-23T01:21:58.188Z",
     "status": "proposed",
     "confidence": 0.4,
     "reason": "Matched keywords: agent, benchmark. 11 authors. Categories: cs.RO, cs.AI, cs.CV, cs.LG, eess.SY, cs.RO."

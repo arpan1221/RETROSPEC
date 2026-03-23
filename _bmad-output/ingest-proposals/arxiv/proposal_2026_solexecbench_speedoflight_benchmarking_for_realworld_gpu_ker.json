@@ -59,7 +59,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.355Z",
+    "ingested_at": "2026-03-23T01:21:58.195Z",
     "status": "proposed",
     "confidence": 0.6,
     "reason": "Matched keywords: diffusion, agent, agentic, benchmark. 33 authors. Categories: cs.LG, cs.AI, cs.LG."

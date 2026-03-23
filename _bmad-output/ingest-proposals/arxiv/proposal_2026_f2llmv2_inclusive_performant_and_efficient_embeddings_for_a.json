@@ -31,7 +31,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.345Z",
+    "ingested_at": "2026-03-23T01:21:58.190Z",
     "status": "proposed",
     "confidence": 0.2,
     "reason": "Matched keywords: llm, benchmark. 5 authors. Categories: cs.CL, cs.AI, cs.CL."
