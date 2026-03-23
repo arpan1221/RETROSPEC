@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * 0'  # Weekly on Sunday
   workflow_dispatch:  # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
