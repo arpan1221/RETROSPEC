@@ -28,7 +28,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.351Z",
+    "ingested_at": "2026-03-23T01:21:58.192Z",
     "status": "proposed",
     "confidence": 0.4,
     "reason": "Matched keywords: transformer, language model, large language model, state space model. 2 authors. Categories: cs.CV, cs.LG, cs.CV."

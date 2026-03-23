@@ -34,7 +34,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.355Z",
+    "ingested_at": "2026-03-23T01:21:58.196Z",
     "status": "proposed",
     "confidence": 0.7,
     "reason": "Matched keywords: alignment, rag, benchmark, reasoning, foundation model. 8 authors. Categories: cs.CV, cs.AI, cs.CV."

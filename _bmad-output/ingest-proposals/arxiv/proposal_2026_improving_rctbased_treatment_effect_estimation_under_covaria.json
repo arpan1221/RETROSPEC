@@ -28,7 +28,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.354Z",
+    "ingested_at": "2026-03-23T01:21:58.194Z",
     "status": "proposed",
     "confidence": 0.2,
     "reason": "Matched keywords: alignment, rag. 2 authors. Categories: cs.LG, cs.LG."

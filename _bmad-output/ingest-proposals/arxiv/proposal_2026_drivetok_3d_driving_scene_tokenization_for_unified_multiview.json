@@ -33,7 +33,7 @@
   ],
   "_meta": {
     "source": "arxiv",
-    "ingested_at": "2026-03-23T00:55:24.349Z",
+    "ingested_at": "2026-03-23T01:21:58.191Z",
     "status": "proposed",
     "confidence": 0.3,
     "reason": "Matched keywords: transformer, world model, foundation model. 7 authors. Categories: cs.CV, cs.LG, cs.CV."
