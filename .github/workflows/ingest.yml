@@ -24,7 +24,8 @@ jobs:
           if [ "$count" -gt "0" ]; then
             git config user.name "RETROSPEC Bot"
             git config user.email "bot@retrospec.dev"
+            git pull --rebase origin main
             git add _bmad-output/ingest-proposals/
-            git commit -m "feat: Auto-ingest found $count new proposals"
-            git push
+            git commit -m "feat: Auto-ingest found $count new proposals" || true
+            git push origin main
           fi
