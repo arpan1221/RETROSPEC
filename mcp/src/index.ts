@@ -4,9 +4,13 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { data } from "./data.js";
+import { semanticSearch } from "./search.js";
 
 // Load all RETROSPEC data into memory
 data.load();
+
+// Load pre-computed embeddings for semantic search (non-blocking if file missing)
+semanticSearch.loadEmbeddings();
 
 const server = new McpServer({
   name: "retrospec",
@@ -175,6 +179,68 @@ server.tool(
         },
       ],
     };
+  }
+);
+
+// Tool 6: Semantic search using vector embeddings
+server.tool(
+  "retrospec_semantic_search",
+  "Search RETROSPEC using semantic similarity (vector embeddings). More powerful than fuzzy text search — understands meaning, synonyms, and conceptual relationships. Requires pre-computed embeddings (run: cd tools/embeddings && npm install && npm run generate).",
+  {
+    query: z.string().describe("Natural language query (e.g., 'What caused AI funding to collapse?', 'neural network architectures for language')"),
+    limit: z.number().optional().default(10).describe("Maximum results to return (default 10)"),
+  },
+  async ({ query, limit }) => {
+    if (!semanticSearch.isAvailable) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: "Semantic search unavailable: embeddings not loaded. Generate them with: cd tools/embeddings && npm install && npm run generate",
+          },
+        ],
+      };
+    }
+
+    try {
+      const results = await semanticSearch.search(query, limit);
+      if (results.length === 0) {
+        return {
+          content: [{ type: "text", text: `No semantic results for: "${query}"` }],
+        };
+      }
+
+      // Resolve full entities for top results
+      const formatted = results.map((r) => {
+        const entity = data.lookup(r.id);
+        return {
+          id: r.id,
+          type: entity?.type ?? "unknown",
+          name: (entity as any)?.name ?? (entity as any)?.title ?? r.id,
+          significance: (entity as any)?.significance,
+          similarity: Math.round(r.similarity * 1000) / 1000,
+          summary: ((entity as any)?.summary ?? r.text).slice(0, 200) + "...",
+        };
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `Found ${results.length} semantic matches for "${query}":\n\n${JSON.stringify(formatted, null, 2)}`,
+          },
+        ],
+      };
+    } catch (err: any) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: `Semantic search error: ${err.message}. The embedding model may still be loading (first query takes a few seconds).`,
+          },
+        ],
+      };
+    }
   }
 );
 

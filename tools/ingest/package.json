@@ -1,0 +1,10 @@
+{
+  "name": "retrospec-ingest",
+  "type": "module",
+  "scripts": {
+    "arxiv": "node arxiv.js",
+    "huggingface": "node huggingface.js",
+    "ingest": "node arxiv.js && node huggingface.js"
+  },
+  "dependencies": {}
+}

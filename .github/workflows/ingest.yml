@@ -1,0 +1,27 @@
+name: Auto-Ingest
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: cd tools/ingest && npm install && npm run ingest
+      - name: Check for proposals
+        run: |
+          count=$(find _bmad-output/ingest-proposals -name '*.json' 2>/dev/null | wc -l)
+          echo "Found $count new proposals"
+          if [ "$count" -gt "0" ]; then
+            git config user.name "RETROSPEC Bot"
+            git config user.email "bot@retrospec.dev"
+            git add _bmad-output/ingest-proposals/
+            git commit -m "feat: Auto-ingest found $count new proposals"
+            git push
+          fi

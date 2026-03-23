@@ -1,0 +1,42 @@
+{
+  "id": "model_phi_2",
+  "type": "model",
+  "name": "phi-2",
+  "organization": "org_microsoft",
+  "release_date": "2023-12-13",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "unknown",
+  "training_approach": "unknown",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [],
+  "benchmark_highlights": {},
+  "lineage_path": "",
+  "significance": 9,
+  "cultural_impact": "",
+  "_meta": {
+    "source": "huggingface",
+    "ingested_at": "2026-03-23T00:55:52.690Z",
+    "status": "proposed",
+    "confidence": 0.9,
+    "reason": "Notable org: microsoft. Very high downloads: 1,767,593. Very high likes: 3434. Trending on HuggingFace.",
+    "huggingface_id": "microsoft/phi-2",
+    "huggingface_url": "https://huggingface.co/microsoft/phi-2",
+    "downloads": 1767593,
+    "likes": 3434,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "phi",
+      "text-generation",
+      "nlp",
+      "code",
+      "en",
+      "license:mit",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

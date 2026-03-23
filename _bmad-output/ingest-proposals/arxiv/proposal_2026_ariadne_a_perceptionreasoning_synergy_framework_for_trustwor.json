@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_ariadne_a_perceptionreasoning_synergy_framework_for_trustwor",
+  "type": "paper",
+  "title": "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
+  "authors": [
+    "Zhan Jin",
+    "Yu Luo",
+    "Yizhou Zhang",
+    "Ziyang Cui",
+    "Yuqing Wei",
+    "Xianchao Liu",
+    "Xueying Zeng",
+    "Qing Zhang"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19169",
+  "url": "https://arxiv.org/abs/2603.19169",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Conventional pixel-wise loss functions fail to enforce topological constraints in coronary vessel segmentation, producing fragmented vascular trees despite high pixel-level accuracy. We present ARIADNE, a two-stage framework coupling preference-aligned perception with RL-based diagnostic reasoning for topologically coherent stenosis detection. The perception module employs DPO to fine-tune the Sa2VA vision-language foundation model using Betti number constraints as preference signals, aligning the policy toward geometrically complete vessel structures rather than pixel-wise overlap metrics. The reasoning module formulates stenosis localization as a Markov Decision Process with an explicit rejection mechanism that autonomously defers ambiguous anatomical candidates such as bifurcations and vessel crossings, shifting from coverage maximization to reliability optimization. On 1,400 clinical angiograms, ARIADNE achieves state-of-the-art centerline Dice of 0.838, reduces false positives by 41% compared to geometric baselines. External validation on multi-center benchmarks ARCADE and XCAD confirms generalization across acquisition protocols. This represents the first application of DPO for topological alignment in medical imaging, demonstrating that preference-based learning over structural constraints mitigates topological violations while maintaining diagnostic sensitivity in interventional cardiology workflows.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19169"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis?",
+    "Tell me about ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.355Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: alignment, rag, benchmark, reasoning, foundation model. 8 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_improving_rctbased_treatment_effect_estimation_under_covaria",
+  "type": "paper",
+  "title": "Improving RCT-Based Treatment Effect Estimation Under Covariate Mismatch via Calibrated Alignment",
+  "authors": [
+    "Amir Asiaee",
+    "Samhita Pal"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19186",
+  "url": "https://arxiv.org/abs/2603.19186",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Randomized controlled trials (RCTs) are the gold standard for estimating heterogeneous treatment effects, yet they are often underpowered for detecting effect heterogeneity. Large observational studies (OS) can supplement RCTs for conditional average treatment effect (CATE) estimation, but a key barrier is covariate mismatch: the two sources measure different, only partially overlapping, covariates. We propose CALM (Calibrated ALignment under covariate Mismatch), which bypasses imputation by learning embeddings that map each source's features into a common representation space. OS outcome models are transferred to the RCT embedding space and calibrated using trial data, preserving causal identification from randomization. Finite-sample risk bounds decompose into alignment error, outcome-model complexity, and calibration complexity terms, identifying when embedding alignment outperforms imputation. Under the calibration-based linear variant, the framework provides protection against negative transfer; the neural variant can be vulnerable under severe distributional shift. Under sparse linear models, the embedding approach strictly generalizes imputation. Simulations across 51 settings confirm that (i) calibration-based methods are equivalent for linear CATEs, and (ii) the neural embedding variant wins all 22 nonlinear-regime settings with large margins.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19186"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Improving RCT-Based Treatment Effect Estimation Under Covariate Mismatch via Calibrated Alignment?",
+    "Tell me about Improving RCT-Based Treatment Effect Estimation Under Covariate Mismatch via Calibrated Alignment"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.354Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: alignment, rag. 2 authors. Categories: cs.LG, cs.LG."
+  }
+}

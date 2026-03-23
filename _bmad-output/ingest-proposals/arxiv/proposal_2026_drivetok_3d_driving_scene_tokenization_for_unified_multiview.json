@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_drivetok_3d_driving_scene_tokenization_for_unified_multiview",
+  "type": "paper",
+  "title": "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
+  "authors": [
+    "Dong Zhuo",
+    "Wenzhao Zheng",
+    "Sicheng Zuo",
+    "Siming Yan",
+    "Lu Hou",
+    "Jie Zhou",
+    "Jiwen Lu"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19219",
+  "url": "https://arxiv.org/abs/2603.19219",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "With the growing adoption of vision-language-action models and world models in autonomous driving systems, scalable image tokenization becomes crucial as the interface for the visual modality. However, most existing tokenizers are designed for monocular and 2D scenes, leading to inefficiency and inter-view inconsistency when applied to high-resolution multi-view driving scenes. To address this, we propose DriveTok, an efficient 3D driving scene tokenizer for unified multi-view reconstruction and understanding. DriveTok first obtains semantically rich visual features from vision foundation models and then transforms them into the scene tokens with 3D deformable cross-attention. For decoding, we employ a multi-view transformer to reconstruct multi-view features from the scene tokens and use multiple heads to obtain RGB, depth, and semantic reconstructions. We also add a 3D head directly on the scene tokens for 3D semantic occupancy prediction for better spatial awareness. With the multiple training objectives, DriveTok learns unified scene tokens that integrate semantic, geometric, and textural information for efficient multi-view tokenization. Extensive experiments on the widely used nuScenes dataset demonstrate that the scene tokens from DriveTok perform well on image reconstruction, semantic segmentation, depth prediction, and 3D occupancy prediction tasks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19219"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding?",
+    "Tell me about DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.349Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: transformer, world model, foundation model. 7 authors. Categories: cs.CV, cs.LG, cs.CV."
+  }
+}

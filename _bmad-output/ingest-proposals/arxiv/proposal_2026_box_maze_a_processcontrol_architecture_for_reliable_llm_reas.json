@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_box_maze_a_processcontrol_architecture_for_reliable_llm_reas",
+  "type": "paper",
+  "title": "Box Maze: A Process-Control Architecture for Reliable LLM Reasoning",
+  "authors": [
+    "Zou Qiang"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19182",
+  "url": "https://arxiv.org/abs/2603.19182",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large language models (LLMs) demonstrate strong generative capabilities but remain vulnerable to hallucination and unreliable reasoning under adversarial prompting. Existing safety approaches -- such as reinforcement learning from human feedback (RLHF) and output filtering -- primarily operate at the behavioral level and may lack explicit architectural mechanisms for enforcing reasoning process integrity. This paper proposes the Box Maze framework, a conceptual process-control architecture that decomposes LLM reasoning into three explicit layers: memory grounding, structured inference, and boundary enforcement. We introduce preliminary simulation-based evaluation involving progressive boundary erosion scenarios across multiple heterogeneous LLM systems (DeepSeek-V3, Doubao, Qwen). Results from n=50 adversarial scenarios suggest that explicit cognitive control layers may improve consistency in boundary maintenance, with architectural constraints reducing boundary failure rates from approximately 40% (baseline RLHF) to below 1% under adversarial conditions. While current validation is simulation-based, these preliminary results indicate that process-level control may offer a promising direction for improving reliability in large language model reasoning.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19182"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Box Maze: A Process-Control Architecture for Reliable LLM Reasoning?",
+    "Tell me about Box Maze: A Process-Control Architecture for Reliable LLM Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.354Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Matched keywords: language model, large language model, llm, reinforcement learning, rlhf, safety, reasoning, prompt. 1 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

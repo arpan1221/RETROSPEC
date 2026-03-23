@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_dreampartgen_semantically_grounded_partlevel_3d_generation_v",
+  "type": "paper",
+  "title": "DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising",
+  "authors": [
+    "Tianjiao Yu",
+    "Xinzhuo Li",
+    "Muntasir Wahed",
+    "Jerry Xiong",
+    "Yifan Shen",
+    "Ying Shen",
+    "Ismini Lourentzou"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19216",
+  "url": "https://arxiv.org/abs/2603.19216",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Understanding and generating 3D objects as compositions of meaningful parts is fundamental to human perception and reasoning. However, most text-to-3D methods overlook the semantic and functional structure of parts. While recent part-aware approaches introduce decomposition, they remain largely geometry-focused, lacking semantic grounding and failing to model how parts align with textual descriptions or their inter-part relations. We propose DreamPartGen, a framework for semantically grounded, part-aware text-to-3D generation. DreamPartGen introduces Duplex Part Latents (DPLs) that jointly model each part's geometry and appearance, and Relational Semantic Latents (RSLs) that capture inter-part dependencies derived from language. A synchronized co-denoising process enforces mutual geometric and semantic consistency, enabling coherent, interpretable, and text-aligned 3D synthesis. Across multiple benchmarks, DreamPartGen delivers state-of-the-art performance in geometric fidelity and text-shape alignment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19216"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising?",
+    "Tell me about DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.350Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: alignment, benchmark, reasoning. 7 authors. Categories: cs.CV, cs.AI, cs.LG, cs.CV."
+  }
+}

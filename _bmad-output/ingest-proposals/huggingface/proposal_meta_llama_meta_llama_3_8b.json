@@ -1,0 +1,43 @@
+{
+  "id": "model_meta_llama_3_8b",
+  "type": "model",
+  "name": "Meta-Llama-3-8B",
+  "organization": "org_meta_ai",
+  "release_date": "2024-04-17",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "unknown",
+  "training_approach": "unknown",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [],
+  "benchmark_highlights": {},
+  "lineage_path": "",
+  "significance": 9,
+  "cultural_impact": "",
+  "_meta": {
+    "source": "huggingface",
+    "ingested_at": "2026-03-23T00:55:52.689Z",
+    "status": "proposed",
+    "confidence": 0.9,
+    "reason": "Notable org: meta-llama. Very high downloads: 3,428,122. Very high likes: 6487. Trending on HuggingFace.",
+    "huggingface_id": "meta-llama/Meta-Llama-3-8B",
+    "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+    "downloads": 3428122,
+    "likes": 6487,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama-3",
+      "en",
+      "license:llama3",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

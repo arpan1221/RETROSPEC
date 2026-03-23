@@ -9,3 +9,5 @@ packages/retrospec-py/__pycache__/
 packages/retrospec-py/*.egg-info/
 packages/retrospec-py/dist/
 packages/retrospec-py/build/
+tools/embeddings/node_modules/
+tools/ingest/node_modules/

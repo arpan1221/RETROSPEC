@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_robustness_cost_and_attacksurface_concentration_in_phishing",
+  "type": "paper",
+  "title": "Robustness, Cost, and Attack-Surface Concentration in Phishing Detection",
+  "authors": [
+    "Julian Allagan",
+    "Mohamed Elbakary",
+    "Zohreh Safari",
+    "Weizheng Gao",
+    "Gabrielle Morgan",
+    "Essence Morgan",
+    "Vladimir Deriglazov"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19204",
+  "url": "https://arxiv.org/abs/2603.19204",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d.\\ evaluation, yet deployment security depends on robustness to post-deployment feature manipulation. We study this gap through a cost-aware evasion framework that models discrete, monotone feature edits under explicit attacker budgets. Three diagnostics are introduced: minimal evasion cost (MEC), the evasion survival rate $S(B)$, and the robustness concentration index (RCI). On the UCI Phishing Websites benchmark (11\\,055 instances, 30 ternary features), Logistic Regression, Random Forests, Gradient Boosted Trees, and XGBoost all achieve $\\mathrm{AUC}\\ge 0.979$ under static evaluation. Under budgeted sanitization-style evasion, robustness converges across architectures: the median MEC equals 2 with full features, and over 80\\% of successful minimal-cost evasions concentrate on three low-cost surface features. Feature restriction improves robustness only when it removes all dominant low-cost transitions. Under strict cost schedules, infrastructure-leaning feature sets exhibit 17-19\\% infeasible mass for ensemble models, while the median MEC among evadable instances remains unchanged. We formalize this convergence: if a positive fraction of correctly detected phishing instances admit evasion through a single feature transition of minimal cost $c_{\\min}$, no classifier can raise the corresponding MEC quantile above $c_{\\min}$ without modifying the feature representation or cost model. Adversarial robustness in phishing detection is governed by feature economics rather than model complexity.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19204"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Robustness, Cost, and Attack-Surface Concentration in Phishing Detection?",
+    "Tell me about Robustness, Cost, and Attack-Surface Concentration in Phishing Detection"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.351Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: benchmark. 7 authors. Categories: cs.LG, cs.LG."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "paper_2026_osthemis_a_scalable_critic_framework_for_generalist_gui_rewa",
+  "type": "paper",
+  "title": "OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards",
+  "authors": [
+    "Zehao Li",
+    "Zhenyu Wu",
+    "Yibo Zhao",
+    "Bowen Yang",
+    "Jingjing Xie",
+    "Zhaoyang Liu",
+    "Zhoumianze Liu",
+    "Kaiming Jin",
+    "Jianze Liang",
+    "Zonglin Li",
+    "Feng Wu",
+    "Bowen Zhou",
+    "Zun Wang",
+    "Zichen Ding"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19191",
+  "url": "https://arxiv.org/abs/2603.19191",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Reinforcement Learning (RL) has the potential to improve the robustness of GUI agents in stochastic environments, yet training is highly sensitive to the quality of the reward function. Existing reward approaches struggle to achieve both scalability and performance. To address this, we propose OS-Themis, a scalable and accurate multi-agent critic framework. Unlike a single judge, OS-Themis decomposes trajectories into verifiable milestones to isolate critical evidence for decision making and employs a review mechanism to strictly audit the evidence chain before making the final verdict. To facilitate evaluation, we further introduce OmniGUIRewardBench (OGRBench), a holistic cross-platform benchmark for GUI outcome rewards, where all evaluated models achieve their best performance under OS-Themis. Extensive experiments on AndroidWorld show that OS-Themis yields a 10.3% improvement when used to support online RL training, and a 6.9% gain when used for trajectory validation and filtering in the self-training loop, highlighting its potential to drive agent evolution.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19191"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards?",
+    "Tell me about OS-Themis: A Scalable Critic Framework for Generalist GUI Rewards"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.353Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: reinforcement learning, agent, benchmark. 14 authors. Categories: cs.AI, cs.AI."
+  }
+}

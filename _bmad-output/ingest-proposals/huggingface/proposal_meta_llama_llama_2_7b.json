@@ -1,0 +1,40 @@
+{
+  "id": "model_llama_2_7b",
+  "type": "model",
+  "name": "Llama-2-7b",
+  "organization": "org_meta_ai",
+  "release_date": "2023-07-09",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "unknown",
+  "training_approach": "unknown",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [],
+  "benchmark_highlights": {},
+  "lineage_path": "",
+  "significance": 8,
+  "cultural_impact": "",
+  "_meta": {
+    "source": "huggingface",
+    "ingested_at": "2026-03-23T00:55:52.690Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Notable org: meta-llama. Very high likes: 4459. Trending on HuggingFace.",
+    "huggingface_id": "meta-llama/Llama-2-7b",
+    "huggingface_url": "https://huggingface.co/meta-llama/Llama-2-7b",
+    "downloads": 252,
+    "likes": 4459,
+    "tags": [
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama-2",
+      "text-generation",
+      "en",
+      "arxiv:2307.09288",
+      "license:llama2",
+      "region:us"
+    ]
+  }
+}

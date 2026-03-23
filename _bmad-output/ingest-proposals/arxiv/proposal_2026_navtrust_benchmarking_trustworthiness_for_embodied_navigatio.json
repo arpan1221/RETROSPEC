@@ -1,0 +1,45 @@
+{
+  "id": "paper_2026_navtrust_benchmarking_trustworthiness_for_embodied_navigatio",
+  "type": "paper",
+  "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+  "authors": [
+    "Huaide Jiang",
+    "Yash Chaudhary",
+    "Yuping Wang",
+    "Zehao Wang",
+    "Raghav Sharma",
+    "Manan Mehta",
+    "Yang Zhou",
+    "Lichao Sun",
+    "Zhiwen Fan",
+    "Zhengzhong Tu",
+    "Jiachen Li"
+  ],
+  "date": "2026-03-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.19229",
+  "url": "https://arxiv.org/abs/2603.19229",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance. To our best knowledge, NavTrust is the first benchmark that exposes embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified framework. Our extensive evaluation of seven state-of-the-art approaches reveals substantial performance degradation under realistic corruptions, which highlights critical robustness gaps and provides a roadmap toward more trustworthy embodied navigation systems. Furthermore, we systematically evaluate four distinct mitigation strategies to enhance robustness against RGB-Depth and instructions corruptions. Our base models include Uni-NaVid and ETPNav. We deployed them on a real mobile robot and observed improved robustness to corruptions. The project website is: https://navtrust.github.io.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.19229"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is NavTrust: Benchmarking Trustworthiness for Embodied Navigation?",
+    "Tell me about NavTrust: Benchmarking Trustworthiness for Embodied Navigation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-23T00:55:24.342Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: agent, benchmark. 11 authors. Categories: cs.RO, cs.AI, cs.CV, cs.LG, eess.SY, cs.RO."
+  }
+}

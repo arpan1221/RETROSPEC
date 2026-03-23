@@ -208,6 +208,11 @@ class RetrospecData {
       .sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
   }
 
+  /** Resolve a semantic search result ID back to its full entity */
+  resolveIds(ids: string[]): Array<AnyEntity | null> {
+    return ids.map((id) => this.entities.get(id) ?? null);
+  }
+
   getStats() {
     return {
       events: this.events.length,
