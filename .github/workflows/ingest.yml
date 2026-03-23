@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   ingest:
@@ -23,25 +24,57 @@ jobs:
       - name: Run ingest scripts
         run: cd tools/ingest && npm install && npm run ingest
 
-      - name: Commit and push proposals
+      - name: Create PR with proposals
         run: |
           git config user.name "RETROSPEC Bot"
           git config user.email "bot@retrospec.dev"
 
-          # Stage all proposal changes
+          # Stage proposal changes
           git add _bmad-output/ingest-proposals/
 
-          # Check if there's anything to commit
+          # Check if there's anything new
           if git diff --cached --quiet; then
-            echo "No new changes to commit"
+            echo "No new changes — skipping PR"
             exit 0
           fi
 
-          # Commit locally
-          git commit -m "feat: Auto-ingest proposals [skip ci]"
+          # Create a dated branch
+          BRANCH="ingest/proposals-$(date +%Y-%m-%d)"
+          git checkout -b "$BRANCH"
+          git commit -m "feat: Auto-ingest proposals $(date +%Y-%m-%d)"
+          git push origin "$BRANCH"
 
-          # Pull latest remote changes, rebase our commit on top
-          git pull --rebase origin main
+          # Count proposals by source
+          arxiv_count=$(find _bmad-output/ingest-proposals/arxiv -name '*.json' 2>/dev/null | wc -l)
+          hf_count=$(find _bmad-output/ingest-proposals/huggingface -name '*.json' 2>/dev/null | wc -l)
 
-          # Push
-          git push origin main
+          # Create PR
+          gh pr create \
+            --title "Auto-Ingest: New proposals $(date +%Y-%m-%d)" \
+            --body "$(cat <<EOF
+          ## Auto-Ingest Proposals
+
+          Scanned arXiv and HuggingFace for new AI papers and models.
+
+          - **arXiv papers:** $arxiv_count proposals
+          - **HuggingFace models:** $hf_count proposals
+
+          ### Review
+
+          Each proposal is a JSON file in \`_bmad-output/ingest-proposals/\`. Review for:
+          - Historical significance (is this worth documenting?)
+          - Accuracy (are the details correct?)
+          - Schema compliance
+
+          To accept proposals locally, run:
+          \`\`\`
+          cd tools/ingest && node review.js
+          \`\`\`
+
+          This PR was created automatically by the RETROSPEC auto-ingest pipeline.
+          EOF
+          )" \
+            --base main \
+            --head "$BRANCH"
+        env:
+          GH_TOKEN: ${{ github.token }}
