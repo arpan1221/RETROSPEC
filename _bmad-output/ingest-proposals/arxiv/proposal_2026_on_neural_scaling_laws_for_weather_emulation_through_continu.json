@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_on_neural_scaling_laws_for_weather_emulation_through_continu",
+  "type": "paper",
+  "title": "On Neural Scaling Laws for Weather Emulation through Continual Training",
+  "authors": [
+    "Shashank Subramanian",
+    "Alexander Kiefer",
+    "Arnur Nigmetov",
+    "Amir Gholami",
+    "Dmitriy Morozov",
+    "Michael W. Mahoney"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25687",
+  "url": "https://arxiv.org/abs/2603.25687",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Neural scaling laws, which in some domains can predict the performance of large neural networks as a function of model, data, and compute scale, are the cornerstone of building foundation models in Natural Language Processing and Computer Vision. We study neural scaling in Scientific Machine Learning, focusing on models for weather forecasting. To analyze scaling behavior in as simple a setting as possible, we adopt a minimal, scalable, general-purpose Swin Transformer architecture, and we use continual training with constant learning rates and periodic cooldowns as an efficient training strategy. We show that models trained in this minimalist way follow predictable scaling trends and even outperform standard cosine learning rate schedules. Cooldown phases can be re-purposed to improve downstream performance, e.g., enabling accurate multi-step rollouts over longer forecast horizons as well as sharper predictions through spectral loss adjustments. We also systematically explore a wide range of model and dataset sizes under various compute budgets to construct IsoFLOP curves, and we identify compute-optimal training regimes. Extrapolating these trends to larger scales highlights potential performance limits, demonstrating that neural scaling can serve as an important diagnostic for efficient resource allocation. We open-source our code for reproducibility.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25687"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is On Neural Scaling Laws for Weather Emulation through Continual Training?",
+    "Tell me about On Neural Scaling Laws for Weather Emulation through Continual Training"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.045Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: transformer, scaling law, foundation model. 6 authors. Categories: cs.LG, cs.LG."
+  }
+}

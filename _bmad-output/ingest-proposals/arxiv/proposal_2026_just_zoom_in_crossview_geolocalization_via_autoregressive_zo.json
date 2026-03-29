@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_just_zoom_in_crossview_geolocalization_via_autoregressive_zo",
+  "type": "paper",
+  "title": "Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming",
+  "authors": [
+    "Yunus Talha Erzurumlu",
+    "Jiyong Kwag",
+    "Alper Yilmaz"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25686",
+  "url": "https://arxiv.org/abs/2603.25686",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Cross-view geo-localization (CVGL) estimates a camera's location by matching a street-view image to geo-referenced overhead imagery, enabling GPS-denied localization and navigation. Existing methods almost universally formulate CVGL as an image-retrieval problem in a contrastively trained embedding space. This ties performance to large batches and hard negative mining, and it ignores both the geometric structure of maps and the coverage mismatch between street-view and overhead imagery. In particular, salient landmarks visible from the street view can fall outside a fixed satellite crop, making retrieval targets ambiguous and limiting explicit spatial inference over the map. We propose Just Zoom In, an alternative formulation that performs CVGL via autoregressive zooming over a city-scale overhead map. Starting from a coarse satellite view, the model takes a short sequence of zoom-in decisions to select a terminal satellite cell at a target resolution, without contrastive losses or hard negative mining. We further introduce a realistic benchmark with crowd-sourced street views and high-resolution satellite imagery that reflects real capture conditions. On this benchmark, Just Zoom In achieves state-of-the-art performance, improving Recall@1 within 50 m by 5.5% and Recall@1 within 100 m by 9.6% over the strongest contrastive-retrieval baseline. These results demonstrate the effectiveness of sequential coarse-to-fine spatial reasoning for cross-view geo-localization.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25686"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming?",
+    "Tell me about Just Zoom In: Cross-View Geo-Localization via Autoregressive Zooming"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.045Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: rag, benchmark, reasoning. 3 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

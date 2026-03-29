@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.467Z",
+    "ingested_at": "2026-03-29T01:18:21.398Z",
     "status": "proposed",
     "confidence": 0.6,
-    "reason": "Notable org: bigcode. Very high likes: 2927. Trending on HuggingFace.",
+    "reason": "Notable org: bigcode. Very high likes: 2928. Trending on HuggingFace.",
     "huggingface_id": "bigcode/starcoder",
     "huggingface_url": "https://huggingface.co/bigcode/starcoder",
-    "downloads": 8817,
-    "likes": 2927,
+    "downloads": 9766,
+    "likes": 2928,
     "tags": [
       "transformers",
       "pytorch",

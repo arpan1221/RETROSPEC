@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_drive_my_way_preference_alignment_of_visionlanguageaction_mo",
+  "type": "paper",
+  "title": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+  "authors": [
+    "Zehao Wang",
+    "Huaide Jiang",
+    "Shuaiwu Dong",
+    "Yuping Wang",
+    "Hang Qiu",
+    "Jiachen Li"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25740",
+  "url": "https://arxiv.org/abs/2603.25740",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Human driving behavior is inherently personal, which is shaped by long-term habits and influenced by short-term intentions. Individuals differ in how they accelerate, brake, merge, yield, and overtake across diverse situations. However, existing end-to-end autonomous driving systems either optimize for generic objectives or rely on fixed driving modes, lacking the ability to adapt to individual preferences or interpret natural language intent. To address this gap, we propose Drive My Way (DMW), a personalized Vision-Language-Action (VLA) driving framework that aligns with users' long-term driving habits and adapts to real-time user instructions. DMW learns a user embedding from our personalized driving dataset collected across multiple real drivers and conditions the policy on this embedding during planning, while natural language instructions provide additional short-term guidance. Closed-loop evaluation on the Bench2Drive benchmark demonstrates that DMW improves style instruction adaptation, and user studies show that its generated behaviors are recognizable as each driver's own style, highlighting personalization as a key capability for human-centered autonomous driving. Our data and code are available at https://dmw-cvpr.github.io/.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25740"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving?",
+    "Tell me about Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.042Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: alignment, benchmark. 6 authors. Categories: cs.RO, cs.AI, cs.CV, cs.LG, cs.MA, cs.RO."
+  }
+}

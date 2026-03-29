@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_agent_factories_for_high_level_synthesis_how_far_can_general",
+  "type": "paper",
+  "title": "Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?",
+  "authors": [
+    "Abhishek Bhandwaldar",
+    "Mihir Choudhury",
+    "Ruchir Puri",
+    "Akash Srivastava"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25719",
+  "url": "https://arxiv.org/abs/2603.25719",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We present an empirical study of how far general-purpose coding agents -- without hardware-specific training -- can optimize hardware designs from high-level algorithmic specifications. We introduce an agent factory, a two-stage pipeline that constructs and coordinates multiple autonomous optimization agents. In Stage~1, the pipeline decomposes a design into sub-kernels, independently optimizes each using pragma and code-level transformations, and formulates an Integer Linear Program (ILP) to assemble globally promising configurations under an area constraint. In Stage~2, it launches $N$ expert agents over the top ILP solutions, each exploring cross-function optimizations such as pragma recombination, loop fusion, and memory restructuring that are not captured by sub-kernel decomposition. We evaluate the approach on 12 kernels from HLS-Eval and Rodinia-HLS using Claude Code (Opus~4.5/4.6) with AMD Vitis HLS. Scaling from 1 to 10 agents yields a mean $8.27\\times$ speedup over baseline, with larger gains on harder benchmarks: streamcluster exceeds $20\\times$ and kmeans reaches approximately $10\\times$. Across benchmarks, agents consistently rediscover known hardware optimization patterns without domain-specific training, and the best designs often do not originate from top-ranked ILP candidates, indicating that global optimization exposes improvements missed by sub-kernel search. These results establish agent scaling as a practical and effective axis for HLS optimization.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25719"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization??",
+    "Tell me about Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.044Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, rag, benchmark. 4 authors. Categories: cs.AI, cs.AR, cs.LG, cs.AI."
+  }
+}

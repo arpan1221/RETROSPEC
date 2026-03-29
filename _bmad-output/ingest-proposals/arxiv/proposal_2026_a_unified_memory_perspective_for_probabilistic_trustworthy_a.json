@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_a_unified_memory_perspective_for_probabilistic_trustworthy_a",
+  "type": "paper",
+  "title": "A Unified Memory Perspective for Probabilistic Trustworthy AI",
+  "authors": [
+    "Xueji Zhao",
+    "Likai Pei",
+    "Jianbo Liu",
+    "Kai Ni",
+    "Ningyuan Cao"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25692",
+  "url": "https://arxiv.org/abs/2603.25692",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Trustworthy artificial intelligence increasingly relies on probabilistic computation to achieve robustness, interpretability, security and privacy. In practical systems, such workloads interleave deterministic data access with repeated stochastic sampling across models, data paths and system functions, shifting performance bottlenecks from arithmetic units to memory systems that must deliver both data and randomness. Here we present a unified data-access perspective in which deterministic access is treated as a limiting case of stochastic sampling, enabling both modes to be analyzed within a common framework. This view reveals that increasing stochastic demand reduces effective data-access efficiency and can drive systems into entropy-limited operation. Based on this insight, we define memory-level evaluation criteria, including unified operation, distribution programmability, efficiency, robustness to hardware non-idealities and parallel compatibility. Using these criteria, we analyze limitations of conventional architectures and examine emerging probabilistic compute-in-memory approaches that integrate sampling with memory access, outlining pathways toward scalable hardware for trustworthy AI.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25692"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is A Unified Memory Perspective for Probabilistic Trustworthy AI?",
+    "Tell me about A Unified Memory Perspective for Probabilistic Trustworthy AI"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.045Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: interpretability. 5 authors. Categories: cs.LG, cs.AI, cs.AR, cs.ET, cs.LG."
+  }
+}
