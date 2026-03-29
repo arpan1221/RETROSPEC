@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.463Z",
+    "ingested_at": "2026-03-29T01:18:21.395Z",
     "status": "proposed",
     "confidence": 0.6,
-    "reason": "Notable org: bigscience. Very high likes: 4989. Trending on HuggingFace.",
+    "reason": "Notable org: bigscience. Very high likes: 4988. Trending on HuggingFace.",
     "huggingface_id": "bigscience/bloom",
     "huggingface_url": "https://huggingface.co/bigscience/bloom",
-    "downloads": 7588,
-    "likes": 4989,
+    "downloads": 7872,
+    "likes": 4988,
     "tags": [
       "transformers",
       "pytorch",

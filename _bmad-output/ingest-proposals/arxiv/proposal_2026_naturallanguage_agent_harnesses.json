@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_naturallanguage_agent_harnesses",
+  "type": "paper",
+  "title": "Natural-Language Agent Harnesses",
+  "authors": [
+    "Linyue Pan",
+    "Lexiao Zou",
+    "Shuo Guo",
+    "Jingchen Ni",
+    "Hai-Tao Zheng"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25723",
+  "url": "https://arxiv.org/abs/2603.25723",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Agent performance increasingly depends on \\emph{harness engineering}, yet harness design is usually buried in controller code and runtime-specific conventions, making it hard to transfer, compare, and study as a scientific object. We ask whether the high-level control logic of an agent harness can instead be externalized as a portable executable artifact. We introduce \\textbf{Natural-Language Agent Harnesses} (NLAHs), which express harness behavior in editable natural language, and \\textbf{Intelligent Harness Runtime} (IHR), a shared runtime that executes these harnesses through explicit contracts, durable artifacts, and lightweight adapters. Across coding and computer-use benchmarks, we conduct controlled evaluations of operational viability, module ablation, and code-to-text harness migration.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25723"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Natural-Language Agent Harnesses?",
+    "Tell me about Natural-Language Agent Harnesses"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.043Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: agent, benchmark. 5 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}
