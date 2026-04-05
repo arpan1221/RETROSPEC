@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_gomhc_direct_parameterization_of_manifoldconstrained_hyperco",
+  "type": "paper",
+  "title": "go-$m$HC: Direct Parameterization of Manifold-Constrained Hyper-Connections via Generalized Orthostochastic Matrices",
+  "authors": [
+    "Torque Dandachi",
+    "Sophia Diggs-Galligan"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02309",
+  "url": "https://arxiv.org/abs/2604.02309",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Doubly stochastic matrices enable learned mixing across residual streams, but parameterizing the set of doubly stochastic matrices (the Birkhoff polytope) exactly and efficiently remains an open challenge. Existing exact methods scale factorially with the number of streams ($d$), while Kronecker-factorized approaches are efficient but expressivity-limited. We introduce a novel exact parameterization grounded in the theory of generalized orthostochastic matrices, which scales as $\\mathcal{O}(d^3)$ and exposes a single hyperparameter $s$ which continuously interpolates between a computationally efficient boundary and the fully expressive Birkhoff polytope. Building on Manifold-Constrained Hyper-Connections ($m$HC), a framework for learned dynamic layer connectivity, we instantiate this parameterization in go-$m$HC. Our method composes naturally with Kronecker-factorized methods, substantially recovering expressivity at similar FLOP costs. Spectral analysis indicates that go-$m$HC fills the Birkhoff polytope far more completely than Kronecker-factorized baselines. On synthetic stream-mixing tasks, go-$m$HC achieves the minimum theoretical loss while converging up to $10\\times$ faster. We validate our approach in a 30M parameter GPT-style language model. The expressivity, efficiency, and exactness of go-$m$HC offer a practical avenue for scaling $d$ as a new dimension of model capacity.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02309"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is go-$m$HC: Direct Parameterization of Manifold-Constrained Hyper-Connections via Generalized Orthostochastic Matrices?",
+    "Tell me about go-$m$HC: Direct Parameterization of Manifold-Constrained Hyper-Connections via Generalized Orthostochastic Matrices"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.866Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: language model. 2 authors. Categories: cs.LG, cs.CL, cs.LG."
+  }
+}

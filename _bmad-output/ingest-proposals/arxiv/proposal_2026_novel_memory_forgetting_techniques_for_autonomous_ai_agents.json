@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_novel_memory_forgetting_techniques_for_autonomous_ai_agents",
+  "type": "paper",
+  "title": "Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency",
+  "authors": [
+    "Payal Fofadiya",
+    "Sunil Tiwari"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02280",
+  "url": "https://arxiv.org/abs/2604.02280",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Long-horizon conversational agents require persistent memory for coherent reasoning, yet uncontrolled accumulation causes temporal decay and false memory propagation. Benchmarks such as LOCOMO and LOCCO report performance degradation from 0.455 to 0.05 across stages, while MultiWOZ shows 78.2% accuracy with 6.8% false memory rate under persistent retention. This work introduces an adaptive budgeted forgetting framework that regulates memory through relevanceguided scoring and bounded optimization. The approach integrates recency, frequency, and semantic alignment to maintain stability under constrained context. Comparative analysis demonstrates improved long-horizon F1 beyond 0.583 baseline levels, higher retention consistency, and reduced false memory behavior without increasing context usage. These findings confirm that structured forgetting preserves reasoning performance while preventing unbounded memory growth in extended conversational settings.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02280"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency?",
+    "Tell me about Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.868Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: agent, alignment, benchmark, reasoning. 2 authors. Categories: cs.AI, cs.CV, cs.AI."
+  }
+}

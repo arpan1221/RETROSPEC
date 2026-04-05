@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_crystalite_a_lightweight_transformer_for_efficient_crystal_m",
+  "type": "paper",
+  "title": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling",
+  "authors": [
+    "Tin Hadži Veljković",
+    "Joshua Rosenthal",
+    "Ivor Lončarić",
+    "Jan-Willem van de Meent"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02270",
+  "url": "https://arxiv.org/abs/2604.02270",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Generative models for crystalline materials often rely on equivariant graph neural networks, which capture geometric structure well but are costly to train and slow to sample. We present Crystalite, a lightweight diffusion Transformer for crystal modeling built around two simple inductive biases. The first is Subatomic Tokenization, a compact chemically structured atom representation that replaces high-dimensional one-hot encodings and is better suited to continuous diffusion. The second is the Geometry Enhancement Module (GEM), which injects periodic minimum-image pair geometry directly into attention through additive geometric biases. Together, these components preserve the simplicity and efficiency of a standard Transformer while making it better matched to the structure of crystalline materials. Crystalite achieves state-of-the-art results on crystal structure prediction benchmarks, and de novo generation performance, attaining the best S.U.N. discovery score among the evaluated baselines while sampling substantially faster than geometry-heavy alternatives.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02270"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Crystalite: A Lightweight Transformer for Efficient Crystal Modeling?",
+    "Tell me about Crystalite: A Lightweight Transformer for Efficient Crystal Modeling"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.868Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: transformer, diffusion, benchmark. 4 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

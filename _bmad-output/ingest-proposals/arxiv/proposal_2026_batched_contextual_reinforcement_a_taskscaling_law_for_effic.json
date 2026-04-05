@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_batched_contextual_reinforcement_a_taskscaling_law_for_effic",
+  "type": "paper",
+  "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
+  "authors": [
+    "Bangji Yang",
+    "Hongbo Ma",
+    "Jiajun Fan",
+    "Ge Liu"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02322",
+  "url": "https://arxiv.org/abs/2604.02322",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural modification: training the model to solve N problems simultaneously within a shared context window, rewarded purely by per-instance accuracy. This formulation creates an implicit token budget that yields several key findings: (1) We identify a novel task-scaling law: as the number of concurrent problems N increases during inference, per-problem token usage decreases monotonically while accuracy degrades far more gracefully than baselines, establishing N as a controllable throughput dimension. (2) BCR challenges the traditional accuracy-efficiency trade-off by demonstrating a \"free lunch\" phenomenon at standard single-problem inference. Across both 1.5B and 4B model families, BCR reduces token usage by 15.8% to 62.6% while consistently maintaining or improving accuracy across five major mathematical benchmarks. (3) Qualitative analyses reveal emergent self-regulated efficiency, where models autonomously eliminate redundant metacognitive loops without explicit length supervision. (4) Crucially, we empirically demonstrate that implicit budget constraints successfully circumvent the adversarial gradients and catastrophic optimization collapse inherent to explicit length penalties, offering a highly stable, constraint-based alternative for length control. These results prove BCR practical, showing simple structural incentives unlock latent high-density reasoning in LLMs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02322"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning?",
+    "Tell me about Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.865Z",
+    "status": "proposed",
+    "confidence": 0.85,
+    "reason": "Matched keywords: language model, large language model, llm, scaling law, benchmark, emergent, reasoning. 4 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}
