@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.463Z",
+    "ingested_at": "2026-04-05T01:18:53.212Z",
     "status": "proposed",
     "confidence": 0.9,
-    "reason": "Notable org: meta-llama. Very high downloads: 7,619,708. Very high likes: 5589. Trending on HuggingFace.",
+    "reason": "Notable org: meta-llama. Very high downloads: 8,498,290. Very high likes: 5660. Trending on HuggingFace.",
     "huggingface_id": "meta-llama/Llama-3.1-8B-Instruct",
     "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-    "downloads": 7619708,
-    "likes": 5589,
+    "downloads": 8498290,
+    "likes": 5660,
     "tags": [
       "transformers",
       "safetensors",

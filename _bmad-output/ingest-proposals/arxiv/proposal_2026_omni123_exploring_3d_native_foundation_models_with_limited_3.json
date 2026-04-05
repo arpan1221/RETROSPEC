@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_omni123_exploring_3d_native_foundation_models_with_limited_3",
+  "type": "paper",
+  "title": "Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation",
+  "authors": [
+    "Chongjie Ye",
+    "Cheng Cao",
+    "Chuanyu Pan",
+    "Yiming Hao",
+    "Yihao Zhi",
+    "Yuanming Hu",
+    "Xiaoguang Han"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02289",
+  "url": "https://arxiv.org/abs/2604.02289",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foundation model that unifies text-to-2D and text-to-3D generation within a single autoregressive framework. Our key insight is that cross-modal consistency between images and 3D can serve as an implicit structural constraint. By representing text, images, and 3D as discrete tokens in a shared sequence space, the model leverages abundant 2D data as a geometric prior to improve 3D representations. We introduce an interleaved X-to-X training paradigm that coordinates diverse cross-modal tasks over heterogeneous paired datasets without requiring fully aligned text-image-3D triplets. By traversing semantic-visual-geometric cycles (e.g., text to image to 3D to image) within autoregressive sequences, the model jointly enforces semantic alignment, appearance fidelity, and multi-view geometric consistency. Experiments show that Omni123 significantly improves text-guided 3D generation and editing, demonstrating a scalable path toward multimodal 3D world models.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02289"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation?",
+    "Tell me about Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.867Z",
+    "status": "proposed",
+    "confidence": 0.85,
+    "reason": "Matched keywords: language model, large language model, alignment, multimodal, world model, rag, foundation model. 7 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

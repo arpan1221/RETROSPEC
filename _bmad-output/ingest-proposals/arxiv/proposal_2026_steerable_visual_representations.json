@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_steerable_visual_representations",
+  "type": "paper",
+  "title": "Steerable Visual Representations",
+  "authors": [
+    "Jona Ruthardt",
+    "Manu Gaur",
+    "Deva Ramanan",
+    "Makarand Tapaswi",
+    "Yuki M. Asano"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02327",
+  "url": "https://arxiv.org/abs/2604.02327",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their effectiveness for generic visual tasks. To address this, we introduce Steerable Visual Representations, a new class of visual representations, whose global and local features can be steered with natural language. While most vision-language models (e.g., CLIP) fuse text with visual features after encoding (late fusion), we inject text directly into the layers of the visual encoder (early fusion) via lightweight cross-attention. We introduce benchmarks for measuring representational steerability, and demonstrate that our steerable visual features can focus on any desired objects in an image while preserving the underlying representation quality. Our method also matches or outperforms dedicated approaches on anomaly detection and personalized object discrimination, exhibiting zero-shot generalization to out-of-distribution tasks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02327"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Steerable Visual Representations?",
+    "Tell me about Steerable Visual Representations"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.864Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: transformer, language model, llm, multimodal, benchmark, prompt. 5 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

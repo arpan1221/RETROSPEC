@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_void_video_object_and_interaction_deletion",
+  "type": "paper",
+  "title": "VOID: Video Object and Interaction Deletion",
+  "authors": [
+    "Saman Motamed",
+    "William Harvey",
+    "Benjamin Klein",
+    "Luc Van Gool",
+    "Zhuoning Yuan",
+    "Ta-Ying Cheng"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02296",
+  "url": "https://arxiv.org/abs/2604.02296",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Existing video object removal methods excel at inpainting content \"behind\" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a new paired dataset of counterfactual object removals using Kubric and HUMOTO, where removing an object requires altering downstream physical interactions. During inference, a vision-language model identifies regions of the scene affected by the removed object. These regions are then used to guide a video diffusion model that generates physically consistent counterfactual outcomes. Experiments on both synthetic and real data show that our approach better preserves consistent scene dynamics after object removal compared to prior video object removal methods. We hope this framework sheds light on how to make video editing models better simulators of the world through high-level causal reasoning.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02296"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is VOID: Video Object and Interaction Deletion?",
+    "Tell me about VOID: Video Object and Interaction Deletion"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.866Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, diffusion, reasoning. 6 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "paper_2026_grounded_token_initialization_for_new_vocabulary_in_lms_for",
+  "type": "paper",
+  "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
+  "authors": [
+    "Daiwei Chen",
+    "Zhoutong Fu",
+    "Chengming Jiang",
+    "Haichao Zhang",
+    "Ran Zhou",
+    "Tan Wang",
+    "Chunnan Yao",
+    "Guoyao Li",
+    "Rui Cai",
+    "Yihan Cao",
+    "Ruijie Jiang",
+    "Fedor Borisyuk",
+    "Jianqiang Shen",
+    "Jingwei Wu",
+    "Ramya Korlakai Vinayak"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02324",
+  "url": "https://arxiv.org/abs/2604.02324",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tuning to learn their representations. We present a systematic analysis of this strategy: through spectral and geometric diagnostics, we show that mean initialization collapses all new tokens into a degenerate subspace, erasing inter-token distinctions that subsequent fine-tuning struggles to fully recover. These findings suggest that \\emph{token initialization} is a key bottleneck when extending LMs with new vocabularies. Motivated by this diagnosis, we propose the \\emph{Grounded Token Initialization Hypothesis}: linguistically grounding novel tokens in the pretrained embedding space before fine-tuning better enables the model to leverage its general-purpose knowledge for novel-token domains. We operationalize this hypothesis as GTI (Grounded Token Initialization), a lightweight grounding stage that, prior to fine-tuning, maps new tokens to distinct, semantically meaningful locations in the pretrained embedding space using only paired linguistic supervision. Despite its simplicity, GTI outperforms both mean initialization and existing auxiliary-task adaptation methods in the majority of evaluation settings across multiple generative recommendation benchmarks, including industry-scale and public datasets. Further analyses show that grounded embeddings produce richer inter-token structure that persists through fine-tuning, corroborating the hypothesis that initialization quality is a key bottleneck in vocabulary extension.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02324"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation?",
+    "Tell me about Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.864Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, fine-tuning, rag, benchmark. 15 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_no_single_best_model_for_diversity_learning_a_router_for_sam",
+  "type": "paper",
+  "title": "No Single Best Model for Diversity: Learning a Router for Sample Diversity",
+  "authors": [
+    "Yuhan Liu",
+    "Fangyuan Xu",
+    "Vishakh Padmakumar",
+    "Daphne Ippolito",
+    "Eunsol Choi"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02319",
+  "url": "https://arxiv.org/abs/2604.02319",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "When posed with prompts that permit a large number of valid answers, comprehensively generating them is the first step towards satisfying a wide range of users. In this paper, we study methods to elicit a comprehensive set of valid responses. To evaluate this, we introduce \\textbf{diversity coverage}, a metric that measures the total quality scores assigned to each \\textbf{unique} answer in the predicted answer set relative to the best possible answer set with the same number of answers. Using this metric, we evaluate 18 LLMs, finding no single model dominates at generating diverse responses to a wide range of open-ended prompts. Yet, per each prompt, there exists a model that outperforms all other models significantly at generating a diverse answer set. Motivated by this finding, we introduce a router that predicts the best model for each query. On NB-Wildchat, our trained router outperforms the single best model baseline (26.3% vs $23.8%). We further show generalization to an out-of-domain dataset (NB-Curated) as well as different answer-generation prompting strategies. Our work lays foundation for studying generating comprehensive answers when we have access to a suite of models.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02319"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is No Single Best Model for Diversity: Learning a Router for Sample Diversity?",
+    "Tell me about No Single Best Model for Diversity: Learning a Router for Sample Diversity"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.865Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, rag, prompt. 5 authors. Categories: cs.CL, cs.CL."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_beyond_the_assistant_turn_user_turn_generation_as_a_probe_of",
+  "type": "paper",
+  "title": "Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models",
+  "authors": [
+    "Sarath Shekkizhar",
+    "Romain Cosentino",
+    "Adam Earle"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02315",
+  "url": "https://arxiv.org/abs/2604.02315",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Standard LLM benchmarks evaluate the assistant turn: the model generates a response to an input, a verifier scores correctness, and the analysis ends. This paradigm leaves unmeasured whether the LLM encodes any awareness of what follows the assistant response. We propose user-turn generation as a probe of this gap: given a conversation context of user query and assistant response, we let a model generate under the user role. If the model's weights encode interaction awareness, the generated user turn will be a grounded follow-up that reacts to the preceding context. Through experiments across $11$ open-weight LLMs (Qwen3.5, gpt-oss, GLM) and $5$ datasets (math reasoning, instruction following, conversation), we show that interaction awareness is decoupled from task accuracy. In particular, within the Qwen3.5 family, GSM8K accuracy scales from $41\\%$ ($0.8$B) to $96.8\\%$ ($397$B-A$17$B), yet genuine follow-up rates under deterministic generation remain near zero. In contrast, higher temperature sampling reveals interaction awareness is latent with follow up rates reaching $22\\%$. Controlled perturbations validate that the proposed probe measures a real property of the model, and collaboration-oriented post-training on Qwen3.5-2B demonstrates an increase in follow-up rates. Our results show that user-turn generation captures a dimension of LLM behavior, interaction awareness, that is unexplored and invisible with current assistant-only benchmarks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02315"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models?",
+    "Tell me about Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.865Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, llm, benchmark, reasoning. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

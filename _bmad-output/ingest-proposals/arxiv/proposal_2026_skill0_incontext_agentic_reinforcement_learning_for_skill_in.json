@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_skill0_incontext_agentic_reinforcement_learning_for_skill_in",
+  "type": "paper",
+  "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+  "authors": [
+    "Zhengxi Lu",
+    "Zhiyuan Yao",
+    "Jinyang Wu",
+    "Chengcheng Han",
+    "Qi Gu",
+    "Xunliang Cai",
+    "Weiming Lu",
+    "Jun Xiao",
+    "Yueting Zhuang",
+    "Yongliang Shen"
+  ],
+  "date": "2026-04-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.02268",
+  "url": "https://arxiv.org/abs/2604.02268",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Agent skills, structured packages of procedural knowledge and executable resources that agents dynamically load at inference time, have become a reliable mechanism for augmenting LLM agents. Yet inference-time skill augmentation is fundamentally limited: retrieval noise introduces irrelevant guidance, injected skill content imposes substantial token overhead, and the model never truly acquires the knowledge it merely follows. We ask whether skills can instead be internalized into model parameters, enabling zero-shot autonomous behavior without any runtime skill retrieval. We introduce SKILL0, an in-context reinforcement learning framework designed for skill internalization. SKILL0 introduces a training-time curriculum that begins with full skill context and progressively withdraws it. Skills are grouped offline by category and rendered with interaction history into a compact visual context, teaching he model tool invocation and multi-turn task completion. A Dynamic Curriculum then evaluates each skill file's on-policy helpfulness, retaining only those from which the current policy still benefits within a linearly decaying budget, until the agent operates in a fully zero-shot setting. Extensive agentic experiments demonstrate that SKILL0 achieves substantial improvements over the standard RL baseline (+9.7\\% for ALFWorld and +6.6\\% for Search-QA), while maintaining a highly efficient context of fewer than 0.5k tokens per step. Our code is available at https://github.com/ZJU-REAL/SkillZero.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.02268"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization?",
+    "Tell me about SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-05T01:18:52.869Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: llm, reinforcement learning, agent, agentic. 10 authors. Categories: cs.LG, cs.LG."
+  }
+}
