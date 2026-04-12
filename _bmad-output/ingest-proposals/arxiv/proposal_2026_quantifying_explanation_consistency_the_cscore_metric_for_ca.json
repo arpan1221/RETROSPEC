@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_quantifying_explanation_consistency_the_cscore_metric_for_ca",
+  "type": "paper",
+  "title": "Quantifying Explanation Consistency: The C-Score Metric for CAM-Based Explainability in Medical Image Classification",
+  "authors": [
+    "Kabilan Elangovan",
+    "Daniel Ting"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08502",
+  "url": "https://arxiv.org/abs/2604.08502",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Class Activation Mapping (CAM) methods are widely used to generate visual explanations for deep learning classifiers in medical imaging. However, existing evaluation frameworks assess whether explanations are correct, measured by localisation fidelity against radiologist annotations, rather than whether they are consistent: whether the model applies the same spatial reasoning strategy across different patients with the same pathology. We propose the C-Score (Consistency Score), a confidence-weighted, annotation-free metric that quantifies intra-class explanation reproducibility via intensity-emphasised pairwise soft IoU across correctly classified instances. We evaluate six CAM techniques: GradCAM, GradCAM++, LayerCAM, EigenCAM, ScoreCAM, and MS GradCAM++ across three CNN architectures (DenseNet201, InceptionV3, ResNet50V2) over thirty training epochs on the Kermany chest X-ray dataset, covering transfer learning and fine-tuning phases. We identify three distinct mechanisms of AUC-consistency dissociation, invisible to standard classification metrics: threshold-mediated gold list collapse, technique-specific attribution collapse at peak AUC, and class-level consistency masking in global aggregation. C-Score provides an early warning signal of impending model instability. ScoreCAM deterioration on ResNet50V2 is detectable one full checkpoint before catastrophic AUC collapse and yields architecture-specific clinical deployment recommendations grounded in explanation quality rather than predictive ranking alone.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08502"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Quantifying Explanation Consistency: The C-Score Metric for CAM-Based Explainability in Medical Image Classification?",
+    "Tell me about Quantifying Explanation Consistency: The C-Score Metric for CAM-Based Explainability in Medical Image Classification"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.516Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: fine-tuning, reasoning. 2 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

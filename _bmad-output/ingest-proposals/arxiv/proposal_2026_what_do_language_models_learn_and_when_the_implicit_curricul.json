@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_what_do_language_models_learn_and_when_the_implicit_curricul",
+  "type": "paper",
+  "title": "What do Language Models Learn and When? The Implicit Curriculum Hypothesis",
+  "authors": [
+    "Emmy Liu",
+    "Kaiser Sun",
+    "Millicent Li",
+    "Isabelle Lee",
+    "Lindia Tjuatja",
+    "Jen-tse Huang",
+    "Graham Neubig"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08510",
+  "url": "https://arxiv.org/abs/2604.08510",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language models (LLMs) can perform remarkably complex tasks, yet the fine-grained details of how these capabilities emerge during pretraining remain poorly understood. Scaling laws on validation loss tell us how much a model improves with additional compute, but not what skills it acquires in which order. To remedy this, we propose the Implicit Curriculum Hypothesis: pretraining follows a compositional and predictable curriculum across models and data mixtures. We test this by designing a suite of simple, composable tasks spanning retrieval, morphological transformations, coreference, logical reasoning, and mathematics. Using these tasks, we track emergence points across four model families spanning sizes from 410M-13B parameters. We find that emergence orderings of when models reach fixed accuracy thresholds are strikingly consistent ($ρ= .81$ across 45 model pairs), and that composite tasks most often emerge after their component tasks. Furthermore, we find that this structure is encoded in model representations: tasks with similar function vector representations also tend to follow similar trajectories in training. By using the space of representations derived from our task set, we can effectively predict the training trajectories of simple held-out compositional tasks throughout the course of pretraining ($R^2 = .68$-$.84$ across models) without previously evaluating them. Together, these results suggest that pretraining is more structured than loss curves reveal: skills emerge in a compositional order that is consistent across models and readable from their internals.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08510"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is What do Language Models Learn and When? The Implicit Curriculum Hypothesis?",
+    "Tell me about What do Language Models Learn and When? The Implicit Curriculum Hypothesis"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.515Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, scaling law, reasoning. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}

@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.466Z",
+    "ingested_at": "2026-04-12T01:22:58.257Z",
     "status": "proposed",
     "confidence": 0.7,
-    "reason": "Notable org: google. Moderate downloads: 41,334. Very high likes: 3290. Trending on HuggingFace.",
+    "reason": "Notable org: google. Moderate downloads: 34,331. Very high likes: 3299. Trending on HuggingFace.",
     "huggingface_id": "google/gemma-7b",
     "huggingface_url": "https://huggingface.co/google/gemma-7b",
-    "downloads": 41334,
-    "likes": 3290,
+    "downloads": 34331,
+    "likes": 3299,
     "tags": [
       "transformers",
       "safetensors",

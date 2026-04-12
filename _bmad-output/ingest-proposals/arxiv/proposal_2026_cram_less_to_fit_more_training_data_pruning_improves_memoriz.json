@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_cram_less_to_fit_more_training_data_pruning_improves_memoriz",
+  "type": "paper",
+  "title": "Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts",
+  "authors": [
+    "Jiayuan Ye",
+    "Vitaly Feldman",
+    "Kunal Talwar"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08519",
+  "url": "https://arxiv.org/abs/2604.08519",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Large language models (LLMs) can struggle to memorize factual knowledge in their parameters, often leading to hallucinations and poor performance on knowledge-intensive tasks. In this paper, we formalize fact memorization from an information-theoretic perspective and study how training data distributions affect fact accuracy. We show that fact accuracy is suboptimal (below the capacity limit) whenever the amount of information contained in the training data facts exceeds model capacity. This is further exacerbated when the fact frequency distribution is skewed (e.g. a power law). We propose data selection schemes based on the training loss alone that aim to limit the number of facts in the training data and flatten their frequency distribution. On semi-synthetic datasets containing high-entropy facts, our selection method effectively boosts fact accuracy to the capacity limit. When pretraining language models from scratch on an annotated Wikipedia corpus, our selection method enables a GPT2-Small model (110m parameters) to memorize 1.3X more entity facts compared to standard training, matching the performance of a 10X larger model (1.3B parameters) pretrained on the full dataset.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08519"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts?",
+    "Tell me about Cram Less to Fit More: Training Data Pruning Improves Memorization of Facts"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.515Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, llm. 3 authors. Categories: cs.CL, stat.ML, cs.CL."
+  }
+}

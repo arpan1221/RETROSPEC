@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_what_they_saw_not_just_where_they_looked_semantic_scanpath_s",
+  "type": "paper",
+  "title": "What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP metric",
+  "authors": [
+    "Mohamed Amine Kerkouri",
+    "Marouane Tliba",
+    "Bin Wang",
+    "Aladine Chetouani",
+    "Ulas Bagci",
+    "Alessandro Bruno"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08494",
+  "url": "https://arxiv.org/abs/2604.08494",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Scanpath similarity metrics are central to eye-movement research, yet existing methods predominantly evaluate spatial and temporal alignment while neglecting semantic equivalence between attended image regions. We present a semantic scanpath similarity framework that integrates vision-language models (VLMs) into eye-tracking analysis. Each fixation is encoded under controlled visual context (patch-based and marker-based strategies) and transformed into concise textual descriptions, which are aggregated into scanpath-level representations. Semantic similarity is then computed using embedding-based and lexical NLP metrics and compared against established spatial measures, including MultiMatch and DTW. Experiments on free-viewing eye-tracking data demonstrate that semantic similarity captures partially independent variance from geometric alignment, revealing cases of high content agreement despite spatial divergence. We further analyze the impact of contextual encoding on description fidelity and metric stability. Our findings suggest that multimodal foundation models enable interpretable, content-aware extensions of classical scanpath analysis, providing a complementary dimension for gaze research within the ETRA community.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08494"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP metric?",
+    "Tell me about What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP metric"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.517Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, alignment, multimodal, foundation model. 6 authors. Categories: cs.CV, cs.CL, cs.HC, cs.CV."
+  }
+}
