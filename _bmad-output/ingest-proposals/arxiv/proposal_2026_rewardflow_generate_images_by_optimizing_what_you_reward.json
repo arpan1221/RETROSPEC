@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_rewardflow_generate_images_by_optimizing_what_you_reward",
+  "type": "paper",
+  "title": "RewardFlow: Generate Images by Optimizing What You Reward",
+  "authors": [
+    "Onkar Susladkar",
+    "Dong-Hwan Jang",
+    "Tushar Prakash",
+    "Adheesh Juvekar",
+    "Vedant Shah",
+    "Ayush Barik",
+    "Nabeel Bashir",
+    "Muntasir Wahed",
+    "Ritish Shrirao",
+    "Ismini Lourentzou"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08536",
+  "url": "https://arxiv.org/abs/2604.08536",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics. RewardFlow unifies complementary differentiable rewards for semantic alignment, perceptual fidelity, localized grounding, object consistency, and human preference, and further introduces a differentiable VQA-based reward that provides fine-grained semantic supervision through language-vision reasoning. To coordinate these heterogeneous objectives, we design a prompt-aware adaptive policy that extracts semantic primitives from the instruction, infers edit intent, and dynamically modulates reward weights and step sizes throughout sampling. Across several image editing and compositional generation benchmarks, RewardFlow delivers state-of-the-art edit fidelity and compositional alignment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08536"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RewardFlow: Generate Images by Optimizing What You Reward?",
+    "Tell me about RewardFlow: Generate Images by Optimizing What You Reward"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.513Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: diffusion, alignment, benchmark, reasoning, prompt. 10 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

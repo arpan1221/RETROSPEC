@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_what_drives_representation_steering_a_mechanistic_case_study",
+  "type": "paper",
+  "title": "What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal",
+  "authors": [
+    "Stephen Cheng",
+    "Sarah Wiegreffe",
+    "Dinesh Manocha"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08524",
+  "url": "https://arxiv.org/abs/2604.08524",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Applying steering vectors to large language models (LLMs) is an efficient and effective model alignment technique, but we lack an interpretable explanation for how it works-- specifically, what internal mechanisms steering vectors affect and how this results in different model outputs. To investigate the causal mechanisms underlying the effectiveness of steering vectors, we conduct a comprehensive case study on refusal. We propose a multi-token activation patching framework and discover that different steering methodologies leverage functionally interchangeable circuits when applied at the same layer. These circuits reveal that steering vectors primarily interact with the attention mechanism through the OV circuit while largely ignoring the QK circuit-- freezing all attention scores during steering drops performance by only 8.75% across two model families. A mathematical decomposition of the steered OV circuit further reveals semantically interpretable concepts, even in cases where the steering vector itself does not. Leveraging the activation patching results, we show that steering vectors can be sparsified by up to 90-99% while retaining most performance, and that different steering methodologies agree on a subset of important dimensions.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08524"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal?",
+    "Tell me about What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.514Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, llm, attention mechanism, alignment, rag. 3 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_avgenbench_a_taskdriven_benchmark_for_multigranular_evaluati",
+  "type": "paper",
+  "title": "AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation",
+  "authors": [
+    "Ziwei Zhou",
+    "Zeyuan Lai",
+    "Rui Wang",
+    "Yifan Yang",
+    "Zhen Xing",
+    "Yuqing Yang",
+    "Qi Dai",
+    "Lili Qiu",
+    "Chong Luo"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08540",
+  "url": "https://arxiv.org/abs/2604.08540",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Text-to-Audio-Video (T2AV) generation is rapidly becoming a core interface for media creation, yet its evaluation remains fragmented. Existing benchmarks largely assess audio and video in isolation or rely on coarse embedding similarity, failing to capture the fine-grained joint correctness required by realistic prompts. We introduce AVGen-Bench, a task-driven benchmark for T2AV generation featuring high-quality prompts across 11 real-world categories. To support comprehensive assessment, we propose a multi-granular evaluation framework that combines lightweight specialist models with Multimodal Large Language Models (MLLMs), enabling evaluation from perceptual quality to fine-grained semantic controllability. Our evaluation reveals a pronounced gap between strong audio-visual aesthetics and weak semantic reliability, including persistent failures in text rendering, speech coherence, physical reasoning, and a universal breakdown in musical pitch control. Code and benchmark resources are available at http://aka.ms/avgenbench.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08540"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation?",
+    "Tell me about AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.512Z",
+    "status": "proposed",
+    "confidence": 1,
+    "reason": "Matched keywords: language model, large language model, llm, multimodal, rag, benchmark, reasoning, prompt. 9 authors. Categories: cs.CV, cs.AI, cs.CL, cs.CV."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_piarena_a_platform_for_prompt_injection_evaluation",
+  "type": "paper",
+  "title": "PIArena: A Platform for Prompt Injection Evaluation",
+  "authors": [
+    "Runpeng Geng",
+    "Chenlong Yin",
+    "Yanting Wang",
+    "Ying Chen",
+    "Jinyuan Jia"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08499",
+  "url": "https://arxiv.org/abs/2604.08499",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Prompt injection attacks pose serious security risks across a wide range of real-world applications. While receiving increasing attention, the community faces a critical gap: the lack of a unified platform for prompt injection evaluation. This makes it challenging to reliably compare defenses, understand their true robustness under diverse attacks, or assess how well they generalize across tasks and benchmarks. For instance, many defenses initially reported as effective were later found to exhibit limited robustness on diverse datasets and attacks. To bridge this gap, we introduce PIArena, a unified and extensible platform for prompt injection evaluation that enables users to easily integrate state-of-the-art attacks and defenses and evaluate them across a variety of existing and new benchmarks. We also design a dynamic strategy-based attack that adaptively optimizes injected prompts based on defense feedback. Through comprehensive evaluation using PIArena, we uncover critical limitations of state-of-the-art defenses: limited generalizability across tasks, vulnerability to adaptive attacks, and fundamental challenges when an injected task aligns with the target task. The code and datasets are available at https://github.com/sleeepeer/PIArena.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08499"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is PIArena: A Platform for Prompt Injection Evaluation?",
+    "Tell me about PIArena: A Platform for Prompt Injection Evaluation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.517Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: benchmark, prompt. 5 authors. Categories: cs.CR, cs.AI, cs.CL, cs.LG, cs.CR."
+  }
+}

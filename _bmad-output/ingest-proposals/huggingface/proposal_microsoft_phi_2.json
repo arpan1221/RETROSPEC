@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.466Z",
+    "ingested_at": "2026-04-12T01:22:58.256Z",
     "status": "proposed",
     "confidence": 0.9,
-    "reason": "Notable org: microsoft. Very high downloads: 1,767,593. Very high likes: 3434. Trending on HuggingFace.",
+    "reason": "Notable org: microsoft. Very high downloads: 1,304,331. Very high likes: 3445. Trending on HuggingFace.",
     "huggingface_id": "microsoft/phi-2",
     "huggingface_url": "https://huggingface.co/microsoft/phi-2",
-    "downloads": 1767593,
-    "likes": 3434,
+    "downloads": 1304331,
+    "likes": 3445,
     "tags": [
       "transformers",
       "safetensors",
@@ -35,8 +35,8 @@
       "license:mit",
       "text-generation-inference",
       "endpoints_compatible",
-      "deploy:azure",
-      "region:us"
+      "region:us",
+      "deploy:azure"
     ]
   }
 }

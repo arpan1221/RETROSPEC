@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_act_wisely_cultivating_metacognitive_tool_use_in_agentic_mul",
+  "type": "paper",
+  "title": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+  "authors": [
+    "Shilin Yan",
+    "Jintao Tong",
+    "Hongwei Xue",
+    "Xiaojun Tang",
+    "Yangyang Wang",
+    "Kunyu Shi",
+    "Guannan Zhang",
+    "Ruixuan Li",
+    "Yixiong Zou"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08545",
+  "url": "https://arxiv.org/abs/2604.08545",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "The advent of agentic multimodal models has empowered systems to actively interact with external environments. However, current agents suffer from a profound meta-cognitive deficit: they struggle to arbitrate between leveraging internal knowledge and querying external utilities. Consequently, they frequently fall prey to blind tool invocation, resorting to reflexive tool execution even when queries are resolvable from the raw visual context. This pathological behavior precipitates severe latency bottlenecks and injects extraneous noise that derails sound reasoning. Existing reinforcement learning protocols attempt to mitigate this via a scalarized reward that penalizes tool usage. Yet, this coupled formulation creates an irreconcilable optimization dilemma: an aggressive penalty suppresses essential tool use, whereas a mild penalty is entirely subsumed by the variance of the accuracy reward during advantage normalization, rendering it impotent against tool overuse. To transcend this bottleneck, we propose HDPO, a framework that reframes tool efficiency from a competing scalar objective to a strictly conditional one. By eschewing reward scalarization, HDPO maintains two orthogonal optimization channels: an accuracy channel that maximizes task correctness, and an efficiency channel that enforces execution economy exclusively within accurate trajectories via conditional advantage estimation. This decoupled architecture naturally induces a cognitive curriculum-compelling the agent to first master task resolution before refining its self-reliance. Extensive evaluations demonstrate that our resulting model, Metis, reduces tool invocations by orders of magnitude while simultaneously elevating reasoning accuracy.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08545"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models?",
+    "Tell me about Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.511Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Matched keywords: reinforcement learning, agent, agentic, multimodal, rag, reasoning. 9 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_seeing_but_not_thinking_routing_distraction_in_multimodal_mi",
+  "type": "paper",
+  "title": "Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts",
+  "authors": [
+    "Haolei Xu",
+    "Haiwen Hong",
+    "Hongxing Li",
+    "Rui Zhou",
+    "Yang Zhang",
+    "Longtao Huang",
+    "Hui Xue",
+    "Yongliang Shen",
+    "Weiming Lu",
+    "Yueting Zhuang"
+  ],
+  "date": "2026-04-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.08541",
+  "url": "https://arxiv.org/abs/2604.08541",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Multimodal Mixture-of-Experts (MoE) models have achieved remarkable performance on vision-language tasks. However, we identify a puzzling phenomenon termed Seeing but Not Thinking: models accurately perceive image content yet fail in subsequent reasoning, while correctly solving identical problems presented as pure text. Through systematic analysis, we first verify that cross-modal semantic sharing exists in MoE architectures, ruling out semantic alignment failure as the sole explanation. We then reveal that visual experts and domain experts exhibit layer-wise separation, with image inputs inducing significant routing divergence from text inputs in middle layers where domain experts concentrate. Based on these findings, we propose the Routing Distraction hypothesis: when processing visual inputs, the routing mechanism fails to adequately activate task-relevant reasoning experts. To validate this hypothesis, we design a routing-guided intervention method that enhances domain expert activation. Experiments on three multimodal MoE models across six benchmarks demonstrate consistent improvements, with gains of up to 3.17% on complex visual reasoning tasks. Our analysis further reveals that domain expert identification locates cognitive functions rather than sample-specific solutions, enabling effective transfer across tasks with different information structures.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.08541"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts?",
+    "Tell me about Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-12T01:22:53.512Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: alignment, multimodal, benchmark, reasoning. 10 authors. Categories: cs.CV, cs.AI, cs.CL, cs.CV."
+  }
+}
