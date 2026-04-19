@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_stability_and_generalization_in_looped_transformers",
+  "type": "paper",
+  "title": "Stability and Generalization in Looped Transformers",
+  "authors": [
+    "Asher Labovich"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15259",
+  "url": "https://arxiv.org/abs/2604.15259",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Looped transformers promise test-time compute scaling by spending more iterations on harder problems, but it remains unclear which architectural choices let them extrapolate to harder problems at test time rather than memorize training-specific solutions. We introduce a fixed-point based framework for analyzing looped architectures along three axes of stability -- reachability, input-dependence, and geometry -- and use it to characterize when fixed-point iteration yields meaningful predictions. Theoretically, we prove that looped networks without recall have countable fixed points and cannot achieve strong input-dependence at any spectral regime, while recall combined with outer normalization reliably produces a regime in which fixed points are simultaneously reachable, locally smooth in the input, and supported by stable backpropagation. Empirically, we train single-layer looped transformers on chess, sudoku, and prefix-sums and find that downstream performance tracks the framework's predictions across tasks and architectural configurations. We additionally introduce internal recall, a novel recall placement variant, and show that it becomes competitive with -- and on sudoku, substantially better than -- standard recall placement once outer normalization is applied.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15259"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Stability and Generalization in Looped Transformers?",
+    "Tell me about Stability and Generalization in Looped Transformers"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.422Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: transformer. 1 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

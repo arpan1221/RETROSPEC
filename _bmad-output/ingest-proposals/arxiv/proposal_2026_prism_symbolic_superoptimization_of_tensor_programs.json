@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_prism_symbolic_superoptimization_of_tensor_programs",
+  "type": "paper",
+  "title": "Prism: Symbolic Superoptimization of Tensor Programs",
+  "authors": [
+    "Mengdi Wu",
+    "Xiaoyu Jiang",
+    "Oded Padon",
+    "Zhihao Jia"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15272",
+  "url": "https://arxiv.org/abs/2604.15272",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "This paper presents Prism, the first symbolic superoptimizer for tensor programs. The key idea is sGraph, a symbolic, hierarchical representation that compactly encodes large classes of tensor programs by symbolically representing some execution parameters. Prism organizes optimization as a two-level search: it constructs symbolic graphs that represent families of programs, and then instantiates them into concrete implementations. This formulation enables structured pruning of provably suboptimal regions of the search space using symbolic reasoning over operator semantics, algebraic identities, and hardware constraints. We develop techniques for efficient symbolic graph generation, equivalence verification via e-graph rewriting, and parameter instantiation through auto-tuning. Together, these components allow Prism to bridge the rigor of exhaustive search with the scalability required for modern ML workloads. Evaluation on five commonly used LLM workloads shows that Prism achieves up to $2.2\\times$ speedup over best superoptimizers and $4.9\\times$ over best compiler-based approaches, while reducing end-to-end optimization time by up to $3.4\\times$.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15272"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Prism: Symbolic Superoptimization of Tensor Programs?",
+    "Tell me about Prism: Symbolic Superoptimization of Tensor Programs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.421Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: llm, reasoning. 4 authors. Categories: cs.PL, cs.AI, cs.LG, cs.PL."
+  }
+}
