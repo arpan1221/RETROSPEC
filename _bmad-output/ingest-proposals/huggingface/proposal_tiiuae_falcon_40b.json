@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.468Z",
+    "ingested_at": "2026-04-19T01:25:28.665Z",
     "status": "proposed",
     "confidence": 0.7,
-    "reason": "Notable org: tiiuae. Moderate downloads: 22,239. Very high likes: 2433. Trending on HuggingFace.",
+    "reason": "Notable org: tiiuae. Moderate downloads: 20,102. Very high likes: 2435. Trending on HuggingFace.",
     "huggingface_id": "tiiuae/falcon-40b",
     "huggingface_url": "https://huggingface.co/tiiuae/falcon-40b",
-    "downloads": 22239,
-    "likes": 2433,
+    "downloads": 20102,
+    "likes": 2435,
     "tags": [
       "transformers",
       "pytorch",
@@ -44,7 +44,7 @@
       "arxiv:2306.01116",
       "license:apache-2.0",
       "text-generation-inference",
-      "deploy:azure"
+      "region:us"
     ]
   }
 }

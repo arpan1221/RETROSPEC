@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_benchmarking_optimizers_for_mlps_in_tabular_deep_learning",
+  "type": "paper",
+  "title": "Benchmarking Optimizers for MLPs in Tabular Deep Learning",
+  "authors": [
+    "Yury Gorishniy",
+    "Ivan Rubachev",
+    "Dmitrii Feoktistov",
+    "Artem Babenko"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15297",
+  "url": "https://arxiv.org/abs/2604.15297",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "MLP is a heavily used backbone in modern deep learning (DL) architectures for supervised learning on tabular data, and AdamW is the go-to optimizer used to train tabular DL models. Unlike architecture design, however, the choice of optimizer for tabular DL has not been examined systematically, despite new optimizers showing promise in other domains. To fill this gap, we benchmark \\Noptimizers optimizers on \\Ndatasets tabular datasets for training MLP-based models in the standard supervised learning setting under a shared experiment protocol. Our main finding is that the Muon optimizer consistently outperforms AdamW, and thus should be considered a strong and practical choice for practitioners and researchers, if the associated training efficiency overhead is affordable. Additionally, we find exponential moving average of model weights to be a simple yet effective technique that improves AdamW on vanilla MLPs, though its effect is less consistent across model variants.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15297"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Benchmarking Optimizers for MLPs in Tabular Deep Learning?",
+    "Tell me about Benchmarking Optimizers for MLPs in Tabular Deep Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.419Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: rag, benchmark. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}

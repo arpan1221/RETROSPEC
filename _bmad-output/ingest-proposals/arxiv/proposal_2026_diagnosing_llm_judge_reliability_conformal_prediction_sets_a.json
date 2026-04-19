@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_diagnosing_llm_judge_reliability_conformal_prediction_sets_a",
+  "type": "paper",
+  "title": "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
+  "authors": [
+    "Manan Gupta",
+    "Dhruv Kumar"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15302",
+  "url": "https://arxiv.org/abs/2604.15302",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "LLM-as-judge frameworks are increasingly used for automatic NLG evaluation, yet their per-instance reliability remains poorly understood. We present a two-pronged diagnostic toolkit applied to SummEval: $\\textbf{(1)}$ a transitivity analysis that reveals widespread per-input inconsistency masked by low aggregate violation rates ($\\barρ = 0.8$-$4.1\\%$), with $33$-$67\\%$ of documents exhibiting at least one directed 3-cycle; and $\\textbf{(2)}$ split conformal prediction sets over 1-5 Likert scores providing theoretically-guaranteed $\\geq(1{-}α)$ coverage, with set width serving as a per-instance reliability indicator ($r_s = {+}0.576$, $N{=}1{,}918$, $p &lt; 10^{-100}$, pooled across all judges). Critically, prediction set width shows consistent cross-judge agreement ($\\bar{r} = 0.32$-$0.38$), demonstrating it captures document-level difficulty rather than judge-specific noise. Across four judges and four criteria, both diagnostics converge: criterion matters more than judge, with relevance judged most reliably (avg. set size $\\approx 3.0$) and coherence moderately so (avg. set size $\\approx 3.9$), while fluency and consistency remain unreliable (avg. set size $\\approx 4.9$). We release all code, prompts, and cached results.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15302"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations?",
+    "Tell me about Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.418Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, rag, prompt. 2 authors. Categories: cs.AI, cs.CL, cs.LG, cs.AI."
+  }
+}

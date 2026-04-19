@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_structural_interpretability_in_svms_with_truncated_orthogona",
+  "type": "paper",
+  "title": "Structural interpretability in SVMs with truncated orthogonal polynomial kernels",
+  "authors": [
+    "Víctor Soto-Larrosa",
+    "Nuria Torrado",
+    "Edmundo J. Huertas"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15285",
+  "url": "https://arxiv.org/abs/2604.15285",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We study post-training interpretability for Support Vector Machines (SVMs) built from truncated orthogonal polynomial kernels. Since the associated reproducing kernel Hilbert space is finite-dimensional and admits an explicit tensor-product orthonormal basis, the fitted decision function can be expanded exactly in intrinsic RKHS coordinates. This leads to Orthogonal Representation Contribution Analysis (ORCA), a diagnostic framework based on normalized Orthogonal Kernel Contribution (OKC) indices. These indices quantify how the squared RKHS norm of the classifier is distributed across interaction orders, total polynomial degrees, marginal coordinate effects, and pairwise contributions. The methodology is fully post-training and requires neither surrogate models nor retraining. We illustrate its diagnostic value on a synthetic double-spiral problem and on a real five-dimensional echocardiogram dataset. The results show that the proposed indices reveal structural aspects of model complexity that are not captured by predictive accuracy alone.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15285"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Structural interpretability in SVMs with truncated orthogonal polynomial kernels?",
+    "Tell me about Structural interpretability in SVMs with truncated orthogonal polynomial kernels"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.420Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: interpretability. 3 authors. Categories: stat.ML, cs.LG, math.ST, stat.ML."
+  }
+}

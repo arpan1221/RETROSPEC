@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_from_tokens_to_steps_verificationaware_speculative_decoding",
+  "type": "paper",
+  "title": "From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
+  "authors": [
+    "Kiran Purohit",
+    "Ramasuri Narayanam",
+    "Soumyabrata Pal"
+  ],
+  "date": "2026-04-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.15244",
+  "url": "https://arxiv.org/abs/2604.15244",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Speculative decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose outputs that a stronger target model verifies. However, its token-centric nature allows erroneous steps to propagate. Prior approaches mitigate this using external reward models, but incur additional latency, computational overhead, and limit generalizability. We propose SpecGuard, a verification-aware speculative decoding framework that performs step-level verification using only model-internal signals. At each step, SpecGuard samples multiple draft candidates and selects the most consistent step, which is then validated using an ensemble of two lightweight model-internal signals: (i) an attention-based grounding score that measures attribution to the input and previously accepted steps, and (ii) a log-probability-based score that captures token-level confidence. These signals jointly determine whether a step is accepted or recomputed using the target, allocating compute selectively. Experiments across a range of reasoning benchmarks show that SpecGuard improves accuracy by 3.6% while reducing latency by ~11%, outperforming both SD and reward-guided SD.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.15244"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning?",
+    "Tell me about From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-19T01:25:28.422Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, benchmark, reasoning. 3 authors. Categories: cs.CL, cs.CL."
+  }
+}
