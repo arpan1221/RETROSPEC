@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-23T01:21:58.467Z",
+    "ingested_at": "2026-03-29T01:18:21.398Z",
     "status": "proposed",
     "confidence": 0.8,
-    "reason": "Notable org: deepseek-ai. High downloads: 339,651. Very high likes: 3090. Trending on HuggingFace.",
+    "reason": "Notable org: deepseek-ai. High downloads: 364,855. Very high likes: 3093. Trending on HuggingFace.",
     "huggingface_id": "deepseek-ai/DeepSeek-V3-0324",
     "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
-    "downloads": 339651,
-    "likes": 3090,
+    "downloads": 364855,
+    "likes": 3093,
     "tags": [
       "transformers",
       "safetensors",

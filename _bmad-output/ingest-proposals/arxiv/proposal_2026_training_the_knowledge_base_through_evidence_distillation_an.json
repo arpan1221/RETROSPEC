@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_training_the_knowledge_base_through_evidence_distillation_an",
+  "type": "paper",
+  "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
+  "authors": [
+    "Yuxing Lu",
+    "Xukai Zhao",
+    "Wei Wu",
+    "Jinzhuo Wang"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25737",
+  "url": "https://arxiv.org/abs/2603.25737",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "The knowledge base in a retrieval-augmented generation (RAG) system is typically assembled once and never revised, even though the facts a query requires are often fragmented across documents and buried in irrelevant content. We argue that the knowledge base should be treated as a trainable component and propose WriteBack-RAG, a framework that uses labeled examples to identify where retrieval succeeds, isolate the relevant documents, and distill them into compact knowledge units that are indexed alongside the original corpus. Because the method modifies only the corpus, it can be applied once as an offline preprocessing step and combined with any RAG pipeline. Across four RAG methods, six benchmarks, and two LLM backbones, WriteBack-RAG improves every evaluated setting, with gains averaging +2.14%. Cross-method transfer experiments further show that the distilled knowledge benefits RAG pipelines other than the one used to produce it, confirming that the improvement resides in the corpus itself.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25737"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment?",
+    "Tell me about Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.042Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, rag, benchmark. 4 authors. Categories: cs.AI, cs.CL, cs.IR, cs.AI."
+  }
+}

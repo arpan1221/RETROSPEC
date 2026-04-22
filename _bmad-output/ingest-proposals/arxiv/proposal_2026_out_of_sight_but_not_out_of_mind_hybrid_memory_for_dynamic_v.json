@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_out_of_sight_but_not_out_of_mind_hybrid_memory_for_dynamic_v",
+  "type": "paper",
+  "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+  "authors": [
+    "Kaijin Chen",
+    "Dingkang Liang",
+    "Xin Zhou",
+    "Yikang Ding",
+    "Xiaoqiang Liu",
+    "Pengfei Wan",
+    "Xiang Bai"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25716",
+  "url": "https://arxiv.org/abs/2603.25716",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Video world models have shown immense potential in simulating the physical world, yet existing memory mechanisms primarily treat environments as static canvases. When dynamic subjects hide out of sight and later re-emerge, current methods often struggle, leading to frozen, distorted, or vanishing subjects. To address this, we introduce Hybrid Memory, a novel paradigm requiring models to simultaneously act as precise archivists for static backgrounds and vigilant trackers for dynamic subjects, ensuring motion continuity during out-of-view intervals. To facilitate research in this direction, we construct HM-World, the first large-scale video dataset dedicated to hybrid memory. It features 59K high-fidelity clips with decoupled camera and subject trajectories, encompassing 17 diverse scenes, 49 distinct subjects, and meticulously designed exit-entry events to rigorously evaluate hybrid coherence. Furthermore, we propose HyDRA, a specialized memory architecture that compresses memory into tokens and utilizes a spatiotemporal relevance-driven retrieval mechanism. By selectively attending to relevant motion cues, HyDRA effectively preserves the identity and motion of hidden subjects. Extensive experiments on HM-World demonstrate that our method significantly outperforms state-of-the-art approaches in both dynamic subject consistency and overall generation quality.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25716"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models?",
+    "Tell me about Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.044Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: world model. 7 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

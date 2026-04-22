@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_pixelsmile_toward_finegrained_facial_expression_editing",
+  "type": "paper",
+  "title": "PixelSmile: Toward Fine-Grained Facial Expression Editing",
+  "authors": [
+    "Jiabin Hua",
+    "Hengyuan Xu",
+    "Aojie Li",
+    "Wei Cheng",
+    "Gang Yu",
+    "Xingjun Ma",
+    "Yu-Gang Jiang"
+  ],
+  "date": "2026-03-26",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2603.25728",
+  "url": "https://arxiv.org/abs/2603.25728",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Fine-grained facial expression editing has long been limited by intrinsic semantic overlap. To address this, we construct the Flex Facial Expression (FFE) dataset with continuous affective annotations and establish FFE-Bench to evaluate structural confusion, editing accuracy, linear controllability, and the trade-off between expression editing and identity preservation. We propose PixelSmile, a diffusion framework that disentangles expression semantics via fully symmetric joint training. PixelSmile combines intensity supervision with contrastive learning to produce stronger and more distinguishable expressions, achieving precise and stable linear expression control through textual latent interpolation. Extensive experiments demonstrate that PixelSmile achieves superior disentanglement and robust identity preservation, confirming its effectiveness for continuous, controllable, and fine-grained expression editing, while naturally supporting smooth expression blending.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2603.25728"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is PixelSmile: Toward Fine-Grained Facial Expression Editing?",
+    "Tell me about PixelSmile: Toward Fine-Grained Facial Expression Editing"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-03-29T01:18:21.043Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: diffusion. 7 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}
