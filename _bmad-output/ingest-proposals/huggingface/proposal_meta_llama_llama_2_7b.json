@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.396Z",
+    "ingested_at": "2026-04-26T01:28:17.355Z",
     "status": "proposed",
     "confidence": 0.6,
-    "reason": "Notable org: meta-llama. Very high likes: 4464. Trending on HuggingFace.",
+    "reason": "Notable org: meta-llama. Very high likes: 4480. Trending on HuggingFace.",
     "huggingface_id": "meta-llama/Llama-2-7b",
     "huggingface_url": "https://huggingface.co/meta-llama/Llama-2-7b",
-    "downloads": 265,
-    "likes": 4464,
+    "downloads": 305,
+    "likes": 4480,
     "tags": [
       "facebook",
       "meta",

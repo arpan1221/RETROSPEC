@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_revisiting_nonverbatim_memorization_in_large_language_models",
+  "type": "paper",
+  "title": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms",
+  "authors": [
+    "Yuto Nishida",
+    "Naoki Shikoda",
+    "Yosuke Kishinami",
+    "Ryo Fujii",
+    "Makoto Morishita",
+    "Hidetaka Kamigaito",
+    "Taro Watanabe"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21882",
+  "url": "https://arxiv.org/abs/2604.21882",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Understanding what kinds of factual knowledge large language models (LLMs) memorize is essential for evaluating their reliability and limitations. Entity-based QA is a common framework for analyzing non-verbatim memorization, but typical evaluations query each entity using a single canonical surface form, making it difficult to disentangle fact memorization from access through a particular name. We introduce RedirectQA, an entity-based QA dataset that uses Wikipedia redirect information to associate Wikidata factual triples with categorized surface forms for each entity, including alternative names, abbreviations, spelling variants, and common erroneous forms. Across 13 LLMs, we examine surface-conditioned factual memorization and find that prediction outcomes often change when only the entity surface form changes. This inconsistency is category-dependent: models are more robust to minor orthographic variations than to larger lexical variations such as aliases and abbreviations. Frequency analyses further suggest that both entity- and surface-level frequencies are associated with accuracy, and that entity frequency often contributes beyond surface frequency. Overall, factual memorization appears neither purely surface-specific nor fully surface-invariant, highlighting the importance of surface-form diversity in evaluating non-verbatim memorization.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21882"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms?",
+    "Tell me about Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.128Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, llm. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}

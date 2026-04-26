@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.396Z",
+    "ingested_at": "2026-04-26T01:28:17.354Z",
     "status": "proposed",
     "confidence": 0.9,
-    "reason": "Notable org: openai. Very high downloads: 6,747,295. Very high likes: 4485. Trending on HuggingFace.",
+    "reason": "Notable org: openai. Very high downloads: 6,592,913. Very high likes: 4565. Trending on HuggingFace.",
     "huggingface_id": "openai/gpt-oss-20b",
     "huggingface_url": "https://huggingface.co/openai/gpt-oss-20b",
-    "downloads": 6747295,
-    "likes": 4485,
+    "downloads": 6592913,
+    "likes": 4565,
     "tags": [
       "transformers",
       "safetensors",

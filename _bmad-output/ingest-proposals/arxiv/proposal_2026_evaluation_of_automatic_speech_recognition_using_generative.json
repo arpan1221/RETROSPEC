@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_evaluation_of_automatic_speech_recognition_using_generative",
+  "type": "paper",
+  "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+  "authors": [
+    "Thibault Bañeras-Roux",
+    "Shashi Kumar",
+    "Driss Khalil",
+    "Sergio Burdisso",
+    "Petr Motlicek",
+    "Shiran Liu",
+    "Mickael Rouvier",
+    "Jane Wottawa",
+    "Richard Dufour"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21928",
+  "url": "https://arxiv.org/abs/2604.21928",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This paper evaluates their relevance through three approaches: (1) selecting the best hypothesis between two candidates, (2) computing semantic distance using generative embeddings, and (3) qualitative classification of errors. On the HATS dataset, the best LLMs achieve 92--94\\% agreement with human annotators for hypothesis selection, compared to 63\\% for WER, also outperforming semantic metrics. Embeddings from decoder-based LLMs show performance comparable to encoder models. Finally, LLMs offer a promising direction for interpretable and semantic ASR evaluation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21928"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Evaluation of Automatic Speech Recognition Using Generative Large Language Models?",
+    "Tell me about Evaluation of Automatic Speech Recognition Using Generative Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.122Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: language model, large language model, llm. 9 authors. Categories: cs.CL, cs.CL."
+  }
+}
