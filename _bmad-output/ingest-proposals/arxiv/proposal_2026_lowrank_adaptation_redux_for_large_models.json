@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_lowrank_adaptation_redux_for_large_models",
+  "type": "paper",
+  "title": "Low-Rank Adaptation Redux for Large Models",
+  "authors": [
+    "Bingcong Li",
+    "Yilang Zhang",
+    "Georgios B. Giannakis"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21905",
+  "url": "https://arxiv.org/abs/2604.21905",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Low-rank adaptation (LoRA) has emerged as the de facto standard for parameter-efficient fine-tuning (PEFT) of foundation models, enabling the adaptation of billion-parameter networks with minimal computational and memory overhead. Despite its empirical success and rapid proliferation of variants, it remains elusive which architectural choices, optimization techniques, and deployment constraints should guide practical method selection. This overview revisits LoRA through the lens of signal processing (SP), bridging modern adapter designs with classical low-rank modeling tools and inverse problems, as well as highlighting how SP principles can inform principled advances of fine-tuning approaches. Rather than providing a comprehensive enumeration and empirical comparisons of LoRA variants, emphasis is placed on the technical mechanisms underpinning these approaches to justify their effectiveness. These advances are categorized into three complementary axes: architectural design, efficient optimization, and pertinent applications. The first axis builds on singular value decomposition (SVD)-based factorization, rank-augmentation constructions, and cross-layer tensorization, while the second axis deals with initialization, alternating solvers, gauge-invariant optimization, and parameterization-aware methods. Beyond fine-tuning, emerging applications of LoRA are accounted across the entire lifecycle of large models, ranging from pre- and post-training to serving/deployment. Finally, open research directions are outlined at the confluence of SP and deep learning to catalyze a bidirectional frontier: classical SP tools provide a principled vocabulary for designing principled PEFT methods, while the unique challenges facing modern deep learning, especially the overwhelming scale and prohibitive overhead, also offer new research lines benefiting the SP community in return.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21905"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Low-Rank Adaptation Redux for Large Models?",
+    "Tell me about Low-Rank Adaptation Redux for Large Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.124Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: fine-tuning, foundation model. 3 authors. Categories: cs.LG, eess.SP, cs.LG."
+  }
+}

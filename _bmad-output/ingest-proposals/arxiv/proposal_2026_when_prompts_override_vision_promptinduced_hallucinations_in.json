@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_when_prompts_override_vision_promptinduced_hallucinations_in",
+  "type": "paper",
+  "title": "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs",
+  "authors": [
+    "Pegah Khayatan",
+    "Jayneel Parekh",
+    "Arnaud Dapogny",
+    "Mustafa Shukor",
+    "Alasdair Newson",
+    "Matthieu Cord"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21911",
+  "url": "https://arxiv.org/abs/2604.21911",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or the dominance of the language component, yet the relative importance of these factors remains unclear. To resolve this ambiguity, We propose HalluScope, a benchmark to better understand the extent to which different factors induce hallucinations. Our analysis indicates that hallucinations largely stem from excessive reliance on textual priors and background knowledge, especially information introduced through textual instructions. To mitigate hallucinations induced by textual instruction priors, we propose HalluVL-DPO, a framework for fine-tuning off-the-shelf LVLMs towards more visually grounded responses. HalluVL-DPO leverages preference optimization using a curated training dataset that we construct, guiding the model to prefer grounded responses over hallucinated ones. We demonstrate that our optimized model effectively mitigates the targeted hallucination failure mode, while preserving or improving performance on other hallucination benchmarks and visual capability evaluations. To support reproducibility and further research, we will publicly release our evaluation benchmark, preference training dataset, and code at https://pegah-kh.github.io/projects/prompts-override-vision/ .",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21911"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs?",
+    "Tell me about When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.123Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, fine-tuning, rag, benchmark, prompt. 6 authors. Categories: cs.CV, cs.AI, cs.CL, cs.LG, cs.CV."
+  }
+}

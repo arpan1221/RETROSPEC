@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_a_scaleadaptive_framework_for_joint_spatiotemporal_superreso",
+  "type": "paper",
+  "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
+  "authors": [
+    "Max Defez",
+    "Filippo Quarenghi",
+    "Mathieu Vrac",
+    "Stephan Mandt",
+    "Tom Beucler"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21903",
+  "url": "https://arxiv.org/abs/2604.21903",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often designed for a single pair of super-resolution (SR) factors (upscaling spatial and temporal ratio between the low-resolution sequence and the high-resolution sequence), limiting transfer across spatial resolutions and temporal cadences (frame rates). We present a scale-adaptive framework that reuses the same architecture across factors by decomposing spatiotemporal SR into a deterministic prediction of the conditional mean, with attention, and a residual conditional diffusion model, with an optional mass-conservation (same precipitation amount in inputs and outputs) transform to preserve aggregated totals. Assuming that larger SR factors primarily increase underdetermination (hence required context and residual uncertainty) rather than changing the conditional-mean structure, scale adaptivity is achieved by retuning three factor-dependent hyperparameters before retraining: the diffusion noise schedule amplitude beta (larger for larger factors to increase diversity), the temporal context length L (set to maintain comparable attention horizons across cadences) and optionally a third, the mass-conservation function f (tapered to limit the amplification of extremes for large factors). Demonstrated on reanalysis precipitation over France (Comephore), the same architecture spans super-resolution factors from 1 to 25 in space and 1 to 6 in time, yielding a reusable architecture and tuning recipe for joint spatiotemporal super-resolution across scales.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21903"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models?",
+    "Tell me about A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.124Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: diffusion. 5 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

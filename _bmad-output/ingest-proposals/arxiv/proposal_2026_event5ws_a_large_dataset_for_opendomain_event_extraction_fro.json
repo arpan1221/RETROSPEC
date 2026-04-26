@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_event5ws_a_large_dataset_for_opendomain_event_extraction_fro",
+  "type": "paper",
+  "title": "EVENT5Ws: A Large Dataset for Open-Domain Event Extraction from Documents",
+  "authors": [
+    "Praval Sharma",
+    "Ashok Samal",
+    "Leen-Kiat Soh",
+    "Deepti Joshi"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21890",
+  "url": "https://arxiv.org/abs/2604.21890",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Event extraction identifies the central aspects of events from text. It supports event understanding and analysis, which is crucial for tasks such as informed decision-making in emergencies. Therefore, it is necessary to develop automated event extraction approaches. However, existing datasets for algorithm development have limitations, including limited coverage of event types in closed-domain settings and a lack of large, manually verified dataset in open-domain settings. To address these limitations, we create EVENT5Ws , a large, manually annotated, and statistically verified open-domain event extraction dataset. We design a systematic annotation pipeline to create the dataset and provide empirical insights into annotation complexity. Using EVENT5Ws, we evaluate state-of-the-art pre-trained large language models and establish a benchmark for future research. We further show that models trained on EVENT5Ws generalize effectively to datasets from different geographical contexts, which demonstrates its potential for developing generalizable algorithms. Finally, we summarize the lessons learned during the dataset development and provide recommendations to support future large-scale dataset development.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21890"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is EVENT5Ws: A Large Dataset for Open-Domain Event Extraction from Documents?",
+    "Tell me about EVENT5Ws: A Large Dataset for Open-Domain Event Extraction from Documents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.126Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, rag, benchmark. 4 authors. Categories: cs.CL, cs.CL."
+  }
+}

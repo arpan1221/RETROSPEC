@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_from_research_question_to_scientific_workflow_leveraging_age",
+  "type": "paper",
+  "title": "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation",
+  "authors": [
+    "Bartosz Balis",
+    "Michal Orzechowski",
+    "Piotr Kica",
+    "Michal Dygas",
+    "Michal Kuszewski"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21910",
+  "url": "https://arxiv.org/abs/2604.21910",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Scientific workflow systems automate execution -- scheduling, fault tolerance, resource management -- but not the semantic translation that precedes it. Scientists still manually convert research questions into workflow specifications, a task requiring both domain knowledge and infrastructure expertise. We propose an agentic architecture that closes this gap through three layers: an LLM interprets natural language into structured intents (semantic layer); validated generators produce reproducible workflow DAGs (deterministic layer); and domain experts author ``Skills'': markdown documents encoding vocabulary mappings, parameter constraints, and optimization strategies (knowledge layer). This decomposition confines LLM non-determinism to intent extraction: identical intents always yield identical workflows. We implement and evaluate the architecture on the 1000 Genomes population genetics workflow and Hyperflow WMS running on Kubernetes. In an ablation study on 150 queries, Skills raise full-match intent accuracy from 44% to 83%; skill-driven deferred workflow generation reduces data transfer by 92\\%; and the end-to-end pipeline completes queries on Kubernetes with LLM overhead below 15 seconds and cost under $0.001 per query.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21910"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation?",
+    "Tell me about From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.123Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: llm, agent, agentic, rag. 5 authors. Categories: cs.AI, cs.AI."
+  }
+}

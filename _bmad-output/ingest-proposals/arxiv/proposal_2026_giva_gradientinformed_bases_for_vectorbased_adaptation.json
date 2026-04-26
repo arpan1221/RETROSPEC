@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_giva_gradientinformed_bases_for_vectorbased_adaptation",
+  "type": "paper",
+  "title": "GiVA: Gradient-Informed Bases for Vector-Based Adaptation",
+  "authors": [
+    "Neeraj Gangwar",
+    "Rishabh Deshmukh",
+    "Michael Shavlovsky",
+    "Hancao Li",
+    "Vivek Mittal",
+    "Lexing Ying",
+    "Nickvash Kani"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21901",
+  "url": "https://arxiv.org/abs/2604.21901",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "As model sizes continue to grow, parameter-efficient fine-tuning has emerged as a powerful alternative to full fine-tuning. While LoRA is widely adopted among these methods, recent research has explored vector-based adaptation methods due to their extreme parameter efficiency. However, these methods typically require substantially higher ranks than LoRA to match its performance, leading to increased training costs. This work introduces GiVA, a gradient-based initialization strategy for vector-based adaptation. It achieves training times comparable to LoRA and maintains the extreme parameter efficiency of vector-based adaptation. We evaluate GiVA across diverse benchmarks, including natural language understanding, natural language generation, and image classification. Experiments show that our approach consistently outperforms or achieves performance competitive with existing vector-based adaptation methods and LoRA while reducing rank requirements by a factor of eight ($8\\times$).",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21901"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is GiVA: Gradient-Informed Bases for Vector-Based Adaptation?",
+    "Tell me about GiVA: Gradient-Informed Bases for Vector-Based Adaptation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.124Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: fine-tuning, benchmark. 7 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}

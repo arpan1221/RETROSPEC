@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_mathduels_evaluating_llms_as_problem_posers_and_solvers",
+  "type": "paper",
+  "title": "MathDuels: Evaluating LLMs as Problem Posers and Solvers",
+  "authors": [
+    "Zhiqiu Xu",
+    "Shibo Jin",
+    "Shreya Arya",
+    "Mayur Naik"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21916",
+  "url": "https://arxiv.org/abs/2604.21916",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "As frontier language models attain near-ceiling performance on static mathematical benchmarks, existing evaluations are increasingly unable to differentiate model capabilities, largely because they cast models solely as solvers of fixed problem sets. We introduce MathDuels, a self-play benchmark in which models occupy dual roles: each authors math problems under adversarial prompting and solves problems authored by every other participant. Problems are produced through a three-stage generation pipeline (meta-prompting, problem generation, and difficulty amplification), and validated by an independent verifier that excludes ill-posed questions. A Rasch model (Rasch, 1993) jointly estimates solver abilities and problem difficulties; author quality is derived from the difficulties of each model's authored problems. Experiments across 19 frontier models reveal that authoring and solving capabilities are partially decoupled, and that dual-role evaluation reveals capability separations invisible in single-role benchmarks. As newer models enter the arena, they produce problems that defeat previously dominant solvers, so the benchmark's difficulty co-evolves with participant strength rather than saturating at a fixed ceiling. We host a public leaderboard that updates as new models are released.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21916"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MathDuels: Evaluating LLMs as Problem Posers and Solvers?",
+    "Tell me about MathDuels: Evaluating LLMs as Problem Posers and Solvers"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.122Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, llm, benchmark, prompt. 4 authors. Categories: cs.CL, cs.SE, cs.CL."
+  }
+}

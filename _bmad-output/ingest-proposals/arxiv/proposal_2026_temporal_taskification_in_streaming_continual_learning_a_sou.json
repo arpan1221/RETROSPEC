@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_temporal_taskification_in_streaming_continual_learning_a_sou",
+  "type": "paper",
+  "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
+  "authors": [
+    "Nicolae Filat",
+    "Ahmed Hussain",
+    "Konstantinos Kalogiannis",
+    "Elena Burceanu"
+  ],
+  "date": "2026-04-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.21930",
+  "url": "https://arxiv.org/abs/2604.21930",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same stream can induce different CL regimes and therefore different benchmark conclusions. To study this effect, we introduce a taskification-level framework based on plasticity and stability profiles, a profile distance between taskifications, and Boundary-Profile Sensitivity (BPS), which diagnoses how strongly small boundary perturbations alter the induced regime before any CL model is trained. We evaluate continual finetuning, Experience Replay, Elastic Weight Consolidation, and Learning without Forgetting on network traffic forecasting with CESNET-Timeseries24, keeping the stream, model, and training budget fixed while varying only the temporal taskification. Across 9-, 30-, and 44-day splits, we observe substantial changes in forecasting error, forgetting, and backward transfer, showing that taskification alone can materially affect CL evaluation. We further find that shorter taskifications induce noisier distribution-level patterns, larger structural distances, and higher BPS, indicating greater sensitivity to boundary perturbations. These results show that benchmark conclusions in streaming CL depend not only on the learner and the data stream, but also on how that stream is taskified, motivating temporal taskification as a first-class evaluation variable.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.21930"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability?",
+    "Tell me about Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-04-26T01:28:17.121Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: benchmark. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}
