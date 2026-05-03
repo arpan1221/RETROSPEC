@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_llm_as_clinical_graph_structure_refiner_enhancing_representa",
+  "type": "paper",
+  "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
+  "authors": [
+    "Lincan Li",
+    "Zheng Chen",
+    "Yushun Dong"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28178",
+  "url": "https://arxiv.org/abs/2604.28178",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challenging. Existing graph construction methods, whether correlation-based or learning-based, often generate redundant or irrelevant edges due to the noisy nature of EEG data. This significantly impairs the quality of graph representation and limits downstream task performance. Motivated by the remarkable reasoning and contextual understanding capabilities of large language models (LLMs), we explore the idea of using LLMs as graph edge refiners. Specifically, we propose a two-stage framework: we first verify that LLM-based edge refinement can effectively identify and remove redundant connections, leading to significant improvements in seizure detection accuracy and more meaningful graph structures. Building on this insight, we further develop a robust solution where the initial graph is constructed using a Transformer-based edge predictor and multilayer perceptron, assigning probability scores to potential edges and applying a threshold to determine their existence. The LLM then acts as an edge set refiner, making informed decisions based on both textual and statistical features of node pairs to validate the remaining connections. Extensive experiments on TUSZ dataset demonstrate that our LLM-refined graph learning framework not only enhances task performance but also yields cleaner and more interpretable graph representations.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28178"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis?",
+    "Tell me about LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.303Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: transformer, language model, large language model, llm, reasoning. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

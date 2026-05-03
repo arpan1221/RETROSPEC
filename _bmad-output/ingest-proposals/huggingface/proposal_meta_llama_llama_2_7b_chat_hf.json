@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.395Z",
+    "ingested_at": "2026-05-03T01:46:18.578Z",
     "status": "proposed",
     "confidence": 0.8,
-    "reason": "Notable org: meta-llama. High downloads: 432,371. Very high likes: 4722. Trending on HuggingFace.",
+    "reason": "Notable org: meta-llama. High downloads: 415,889. Very high likes: 4747. Trending on HuggingFace.",
     "huggingface_id": "meta-llama/Llama-2-7b-chat-hf",
     "huggingface_url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
-    "downloads": 432371,
-    "likes": 4722,
+    "downloads": 415889,
+    "likes": 4747,
     "tags": [
       "transformers",
       "pytorch",

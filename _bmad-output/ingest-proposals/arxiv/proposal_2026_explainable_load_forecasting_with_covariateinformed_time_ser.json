@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_explainable_load_forecasting_with_covariateinformed_time_ser",
+  "type": "paper",
+  "title": "Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models",
+  "authors": [
+    "Matthias Hertel",
+    "Alexandra Nikoltchovska",
+    "Sebastian Pütz",
+    "Ralf Mikut",
+    "Benjamin Schäfer",
+    "Veit Hagenmeyer"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28149",
+  "url": "https://arxiv.org/abs/2604.28149",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Time Series Foundation Models (TSFMs) have recently emerged as general-purpose forecasting models and show considerable potential for applications in energy systems. However, applications in critical infrastructure like power grids require transparency to ensure trust and reliability and cannot rely on pure black-box models. To enhance the transparency of TSFMs, we propose an efficient algorithm for computing Shapley Additive Explanations (SHAP) tailored to these models. The proposed approach leverages the flexibility of TSFMs with respect to input context length and provided covariates. This property enables efficient temporal and covariate masking (selectively withholding inputs), allowing for a scalable explanation of model predictions using SHAP. We evaluate two TSFMs - Chronos-2 and TabPFN-TS - on a day-ahead load forecasting task for a transmission system operator (TSO). In a zero-shot setting, both models achieve predictive performance competitive with a Transformer model trained specifically on multiple years of TSO data. The explanations obtained through our proposed approach align with established domain knowledge, particularly as the TSFMs appropriately use weather and calendar information for load prediction. Overall, we demonstrate that TSFMs can serve as transparent and reliable tools for operational energy forecasting.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28149"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models?",
+    "Tell me about Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.305Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: transformer, rag, foundation model. 6 authors. Categories: cs.LG, cs.LG."
+  }
+}
