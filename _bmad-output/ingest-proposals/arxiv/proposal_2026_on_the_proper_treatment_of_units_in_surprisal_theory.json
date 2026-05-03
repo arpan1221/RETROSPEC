@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_on_the_proper_treatment_of_units_in_surprisal_theory",
+  "type": "paper",
+  "title": "On the Proper Treatment of Units in Surprisal Theory",
+  "authors": [
+    "Samuel Kiegeland",
+    "Vésteinn Snæbjarnarson",
+    "Tim Vieira",
+    "Ryan Cotterell"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28147",
+  "url": "https://arxiv.org/abs/2604.28147",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Surprisal theory links human processing effort to the predictability of an upcoming linguistic unit, but empirical work often leaves the notion of a unit underspecified. In practice, experimental stimuli are segmented into linguistically motivated units (e.g., words), while pretrained language models assign probability mass to a fixed token alphabet that typically does not align with those units. As a result, surprisal-based predictors depend implicitly on ad hoc procedures that conflate two distinct modeling choices: the definition of the unit of analysis and the choice of regions of interest over which predictions are evaluated. In this paper, we disentangle these choices and give a unified framework for reasoning about surprisal over arbitrary unit inventories. We argue that surprisal-based analyses should make these choices explicit and treat tokenization as an implementation detail rather than a scientific primitive.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28147"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is On the Proper Treatment of Units in Surprisal Theory?",
+    "Tell me about On the Proper Treatment of Units in Surprisal Theory"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.306Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: language model, reasoning. 4 authors. Categories: cs.CL, cs.CL."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_synthetic_computers_at_scale_for_longhorizon_productivity_si",
+  "type": "paper",
+  "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+  "authors": [
+    "Tao Ge",
+    "Baolin Peng",
+    "Hao Cheng",
+    "Jianfeng Gao"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28181",
+  "url": "https://arxiv.org/abs/2604.28181",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and organized through directory structures and content-rich artifacts. To scale synthetic data creation for such productivity scenarios, we introduce Synthetic Computers at Scale, a scalable methodology for creating such environments with realistic folder hierarchies and content-rich artifacts (e.g., documents, spreadsheets, and presentations). Conditioned on each synthetic computer, we run long-horizon simulations: one agent creates productivity objectives that are specific to the computer's user and require multiple professional deliverables and about a month of human work; another agent then acts as that user and keeps working across the computer -- for example, navigating the filesystem for grounding, coordinating with simulated collaborators, and producing professional artifacts -- until these objectives are completed. In preliminary experiments, we create 1,000 synthetic computers and run long-horizon simulations on them; each run requires over 8 hours of agent runtime and spans more than 2,000 turns on average. These simulations produce rich experiential learning signals, whose effectiveness is validated by significant improvements in agent performance on both in-domain and out-of-domain productivity evaluations. Given that personas are abundant at billion scale, this methodology can in principle scale to millions or even billions of synthetic user worlds with sufficient compute, enabling broader coverage of diverse professions, roles, contexts, environments, and productivity needs. We argue that scalable synthetic computer creation, together with at-scale simulations, is highly promising as a foundational substrate for agent self-improvement and agentic reinforcement learning in long-horizon productivity scenarios.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28181"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Synthetic Computers at Scale for Long-Horizon Productivity Simulation?",
+    "Tell me about Synthetic Computers at Scale for Long-Horizon Productivity Simulation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.303Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: reinforcement learning, agent, agentic, rag. 4 authors. Categories: cs.AI, cs.CL, cs.LG, cs.AI."
+  }
+}

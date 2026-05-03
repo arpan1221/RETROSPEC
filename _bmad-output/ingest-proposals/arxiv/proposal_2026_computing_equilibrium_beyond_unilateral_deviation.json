@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_computing_equilibrium_beyond_unilateral_deviation",
+  "type": "paper",
+  "title": "Computing Equilibrium beyond Unilateral Deviation",
+  "authors": [
+    "Mingyang Liu",
+    "Gabriele Farina",
+    "Asuman Ozdaglar"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28186",
+  "url": "https://arxiv.org/abs/2604.28186",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Most familiar equilibrium concepts, such as Nash and correlated equilibrium, guarantee only that no single player can improve their utility by deviating unilaterally. They offer no guarantees against profitable coordinated deviations by coalitions. Although the literature proposes solution concepts that provide stability against multilateral deviations (\\emph{e.g.}, strong Nash and coalition-proof equilibrium), these generally fail to exist. In this paper, we study an alternative solution concept that minimizes coalitional deviation incentives, rather than requiring them to vanish, and is therefore guaranteed to exist. Specifically, we focus on minimizing the average gain of a deviating coalition, and extend the framework to weighted-average and maximum-within-coalition gains. In contrast, the minimum-gain analogue is shown to be computationally intractable. For the average-gain and maximum-gain objectives, we prove a lower bound on the complexity of computing such an equilibrium and present an algorithm that matches this bound. Finally, we use our framework to solve the \\emph{Exploitability Welfare Frontier} (EWF), the maximum attainable social welfare subject to a given exploitability (the maximum gain over all unilateral deviations).",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28186"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Computing Equilibrium beyond Unilateral Deviation?",
+    "Tell me about Computing Equilibrium beyond Unilateral Deviation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.302Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: rag. 3 authors. Categories: cs.GT, cs.AI, cs.CC, cs.LG, econ.TH, cs.GT."
+  }
+}

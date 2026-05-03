@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_latent_adversarial_detection_adaptive_probing_of_llm_activat",
+  "type": "paper",
+  "title": "Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection",
+  "authors": [
+    "Prashant Kulkarni"
+  ],
+  "date": "2026-04-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2604.28129",
+  "url": "https://arxiv.org/abs/2604.28129",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Multi-turn prompt injection follows a known attack path -- trust-building, pivoting, escalation but text-level defenses miss covert attacks where individual turns appear benign. We show this attack path leaves an activation-level signature in the model's residual stream: each phase shift moves the activation, producing a total path length far exceeding benign conversations. We call this adversarial restlessness. Five scalar trajectory features capturing this signal lift conversation-level detection from 76.2% to 93.8% on synthetic held-out data. The signal replicates across four model families (24B-70B); probes are model-specific and do not transfer across architectures. Generalization is source-dependent: leave-one-source-out evaluation shows each of synthetic, LMSYS-Chat-1M, and SafeDialBench captures distinct attack distributions, with detection on real-world LMSYS reaching 47-71% when its distribution is represented in training. Combined three-source training achieves 89.4% detection at 2.4% false positive rate on a held-out mixed set. We further show that three-phase turn-level labels(benign/pivoting/adversarial) unique to our synthetic dataset are essential: binary conversation-level labels produce 50-59% false positives. These results establish adversarial restlessness as a reliable activation-level signal and characterize the data requirements for practical deployment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2604.28129"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection?",
+    "Tell me about Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-03T01:46:18.307Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: llm, prompt. 1 authors. Categories: cs.CR, cs.AI, cs.CR."
+  }
+}
