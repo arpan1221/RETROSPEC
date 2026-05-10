@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_can_rl_teach_longhorizon_reasoning_to_llms_expressiveness_is",
+  "type": "paper",
+  "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+  "authors": [
+    "Tianle Wang",
+    "Zhaoyang Wang",
+    "Guangchen Lan",
+    "Xinpeng Wei",
+    "Sipeng Zhang",
+    "Guanwen Qiu",
+    "Abulhair Saparov"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06638",
+  "url": "https://arxiv.org/abs/2605.06638",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We introduce ScaleLogic, a synthetic logical reasoning framework that offers independent control over two axes of difficulty: the depth of the required proof planning (i.e., the horizon) and the expressiveness of the underlying logic. Our proposed framework supports a wide range of logics: from simple implication-only logic (\"if-then\") towards more expressive first-order reasoning with conjunction (\"and\"), disjunction (\"or\"), negation (\"not\"), and universal quantification (\"for all\"). Using this framework, we show that the RL training compute $T$ follows a power law with respect to reasoning depth $D$ ($T \\propto D^γ$, $R^{2} &gt; 0.99$), and that the scaling exponent $γ$ increases monotonically with logical expressiveness, from $1.04$ to $2.60$. On downstream mathematics and general reasoning benchmarks, more expressive training settings yield both larger performance gains (up to $+10.66$ points) and more compute-efficient transfer compared to less expressive settings, demonstrating that what a model is trained on, not just how much it is trained, shapes downstream transfer. We further show that the power-law relationship holds across multiple RL methods, and curriculum-based training substantially improves scaling efficiency.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06638"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key?",
+    "Tell me about Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.810Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, llm, reinforcement learning, benchmark, reasoning. 7 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

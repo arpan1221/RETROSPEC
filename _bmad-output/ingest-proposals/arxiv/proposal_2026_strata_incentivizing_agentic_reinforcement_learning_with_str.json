@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_strata_incentivizing_agentic_reinforcement_learning_with_str",
+  "type": "paper",
+  "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+  "authors": [
+    "Xiangyuan Xue",
+    "Yifan Zhou",
+    "Zidong Wang",
+    "Shengji Tang",
+    "Philip Torr",
+    "Wanli Ouyang",
+    "Lei Bai",
+    "Zhenfei Yin"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06642",
+  "url": "https://arxiv.org/abs/2605.06642",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language models (LLMs) are increasingly used as interactive agents, but optimizing them for long-horizon decision making remains difficult because current methods are largely purely reactive, which weakens both exploration and credit assignment over extended trajectories. In this work, we present Strategic Trajectory Abstraction (StraTA), a simple framework that introduces an explicit trajectory-level strategy into agentic reinforcement learning (RL). StraTA samples a compact strategy from the initial task state, conditions subsequent actions on that strategy, and trains strategy generation and action execution jointly with a hierarchical GRPO-style rollout design, further enhanced by diverse strategy rollout and critical self-judgment. Experiments on ALFWorld, WebShop, and SciWorld show that StraTA consistently improves both sample efficiency and final performance over strong baselines. StraTA reaches success rates of 93.1% on ALFWorld and 84.2% on WebShop. On SciWorld, StraTA attains a 63.5% overall score, outperforming frontier closed-source models.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06642"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction?",
+    "Tell me about StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.808Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, llm, reinforcement learning, agent, agentic. 8 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}

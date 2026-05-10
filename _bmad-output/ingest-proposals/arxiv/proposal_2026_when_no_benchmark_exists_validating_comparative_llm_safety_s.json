@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_when_no_benchmark_exists_validating_comparative_llm_safety_s",
+  "type": "paper",
+  "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+  "authors": [
+    "Sushant Gautam",
+    "Finn Schwall",
+    "Annika Willoch Olstad",
+    "Fernando Vallecillos Ruiz",
+    "Birk Torpmann-Hagen",
+    "Sunniva Maria Stordal Bjørklund",
+    "Leon Moonen",
+    "Klas Pettersen",
+    "Michael A. Riegler"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06652",
+  "url": "https://arxiv.org/abs/2605.06652",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be interpreted as deployment evidence. Scores are valid only under a fixed scenario pack, rubric, auditor, judge, sampling configuration, and rerun budget. Because no labels are available, we replace ground-truth agreement with an instrumental-validity chain: responsiveness to a controlled safe-versus-abliterated contrast, dominance of target-driven variance over auditor and judge artifacts, and stability across reruns. We instantiate the chain in SimpleAudit, a local-first scoring instrument, and validate it on a Norwegian safety pack. Safe and abliterated targets separate with AUROC values between 0.89 and 1.00, target identity is the dominant variance component ($η^2 \\approx 0.52$), and severity profiles stabilize by ten reruns. Applying the same chain to Petri shows that it admits both tools. The substantial differences arise upstream of the chain, in claim-contract enforcement and deployment fit. A Norwegian public-sector procurement case comparing Borealis and Gemma 3 demonstrates the resulting evidence in practice: the safer model depends on scenario category and risk measure. Consequently, scores, matched deltas, critical rates, uncertainty, and the auditor and judge used must be reported together rather than collapsed into a single ranking.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06652"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels?",
+    "Tell me about When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.806Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, llm, benchmark, safety. 9 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}
