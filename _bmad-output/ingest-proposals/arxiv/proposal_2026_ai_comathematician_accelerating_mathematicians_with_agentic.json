@@ -1,0 +1,52 @@
+{
+  "id": "paper_2026_ai_comathematician_accelerating_mathematicians_with_agentic",
+  "type": "paper",
+  "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+  "authors": [
+    "Daniel Zheng",
+    "Ingrid von Glehn",
+    "Yori Zwols",
+    "Iuliya Beloshapka",
+    "Lars Buesing",
+    "Daniel M. Roy",
+    "Martin Wattenberg",
+    "Bogdan Georgiev",
+    "Tatiana Schmidt",
+    "Andrew Cowie",
+    "Fernanda Viegas",
+    "Dimitri Kanevsky",
+    "Vineet Kahlon",
+    "Hartmut Maennel",
+    "Sophia Alj",
+    "George Holland",
+    "Alex Davies",
+    "Pushmeet Kohli"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06651",
+  "url": "https://arxiv.org/abs/2605.06651",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support for the exploratory and iterative reality of mathematical workflows, including ideation, literature search, computational exploration, theorem proving and theory building. By providing an asynchronous, stateful workspace that manages uncertainty, refines user intent, tracks failed hypotheses, and outputs native mathematical artifacts, the system mirrors human collaborative workflows. In early tests, the AI co-mathematician helped researchers solve open problems, identify new research directions, and uncover overlooked literature references. Besides demonstrating a highly interactive paradigm for AI-assisted mathematical discovery, the AI co-mathematician also achieves state of the art results on hard problem-solving benchmarks, including scoring 48% on FrontierMath Tier 4, a new high score among all AI systems evaluated.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06651"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is AI Co-Mathematician: Accelerating Mathematicians with Agentic AI?",
+    "Tell me about AI Co-Mathematician: Accelerating Mathematicians with Agentic AI"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.806Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: agent, agentic, rag, benchmark. 18 authors. Categories: cs.AI, cs.AI."
+  }
+}

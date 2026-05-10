@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_superintelligent_retrieval_agent_the_next_frontier_of_inform",
+  "type": "paper",
+  "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+  "authors": [
+    "Zeyu Yang",
+    "Qi Ma",
+    "Jason Chen",
+    "Anshumali Shrivastava"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06647",
+  "url": "https://arxiv.org/abs/2605.06647",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Retrieval-augmented agents are increasingly the interface to large organizational knowledge bases, yet most still treat retrieval as a black box: they issue exploratory queries, inspect returned snippets, and iteratively reformulate until useful evidence emerges. This approach resembles how a newcomer searches an unfamiliar database rather than how an expert navigates it with strong priors about terminology and likely evidence, and results in unnecessary retrieval rounds, increased latency, and poor recall. We introduce \\textit{SuperIntelligent Retrieval Agent} (SIRA), which defines \\emph{superintelligence} in retrieval as the ability to compress multi-round exploratory search into a single corpus-discriminative retrieval action. SIRA does not merely ask what terms are relevant to the query; it asks which terms are likely to separate the desired evidence from corpus-level confusers. On the corpus side, an LLM enriches each document offline with missing search vocabulary; on the query side, it predicts evidence vocabulary omitted by the query; and document-frequency statistics as a tool call to filter proposed terms that are absent, overly common, or unlikely to create retrieval margin. The final retrieval step is a single weighted BM25 call combining the original query with the validated expansion. Across ten BEIR benchmarks and downstream question-answering tasks, SIRA achieves the significantly superior performance outperforming dense retrievers and state-of-the-art multi-round agentic baselines, demonstrating that one well-formed lexical query, guided by LLM cognition and lightweight corpus statistics, can exceed substantially more expensive multi-round search while remaining interpretable, training-free, and efficient.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06647"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval?",
+    "Tell me about Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.807Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: llm, agent, agentic, benchmark. 4 authors. Categories: cs.IR, cs.AI, cs.LG, cs.IR."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_verifierbacked_hard_problem_generation_for_mathematical_reas",
+  "type": "paper",
+  "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+  "authors": [
+    "Yuhang Lai",
+    "Jiazhan Feng",
+    "Yee Whye Teh",
+    "Ning Miao"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06660",
+  "url": "https://arxiv.org/abs/2605.06660",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Large Language Models (LLMs) demonstrate strong capabilities for solving scientific and mathematical problems, yet they struggle to produce valid, challenging, and novel problems - an essential component for advancing LLM training and enabling autonomous scientific research. Existing problem generation approaches either depend on expensive human expert involvement or adopt naive self-play paradigms, which frequently yield invalid problems due to reward hacking. This work introduces VHG, a verifier-enhanced hard problem generation framework built upon three-party self-play. By integrating an independent verifier into the conventional setter-solver duality, our design constrains the setter's reward to be jointly determined by problem validity (evaluated by the verifier) and difficulty (assessed by the solver). We instantiate two verifier variants: a Hard symbolic verifier and a Soft LLM-based verifier, with evaluations conducted on indefinite integral tasks and general mathematical reasoning tasks. Experimental results show that VHG substantially outperforms all baseline methods by a clear margin.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06660"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Verifier-Backed Hard Problem Generation for Mathematical Reasoning?",
+    "Tell me about Verifier-Backed Hard Problem Generation for Mathematical Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.804Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, large language model, llm, reasoning. 4 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}

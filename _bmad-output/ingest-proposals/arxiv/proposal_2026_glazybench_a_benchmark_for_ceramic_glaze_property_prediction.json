@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_glazybench_a_benchmark_for_ceramic_glaze_property_prediction",
+  "type": "paper",
+  "title": "GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation",
+  "authors": [
+    "Ziyu Zhai",
+    "Siyou Li",
+    "Juexi Shao",
+    "Juntao Yu"
+  ],
+  "date": "2026-05-07",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.06641",
+  "url": "https://arxiv.org/abs/2605.06641",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Developing ceramic glazes is a costly, time-consuming process of trial and error due to complex chemistry, placing a significant burden on independent artists. While recent advances in multimodal AI offer a modern solution, the field lacks the large-scale datasets required to train these models. We propose GlazyBench, the first dataset for AI-assisted glaze design. Comprising 23,148 real glaze formulations, GlazyBench supports two primary tasks: predicting post-firing surface properties, such as color and transparency, from raw materials, and generating accurate visual representations of the glaze based on these properties. We establish comprehensive baselines for property prediction using traditional machine learning and large language models, alongside image generation benchmarks using deep generative and large multimodal models. Our experiments demonstrate promising yet challenging results. GlazyBench pioneers a new research direction in AI-assisted material design, providing a standardized benchmark for systematic evaluation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.06641"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation?",
+    "Tell me about GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-10T01:49:34.809Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, large language model, multimodal, benchmark. 4 authors. Categories: cs.AI, cs.CV, cs.AI."
+  }
+}
