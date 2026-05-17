@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_is_grep_all_you_need_how_agent_harnesses_reshape_agentic_sea",
+  "type": "paper",
+  "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+  "authors": [
+    "Sahil Sen",
+    "Akhil Kasturi",
+    "Elias Lumer",
+    "Anmol Gulati",
+    "Vamse Kumar Subbiah"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15184",
+  "url": "https://arxiv.org/abs/2605.15184",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic search systems, existing literature lacks a systematic comparison of how retrieval strategy choice interacts with agent architecture and tool-calling paradigm. Important practical dimensions, including how tool outputs are presented to the model and how performance changes when searches must cope with more irrelevant surrounding text, remain under-explored in agent loops. This paper reports an empirical study organized into two experiments. Experiment 1 compares grep and vector retrieval on a 116-question sample from LongMemEval, using a custom agent harness (Chronos) and provider-native CLI harnesses (Claude Code, Codex, and Gemini CLI), for both inline tool results and file-based tool results that the model reads separately. Experiment 2 compares grep-only and vector-only retrieval while progressively mixing in additional unrelated conversation history, so that each query is embedded in more distracting material alongside the passages that matter. Across Chronos and the provider CLIs, grep generally yields higher accuracy than vector retrieval in our comparisons in experiment 1; at the same time, overall scores still depend strongly on which harness and tool-calling style is used, even when the underlying conversation data are the same.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15184"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Is Grep All You Need? How Agent Harnesses Reshape Agentic Search?",
+    "Tell me about Is Grep All You Need? How Agent Harnesses Reshape Agentic Search"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.238Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, llm, agent, agentic, rag. 5 authors. Categories: cs.CL, cs.CL."
+  }
+}

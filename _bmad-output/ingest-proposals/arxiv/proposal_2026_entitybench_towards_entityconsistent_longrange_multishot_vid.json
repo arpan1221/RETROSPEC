@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_entitybench_towards_entityconsistent_longrange_multishot_vid",
+  "type": "paper",
+  "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+  "authors": [
+    "Ruozhen He",
+    "Meng Wei",
+    "Ziyan Yang",
+    "Vicente Ordonez"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15199",
+  "url": "https://arxiv.org/abs/2605.15199",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evaluations typically use independently generated prompt sets with limited entity coverage and simple consistency metrics, making standardized comparison difficult. We introduce EntityBench, a benchmark of 140 episodes (2,491 shots) derived from real narrative media, with explicit per-shot entity schedules tracking characters, objects, and locations simultaneously across easy / medium / hard tiers of up to 50 shots, 13 cross-shot characters, 8 cross-shot locations, 22 cross-shot objects, and recurrence gaps spanning up to 48 shots. It is paired with a three-pillar evaluation suite that disentangles intra-shot quality, prompt-following alignment, and cross-shot consistency, with a fidelity gate that admits only accurate entity appearances into cross-shot scoring. As a baseline, we propose EntityMem, a memory-augmented generation system that stores verified per-entity visual references in a persistent memory bank before generation begins. Experiments show that cross-shot entity consistency degrades sharply with recurrence distance in existing methods, and that explicit per-entity memory yields the highest character fidelity (Cohen's d = +2.33) and presence among methods evaluated. Code and data are available at https://github.com/Catherine-R-He/EntityBench/.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15199"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation?",
+    "Tell me about EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.235Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: alignment, rag, benchmark, prompt. 4 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

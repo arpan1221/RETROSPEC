@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_text_knows_what_tables_know_when_clinical_timeline_reconstru",
+  "type": "paper",
+  "title": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+  "authors": [
+    "Sayantan Kumar",
+    "Shahriar Noroozizadeh",
+    "Juyong Kim",
+    "Jeremy C. Weiss"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15168",
+  "url": "https://arxiv.org/abs/2605.15168",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Reconstructing precise clinical timelines is essential for modeling patient trajectories and forecasting risk in complex, heterogeneous conditions like sepsis. While unstructured clinical narratives offer semantically rich and contextually complete descriptions of a patient's course, they often lack temporal precision and contain ambiguous event timing. Conversely, structured electronic health record (EHR) data provides precise temporal anchors but misses a substantial portion of clinically meaningful events. We introduce a retrieval-augmented multimodal alignment framework that bridges this gap to improve the temporal precision of absolute clinical timelines extracted from text. Our approach formulates timeline reconstruction as a graph-based multistep process: it first extracts central anchor events from narratives to build an initial temporal scaffold, places non-central events relative to this backbone, and then calibrates the timeline using retrieved structured EHR rows as external temporal evidence. Evaluated using instruction-tuned large language models on the i2m4 benchmark spanning MIMIC-III and MIMIC-IV, our multimodal pipeline consistently improves absolute timestamp accuracy (AULTC) and improves temporal concordance across nearly all evaluated models over unimodal text-only reconstruction, without compromising event match rates. Furthermore, our empirical gap analysis reveals that 34.8% of text-derived events are entirely absent from tabular records, demonstrating that aligning these modalities can produce a more temporally faithful and clinically informative reconstruction of patient trajectories than either source alone.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15168"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment?",
+    "Tell me about Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.240Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, alignment, multimodal, benchmark. 4 authors. Categories: cs.CL, cs.AI, cs.LG, stat.ML, cs.CL."
+  }
+}
