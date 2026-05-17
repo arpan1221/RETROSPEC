@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_vggtedit_feedforward_native_3d_scene_editing_with_residual_f",
+  "type": "paper",
+  "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+  "authors": [
+    "Kaixin Zhu",
+    "Yiwen Tang",
+    "Yifan Yang",
+    "Renrui Zhang",
+    "Bohan Zeng",
+    "Ziyu Guo",
+    "Ruichuan An",
+    "Zhou Liu",
+    "Qizhi Chen",
+    "Delin Qu",
+    "Jaehong Yoon",
+    "Wentao Zhang"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15186",
+  "url": "https://arxiv.org/abs/2605.15186",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite their strong performance in static scene perception, these models remain limited in responding to dynamic human instructions, which restricts their use in interactive applications. Existing editing methods typically rely on a 2D-lifting strategy, where individual views are edited independently and then lifted back into 3D space. This indirect pipeline often leads to blurry textures and inconsistent geometry, as 2D editors lack the spatial awareness required to preserve structure across viewpoints. To address these limitations, we propose VGGT-Edit, a feed-forward framework for text-conditioned native 3D scene editing. VGGT-Edit introduces depth-synchronized text injection to align semantic guidance with the backbone's spatial poses, ensuring stable instruction grounding. This semantic signal is then processed by a residual transformation head, which directly predicts 3D geometric displacements to deform the scene while preserving background stability. To ensure high-fidelity results, we supervise the framework with a multi-term objective function that enforces geometric accuracy and cross-view consistency. We also construct the DeltaScene Dataset, a large-scale dataset generated through an automated pipeline with 3D agreement filtering to ensure ground-truth quality. Experiments show that VGGT-Edit substantially outperforms 2D-lifting baselines, producing sharper object details, stronger multi-view consistency, and near-instant inference speed.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15186"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction?",
+    "Tell me about VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.237Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: . 12 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

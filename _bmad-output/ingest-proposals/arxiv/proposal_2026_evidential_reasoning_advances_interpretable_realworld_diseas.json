@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_evidential_reasoning_advances_interpretable_realworld_diseas",
+  "type": "paper",
+  "title": "Evidential Reasoning Advances Interpretable Real-World Disease Screening",
+  "authors": [
+    "Chenyu Lian",
+    "Hong-Yu Zhou",
+    "Jing Qin"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15171",
+  "url": "https://arxiv.org/abs/2605.15171",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Disease screening is critical for early detection and timely intervention in clinical practice. However, most current screening models for medical images suffer from limited interpretability and suboptimal performance. They often lack effective mechanisms to reference historical cases or provide transparent reasoning pathways. To address these challenges, we introduce EviScreen, an evidential reasoning framework for disease screening that leverages region-level evidence from historical cases. The proposed EviScreen offers retrospection interpretability through regional evidence retrieved from dual knowledge banks. Using this evidential mechanism, the subsequent evidence-aware reasoning module makes predictions using both the current case and evidence from historical cases, thereby enhancing disease screening performance. Furthermore, rather than relying on post-hoc saliency maps, EviScreen enhances localization interpretability by leveraging abnormality maps derived from contrastive retrieval. Our method achieves superior performance on our carefully established benchmarks for real-world disease screening, yielding notably higher specificity at clinical-level recall. Code is publicly available at https://github.com/DopamineLcy/EviScreen.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15171"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Evidential Reasoning Advances Interpretable Real-World Disease Screening?",
+    "Tell me about Evidential Reasoning Advances Interpretable Real-World Disease Screening"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.240Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: rag, benchmark, interpretability, reasoning. 3 authors. Categories: cs.CV, cs.AI, cs.LG, cs.CV."
+  }
+}

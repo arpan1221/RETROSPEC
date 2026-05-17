@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_roshap_a_distributional_framework_and_robust_metric_for_stab",
+  "type": "paper",
+  "title": "RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution",
+  "authors": [
+    "Lanxin Xiang",
+    "Liang Shi",
+    "Youhui Ye",
+    "Boyu Jiang",
+    "Dawei Zhou",
+    "Feng Guo"
+  ],
+  "date": "2026-05-14",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.15154",
+  "url": "https://arxiv.org/abs/2605.15154",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Feature attribution analysis is critical for interpreting machine learning models and supporting reliable data-driven decisions. However, feature attribution measures often exhibit stochastic variation: different train--test splits, random seeds, or model-fitting procedures can produce substantially different attribution values and feature rankings. This paper proposes a framework for incorporating stochastic nature of feature attribution and a robust attribution metric, RoSHAP, for stable feature ranking based on the SHAP metric. The proposed framework models the distribution of feature attribution scores and estimates it through bootstrap resampling and kernel density estimation. We show that, under mild regularity conditions, the aggregated feature attribution score is asymptotically Gaussian, which greatly reduces the computational cost of distribution estimation. The RoSHAP summarizes the distribution of SHAP into a robust feature-ranking criterion that simultaneously rewards features that are active, strong, and stable. Through simulations and real-data experiments, the proposed framework and RoSHAP outperform standard single-run attribution measures in identifying signal features. In addition, models built using RoSHAP-selected features achieve predictive performance comparable to full-feature models while using substantially fewer predictors. The proposed RoSHAP approach improves the stability and interpretability of machine learning models, enabling reliable and consistent insights for analysis.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.15154"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution?",
+    "Tell me about RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-17T01:55:34.242Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: interpretability. 6 authors. Categories: stat.ML, cs.LG, stat.ML."
+  }
+}
