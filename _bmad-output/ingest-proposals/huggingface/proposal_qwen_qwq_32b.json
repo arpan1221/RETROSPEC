@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.398Z",
+    "ingested_at": "2026-05-24T02:02:34.624Z",
     "status": "proposed",
     "confidence": 0.7,
-    "reason": "Notable org: Qwen. Moderate downloads: 62,339. Very high likes: 2879. Trending on HuggingFace.",
+    "reason": "Notable org: Qwen. Moderate downloads: 61,994. Very high likes: 2919. Trending on HuggingFace.",
     "huggingface_id": "Qwen/QwQ-32B",
     "huggingface_url": "https://huggingface.co/Qwen/QwQ-32B",
-    "downloads": 62339,
-    "likes": 2879,
+    "downloads": 61994,
+    "likes": 2919,
     "tags": [
       "transformers",
       "safetensors",
