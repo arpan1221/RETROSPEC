@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_reducing_political_manipulation_with_consistency_training",
+  "type": "paper",
+  "title": "Reducing Political Manipulation with Consistency Training",
+  "authors": [
+    "Long Phan",
+    "Devin Kim",
+    "Alexander Pan",
+    "Alice Blair",
+    "Adam Khoja",
+    "Dan Hendrycks"
+  ],
+  "date": "2026-05-21",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.22771",
+  "url": "https://arxiv.org/abs/2605.22771",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language models (LLMs) exhibit systematic political bias across a variety of sensitive contexts. We find that LLMs handle counterpart topics from opposing political sides asymmetrically. We refer to this phenomenon as covert political bias and identify 7 categories of techniques through which it operates. We propose two metrics for covert bias: Sentiment Consistency measures symmetry in rhetoric and framing across paired political prompts; Helpfulness Consistency measures symmetric depth and engagement. To reduce both types of covert bias, we introduce Political Consistency Training (PCT), an RL training method with two complementary paradigms: Sentiment Consistency Training and Helpfulness Consistency Training. We show that PCT preserves overall helpfulness, substantially reduces covert political bias, and generalizes to held-out benchmarks. We release our work at https://political-manipulation.ai",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.22771"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Reducing Political Manipulation with Consistency Training?",
+    "Tell me about Reducing Political Manipulation with Consistency Training"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-24T02:02:34.436Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, benchmark, prompt. 6 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}

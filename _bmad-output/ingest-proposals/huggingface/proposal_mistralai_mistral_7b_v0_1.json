@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.396Z",
+    "ingested_at": "2026-05-24T02:02:34.623Z",
     "status": "proposed",
     "confidence": 0.8,
-    "reason": "Notable org: mistralai. High downloads: 467,210. Very high likes: 4057. Trending on HuggingFace.",
+    "reason": "Notable org: mistralai. High downloads: 952,616. Very high likes: 4093. Trending on HuggingFace.",
     "huggingface_id": "mistralai/Mistral-7B-v0.1",
     "huggingface_url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
-    "downloads": 467210,
-    "likes": 4057,
+    "downloads": 952616,
+    "likes": 4093,
     "tags": [
       "transformers",
       "pytorch",

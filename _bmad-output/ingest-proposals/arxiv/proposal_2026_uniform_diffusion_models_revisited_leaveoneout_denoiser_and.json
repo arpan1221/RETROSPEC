@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_uniform_diffusion_models_revisited_leaveoneout_denoiser_and",
+  "type": "paper",
+  "title": "Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation",
+  "authors": [
+    "Samson Gourevitch",
+    "Yazid Janati",
+    "Dario Shariatian",
+    "Umut Simsekli",
+    "Eric Moulines",
+    "Eric P. Xing",
+    "Alain Durmus"
+  ],
+  "date": "2026-05-21",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.22765",
+  "url": "https://arxiv.org/abs/2605.22765",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Discrete diffusion models are often trained through clean-data prediction, but the prediction can be used in different ways to define the reverse dynamics. In Masked Diffusion Models (MDM) these choices largely coincide, whereas in Uniform Diffusion Models (UDM) they do not. We show that the standard plug-in bridge parameterization for UDM is not optimized by the denoising posterior, but by a leave-one-out posterior that predicts each clean token without using its own noisy observation. This identifies a mismatch between the plug-in ELBO and the usual cross-entropy denoising objective. We characterize the leave-one-out target and derive exact conversions between the denoiser, the leave-one-out posterior, and the score. These conversions allow us to disentangle parameterization and training objective. Our results also lead to inference improvements without any additional training through an informed predictor-corrector sampler and improved temperature sampling based on the leave-one-out predictor. We further introduce an absorbing-state reformulation of uniform diffusion that preserves the UDM joint law while decomposing it into masked-diffusion-like sampling operations, with simpler denoising posteriors, carry-over unmasking, and a natural remasking mechanism. On language modeling, leave-one-out parameterizations consistently improve UDM generation, while the absorbing construction matches or surpasses masked diffusion. These results suggest that the empirical gap between masked and uniform diffusion is driven less by the choice of marginals themselves than by parameterization and sampling design. The code and models can be found at https://github.com/samsongourevitch/rev_udm.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.22765"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation?",
+    "Tell me about Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-24T02:02:34.437Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: language model, diffusion. 7 authors. Categories: cs.LG, stat.ML, cs.LG."
+  }
+}
