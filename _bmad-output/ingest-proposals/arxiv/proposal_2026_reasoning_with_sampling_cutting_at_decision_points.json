@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_reasoning_with_sampling_cutting_at_decision_points",
+  "type": "paper",
+  "title": "Reasoning with Sampling: Cutting at Decision Points",
+  "authors": [
+    "Felix Zhou",
+    "Anay Mehrotra",
+    "Quanquan C. Liu"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30327",
+  "url": "https://arxiv.org/abs/2605.30327",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base model's distribution, a so-called power distribution, elicits comparable reasoning without additional training, curated datasets, or verifiers. However, making this method practical requires efficiently sampling from the power distribution. A sampler needs to \"mix\" to the power distribution, which necessitates moving between modes of the target distribution; intuitively, e.g., trying different reasoning strategies. The samplers proposed in prior works repeatedly select a \"cut\" position in the current reasoning trace uniformly at random and resample the suffix from that position onward. However, reasoning traces typically contain a few consequential decisions (e.g., the choice of proof strategy or algorithm), and we observe that a uniformly chosen cut tends to rewrite local details rather than revisit decision points. We introduce an algorithm (Entropy-Cut Metropolis-Hastings) that uses the base model's next-token entropy as a proxy to identify key decision points and resample from those positions. We empirically verify that entropy jumps are a useful proxy for decision points and, in a stylized model of reasoning, prove that our method's mixing time scales with the number of decisions in a trace rather than with the number of tokens, which can be much larger. Across MATH500, HumanEval, GPQA Diamond, and AIME26, our method consistently improves over baselines and RL-trained models.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30327"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Reasoning with Sampling: Cutting at Decision Points?",
+    "Tell me about Reasoning with Sampling: Cutting at Decision Points"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.637Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, reinforcement learning, reasoning. 3 authors. Categories: cs.LG, cs.AI, cs.CL, math.ST, stat.ML, cs.LG."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_compose_composing_future_theorems_from_citations_and_formal",
+  "type": "paper",
+  "title": "COMPOSE: Composing Future Theorems from Citations and Formal Structure",
+  "authors": [
+    "David Busbib",
+    "Michael Werman"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30333",
+  "url": "https://arxiv.org/abs/2605.30333",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "A plausible future mathematical claim must satisfy two constraints: it should follow the direction of prior work and respect the formal dependencies that constrain what can validly follow. Existing approaches typically model only one of these sources, producing claims that are either weakly grounded or insufficiently motivated. We introduce grounded future mathematical generation, where the goal is to generate a plausible future theorem-like claim for an anchor paper using two complementary sources of context: its scientific citation graph and aligned formal theorem dependency graph. To address this setting, we propose COMPOSE, a dual-graph framework that conditions a language model on both scientific citation context and formal theorem structure. To support this setting, we construct a dataset of 108K paired scientific-formal graph examples from arXiv and Mathlib, together with a benchmark of 47K future papers from 2024--2025. Experiments show that COMPOSE outperforms strong baselines on retrieval to real future papers and achieves the best overall performance under LLM-judge evaluation, producing more grounded and mathematically richer outputs. These results show that future mathematical generation benefits from combining scientific context with formal structure. Project page is available at https://david-busbib.github.io/COMPOSE-page/.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30333"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is COMPOSE: Composing Future Theorems from Citations and Formal Structure?",
+    "Tell me about COMPOSE: Composing Future Theorems from Citations and Formal Structure"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.636Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, llm, benchmark. 2 authors. Categories: cs.CL, cs.CL."
+  }
+}

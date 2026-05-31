@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_gram_assessing_sabotage_propensities_via_automated_alignment",
+  "type": "paper",
+  "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+  "authors": [
+    "David Lindner",
+    "Victoria Krakovna",
+    "Sebastian Farquhar"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30322",
+  "url": "https://arxiv.org/abs/2605.30322",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios that incentivize sabotage. We find Gemini models misbehave in about 2-3% of our simulated trajectories. Many of these cases are explained by \"overeagerness\" in Gemini models resulting in both excessive role-playing and goal-seeking behavior. In contrast to other alignment auditing approaches, Gram is designed to specifically evaluate misalignment and intentional sabotage in agentic coding and research agents. We additionally introduce an experimental investigator agent pipeline which enables fine-grained targeted experiments to identify the drivers of misbehavior. We find that increasing realism of environments and removing nudges to misbehave tends to reduce sabotage rates close to zero.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30322"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Gram: Assessing sabotage propensities via automated alignment auditing?",
+    "Tell me about Gram: Assessing sabotage propensities via automated alignment auditing"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.637Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, agentic, alignment. 3 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_llmsurgeon_diagnosing_data_mixture_of_large_language_models",
+  "type": "paper",
+  "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+  "authors": [
+    "Yaxin Luo",
+    "Jiacheng Cui",
+    "Xiaohan Zhao",
+    "Xinyi Shang",
+    "Jiacheng Liu",
+    "Xinyue Bi",
+    "Zhaoyi Li",
+    "Zhiqiang Shen"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30348",
+  "url": "https://arxiv.org/abs/2605.30348",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}$, a strong framework that casts DMS as an inverse problem under the label-shift assumption. Rather than directly aggregating classifier outputs, LLMSurgeon estimates a calibrated $\\textit{soft}$ confusion matrix and solves a constrained inverse problem to correct systematic domain confusion and recover the latent mixture prior. To evaluate, we introduce $\\textbf{LLMScan}$, a recipe-verifiable evaluation suite built from open-source LLMs with transparent pretraining mixtures. Across LLMScan, LLMSurgeon recovers domain mixtures with high fidelity under fixed protocols. Our work presents a practical, post-hoc approach for auditing the digital DNA of foundation models without access to their training data.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30348"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LLMSurgeon: Diagnosing Data Mixture of Large Language Models?",
+    "Tell me about LLMSurgeon: Diagnosing Data Mixture of Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.634Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, llm, foundation model. 8 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}
