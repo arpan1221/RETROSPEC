@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_physics_is_all_you_need_a_case_study_in_physicistsupervised",
+  "type": "paper",
+  "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+  "authors": [
+    "Nhat-Minh Nguyen"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30353",
+  "url": "https://arxiv.org/abs/2605.30353",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented and classified 15 supervision events by intervention level. The agent resolved ten autonomously by iterating against oracle tests. Two more by the physicist's domain knowledge. The three it could not -- all evaded oracle detection -- share a common property: the agent treated symptom reduction as root-cause resolution. It spent 33 of the 57 sessions adjusting coefficients within a code architecture that could not represent the target physics, and could not re-evaluate its CLASS-PT branch choice even when prompted to reconsider; only an injected physics concept (anisotropic BAO damping) triggered the redesign. Separately, the agent committed a calibrated correction that passed all oracle tests but corresponded to no quantity in the theory, predicting wrong values at any other cosmology. The fudge factor was caught and replaced within the same session. Three supervision practices proved critical for catching what oracle tests missed: testing at diverse parameter points beyond the fiducial calibration; shared changelogs that surfaced stalled exploration across sessions; and an explicit rule against unphysical numerical patches. In this case, supervision design, not model capability, determined whether the agent's output was trustworthy. Closing the gap would require agents that propose architectural alternatives rather than optimize within a given structure, and distinguish predictive adequacy from explanatory correctness -- capabilities not exhibited here, not obviously addressed by scaling alone. [Abridged.]",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30353"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software?",
+    "Tell me about Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.633Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: agent, prompt. 1 authors. Categories: cs.AI, astro-ph.CO, cs.HC, cs.SE, cs.AI."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_locally_coherent_globally_incoherent_bounding_compositional",
+  "type": "paper",
+  "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+  "authors": [
+    "Anany Kotawala"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30335",
+  "url": "https://arxiv.org/abs/2605.30335",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is locally coherent. We formalise this locally coherent, globally incoherent failure via the compositional residual eps*, the L2 distance from the composed quote to the joint coherent polytope, computable at runtime from system output and the declared cross-component coupling constraints. A product-structure dichotomy characterises when local coherence suffices, and a Rayleigh-quotient prediction matches the observed residual within 7% on three of four relation classes. A hierarchical Boyle-Dykstra projection repairs the composition deterministically; an anytime-valid e-process gives sequential coherence monitoring. Across 1,876 ensemble cliques on a four-LLM mid-tier panel (frontier-panel rerun in Section 5.5), eps* &gt; 0 on 33-94% of cliques, translating to +0.115 nats per bet of regret on 1,770 resolved bets under the proportional allocation rule (the gain collapses to +0.006 under bettors that themselves coherentise). Three intuitive LLM-side mitigations(retrieval, partition-aware prompting, aggregator-LLM) each fail or regress.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30335"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents?",
+    "Tell me about Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.636Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, agent, prompt. 1 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

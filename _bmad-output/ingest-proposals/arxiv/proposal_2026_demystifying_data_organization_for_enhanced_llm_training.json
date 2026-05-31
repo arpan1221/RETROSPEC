@@ -1,0 +1,45 @@
+{
+  "id": "paper_2026_demystifying_data_organization_for_enhanced_llm_training",
+  "type": "paper",
+  "title": "Demystifying Data Organization for Enhanced LLM Training",
+  "authors": [
+    "Yalun Dai",
+    "Yangyu Huang",
+    "Tongshen Yang",
+    "Yonghan Wang",
+    "Xin Zhang",
+    "Wenshan Wu",
+    "Qihao Zhao",
+    "Hao Li",
+    "Yuanyuan Gao",
+    "Kim-Hui Yap",
+    "Scarlett Li"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30334",
+  "url": "https://arxiv.org/abs/2605.30334",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategic data organization for enhanced training remains an underexplored area, particularly since current LLMs are often trained for only one or a few epochs. This paper systematically explores the influence of data organization on LLM training by reusing pre-computed sample-level scores originally generated for data efficiency, thereby incurring minimal additional computational overhead. We identify and formalize four key guidelines for optimizing data organization: Boundary Sharpening, Cyclic Scheduling, Curriculum Continuity, and Local Diversity. Guided by them, we introduce two novel data ordering methods termed STR and SAW. Extensive experiments across different model scales and data sizes, encompassing both pre-training and SFT stages, validate the effectiveness of our summarized guidelines. They also demonstrate the robustness of our proposed data ordering methods in enhancing the stability and performance of LLM training. Github Link: https://github.com/microsoft/data-efficacy/",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30334"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Demystifying Data Organization for Enhanced LLM Training?",
+    "Tell me about Demystifying Data Organization for Enhanced LLM Training"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.636Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm. 11 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

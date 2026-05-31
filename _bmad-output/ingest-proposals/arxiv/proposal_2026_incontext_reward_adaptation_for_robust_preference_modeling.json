@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_incontext_reward_adaptation_for_robust_preference_modeling",
+  "type": "paper",
+  "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+  "authors": [
+    "Zhenyu Sun",
+    "Zheng Xu",
+    "Ermin Wei"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30323",
+  "url": "https://arxiv.org/abs/2605.30323",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heterogeneous, and a single reward model often lacks the robustness required to generalize to unseen preference domains. While existing multi-reward frameworks attempt to address this, they are often restricted to a fixed set of known domains and fail to adapt to unseen human distributions without costly retraining. In this work, we propose In-Context Reward Adaptation, a transformer-based framework designed to model diverse and unseen human preferences on the fly. By leveraging the in-context learning capabilities of transformers, our approach adaptively infers the underlying reward structure from a small set of preference demonstrations. We demonstrate that while a standard transformer architecture is insufficient for this task by characterizing an asymptotic bias to the ground-truth, incorporating human response time as an auxiliary input signal enables the model to successfully adapt to preferences from previously unseen domains. Our findings show that this approach provides a more robust foundation for preference modeling, allowing for the representation of heterogeneous rewards and preference distribution shift, and offering a scalable path toward more flexible human-AI alignment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30323"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is In-Context Reward Adaptation for Robust Preference Modeling?",
+    "Tell me about In-Context Reward Adaptation for Robust Preference Modeling"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.637Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Matched keywords: transformer, language model, large language model, reinforcement learning, in-context learning, rlhf, alignment, rag. 3 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

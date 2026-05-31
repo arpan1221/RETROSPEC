@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_fairnessaware_federated_learning_with_trajectory_shapley_val",
+  "type": "paper",
+  "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
+  "authors": [
+    "Daniel Kuznetsov",
+    "Ziqi Wang"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30336",
+  "url": "https://arxiv.org/abs/2605.30336",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Federated learning is an emerging distributed paradigm that addresses the challenges posed by heterogeneous, privacy-sensitive data. It enables multiple clients to train a model collaboratively by aggregating their local updates at a server. However, conventional aggregation schemes typically use fixed weights that fail to reflect unequal and time-varying client contributions, leading to biased and unstable learning. To improve fairness and stability, we propose the Trajectory Shapley Value (TSV), a contribution metric that evaluates how each client influences the optimization trajectory of the global model using a validation-based, temporally consistent utility. Building on TSV, we design FedTSV, an adaptive aggregation method that converts per-round evaluations into dynamic client weights, allowing the server to respond to heterogeneous and adversarial participation in real time. Experiments on benchmark datasets show that FedTSV accelerates convergence, improves robustness, and yields more equitable contribution assessments, thereby providing a principled foundation for fairness-aware federated optimization.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30336"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Fairness-Aware Federated Learning with Trajectory Shapley Value?",
+    "Tell me about Fairness-Aware Federated Learning with Trajectory Shapley Value"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.635Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: benchmark. 2 authors. Categories: cs.LG, cs.LG."
+  }
+}

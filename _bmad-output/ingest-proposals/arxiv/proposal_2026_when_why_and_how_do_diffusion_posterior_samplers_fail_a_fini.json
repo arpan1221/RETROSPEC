@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_when_why_and_how_do_diffusion_posterior_samplers_fail_a_fini",
+  "type": "paper",
+  "title": "When, why, and how do diffusion posterior samplers fail? A finite-sample lens",
+  "authors": [
+    "Benjamin A. Burns",
+    "Sara Fridovich-Keil"
+  ],
+  "date": "2026-05-28",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2605.30330",
+  "url": "https://arxiv.org/abs/2605.30330",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Diffusion models have excellent capacity to model complex distributions of natural data, which has made them a popular and effective choice for posterior sampling in imaging inverse problems. Existing methods can incorporate any measurement model at inference time but must use an inexact approximation for the likelihood at intermediate timesteps for computational tractability. Although these approximations can often work well empirically, their downstream effect on the sampled posterior is poorly understood and can result in unexplained failures. To understand when, why, and how these likelihood approximations propagate to erroneous posterior distributions, we introduce a finite-sample perspective on posterior sampling that approximates the posterior to arbitrary precision as training set size tends towards infinity, for any forward model and prior distribution. Using this finite-sample lens, we observe that popular posterior sampling approximations tend to under- or over-estimate the spread of the posterior at intermediate timesteps, causing downstream consequences including sensitivity to early stopping time, inaccurate relative weighting of posterior modes, and hallucination, both of prior modes that are not in the posterior and likelihood modes that are not supported by the prior. Moreover, we find that the cause of these posterior errors requires neither a nonlinear measurement model nor a multimodal posterior, but can arise solely due to a multimodal prior and inaccurate posterior spread at intermediate sampling times. Our finite-sample posterior sampling approach is agnostic to the type of likelihood approximation and the type of (linear or nonlinear) forward model, and can thus serve as a drop-in diagnostic to evaluate the accuracy and failure modes of existing and future posterior samplers.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2605.30330"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is When, why, and how do diffusion posterior samplers fail? A finite-sample lens?",
+    "Tell me about When, why, and how do diffusion posterior samplers fail? A finite-sample lens"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-05-31T02:11:20.636Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: diffusion, multimodal. 2 authors. Categories: cs.LG, cs.LG."
+  }
+}
