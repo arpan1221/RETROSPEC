@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_selfaugmenting_retrieval_for_diffusion_language_models",
+  "type": "paper",
+  "title": "Self-Augmenting Retrieval for Diffusion Language Models",
+  "authors": [
+    "Paul Jünger",
+    "Justin Lovelace",
+    "Linxi Zhao",
+    "Dongyoung Go",
+    "Kilian Q. Weinberger"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06474",
+  "url": "https://arxiv.org/abs/2606.06474",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Discrete diffusion language models generate text by iteratively denoising an entire response in parallel. At each step, they predict tentative tokens for every masked position, committing the confident predictions to the output and discarding the unconfident ones. We show that the discarded tokens are in fact a useful lookahead signal for retrieval-augmented generation: even low-confidence tokens often surface salient entities early in the denoising trajectory, enabling retrieval of stronger evidence before the output is finalized. We exploit this through Self-Augmenting Retrieval for Diffusion Language Models (SARDI), a dynamic RAG framework that uses these lookahead tokens to guide retrieval during denoising. SARDI is training-free, retriever-agnostic, and applicable to any reasoning-capable discrete diffusion language model. Across five multi-hop QA benchmarks, SARDI outperforms current training-free diffusion and autoregressive retrieval baselines at up to $8\\times$ higher throughput.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06474"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Self-Augmenting Retrieval for Diffusion Language Models?",
+    "Tell me about Self-Augmenting Retrieval for Diffusion Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.342Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, diffusion, rag, benchmark, reasoning. 5 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

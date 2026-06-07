@@ -1,0 +1,48 @@
+{
+  "id": "paper_2026_mlevolve_a_selfevolving_framework_for_automated_machine_lear",
+  "type": "paper",
+  "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+  "authors": [
+    "Shangheng Du",
+    "Xiangchao Yan",
+    "Jinxin Shi",
+    "Zongsheng Cao",
+    "Shiyang Feng",
+    "Zichen Liang",
+    "Boyuan Sun",
+    "Tianshuo Peng",
+    "Yifan Zhou",
+    "Xin Li",
+    "Jie Zhou",
+    "Liang He",
+    "Bo Zhang",
+    "Lei Bai"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06473",
+  "url": "https://arxiv.org/abs/2606.06473",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language model (LLM) agents are increasingly applied to long-horizon tasks such as scientific discovery and machine learning engineering (MLE), where sustained self-evolution becomes a key capability. However, existing MLE agents suffer from inter-branch information isolation, memoryless search, and lack of hierarchical control, which together hinder long-horizon optimization. We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery. By extending tree search to Progressive MCGS, MLEvolve enables cross-branch information flow through graph-based reference edges and gradually shifts the search from broad exploration to focused exploitation with an entropy-inspired progressive schedule. To allow the agent to evolve with accumulated experience, we introduce Retrospective Memory, which combines a cold-start domain knowledge base with a dynamic global memory for task-specific experience retrieval and reuse. For stable long-horizon iteration, we further decouple strategic planning from code generation with adaptive coding modes. Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget (half the standard runtime). Moreover, MLEvolve also outperforms specialized algorithm discovery methods including AlphaEvolve on mathematical algorithm optimization tasks, demonstrating strong cross-domain generalization. Our code is available at https://github.com/InternScience/MLEvolve.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06473"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery?",
+    "Tell me about MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.342Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, llm, agent, rag. 14 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

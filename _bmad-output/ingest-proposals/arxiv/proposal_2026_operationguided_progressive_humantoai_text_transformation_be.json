@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_operationguided_progressive_humantoai_text_transformation_be",
+  "type": "paper",
+  "title": "Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection",
+  "authors": [
+    "Sondos Mahmoud Bsharat",
+    "Jiacheng Liu",
+    "Xiaohan Zhao",
+    "Tianjun Yao",
+    "Xinyi Shang",
+    "Yi Tang",
+    "Jiacheng Cui",
+    "Ahmed Elhagry",
+    "Salwa K. Al Khatib",
+    "Hao Li",
+    "Salman Khan",
+    "Zhiqiang Shen"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06481",
+  "url": "https://arxiv.org/abs/2606.06481",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "As AI writing assistants become increasingly integrated into real-world drafting and revision workflows, many documents are no longer purely human-written or AI-generated, but instead result from progressive human-AI co-editing. However, existing AI-text detection benchmarks largely focus on final outputs and provide limited understanding of how AI authorship signals emerge, accumulate, or disappear throughout the revision process. We introduce OpAI-Bench, an operation-guided benchmark for studying progressive human-to-AI text transformation across document, sentence, token, and span granularities. Starting from human-written documents, OpAI-Bench constructs nine sequentially revised versions for each sample under predefined AI coverage levels and five representative AI edit operations, covering four domains while preserving complete authorship provenance at multiple granularities. The benchmark supports comprehensive evaluation with 8 document-level detectors, 7 sentence-level detectors, and 2 fine-grained token/span-level detectors. Experiments reveal that AI-text detectability is governed not only by the proportion of AI-edited content, but also by edit operation, domain, and cumulative revision history. Interestingly, we notice that mixed-authorship intermediate versions are often harder to detect than both fully human and heavily AI-edited endpoints, exposing non-monotonic detection patterns missed by existing benchmarks. OpAI-Bench provides a controlled testbed for analyzing whether, when, and how AI-assisted writing becomes detectable under realistic progressive editing scenarios. Our code and benchmark are available at https://github.com/VILA-Lab/OpAI-Bench.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06481"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection?",
+    "Tell me about Operation-Guided Progressive Human-to-AI Text Transformation Benchmark for Multi-Granularity AI-Text Detection"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.340Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: rag, benchmark. 12 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_rredcot_segmentlevel_reward_redistribution_for_reasoning_mod",
+  "type": "paper",
+  "title": "RREDCoT: Segment-Level Reward Redistribution for Reasoning Models",
+  "authors": [
+    "Mykyta Ielanskyi",
+    "Kajetan Schweighofer",
+    "Lukas Aichberger",
+    "Sepp Hochreiter"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06475",
+  "url": "https://arxiv.org/abs/2606.06475",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Recent advancements in reasoning language models have been driven by Reinforcement Learning (RL) fine-tuning. Most often, these rely on the Group Relative Policy Optimization (GRPO) algorithm or modifications thereof to steer the models to produce Chain-of-Thought (CoT) traces. The final answer can only be verified, and the reward assigned, after the CoT trace is complete, making it a delayed reward problem. GRPO and its modifications correspond to Monte Carlo methods in standard RL, which are known to suffer from high variance. A possible solution to this problem is the redistribution of rewards through credit assignment, where segments of the CoT trace that are important for arriving at the desirable solution are emphasized by assigning a higher reward. While Monte Carlo sampling can be used to provide an unbiased estimate of intermediate state values, its computational overhead makes it unsuitable for train-time credit assignment in long contexts at high granularity. We introduce RREDCoT (Reward REDistribution for Chain of Thoughts), which utilizes the model itself to approximate the optimal reward redistribution without additional generation. We investigate the advantages of our method compared to MC sampling and several attribution methods. We further analyze several aspects relevant to the construction of the redistribution such as segmentation of CoT traces and state value estimation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06475"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RREDCoT: Segment-Level Reward Redistribution for Reasoning Models?",
+    "Tell me about RREDCoT: Segment-Level Reward Redistribution for Reasoning Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.341Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, reinforcement learning, chain of thought, fine-tuning, reasoning. 4 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}
