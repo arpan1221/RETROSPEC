@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_you_only_index_once_crosslayer_sparse_attention_with_shared",
+  "type": "paper",
+  "title": "You Only Index Once: Cross-Layer Sparse Attention with Shared Routing",
+  "authors": [
+    "Yutao Sun",
+    "Yanqi Zhang",
+    "Li Dong",
+    "Jianyong Wang",
+    "Furu Wei"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06467",
+  "url": "https://arxiv.org/abs/2606.06467",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Long-context inference in modern LLMs is increasingly constrained by decoding efficiency, especially in reasoning-heavy settings where models generate long intermediate chains of thought. Existing sparse attention methods often face a practical efficiency-quality trade-off. Structured block sparse methods typically provide stronger acceleration but incur noticeable quality loss, while token sparse methods are usually more accurate yet deliver limited end-to-end speedup because top-k routing over the full cache remains expensive. In this work, we propose cross-layer sparse attention (CLSA), which is built on top of KV-sharing architectures such as YOCO. The core idea is to share not only the KV cache across cross-decoder layers, but also the routing index. A single indexer computes token-level top-k selection once and reuses the resulting index across layers, thereby preserving the fine-grained selectivity of token sparse attention while amortizing the routing overhead. The resulting architecture improves all major inference bottlenecks jointly, including pre-filling, KV-cache storage, and long-context decoding. Experiments across short-context and long-context benchmarks show that CLSA is both accurate and efficient, achieving up to 7.6x decoding speedup and 17.1x overall throughput improvement at 128K context. These results suggest a more complete architectural solution for long-context LLMs that jointly advances model quality and inference efficiency.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06467"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is You Only Index Once: Cross-Layer Sparse Attention with Shared Routing?",
+    "Tell me about You Only Index Once: Cross-Layer Sparse Attention with Shared Routing"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.343Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: llm, rag, benchmark, reasoning. 5 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_incontext_multiple_instance_learning",
+  "type": "paper",
+  "title": "In-Context Multiple Instance Learning",
+  "authors": [
+    "Alexander Möllers",
+    "Marvin Sextro",
+    "Julius Hense",
+    "Gabriel Dernbach",
+    "Klaus-Robert Müller"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06458",
+  "url": "https://arxiv.org/abs/2606.06458",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Multiple Instance Learning (MIL) addresses problems where supervision is available at the level of bags of instances and has been successfully applied in fields ranging from computational pathology to satellite imagery. Nevertheless, existing algorithms struggle in the low-label regime that characterizes many real-world applications. Flexible models overfit and rigid ones fail to adapt to the task at hand. We show that pretraining an in-context learner with a Perceiver-style architecture on synthetic data yields a model that can solve new tasks from a handful of labeled bags. At inference time, classification happens in a single forward pass and requires no gradient updates. We propose and investigate different synthetic data generators for bag-structured data and find that they capture complementary inductive biases. A model pretrained on a mixture of these generators inherits their per-task strengths and achieves the best average performance across twelve MIL benchmarks, outperforming supervised baselines that require task-specific training.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06458"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is In-Context Multiple Instance Learning?",
+    "Tell me about In-Context Multiple Instance Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.345Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: rag, benchmark. 5 authors. Categories: cs.LG, cs.AI, cs.CV, cs.LG."
+  }
+}

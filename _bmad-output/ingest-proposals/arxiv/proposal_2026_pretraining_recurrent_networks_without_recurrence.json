@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_pretraining_recurrent_networks_without_recurrence",
+  "type": "paper",
+  "title": "Pretraining Recurrent Networks without Recurrence",
+  "authors": [
+    "Akarsh Kumar",
+    "Phillip Isola"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06479",
+  "url": "https://arxiv.org/abs/2606.06479",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Training recurrent neural networks (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time (BPTT) addresses this problem poorly: it is sequential in time, limiting parallelism, and suffers from vanishing or exploding gradients, making long-range associations difficult to learn. We propose Supervised Memory Training (SMT), a method for training nonlinear RNNs that sidesteps recurrent credit propagation entirely by reducing RNN training to supervised learning on one-step memory transition labels $(m_t, x_{t+1}) \\rightarrow m_{t+1}$. SMT acquires these memory labels by training a Transformer-based encoder on a predictive state objective--retaining only information from the past necessary to predict the future. By decoupling what to remember from how to update memory, SMT enables time-parallel RNN training with a stable $O(1)$ length gradient path between any two tokens--without ever unrolling the RNN. We find that SMT outperforms BPTT when pretraining various RNN architectures on tasks like language modeling and pixel sequence modeling. SMT enables nonlinear RNNs to better capture long-range dependencies and train in parallel, potentially unlocking the scaling of models that build temporal abstractions of past experience.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06479"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Pretraining Recurrent Networks without Recurrence?",
+    "Tell me about Pretraining Recurrent Networks without Recurrence"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.341Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: transformer, language model. 2 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

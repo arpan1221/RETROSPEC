@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_pc_layer_polynomial_weight_preconditioning_for_improving_llm",
+  "type": "paper",
+  "title": "PC Layer: Polynomial Weight Preconditioning for Improving LLM Pre-Training",
+  "authors": [
+    "Senmiao Wang",
+    "Tiantian Fang",
+    "Haoran Zhang",
+    "Yushun Zhang",
+    "Kunxiang Zhao",
+    "Alex Schwing",
+    "Ruoyu Sun"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06470",
+  "url": "https://arxiv.org/abs/2606.06470",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We propose a preconditioning (PC) layer, a weight parameterization via polynomial preconditioner that ensures stable weight conditioning throughout LLM training. The PC module reshapes the singular-value spectrum of weight matrices via low-degree polynomial preconditioning. After training, the preconditioned weights can be merged back into the original architecture, incurring no inference overhead. We demonstrate the advantage of the proposed PC layer over standard transformers in Llama-1B pre-training, for both the AdamW and Muon optimizers. Theoretically, we justify this spectrum-control principle by proving that uniformly bounding each layer's singular values ensures geometric convergence of gradient descent to global minima, for certain deep linear networks. Our code is available at https://github.com/Empath-aln/PC-layer.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06470"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is PC Layer: Polynomial Weight Preconditioning for Improving LLM Pre-Training?",
+    "Tell me about PC Layer: Polynomial Weight Preconditioning for Improving LLM Pre-Training"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.342Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: transformer, llm. 7 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

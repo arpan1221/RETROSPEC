@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_benchmark_everything_everywhere_all_at_once",
+  "type": "paper",
+  "title": "Benchmark Everything Everywhere All at Once",
+  "authors": [
+    "Shiyun Xiong",
+    "Dongming Wu",
+    "Peiwen Sun",
+    "Yuang Ai",
+    "Bokang Yang",
+    "Wencheng Han",
+    "Xiao-Hui Li",
+    "Xiangyu Yue"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06462",
+  "url": "https://arxiv.org/abs/2606.06462",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Benchmarks are fundamental for evaluating and advancing LLMs and MLLMs by providing standardized and explicit measures of performance. However, their construction is labor-intensive and hard to reuse, raising concerns about sustainability and scalability. Moreover, existing benchmarks often quickly reach performance saturation after their release, resulting in insufficient discrimination among state-of-the-art models. To address these challenges, we introduce Benchmark Agent, a fully autonomous agentic system designed for benchmark building. Our framework orchestrates the complete benchmark construction pipeline, from user query analysis and subtask design to data annotation and quality control. To assess Benchmark Agent, we implement it to produce 15 representative benchmarks, spanning diverse evaluation scenarios, including text understanding, multimodal understanding, and domain-specific reasoning. Extensive experiments, including human evaluation, LLM-as-a-judge assessment, and consistency checks, demonstrate Benchmark Agent can generate high-quality benchmark samples with minimal human involvement. More importantly, through continual evaluation, we observe several insightful findings, including that current models struggle with certain domain-specific reasoning tasks. We believe that rapidly evolving benchmarks can contribute significantly to the research community. The preview and code will be publicly available at the demo page and code repository.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06462"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Benchmark Everything Everywhere All at Once?",
+    "Tell me about Benchmark Everything Everywhere All at Once"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.344Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: llm, agent, agentic, multimodal, benchmark, reasoning. 8 authors. Categories: cs.AI, cs.AI."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "paper_2026_goedelarchitect_streamlining_formal_theorem_proving_with_blu",
+  "type": "paper",
+  "title": "Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement",
+  "authors": [
+    "Jui-Hui Chung",
+    "Ziyang Cai",
+    "Zihao Li",
+    "Qishuo Yin",
+    "Rohit Agarwal",
+    "Simon Park",
+    "Rodrigo Porto",
+    "Narutatsu Ri",
+    "Ziran Yang",
+    "Shange Tang",
+    "Xingyu Dang",
+    "Hongzhou Lin",
+    "Mengdi Wang",
+    "Danqi Chen",
+    "Chi Jin",
+    "Liam H Fowl",
+    "Sanjeev Arora"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06468",
+  "url": "https://arxiv.org/abs/2606.06468",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We introduce Goedel-Architect, an agentic framework for formal theorem proving in Lean 4 centered on blueprint generation and refinement. A blueprint is a dependency graph of definitions and lemmas that builds up to the main theorem. First, Goedel-Architect generates a blueprint of formally stated definitions and lemmas, along with declared dependencies. This blueprint is optionally guided by a natural language proof. Then, a tool-equipped Lean prover component closes each open lemma node in parallel using relevant dependencies. Failed lemmas in turn drive refinement of the global blueprint. This strategy contrasts with other mainstream approaches which use recursive lemma decomposition, and can inefficiently loop on dead-end strategies. Using the open-weight DeepSeek-V4-Flash (284B-A13B) as the backbone, Goedel-Architect attains 99.2% pass@1 on MiniF2F-test and 75.6% pass@1 on PutnamBench. With an optional natural-language proof seeding the initial blueprint on the harder problems, we additionally close the remaining two MiniF2F-test problems (reaching 100%), lift PutnamBench to 88.8% (597/672), and solve 4/6 on IMO 2025, 11/12 on Putnam 2025, and 3/6 on USAMO 2026. This represents state-of-the-art performance for an open-source pipeline at a price point up to 500x less than comparable open-source pipelines.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06468"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement?",
+    "Tell me about Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.343Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: agent, agentic. 17 authors. Categories: cs.AI, cs.AI."
+  }
+}

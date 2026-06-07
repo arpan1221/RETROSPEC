@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_human_adults_and_llms_as_scientists_who_benefits_from_active",
+  "type": "paper",
+  "title": "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?",
+  "authors": [
+    "Mandana Samiei",
+    "Eunice Yiu",
+    "Anthony GX-Chen",
+    "Dongyan Lin",
+    "Jocelyn Shen",
+    "Blake A. Richards",
+    "Alison Gopnik",
+    "Doina Precup"
+  ],
+  "date": "2026-06-04",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.06464",
+  "url": "https://arxiv.org/abs/2606.06464",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "A long-standing finding in the causal learning literature is that adults struggle to identify conjunctive causal rules, where an effect requires the simultaneous presence of multiple causes, while performing better in disjunctive settings. However, most demonstrations of this ``conjunctive handicap'' rely on passive observation paradigms with limited evidence, where learners have no control over evidence generation. This paper asks whether this bias persists when adults are granted agency through active exploration. Using a modified ``blicket detector'' task, adult participants freely intervened to identify causal objects under conjunctive or disjunctive rule structures. We show that active exploration substantially improves adults' conjunctive causal reasoning, although conjunctive rules still require more tests to infer than disjunctive rules. We further compare human performance to a range of large language models in the same setting. While some state-of-the-art models approach human-level performance on hypothesis inference accuracy, they often exhibit less efficient exploration strategies and similar conjunctive-disjunctive performance gaps.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.06464"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Human Adults and LLMs as Scientists: Who Benefits from Active Exploration??",
+    "Tell me about Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-07T02:27:50.343Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, llm, reasoning. 8 authors. Categories: cs.CL, cs.CL."
+  }
+}
