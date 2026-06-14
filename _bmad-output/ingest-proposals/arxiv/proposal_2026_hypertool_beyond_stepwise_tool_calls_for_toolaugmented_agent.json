@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_hypertool_beyond_stepwise_tool_calls_for_toolaugmented_agent",
+  "type": "paper",
+  "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+  "authors": [
+    "Yaxin Du",
+    "Yifan Zhou",
+    "Yujie Ge",
+    "Jiajun Wang",
+    "Xianghe Pang",
+    "Shuo Tang",
+    "Tuney Zheng",
+    "Bryan Dai",
+    "Jian Yang",
+    "Siheng Chen"
+  ],
+  "date": "2026-06-11",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.13663",
+  "url": "https://arxiv.org/abs/2606.13663",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible decisions, consuming context and forcing the model to manage low-level dataflow in the trace. We introduce \\textbf{HyperTool}, a unified executable MCP-style tool interface that changes the model-visible unit of tool execution. A model invokes HyperTool with a code block that can call existing tools through their original schemas, manipulate returned values, and pass intermediate results locally, folding deterministic tool subroutines into a single outer call. To train models to use this interface, we synthesize HyperTool-format trajectories from cross-tool compositional tasks and verify them in real MCP environments. On MCP-Universe, HyperTool improves average accuracy from 15.69\\% to 35.29\\% on Qwen3-32B and from 9.93\\% to 33.33\\% on Qwen3-8B, and surpass GPT-OSS and Kimi-k2.5 on average accuracy, showing that our HyperTool can substantially improve multi-step tool use.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.13663"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents?",
+    "Tell me about HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-14T02:31:22.963Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, agent, rag, reasoning. 10 authors. Categories: cs.CL, cs.CL."
+  }
+}
