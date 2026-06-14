@@ -1,0 +1,48 @@
+{
+  "id": "paper_2026_evoarena_tracking_memory_evolution_for_robust_llm_agents_in",
+  "type": "paper",
+  "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+  "authors": [
+    "Jundong Xu",
+    "Qingchuan Li",
+    "Jiaying Wu",
+    "Yihuai Lan",
+    "Shuyue Stella Li",
+    "Huichi Zhou",
+    "Bowen Jiang",
+    "Lei Wang",
+    "Jun Wang",
+    "Anh Tuan Luu",
+    "Caiming Xiong",
+    "Hae Won Park",
+    "Bryan Hooi",
+    "Zhiyuan Hu"
+  ],
+  "date": "2026-06-11",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.13681",
+  "url": "https://arxiv.org/abs/2606.13681",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an average accuracy of 39.6% across evolving terminal, software, and social-preference domains. EvoMem consistently improves performance, yielding an average gain of 1.5% on EvoArena and also improving standard benchmarks such as GAIA and LoCoMo by 6.1% and 4.8%. Beyond individual tasks, EvoMem further improves chain-level accuracy by 3.7% on EvoArena, where success requires completing a consecutive sequence of related evolutionary subtasks. Mechanistic analysis shows that EvoMem improves evidence capture in the memory, indicating better preservation of complete evolving environment states. Our results highlight the importance of modeling evolution in both evaluation and memory for reliable agent deployment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.13681"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments?",
+    "Tell me about EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-14T02:31:22.960Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, llm, agent, rag, benchmark. 14 authors. Categories: cs.CL, cs.CL."
+  }
+}

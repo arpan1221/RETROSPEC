@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_influcoder_distilling_decoders_gradient_influence_rankings_i",
+  "type": "paper",
+  "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+  "authors": [
+    "Dimitri Kachler",
+    "Damien Sileo",
+    "Pascal Denis"
+  ],
+  "date": "2026-06-11",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.13668",
+  "url": "https://arxiv.org/abs/2606.13668",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning through the paradigm of influence functions. While methods of this family are effective in its function, they lack the necessary processing speed and storage compactness to be practically implemented on large datasets. We propose a method, Influcoder, as a quick and cost-effective approach to influence-based Data Attribution at scale.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.13668"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution?",
+    "Tell me about Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-14T02:31:22.963Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, llm, rag. 3 authors. Categories: cs.CL, cs.CL."
+  }
+}

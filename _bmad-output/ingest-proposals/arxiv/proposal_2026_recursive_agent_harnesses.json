@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_recursive_agent_harnesses",
+  "type": "paper",
+  "title": "Recursive Agent Harnesses",
+  "authors": [
+    "Elias Lumer",
+    "Sahil Sen",
+    "Kevin Paul",
+    "Vamse Kumar Subbiah"
+  ],
+  "date": "2026-06-11",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.13643",
+  "url": "https://arxiv.org/abs/2606.13643",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Recursive language models (RLMs) showed that recursion over model calls is an effective strategy for long-context reasoning, and production coding agents have begun to write code that spawns subagents at scale, most recently in Anthropic's dynamic workflows. We name and study the pattern between these two lines of work, where the recursive unit is a full agent harness with filesystem tools, code execution, and planning rather than a model call with no tools. We call this the Recursive Agent Harness (RAH) and frame it as harness recursion, the code-first extension to the model recursion of RLMs. A parent agent generates and runs an executable script that spawns subagent harnesses in parallel for fine-grained workloads and uses structured function calls for small subtasks. We provide a controlled evaluation on long-context reasoning. With the backbone held fixed at GPT-5 to match the published Codex and RLM baselines, RAH improves the Codex coding-agent baseline from 71.75% to 81.36% on Oolong-Synthetic (199 samples, 13 context-length buckets up to 4M tokens), a gain attributable to the harness rather than the model. With a stronger backbone, Claude Sonnet 4.5, the same design reaches 89.77%.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.13643"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Recursive Agent Harnesses?",
+    "Tell me about Recursive Agent Harnesses"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-14T02:31:22.964Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, agent, reasoning. 4 authors. Categories: cs.CL, cs.CL."
+  }
+}
