@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_structuring_and_tokenizing_distributed_user_interest_context",
+  "type": "paper",
+  "title": "Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation",
+  "authors": [
+    "Ruizhong Qiu",
+    "Yinglong Xia",
+    "Dongqi Fu",
+    "Hanqing Zeng",
+    "Ren Chen",
+    "Xiangjun Fan",
+    "Hong Li",
+    "Hong Yan",
+    "Hanghang Tong"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20554",
+  "url": "https://arxiv.org/abs/2606.20554",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users' next interactions from their historical behaviors. At the core of generative recommendation lies item tokenization, which bridges item semantics and recommendation models. However, existing methods often struggle to effectively organize and inject complex user-behavioral and item-semantic contexts into recommendation models simultaneously. On the one hand, existing graph-based integration methods, such as graph serialization and graph neural networks, either suffer from scalability issues or exploit only local graph information. On the other hand, existing semantic tokenization methods typically rely on heuristics and lack explicit supervision signals, which may lead to inaccurate or suboptimal semantic representations. To address these limitations in user interest context modeling, we propose G2Rec, a scalable framework that unifies holistic graph-based user co-engagement modeling with semantic tokenization for industrial-scale generative recommendation. Overall, G2Rec enables recommendation models to capture holistic and semantically grounded user interest prototypes without requiring ground-truth user interests, thereby providing more comprehensive and accurate modeling of user behavior contexts in industrial sequential recommendation. Online deployment across product surfaces and extensive experiments on public datasets demonstrate the superiority of G2Rec over existing methods.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20554"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation?",
+    "Tell me about Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.368Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: . 9 authors. Categories: cs.IR, cs.AI, cs.IR."
+  }
+}

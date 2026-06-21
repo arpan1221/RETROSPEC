@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_deepswip_quotientwmc_counterfactuals_for_neural_probabilisti",
+  "type": "paper",
+  "title": "DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs",
+  "authors": [
+    "Saimun Habib",
+    "Vaishak Belle",
+    "Fengxiang He"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20526",
+  "url": "https://arxiv.org/abs/2606.20526",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Neurosymbolic systems such as DeepProbLog combine neural perception with probabilistic logic, but standard inference is associational. Counterfactual reasoning additionally requires a causal semantics for interventions and evidence. We introduce DeepSWIP, a single-world counterfactual semantics for DeepProbLog programs. Using neural materialization, we reduce fixed-context neural predicates to ordinary ProbLog choices, apply Single World Intervention Programs (SWIPs), and compute counterfactuals by weighted model counting (WMC) over a single transformed program. Under finite grounding and unique-supported-model assumptions, DeepSWIP is exact relative to the learned materialized FCM. The standard quotient-WMC form of ProbLog conditionals identifies active neural probabilities and explains intervention cleaning, calibration sensitivity, and rare-evidence instability. Experiments on MPI3D confirm the transformation against a DeepTwin construction against 12,000 queries, as predicted and a 2.14$\\times$ inference speedup from avoiding the Twin's endogenous duplication. A SUMO HOV experiment shows that neural calibration degradation biases plug-in estimates, while a correctly scoped randomized-policy AIPW estimator removes most first-order bias for population mean and ATE estimands. Code is at https://github.com/saibib/deep_SWIP.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20526"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs?",
+    "Tell me about DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.370Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: reasoning. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_stylisticbias_a_few_human_visual_cues_drive_most_social_bias",
+  "type": "paper",
+  "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+  "authors": [
+    "Shaghayegh Kolli",
+    "Timo Cavelius",
+    "Nafiseh Nikeghbal",
+    "Samantha Dalal",
+    "Jana Diesner"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20527",
+  "url": "https://arxiv.org/abs/2606.20527",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Multimodal large language models (MLLMs) are increasingly deployed in personally and societally consequential settings, yet the visual cues that shape how these models judge people remain poorly understood. Prior work often compares different (groups of) individuals, making it difficult to separate appearance effects from identity differences. We introduce StylisticBias, a controlled benchmark for evaluating attribute-level social bias in MLLMs. We generate 500 photorealistic base faces and create about 50 single-attribute variations per face, producing about 25K images. This design keeps identity fixed and changes one visual attribute at a time. It lets us measure how specific cues shift model judgments. We evaluate six MLLMs across 25 binary social judgment scenarios. We find that age and body type dominate identity-level effects, while fashion style and other visual cues drive the largest attribute-level shifts. We further find that about 15 attributes account for nearly 80\\% of the total variation, showing that bias is concentrated in a small set of visual cues. Sensitivity is strongest in judgments that are semantically aligned with appearance, especially socioeconomic and style-related judgments. We release StylisticBias as a benchmark for fine-grained bias evaluation in multimodal models. Code and dataset: https://github.com/timo-cavelius/StylisticBias and https://hf.co/datasets/shaghayegh/stylistic-bias-dataset.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20527"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs?",
+    "Tell me about StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.370Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, multimodal, benchmark. 5 authors. Categories: cs.CL, cs.CV, cs.CL."
+  }
+}

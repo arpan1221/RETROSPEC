@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_ledgeragent_structured_state_for_policyadherent_toolcalling",
+  "type": "paper",
+  "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+  "authors": [
+    "Md Nayem Uddin",
+    "Amir Saeidi",
+    "Eduardo Blanco",
+    "Chitta Baral"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20529",
+  "url": "https://arxiv.org/abs/2606.20529",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Policy-adherent tool-calling agents in customer-service domains must maintain task states across turns while calling tools and obeying domain policies. Task states consist of relevant facts, identifiers, constraints, and conditions observed through user interaction and tool calls. In standard agents, task states are not represented separately. Observations, tool returns, and policy instructions are placed in the prompt, leaving agents to reconstruct the relevant states from the prompt each time they decide what to do next. This design makes state management implicit, creating two common failure modes. An agent may retrieve the right facts but later ground its decision in stale, missing, or incorrect information; and a syntactically valid tool call may still violate a domain policy that depends on the current task state. We introduce \\textsc{LedgerAgent}, an inference-time method for tool-calling agents that maintains observed task states in a separate ledger and renders the states into the prompt. The ledger is also used to check state-dependent policy constraints before environment-changing tool calls are executed, blocking policy violations. Across four customer-service domains and a mixed panel of open- and closed-weight models, \\textsc{LedgerAgent} improves average pass\\textasciicircum{}k over a standard prompt-based tool-calling approach, with the largest gains under stricter multi-trial consistency metrics.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20529"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents?",
+    "Tell me about LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.369Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, rag, prompt. 4 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

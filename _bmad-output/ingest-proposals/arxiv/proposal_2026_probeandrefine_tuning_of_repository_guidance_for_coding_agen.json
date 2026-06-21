@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_probeandrefine_tuning_of_repository_guidance_for_coding_agen",
+  "type": "paper",
+  "title": "Probe-and-Refine Tuning of Repository Guidance for Coding Agents",
+  "authors": [
+    "Asa Shepard",
+    "Jeannie Albrecht"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20512",
+  "url": "https://arxiv.org/abs/2606.20512",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "LLM-based coding agents need higher-level operational knowledge about a repository (which files house which subsystems, how to run the test suite, which workflows have historically led to wrong fixes) that does not exist in the code itself. Engineers typically maintain \\texttt{AGENTS.md} files to supply this context as instructions for coding agents, but whether they help is contested: recent studies disagree on whether LLM-generated guidance improves or harms agent performance. In this paper we show that how the guidance is produced is the decisive variable, and introduce \\emph{probe-and-refine tuning}: a procedure that uses synthetic bug-fix probes to iteratively diagnose and patch a repository's guidance file through single-shot LLM calls, with no agent loop or tool use during tuning. On SWE-bench Verified across four independent trials with Qwen3.5-35B-A3B at 200 steps, probe-and-refine achieves 33.0\\,\\% mean resolve rate vs.\\ 28.3\\,\\% for the static knowledge base used to initialize it and 25.5\\,\\% for an unguided baseline ($p &lt; 0.001$ for both probe-and-refine contrasts). The improvement comes from coverage rather than precision: refined guidance produces evaluable patches for 14.5 percentage points (pp) more instances while per-patch precision remains statistically constant ($\\sim$59\\,\\%, $p = 0.119$), showing that improved guidance helps agents reach the correct file rather than improving the quality of the changes they make. Further, a step-budget experiment shows that guidance is what lets the agent use a larger step budget productively, and a cross-model experiment with NVIDIA-Nemotron-3-Nano-30B-A3B finds that the tuning loop degrades when the model cannot generate sufficiently diagnostic output, though per-patch precision remains constant even then.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20512"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Probe-and-Refine Tuning of Repository Guidance for Coding Agents?",
+    "Tell me about Probe-and-Refine Tuning of Repository Guidance for Coding Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.371Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, agent, rag. 2 authors. Categories: cs.SE, cs.LG, cs.SE."
+  }
+}
