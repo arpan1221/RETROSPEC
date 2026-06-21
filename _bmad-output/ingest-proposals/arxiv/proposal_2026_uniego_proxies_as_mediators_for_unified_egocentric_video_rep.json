@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_uniego_proxies_as_mediators_for_unified_egocentric_video_rep",
+  "type": "paper",
+  "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+  "authors": [
+    "Wenhao Chi",
+    "Arkaprava Sinha",
+    "Dominick Reilly",
+    "Hieu Le",
+    "Srijan Das"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20559",
+  "url": "https://arxiv.org/abs/2606.20559",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Egocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework that produces UNIEGO, a unified egocentric encoder trained with nine teachers spanning ego-exo viewpoints, RGB, depth, and skeleton modalities, and four foundation models. Rather than distilling directly from heterogeneous teachers whose incompatible architectures and feature geometries induce conflicting gradients, our framework interposes a layer of representation-specific Proxy models that translate diverse teacher knowledge into a homogeneous egocentric space. A second distillation stage, Selective Proxy Distillation (SPD), then adaptively selects, for each training sample, the subset of proxies that are both correct and confident, distilling exclusively from reliable supervision and suppressing erroneous signals. SPD is further stabilized by initializing UNIEGO as a learned convex combination of proxy parameters, placing the unified model in a well-conditioned region of the loss landscape before distillation begins. UNIEGO achieves state-of-the-art performance across three egocentric video understanding tasks - action recognition, video retrieval, and action segmentation on three challenging ego-exo benchmarks, outperforming naive multi-teacher distillation baselines and demonstrating that structured, proxy-mediated knowledge transfer yields richer and more discriminative egocentric representations.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20559"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning?",
+    "Tell me about UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.367Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: benchmark, foundation model. 5 authors. Categories: cs.CV, cs.LG, cs.CV."
+  }
+}

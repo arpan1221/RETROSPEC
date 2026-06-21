@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_sovereign_execution_brokers_enforcing_certificatebound_autho",
+  "type": "paper",
+  "title": "Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+  "authors": [
+    "Jun He",
+    "Deying Yu"
+  ],
+  "date": "2026-06-18",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.20520",
+  "url": "https://arxiv.org/abs/2606.20520",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Autonomous agents are increasingly connected to cloud, deployment, and data-control workflows, but production mutation authority should not reside inside non-deterministic reasoning processes. Existing access-control mechanisms authorize identities, while assurance layers certify proposed actions; neither alone provides a mandatory enforcement point for certified authority at the moment of mutation. This paper introduces the Sovereign Execution Broker (SEB), a runtime enforcement boundary for certificate-bound agentic infrastructure. SEB consumes certificates issued by the Sovereign Assurance Boundary (SAB), verifies that the requested mutation matches the certified execution contract, checks validity windows, policy epochs, revocation epochs, and live-state drift, mints scoped execution identity, invokes infrastructure APIs, and records signed decision and outcome records. By separating proposal, admission, and execution, SEB turns certified authority into a short-lived, revocable, auditable runtime capability, provided that production mutation APIs reject non-broker identities. We present the SEB execution model, certificate and replay-verification predicates, scoped identity semantics, bypass-prevention deployment patterns, failure behavior, and a concrete prototype implementation. We evaluate the prototype on AWS and Kubernetes clusters, measuring latency overheads, revocation propagation, drift detection, and security under fault injection.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.20520"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes?",
+    "Tell me about Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-21T02:33:14.371Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, agentic, reasoning. 2 authors. Categories: cs.CR, cs.AI, cs.DC, cs.LG, cs.CR."
+  }
+}
