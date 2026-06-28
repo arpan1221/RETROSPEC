@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_autoregressive_boltzmann_generators",
+  "type": "paper",
+  "title": "Autoregressive Boltzmann Generators",
+  "authors": [
+    "Danyal Rehman",
+    "Charlie B. Tan",
+    "Yoshua Bengio",
+    "Avishek Joey Bose",
+    "Alexander Tong"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27361",
+  "url": "https://arxiv.org/abs/2606.27361",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact likelihoods and an importance sampling correction. However, modern BGs predominantly rely on normalizing flows (NFs), which either suffer from limited expressivity due to strict invertibility constraints (discrete time) or computationally expensive likelihoods (continuous time). In this paper, we propose Autoregressive Boltzmann Generators (ArBG) -- a novel autoregressive modelling framework -- that overcomes these limitations by departing from the flow-based BG paradigm. ArBG circumvents the topological constraints of flows and enables sequential inference-time interventions, while offering enhanced scalability by leveraging architectures effective in Large Language Models. We empirically demonstrate that ArBG leads to significant improvements over flow-based models across all benchmarks, but particularly in larger peptide systems such as the 10-residue Chignolin. Furthermore, we introduce Robin, a 132 million parameter transferable model trained with the ArBG framework which improves over the previous state-of-the-art, reducing the zero-shot energy error, E-W$_2$, on 8-residue systems by over 60$\\%$. The code can be found at the following link: https://github.com/danyalrehman/autobg.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27361"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Autoregressive Boltzmann Generators?",
+    "Tell me about Autoregressive Boltzmann Generators"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.159Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, llm, rag, benchmark. 5 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

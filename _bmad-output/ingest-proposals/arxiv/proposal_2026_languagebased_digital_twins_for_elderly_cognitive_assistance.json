@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_languagebased_digital_twins_for_elderly_cognitive_assistance",
+  "type": "paper",
+  "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+  "authors": [
+    "Mohammad Mehdi Hosseini",
+    "Mohammad H. Mahoor",
+    "Hiroko H. Dodge"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27334",
+  "url": "https://arxiv.org/abs/2606.27334",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) remains challenging, where language and conversational patterns serve as non-invasive biomarkers. In this work, we propose a language-based digital twin framework that leverages large language models (LLMs) to mimic the conversational behavior of elderly individuals by incorporating stylometric cues and contextual metadata. To evaluate fidelity and cognitive consistency, we introduce a multi-head conditional variational autoencoder (cVAE) that jointly measures reconstruction quality and predicts cognitive scores. Experiments on the I-CONECT dataset show that the digital twin preserves identity-specific characteristics and achieves reconstruction and MoCA prediction errors comparable to real data, while outperforming baseline GPT-generated responses. These results highlight the potential of language-based digital twins as a scalable and non-invasive approach for personalized and continuous cognitive health monitoring.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27334"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Language-Based Digital Twins for Elderly Cognitive Assistance?",
+    "Tell me about Language-Based Digital Twins for Elderly Cognitive Assistance"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.160Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, llm, rag. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

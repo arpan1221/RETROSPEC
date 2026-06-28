@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_when_are_likely_answers_right_on_sequence_probability_and_co",
+  "type": "paper",
+  "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+  "authors": [
+    "Johannes Zenn",
+    "Jonas Geiping"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27359",
+  "url": "https://arxiv.org/abs/2606.27359",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence probability, that is, the conditional probability of a continuation given a prompt, actually align with correctness? In this paper, we set out to quantify this relationship across decoding methods, models, and benchmarks at four levels: across decoding methods, across hyperparameters within a method, across prompt-answer pairs within a dataset, and across repeated responses to the same prompt. We find that higher sequence probability is often predictive of correctness across prompt-answer pairs within a fixed dataset. However, this relationship does not generally transfer to decoding decisions: increasing sequence probability by changing hyperparameters or methods does not reliably improve accuracy. Further, sequence probability is not a good indicator of correctness for responses to the same prompt. These findings clarify when decoding can and cannot be expected to improve correctness, and provide practical guidance for decoding, self-consistency, and verifier-free self-improvement.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27359"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is When are likely answers right? On Sequence Probability and Correctness in LLMs?",
+    "Tell me about When are likely answers right? On Sequence Probability and Correctness in LLMs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.159Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, benchmark, prompt. 2 authors. Categories: stat.ML, cs.LG, stat.ML."
+  }
+}

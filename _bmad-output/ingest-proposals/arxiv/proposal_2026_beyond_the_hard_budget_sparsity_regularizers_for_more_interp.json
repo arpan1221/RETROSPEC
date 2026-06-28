@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_beyond_the_hard_budget_sparsity_regularizers_for_more_interp",
+  "type": "paper",
+  "title": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
+  "authors": [
+    "Nathanaël Jacquier",
+    "Maria Vakalopoulou",
+    "Mahdi S. Hosseini"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27321",
+  "url": "https://arxiv.org/abs/2606.27321",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features. The Top-$k$ SAE, a now-standard variant, enforces sparsity architecturally through its activation function, retaining only the $k$ most active latents per input. Because it was designed precisely to avoid the $\\ell_1$ penalty used by earlier SAEs and its known drawbacks, it has not been combined with an explicit sparsity regularizer, despite retaining limitations of its own, such as a budget $k$ that is fixed regardless of input complexity and a tendency to overfit to the training value of $k$. We introduce two sparsity regularizers compatible with the Top-$k$ architecture, both acting on the activations before the Top-$k$ selection: an $\\ell_1$ penalty on the unselected (off-support) units, and a scale-invariant $\\ell_1/\\ell_2$-ratio penalty that concentrates the code onto fewer effective units. Both penalties are applied only to the batch-active units, those selected by the Top-$k$ operator at least once within the batch. Across two datasets, three vision foundation models, and a range of $k$, both regularizers consistently improve monosemanticity at no cost to reconstruction quality. The $\\ell_1/\\ell_2$ penalty further concentrates information into fewer latents, making reconstruction more robust to the inference-time choice of $k$ and improving small-budget linear probing. Our central finding is that hard architectural sparsity and soft sparsity regularization are complementary rather than mutually exclusive.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27321"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders?",
+    "Tell me about Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.161Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: foundation model. 3 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}
