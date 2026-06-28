@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_empowering_gui_agents_via_autonomous_experience_exploration",
+  "type": "paper",
+  "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+  "authors": [
+    "Tianyi Men",
+    "Zhuoran Jin",
+    "Pengfei Cao",
+    "Yubo Chen",
+    "Kang Liu",
+    "Jun Zhao"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27330",
+  "url": "https://arxiv.org/abs/2606.27330",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficient and privacy preserving compared with commercial large models, they suffer from weak planning and limited cross website generalization. To address these limitations, we introduce the planning experience exploration and utilization (PEEU) method, which autonomously explores environments to discover experiences and utilizes hindsight experience to synthesize strictly aligned, high level training data. To quantitatively analyze the generalization behaviors driving this performance, we propose the task decomposition hierarchical analysis framework (TDHAF) to systematically study compositional generalization across three task granularities: low, middle and high levels. Our analysis reveals that mastering low level atomic skills does not guarantee high level planning competence, while high level task training yields stronger OOD generalization. Experiments on real world benchmarks demonstrate PEEU's superior effectiveness: our 7B model achieves 30.6% accuracy, outperforming the much larger Qwen2.5-VL-32B model. These demonstrate constructing hindsight high level tasks and leveraging experiences is crucial for OOD planning abilities of small MLLMs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27330"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning?",
+    "Tell me about Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.160Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: llm, agent, multimodal, rag, benchmark. 6 authors. Categories: cs.CL, cs.AI, cs.CV, cs.LG, cs.CL."
+  }
+}

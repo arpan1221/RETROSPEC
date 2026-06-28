@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_llmbased_examination_of_eligibility_criteria_from_securities",
+  "type": "paper",
+  "title": "LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank",
+  "authors": [
+    "Serhii Hamotskyi",
+    "Akash Kumar Gautam",
+    "Christian Hänig"
+  ],
+  "date": "2026-06-25",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2606.27316",
+  "url": "https://arxiv.org/abs/2606.27316",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Verifying the eligibility of securities as collateral is a key responsibility of the German Central Bank. However, manually verifying these assets against legal and financial criteria within lengthy, semi-structured, and often bilingual prospectuses is a resource-intensive task. While previous efforts utilized traditional Named Entity Recognition (NER) for information extraction, these methods can struggle with OCR noise, linguistic variance, and rigid span-based constraints, and the need for manually annotated training data for each relevant annotation type. In this paper, we present the first case study applying Large Language Models (LLMs) to the eligibility examination process, shifting the paradigm toward a generative Information Extraction pipeline. Our approach decomposes the task into extraction, normalization, and interpretation, allowing for greater flexibility in handling noisy text and interleaved German-English content. We further introduce a value-based evaluation methodology using LLM-as-a-judge, which offers a more semantic assessment than location-based metrics. Our results demonstrate that LLM-based systems achieve high precision (up to 91%) in document-level eligibility, exhibiting a conservative operating profile that minimizes false acceptance.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2606.27316"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank?",
+    "Tell me about LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-06-28T02:13:08.161Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, large language model, llm. 3 authors. Categories: cs.CL, cs.CL."
+  }
+}
