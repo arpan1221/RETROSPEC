@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_demopsd_disagreementmodulated_policy_selfdistillation",
+  "type": "paper",
+  "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+  "authors": [
+    "Yunhe Li",
+    "Hao Shi",
+    "Wenhao Liu",
+    "Mengzhe Ruan",
+    "Hanxu Hou",
+    "Zhongxiang Dai",
+    "Shuang Qiu",
+    "Linqi Song"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02502",
+  "url": "https://arxiv.org/abs/2607.02502",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "On-policy self-distillation (OPSD) has emerged as a practical method for training large language models (LLMs) to reason, where a single model acts as both the teacher and the student with different levels of information access. However, recent studies have found that the teacher's dense token-level supervision, conditioned on privileged information, can lead to overfitting to in-domain patterns, suppress exploration, and hurt cross-domain generalization, while also introducing a more fundamental issue: *privileged information leakage*, where the student encodes answer-dependent shortcuts that are unavailable at test time. We introduce **DemoPSD**, a novel framework that resolves such problems through the idea of *selective adoption of teacher guidance*. Instead of fitting the full teacher distribution, DemoPSD steers the student toward a *reverse-KL barycenter target*, a weighted geometric combination of the teacher and student distributions, that naturally balances learning from the teacher with preserving the student's own reasoning capacity. We measure the difference between their distributions and use such a discrepancy to adaptively control the blending at each token position. We provably show that DemoPSD achieves **(1)** *leakage attenuation*, i.e., effective mitigation of privileged information leakage; and **(2)** *exploration preservation*, i.e., preservation of exploration capacity under dense token-level distillation. Extensive experiments on SciKnowEval across four scientific fields show that DemoPSD outperforms both GRPO and SDPO while maintaining higher training entropy and robustly generalizing to out-of-distribution GPQA benchmarks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02502"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DemoPSD: Disagreement-Modulated Policy Self-Distillation?",
+    "Tell me about DemoPSD: Disagreement-Modulated Policy Self-Distillation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.341Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: language model, large language model, llm, benchmark, reasoning. 8 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

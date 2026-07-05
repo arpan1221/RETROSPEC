@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_programasweights_a_programming_paradigm_for_fuzzy_functions",
+  "type": "paper",
+  "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+  "authors": [
+    "Wentao Zhang",
+    "Liliana Hotsko",
+    "Woojeong Kim",
+    "Pengyu Nie",
+    "Stuart Shieber",
+    "Yuntian Deng"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02512",
+  "url": "https://arxiv.org/abs/2607.02512",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of the inference memory and running at 30 tokens/s on a MacBook M3. PAW reframes the foundation model from a per-input problem solver into a tool builder: invoked once per function definition, it produces a small reusable artifact whose subsequent calls per function application are cheap and offline.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02512"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Program-as-Weights: A Programming Paradigm for Fuzzy Functions?",
+    "Tell me about Program-as-Weights: A Programming Paradigm for Fuzzy Functions"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.339Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, large language model, foundation model, prompt. 6 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}

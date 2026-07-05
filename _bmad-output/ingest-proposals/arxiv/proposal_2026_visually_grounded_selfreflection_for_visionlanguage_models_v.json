@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_visually_grounded_selfreflection_for_visionlanguage_models_v",
+  "type": "paper",
+  "title": "Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning",
+  "authors": [
+    "Liyan Tang",
+    "Fangcong Yin",
+    "Greg Durrett"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02490",
+  "url": "https://arxiv.org/abs/2607.02490",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large vision-language models can reason over multimodal inputs by generating textual chains of thought (CoT). A key capability exhibited in CoT reasoning is self-reflection: revisiting earlier decisions and correcting previous errors. However, existing LVLMs often fail to properly attend to visual inputs during reflection, limiting their ability to translate feedback into grounded corrections, especially for out-of-distribution images. To address this issue, we propose a novel reinforcement learning training framework VRRL, with two components explicitly designed to elicit visually grounded self-reflection. First, we randomly mask trajectory prefixes during training to emphasize recovery from incorrect intermediate predictions rather than making early mistakes. Second, we introduce buffered roll-ins from an experience replay buffer to expose the model to diverse failure states that it must learn to correct. We evaluate our approach on visual grounding tasks involving tables and charts, as well as spatial navigation benchmarks. While off-the-shelf and conventionally fine-tuned models degrade substantially under distribution shift, our method substantially improves average out-of-distribution accuracy over standard RL and reflection-oriented fine-tuning baselines by using self-reflection effectively.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02490"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning?",
+    "Tell me about Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.343Z",
+    "status": "proposed",
+    "confidence": 0.85,
+    "reason": "Matched keywords: language model, reinforcement learning, fine-tuning, multimodal, rag, benchmark, reasoning. 3 authors. Categories: cs.CL, cs.CV, cs.CL."
+  }
+}

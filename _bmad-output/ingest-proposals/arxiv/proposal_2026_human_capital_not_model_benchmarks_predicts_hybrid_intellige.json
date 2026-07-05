@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_human_capital_not_model_benchmarks_predicts_hybrid_intellige",
+  "type": "paper",
+  "title": "Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting",
+  "authors": [
+    "Vivienne Ming"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02467",
+  "url": "https://arxiv.org/abs/2607.02467",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Whether pairing people with AI helps or hurts is usually reported as a single average effect. Using a real-money prediction market (Polymarket) as an objective, externally resolved benchmark, this pilot shows that the value of human-AI collaboration depends on a specific, measurable form of human capital. Analyzed at the level of the individual forecaster, hybrid performance is trimodal: most people either deferred to the model (matching it) or used it to rubber-stamp a prior guess (performing worse than the model alone), while a minority engaged in genuine complementary reasoning and reached accuracy matching or even exceeding (i.e., lower error than) the market itself. Collaborative traits (perspective-taking, intellectual humility, and curiosity) rather than raw cognitive ability or model benchmarks, distinguished who reached that mode. The results are preliminary but statistically robust, and motivate a pre-registered replication now in preparation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02467"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting?",
+    "Tell me about Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.344Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: rag, benchmark, reasoning. 1 authors. Categories: cs.CY, cs.AI, cs.CY."
+  }
+}

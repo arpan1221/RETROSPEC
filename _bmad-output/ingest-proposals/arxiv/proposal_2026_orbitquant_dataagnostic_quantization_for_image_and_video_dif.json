@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_orbitquant_dataagnostic_quantization_for_image_and_video_dif",
+  "type": "paper",
+  "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+  "authors": [
+    "Donghyun Lee",
+    "Jitesh Chavan",
+    "Duy Nguyen",
+    "Sam Huang",
+    "Liming Jiang",
+    "Priyadarshini Panda",
+    "Timo Mertens",
+    "Saurabh Shukla"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02461",
+  "url": "https://arxiv.org/abs/2607.02461",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, forcing prior methods to re-fit calibration data for every new checkpoint or modality. We present OrbitQuant, a data-agnostic weight-activation quantizer that bypasses range estimation by quantizing in a normalized, rotated basis. In this basis, a randomized permuted block-Hadamard (RPBH) rotation concentrates each coordinate around one fixed, known marginal regardless of the input, so a single Lloyd-Max codebook serves all timesteps, prompts, and layers of a given input dimension. We extend the same quantizer to weight rows offline, absorbing the rotation into the weights so that it cancels inside each linear layer and only a forward rotation on the activations remains at runtime. The same recipe transfers from image to video with no per-modality tuning. Across FLUX.1, Z-Image-Turbo, Wan 2.1, and CogVideoX, it sets the state of the art for PTQ at several low-bit settings. It also pushes PTQ of image diffusion transformers to W2A4 with usable generation quality.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02461"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers?",
+    "Tell me about OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.345Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: transformer, diffusion, prompt. 8 authors. Categories: cs.CV, cs.AI, cs.LG, cs.CV."
+  }
+}

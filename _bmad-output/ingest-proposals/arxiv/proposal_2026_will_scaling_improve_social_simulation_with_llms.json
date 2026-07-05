@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_will_scaling_improve_social_simulation_with_llms",
+  "type": "paper",
+  "title": "Will Scaling Improve Social Simulation with LLMs?",
+  "authors": [
+    "Caleb Ziems",
+    "William Held",
+    "Su Doga Karaca",
+    "David Grusky",
+    "Tatsunori Hashimoto",
+    "Diyi Yang"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02464",
+  "url": "https://arxiv.org/abs/2607.02464",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large Language Model (LLM) social simulations are a promising research method, but they are not yet faithful enough to be adopted widely. In this work, we investigate whether the current scaling paradigm in language modeling is likely to close these gaps, or whether simulation fidelity is orthogonal to general capabilities and therefore deserving of more research attention. We use scaling laws to study the relationship between LLMs' compute scale, general capability benchmarks, and the fidelity of social simulation in three representative sub-domains: opinion modeling, behavioral simulation, and longitudinal forecasting. Surprisingly, we discover strong compute scaling in all three settings, using a suite of 85 transformer LLMs with the Qwen3 architecture pre-trained on the DCLM web text corpus under fixed-compute budgets from $10^{18}$ to $10^{20}$ FLOPs. Then we evaluate 35 larger and more capable open-weight models up to 70B parameters, allowing us to predict downstream accuracy from loss. This reveals that the majority of behavioral and opinion simulation tasks will rapidly improve with scale, particularly when they involve populations that are well-represented in English web corpora. Longitudinal forecasting and underrepresented opinions scale more slowly, especially when they are less correlated with general knowledge and reasoning benchmarks like MMLU. In behavior simulation, scaling fails to improve model calibration with human cognitive biases like risk aversion, as well as human heuristics like learning correlated rewards from related tasks. On these tasks, even fine-tuned models fail to noticeably scale up performance from 0.5B to 8B parameters. Taken together, we conclude that scale will improve social simulations in most settings, but outliers exist, and improvements will be less reliable in low-resource domains.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02464"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Will Scaling Improve Social Simulation with LLMs??",
+    "Tell me about Will Scaling Improve Social Simulation with LLMs?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.344Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: transformer, language model, large language model, llm, scaling law, benchmark, reasoning. 6 authors. Categories: cs.CL, cs.CL."
+  }
+}

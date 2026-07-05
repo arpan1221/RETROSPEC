@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_controllable_sim_agents_with_behavior_latents",
+  "type": "paper",
+  "title": "Controllable Sim Agents with Behavior Latents",
+  "authors": [
+    "Juanwu Lu",
+    "Junyu Zhu",
+    "Ziran Wang"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02496",
+  "url": "https://arxiv.org/abs/2607.02496",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Realistic traffic simulation requires agents that imitate logged behavior and can also be steered along interpretable axes. Such controllability enables engineers to isolate variables, reproduce specific edge cases, and test autonomous systems without real-world risk. We introduce Controllable Neural Variational Agents (CNeVA), a controllable simulated-agent framework that learns to infer a per-agent Gaussian behavior latent from per-channel discounted returns via a closed-form conjugate variational update, conditioning a rectified-flow trajectory generator trained on a mixed channel-mask curriculum for classifier-free guidance. To tackle scarcity in reward signals, we propose soft eligibility gates that replace hard binary thresholds with smooth exponential decay, preserving the gradient signal for near-threshold agents. On the Waymo Open Motion Dataset, CNeVA attains competitive realism on the benchmark while exposing per-channel controllability that the higher-ranked imitation models lack. Speed- and acceleration-based steering produces monotone responses without stall-induced reward hacking. Safety controllability is monotone and substantial with the introduction of soft eligibility. We manage to achieve steerable map compliance under a context-residual return measure. Furthermore, our experiment demonstrates that steering metrics must be read alongside physical-plausibility guardrails to avoid reward-hacking confounds.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02496"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Controllable Sim Agents with Behavior Latents?",
+    "Tell me about Controllable Sim Agents with Behavior Latents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.342Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: agent, benchmark, safety. 3 authors. Categories: cs.RO, cs.LG, cs.RO."
+  }
+}
