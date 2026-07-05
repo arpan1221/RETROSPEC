@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_distributed_attacks_in_persistentstate_ai_control",
+  "type": "paper",
+  "title": "Distributed Attacks in Persistent-State AI Control",
+  "authors": [
+    "Josh Hills",
+    "Ida Caspary",
+    "Asa Cooper Stickland"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02514",
+  "url": "https://arxiv.org/abs/2607.02514",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the monitor. We compare gradual attacks, which distribute the side task across PRs, against non-gradual attacks concentrated in a single PR. No single monitor is robust to both: which strategy evades best (success while evading the monitor) depends on the monitor type, so a defender cannot close off both gradual and non-gradual attacks with any one monitor. High evasion (&gt;= 65%) generalizes across model attack agent backends (Sonnet 4.5, Gemini 3.1 Pro, Kimi K2.5), confirming this is a property of the persistent-state attack surface rather than a single model's capability. Evasion also remains high across state-of-the-art monitor models and the gap between gradual and non-gradual evasion widens for more capable models. We introduce a stateful link-tracker monitor that tracks suspicious buildup across PRs. On both task families, it detects gradual attacks substantially better than diff monitors that merely see more accumulated history. Combining this stronger monitor with trajectory monitors in a four-monitor ensemble reduces gradual-attack evasion from 93% under the weakest standard diff monitor to 47%.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02514"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Distributed Attacks in Persistent-State AI Control?",
+    "Tell me about Distributed Attacks in Persistent-State AI Control"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.338Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, benchmark, prompt. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

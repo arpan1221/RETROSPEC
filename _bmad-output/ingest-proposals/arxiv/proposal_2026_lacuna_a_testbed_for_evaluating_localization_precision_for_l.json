@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_lacuna_a_testbed_for_evaluating_localization_precision_for_l",
+  "type": "paper",
+  "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+  "authors": [
+    "Matteo Boglioni",
+    "Thibault Rousset",
+    "Siva Reddy",
+    "Marius Mosbach",
+    "Verna Dankers"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02513",
+  "url": "https://arxiv.org/abs/2607.02513",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B OLMo-based models via masked continual pretraining, enabling direct evaluation of whether unlearning targets the weights responsible for knowledge storage. We use LACUNA to benchmark current SOTA unlearning methods and find that, despite strong output-level performance, existing methods are highly imprecise and susceptible to resurfacing attacks. We further show that when localization is successful, even a simple gradient-based unlearning method achieves strong erasure and robustness to resurfacing attacks, highlighting the importance of precise unlearning. We release LACUNA to complement behavioral evaluations and drive further advances in robust, localization-based unlearning.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02513"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning?",
+    "Tell me about LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.339Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, rag, benchmark. 5 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

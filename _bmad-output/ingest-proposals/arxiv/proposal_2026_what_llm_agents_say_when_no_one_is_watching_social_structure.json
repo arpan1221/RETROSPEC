@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_what_llm_agents_say_when_no_one_is_watching_social_structure",
+  "type": "paper",
+  "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+  "authors": [
+    "Arman Ghaffarizadeh",
+    "Danyal Mohaddes",
+    "Aliakbar Izadkhah",
+    "Shahriar Noroozizadeh"
+  ],
+  "date": "2026-07-02",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.02507",
+  "url": "https://arxiv.org/abs/2607.02507",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate framework in which agents produce public utterances that enter the shared history alongside OTR responses that are recorded but never shown to the other participant. Across 10 models, 3 scenarios, and 5 variations within each scenario, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, with its decision divergence rising from a $\\sim$3% baseline to roughly 40%. The effect is consistent across four aggregate analyses: stance, semantic similarity, natural language inference, and survey responses. In some cases, the OTR response explicitly attributes public accommodation to relational pressures, such as career risk or sponsorship obligation. The findings suggest that agent evaluation should extend beyond explicit goals and detect emergent objectives. We present a dual-channel evaluation framework and complementary behavioral measures that operationalize this assessment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.02507"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates?",
+    "Tell me about What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-05T01:53:38.340Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: llm, agent, alignment, emergent, prompt. 4 authors. Categories: cs.AI, cs.CL, cs.LG, cs.MA, cs.AI."
+  }
+}
