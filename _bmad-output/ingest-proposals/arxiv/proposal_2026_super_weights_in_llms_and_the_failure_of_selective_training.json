@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_super_weights_in_llms_and_the_failure_of_selective_training",
+  "type": "paper",
+  "title": "Super Weights in LLMs and the Failure of Selective Training",
+  "authors": [
+    "Shreyas Subramanian",
+    "Adewale Akinfaderin",
+    "Akarsha Sehwag"
+  ],
+  "date": "2026-07-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.08733",
+  "url": "https://arxiv.org/abs/2607.08733",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware training should be effective. We show the opposite. Training Super Weights in isolation (100 to 8,192 parameters) drops accuracy to random-guessing levels on both OLMo-1B and OLMo-7B, and expanding to local neighborhoods of up to 36K parameters provides no improvement. The failure is specific to Super Weight coordinates: training an equal number of randomly chosen positions in the same down_proj layers instead improves over the baseline, so the collapse comes from targeting Super Weights, not from sparsity itself. Vanilla LoRA, updating every position in attention weight matrices through low-rank structure, succeeds with only 0.16% of parameters, and applying the same low-rank update to down_proj succeeds as well. A 10-seed ablation confirms that constraining LoRA updates at positions corresponding to Super Weight coordinates yields statistically indistinguishable results. These findings establish that parameter importance does not imply parameter trainability in isolation, and that effective fine-tuning relies on structured decompositions over entire layers rather than targeting individually important weights.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.08733"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Super Weights in LLMs and the Failure of Selective Training?",
+    "Tell me about Super Weights in LLMs and the Failure of Selective Training"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-12T01:27:19.590Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: llm, fine-tuning. 3 authors. Categories: cs.LG, cs.LG."
+  }
+}

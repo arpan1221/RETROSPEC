@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_opencof_learning_to_reason_through_video_generation",
+  "type": "paper",
+  "title": "OpenCoF: Learning to Reason Through Video Generation",
+  "authors": [
+    "Xinyan Chen",
+    "Ziyu Guo",
+    "Renrui Zhang",
+    "Dongzhi Jiang",
+    "Hongsheng Li"
+  ],
+  "date": "2026-07-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.08763",
+  "url": "https://arxiv.org/abs/2607.08763",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework comprising the OpenCoF-17K dataset, a reasoning video dataset spanning 11 task families, and Wan-CoF, a fine-tuned video model for studying whether diverse temporal supervision improves CoF behavior. Across four video reasoning benchmarks, Wan-CoF achieves considerable gains over the Wan2.2-I2V-A14B baseline. Building on this, we empirically explore more advanced designs for CoF capabilities, i.e., equipping the model with visual and textual reasoning tokens. This mechanism respectively captures low-level visual cues and high-level semantic priors for spatial and temporal reasoning. Through performance comparisons and attention analysis, we examine how these tokens contribute across model depth, denoising steps, space, and time. Our results suggest that stronger video reasoning requires both broad temporal supervision and explicit mechanisms for organizing intermediate reasoning state. We open-source the dataset, model, and code to facilitate future research on reasoning-oriented video generation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.08763"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is OpenCoF: Learning to Reason Through Video Generation?",
+    "Tell me about OpenCoF: Learning to Reason Through Video Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-12T01:27:19.585Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: benchmark, reasoning. 5 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}

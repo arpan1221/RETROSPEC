@@ -1,0 +1,51 @@
+{
+  "id": "paper_2026_ideas_have_genomes_benchmarking_scientific_lineage_reasoning",
+  "type": "paper",
+  "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+  "authors": [
+    "Yifan Zhou",
+    "Qihao Yang",
+    "Yan Li",
+    "Donggang Li",
+    "Xiru Hu",
+    "Hokin Deng",
+    "Ziyang Gong",
+    "Xuanyi Zhou",
+    "Huacan Wang",
+    "Xiangchao Yan",
+    "Wanghan Xu",
+    "Wenlong Zhang",
+    "Shaofeng Zhang",
+    "Yue Zhou",
+    "Yifan Yang",
+    "Zhihang Zhong",
+    "Xue Yang"
+  ],
+  "date": "2026-07-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.08758",
+  "url": "https://arxiv.org/abs/2607.08758",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal, typed, evidence-grounded Idea Genome objects, and a GenomeDiff aligns these objects to record inheritance, mutation, loss, external import, and novel insertion under six operational evolutionary dynamics. The benchmark contains 1,961 golden lineage traces, 1,085 curated Idea Genome objects, and 920 pairwise GenomeDiff records across 10 scientific domains. It supports two evaluations. IG-Exam (42 task types, 1,029 instances) tests closed-form lineage reasoning across Idea Genome abstraction, inheritance tracing, evolutionary reasoning, and lineage verification. IG-Arena evaluates generation with a lineage-conditioned Population-Evolution Score(PES), asking whether a proposal can be inserted as a coherent descendant of a given lineage population: it should inherit the right Idea Genome objects, vary meaningfully from nearby work, and offer selection value for future research. Experiments on 14 LLM-based scientists expose a compositional bottleneck. The strongest system reaches only 27.3% exact accuracy on lineage reasoning, and structured lineage context reshuffles system rankings rather than helping every participant uniformly.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.08758"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation?",
+    "Tell me about Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-12T01:27:19.586Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: llm, benchmark, reasoning. 17 authors. Categories: cs.AI, cs.AI."
+  }
+}
