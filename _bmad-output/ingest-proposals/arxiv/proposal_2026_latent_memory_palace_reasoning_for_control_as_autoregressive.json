@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_latent_memory_palace_reasoning_for_control_as_autoregressive",
+  "type": "paper",
+  "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
+  "authors": [
+    "Chuning Zhu",
+    "Eva Xu",
+    "Jose Barreiros",
+    "Krishnan Srinivasan",
+    "Paarth Shah",
+    "Abhishek Gupta"
+  ],
+  "date": "2026-07-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.08724",
+  "url": "https://arxiv.org/abs/2607.08724",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive \"reasoning.\" However, transferring this capability to continuous control policies has been challenging, as directly reasoning in language space may lack the granularity for spatial understanding and precise motions. In this work, we show that reasoning for control policies can emerge by organizing information in an autoregressive latent space reminiscent of a memory palace, where retrieval is iterative and adaptive. Our method, Latent Memory Palace (LMP), formulates reasoning as variational inference with an autoregressive latent distribution. We derive a latent-space reinforcement learning technique to tractably optimize its variational lower bound. The resulting policy, LMP-$π$, achieves strong empirical performance in simulation and real-world domains while exhibiting interpretable, adaptive allocation of test-time compute. We further show that the same framework yields a variable-length action tokenizer, LMP-$\\texttt{tok}$, which significantly improves the performance of downstream autoregressive policies. Together, these results present a new perspective on latent reasoning for control through the lens of variational inference.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.08724"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference?",
+    "Tell me about Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-12T01:27:19.591Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, reinforcement learning, reasoning. 6 authors. Categories: cs.LG, cs.RO, cs.LG."
+  }
+}

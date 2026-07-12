@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_mpflow_learning_budgeted_maxflow_optimization_on_the_lightni",
+  "type": "paper",
+  "title": "MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning",
+  "authors": [
+    "Harrison Rush",
+    "Vincent Davis",
+    "Simone Antonelli",
+    "Vikash Singh",
+    "Jesse Shrader",
+    "Emanuele Rossi"
+  ],
+  "date": "2026-07-09",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.08703",
+  "url": "https://arxiv.org/abs/2607.08703",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity? We cast this as a budget-constrained combinatorial optimization problem on graphs, selecting $k$ edge additions that maximize $s$--$t$ max-flow, a theory-grounded measure of routing capacity, and solve it with graph reinforcement learning. Our lightweight agent combines a message-passing policy network with proximal policy optimization (PPO) and action masking, and is trained under a hub-exclusion curriculum: the network's top hubs are removed from training subgraphs, forcing the policy to learn capacity-aware placement rather than hub attachment. In extensive experiments on real Lightning Network snapshots, our method consistently outperforms strong heuristic baselines on the max-flow objective across multiple seeds and unseen graphs. The agent has been deployed in production for peer recommendations, executing 4640 channel-open decisions that cumulatively allocate 267.3 BTC over $16 million across 30 managed nodes.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.08703"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning?",
+    "Tell me about MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-12T01:27:19.593Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: reinforcement learning, agent. 6 authors. Categories: cs.LG, cs.LG."
+  }
+}

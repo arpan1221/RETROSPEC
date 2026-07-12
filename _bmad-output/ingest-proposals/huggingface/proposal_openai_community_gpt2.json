@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.397Z",
+    "ingested_at": "2026-07-12T01:27:19.782Z",
     "status": "proposed",
     "confidence": 0.6,
-    "reason": "Very high downloads: 11,681,808. Very high likes: 3151. Trending on HuggingFace.",
+    "reason": "Very high downloads: 13,776,808. Very high likes: 3342. Trending on HuggingFace.",
     "huggingface_id": "openai-community/gpt2",
     "huggingface_url": "https://huggingface.co/openai-community/gpt2",
-    "downloads": 11681808,
-    "likes": 3151,
+    "downloads": 13776808,
+    "likes": 3342,
     "tags": [
       "transformers",
       "pytorch",
