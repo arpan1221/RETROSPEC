@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_beyond_success_rate_costaware_evaluation_of_offensive_and_de",
+  "type": "paper",
+  "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+  "authors": [
+    "Paul Kassianik",
+    "Blaine Nelson",
+    "Yaron Singer"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15263",
+  "url": "https://arxiv.org/abs/2607.15263",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool call, telemetry query, and enrichment request consumes budget. We evaluate language-model security agents through this cost-success lens on offensive Cybench challenges and defensive Splunk BOTS v1 investigation challenges. Instead of reporting only best-case success, we compare models at fixed cost levels and decompose performance by inference spend and tool spend. Our results show distinct scalingregimes for red- and blue-team tasks. Offensive CTF performance improves with additional test-time compute, and scaled open-weight models can approach frontier proprietary systems while remaining cost-competitive. Defensive SOC investigation does not scale in the same way: success depends more heavily on disciplined tool use, telemetry navigation, and selective enrichment than on raw reasoning budget alone. We argue that security-agent benchmarks should measure economic efficiency and operational fit alongside task success. Cost-aware, SOC-native evaluations provide a clearer picture of which models are practically useful today and where defensive agents still need to improve. We present an interactive website with our results https://evals.frontier.security.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15263"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents?",
+    "Tell me about Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.430Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, benchmark, reasoning. 3 authors. Categories: cs.CR, cs.AI, cs.CR."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_pretraining_data_can_be_poisoned_through_computational_propa",
+  "type": "paper",
+  "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+  "authors": [
+    "Victoria Graf",
+    "Hannaneh Hajishirzi",
+    "Noah A. Smith",
+    "David Kohlbrenner",
+    "Kyle Lo"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15267",
+  "url": "https://arxiv.org/abs/2607.15267",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to measure whether malicious content is included after web crawling and data curation, we introduce HalfLife, a novel analysis for estimating adversarial content inclusion in web-crawl based LM training data. We use HalfLife to explore the feasibility of poisoning pretraining corpora at web scale through open discussion interfaces. Our analysis demonstrates the importance of estimating whether poison injections are included in pretraining data, and establishes third-party webpage content as a possible vector for attacking language model pretraining.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15267"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Pretraining Data Can Be Poisoned through Computational Propaganda?",
+    "Tell me about Pretraining Data Can Be Poisoned through Computational Propaganda"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.429Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: language model. 5 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

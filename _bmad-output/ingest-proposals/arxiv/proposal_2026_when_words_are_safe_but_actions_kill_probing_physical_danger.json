@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_when_words_are_safe_but_actions_kill_probing_physical_danger",
+  "type": "paper",
+  "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+  "authors": [
+    "Weimeng Wang",
+    "Ziqiang Wang",
+    "Zihang Zhan",
+    "Chuanpu Fu",
+    "Qi Li",
+    "Ke Xu"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15218",
+  "url": "https://arxiv.org/abs/2607.15218",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language models (LLMs) increasingly serve as high-level planners for embodied agents, where linguistically benign instructions can become unsafe once grounded in the physical world. We study whether this physically grounded danger is the same safety problem as ordinary text-level content danger. Through hidden-state direction analysis and random-split null tests, we show that content danger (CD) and physical danger (PD) form separable signals in LLM representations across Qwen2.5-3B/7B/14B/32B, Phi-3.5 and SmolLM2. Building on the CD/PD separability, we propose PRISM, a single-layer L2-regularized logistic probe over full hidden states. PRISM achieves 86.2--87.7\\% accuracy on SafeAgentBench with 11.7--13.7\\% FPR, while same-scale LLM judges over-block safe tasks at 24.7--39.0\\% FPR. We further introduce PhysicalSafetyBench-1K (PSB-1K), a contrastive benchmark of 1{,}000 physical-risk pairs without direct harm keywords, to test whether methods detect physically grounded danger rather than explicit unsafe wording. On PSB-1K, PRISM reaches 99.6\\% accuracy and 0.7\\% FPR, whereas a Qwen2.5-3B judge rejects 67.8\\% of safe tasks. PRISM also replicates on SafeText and EARBench, supporting hidden-state probing as a representation-level method for physical safety beyond text moderation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15218"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space?",
+    "Tell me about When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.435Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, llm, agent, benchmark, safety. 6 authors. Categories: cs.AI, cs.CR, cs.AI."
+  }
+}
