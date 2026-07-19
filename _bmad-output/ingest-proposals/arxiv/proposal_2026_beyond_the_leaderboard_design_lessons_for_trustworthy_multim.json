@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_beyond_the_leaderboard_design_lessons_for_trustworthy_multim",
+  "type": "paper",
+  "title": "Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA",
+  "authors": [
+    "Sushant Gautam",
+    "Vajira Thambawita",
+    "Michael A. Riegler",
+    "Pål Halvorsen",
+    "Steven A. Hicks"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15241",
+  "url": "https://arxiv.org/abs/2607.15241",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Healthcare multimodal AI must combine visual and textual evidence while remaining reliable and interpretable. Using MediaEval Medico 2025 as a retrospective GI endoscopy case study, we analyze design choices across nine documented systems for question answering and explanation quality. Parameter-efficient adaptation of pretrained backbones provides strong challenge performance, but answer-level gains do not consistently translate into faithful and complete clinical reasoning. Methods enforcing structured reasoning and explicit grounding show more reliable behavior across heterogeneous question types, although the evidence is correlational rather than ablation-based. These results motivate evaluation beyond lexical overlap, standardized evidence-linked explanations, leakage-aware data governance, and lightweight robustness and calibration checks. The findings support trustworthy multimodal healthcare AI based on data fusion, explainability, and resilient evaluation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15241"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA?",
+    "Tell me about Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.432Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: multimodal, reasoning. 5 authors. Categories: cs.CL, cs.CV, cs.CL."
+  }
+}

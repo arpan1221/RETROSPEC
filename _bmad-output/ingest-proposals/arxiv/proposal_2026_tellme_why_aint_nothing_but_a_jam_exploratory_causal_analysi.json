@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_tellme_why_aint_nothing_but_a_jam_exploratory_causal_analysi",
+  "type": "paper",
+  "title": "teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data",
+  "authors": [
+    "Qiwei Li",
+    "Jorge Ortiz"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15254",
+  "url": "https://arxiv.org/abs/2607.15254",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Traffic agencies now have access to large volumes of video-derived data for studying safety and congestion. Most of these data are observational and collected without interventions, which makes causal questions such as \"How would rain change traffic density?\" difficult to answer. We present teLLMe, a system for exploratory causal analysis of urban driving datasets. The system starts from a structured event table built from dashcam annotations and combines causal structure learning with the PC algorithm, bootstrap-based stability checks, and query-specific effect estimation using linear regression and DoWhy. Natural-language questions are mapped to structured causal queries through a schema-aware LLM, enabling users to specify treatments, outcomes, and subpopulations. teLLMe returns a \"Causal Card\" that summarizes effect estimates, adjustment sets, DAG support, and assumptions, followed by a short natural-language explanation. Case studies on BDD-derived traffic events show that the system can surface plausible relationships involving weather, peak hours, and traffic density, while making uncertainty and modeling choices explicit. The system is designed as a tool for hypothesis generation and expert reasoning rather than a source of definitive causal claims.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15254"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data?",
+    "Tell me about teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.431Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: llm, safety, reasoning. 2 authors. Categories: cs.AI, cs.HC, cs.AI."
+  }
+}

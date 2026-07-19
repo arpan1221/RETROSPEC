@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_decoding_market_emotion_from_blockchain_activity_a_datadrive",
+  "type": "paper",
+  "title": "Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier",
+  "authors": [
+    "Arthur G. Bubolz",
+    "Abreu Quevedo",
+    "Giancarlo Lucca",
+    "Rafael A. Berri",
+    "Eduardo Borges",
+    "Bruno L. Dalmazo"
+  ],
+  "date": "2026-07-16",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.15258",
+  "url": "https://arxiv.org/abs/2607.15258",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "The growing use of Bitcoin as a decentralized digital asset and investment tool has sparked strong interest in understanding its market behavior. This study presents a new approach to analyze Bitcoin market sentiment by combining on-chain and financial data with social media posts. Unlike models that aim to predict prices, this work focuses on explaining market sentiment using blockchain transactions, historical price data of Bitcoin, and daily Twitter sentiment classifications. The method merges sentiment trends with on-chain and financial metrics, normalized into a dataset for detailed market analysis. Multiple machine learning models were tested using cross-validation, with Gradient Boosting (XGBoost) emerging as the most reliable model for classifying sentiment, achieving an average F1-score of about 0.84. SHAP (SHapley Additive exPlanations), a game theory-based method for model interpretability, was used to quantify the contribution of on-chain features to the model's predictions, improving transparency. The results indicate that this data combination yields meaningful predictive signals and insights, supporting data-driven cryptocurrency analysis and future improvements with deep learning.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.15258"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier?",
+    "Tell me about Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-19T01:25:17.430Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: rag, interpretability. 6 authors. Categories: cs.LG, cs.CE, cs.LG."
+  }
+}
