@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_synthetic_data_generation_framework_for_quality_control_auto",
+  "type": "paper",
+  "title": "Synthetic data generation framework for quality control automation in gravure printing",
+  "authors": [
+    "Korota Arsène Coulibaly",
+    "Mohamed Hamlich",
+    "Khalid Hmali",
+    "Andrea Trombin"
+  ],
+  "date": "2026-07-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.21577",
+  "url": "https://arxiv.org/abs/2607.21577",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such as YOLO or Vision Transformers, is heavily hindered by the extreme scarcity of real-world industrial defects images. To overcome this limitation, this paper introduces a novel synthetic data generation framework tailored for rotogravure printing quality control. The proposed pipeline automatically generates high-fidelity images of specific printing defects (creases, streaks, misregistration, etc.) and outputs corresponding bounding boxes and annotations. To validate the framework, a synthetic dataset of 7533 images was generated and used to train the state-of-the-art object-detection model RFDETR. Experimental results demonstrate that the model trained on our synthetic data achieves a Mean Average Precision (mAP) of 80.9\\% on real industrial testing samples. This framework provides a zero-cost, rapid-deployment solution for automating defect inspection in printing lines without requiring massive manual data collection.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.21577"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Synthetic data generation framework for quality control automation in gravure printing?",
+    "Tell me about Synthetic data generation framework for quality control automation in gravure printing"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-26T01:41:42.208Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: transformer, rag. 4 authors. Categories: cs.CV, cs.AI, cs.LG, eess.IV, cs.CV."
+  }
+}
