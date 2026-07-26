@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_beyond_sycophancy_structured_resistance_and_compliance_in_ll",
+  "type": "paper",
+  "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning",
+  "authors": [
+    "Baihui Wang",
+    "Bernard Koch"
+  ],
+  "date": "2026-07-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.21558",
+  "url": "https://arxiv.org/abs/2607.21558",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Building socially calibrated large language models, which can learn from others without simply yielding to them, requires more than reducing sycophancy as a one-dimensional failure mode. Models must distinguish when to incorporate others' perspectives from when to maintain a well-grounded moral judgment. We study the broader resistance-compliance process governing this distinction. Across three studies, we show that models' judgment revision is structured along three dimensions that parallel classic phenomena in human social psychology: the distance between an incoming view and the model's initial position, the source attribution of that view, and the coalition structure supporting it. Models are generally more receptive to nearby positions, more influenced by views presented as their own prior judgments, and differently responsive to group pressure. These findings recast sycophancy as one expression of a broader judgment-updating process shaped by social influence. Our framework provides a principled basis for distinguishing constructive belief revision from sycophantic compliance, thereby supporting better alignment in morally consequential interactions.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.21558"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning?",
+    "Tell me about Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-26T01:41:42.210Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, alignment, reasoning. 2 authors. Categories: cs.AI, cs.AI."
+  }
+}

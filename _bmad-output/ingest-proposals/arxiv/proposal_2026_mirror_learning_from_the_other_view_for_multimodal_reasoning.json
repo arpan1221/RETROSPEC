@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_mirror_learning_from_the_other_view_for_multimodal_reasoning",
+  "type": "paper",
+  "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+  "authors": [
+    "Wen Ye",
+    "Yuxiao Qu",
+    "Aviral Kumar",
+    "Xuezhe Ma"
+  ],
+  "date": "2026-07-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.21552",
+  "url": "https://arxiv.org/abs/2607.21552",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views. We show that these views often elicit different behaviors: a model may solve a problem from text but fail on the corresponding diagram, or succeed visually while failing textually. This inconsistency suggests that different views expose complementary reasoning paths and failure modes that standard multimodal post-training does not fully exploit. To study and exploit this phenomenon, we construct ODA-Data, a high-quality paired multimodal geometry dataset with text-dominant, image-dominant, and combined image+text views of the same problems, together with splits for training and evaluating modality-dependent reasoning behaviors. We then develop Modality-Informed Reciprocal Reasoning Optimization (MIRROR), a reinforcement learning approach for improving multimodal reasoning via self supervision. For each problem, MIRROR evaluates the model under all views, selects the best-performing view as a teacher, and trains other views with a reverse-KL objective towards the teacher. Across reasoning benchmarks that evaluate on geometry problems, MIRROR improves over standard RL and yields more accurate and consistent behavior across modalities",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.21552"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MIRROR: Learning from the Other View for Multi-Modal Reasoning?",
+    "Tell me about MIRROR: Learning from the Other View for Multi-Modal Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-26T01:41:42.212Z",
+    "status": "proposed",
+    "confidence": 0.85,
+    "reason": "Matched keywords: language model, large language model, llm, reinforcement learning, multimodal, benchmark, reasoning. 4 authors. Categories: cs.AI, cs.LG, cs.AI."
+  }
+}

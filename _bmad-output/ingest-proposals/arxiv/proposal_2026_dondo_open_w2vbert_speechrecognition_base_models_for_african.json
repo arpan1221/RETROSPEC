@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_dondo_open_w2vbert_speechrecognition_base_models_for_african",
+  "type": "paper",
+  "title": "DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages",
+  "authors": [
+    "Paul Azunre"
+  ],
+  "date": "2026-07-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.21540",
+  "url": "https://arxiv.org/abs/2607.21540",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "We present DONDO, a family of open, permissively licensed automatic speech recognition (ASR) base models for African languages, built on the w2v-BERT 2.0 self-supervised speech encoder. DONDO comprises twenty-one monolingual models and five multilingual models spanning twenty-seven language varieties across Ghana, Sierra Leone, Nigeria, Senegal, Kenya and Zimbabwe. Models are fine-tuned primarily on read speech drawn from religious texts, which offer broad, license-clear and orthographically consistent coverage for languages that otherwise lack transcribed audio. We describe a two-step (and, for one family, three-step) learning-rate-annealed fine-tuning procedure that first adapts a shared multilingual model at a high learning rate and then anneals it to recover, and in several cases surpass, strong monolingual baselines. We further describe a lightweight language-conditioning mechanism that injects a one-hot language identity as a sequence of prefix frames prepended to the acoustic features, allowing a single multilingual checkpoint to be steered to a target language at inference. Across the five multilingual families the annealed models reach average word error rates (WER) of 10-13%, closing most of the gap to monolingual models while covering many languages in a single checkpoint. All models are released on the Hugging Face KhayaAI organisation under the Apache-2.0 license (attribution only) so that others may fine-tune them freely, including for commercial use. We provide a conservative estimate that the languages covered are spoken by on the order of one hundred million first-language speakers, and by substantially more when second-language use is included.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.21540"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages?",
+    "Tell me about DONDO: Open w2v-BERT Speech-Recognition Base Models for African Languages"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-26T01:41:42.213Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: fine-tuning, rag, self-supervised. 1 authors. Categories: cs.CL, cs.CL."
+  }
+}

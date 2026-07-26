@@ -1,0 +1,45 @@
+{
+  "id": "paper_2026_medgame_storytelling_gamification_empowered_by_large_languag",
+  "type": "paper",
+  "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+  "authors": [
+    "Qian Wu",
+    "Xinrong Zhou",
+    "Zizhan Ma",
+    "Kai Chen",
+    "Zheyao Gao",
+    "Xun Lin",
+    "Hongqiu Wu",
+    "Longfei Gou",
+    "Yixiao Liu",
+    "Ann Sin Nga Lau",
+    "Qi Dou"
+  ],
+  "date": "2026-07-23",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.21570",
+  "url": "https://arxiv.org/abs/2607.21570",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large Language Models (LLMs) show promise for medical education, but most existing systems focus on localized interactions such as question answering or single-turn feedback, rather than organizing an entire clinical case into a decision-centered learning trajectory. We introduce \\textit{MedGame}, a framework that transforms static clinical cases into structured, executable storytelling games. MedGame uses a dual-engine design: a Medical Narrative Designer synthesizes case-grounded clinical storylines with states and decision nodes, while a Story Director converts them into dependency-aware multimodal orchestration plans rendered by our released interactive platform. We construct MedGame Bench, a 5,000-case benchmark and evaluation protocol for Medical Narrative Generation and Story Direction. Experiments show that task-specific fine-tuning substantially improves open-source LLMs on MedGame Bench and narrows the gap with commercial models. A pilot student study further shows that learners perceive MedGame as more engaging and useful than text-only alternatives.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.21570"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education?",
+    "Tell me about MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-07-26T01:41:42.209Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, llm, fine-tuning, multimodal, benchmark. 11 authors. Categories: cs.CL, cs.HC, cs.CL."
+  }
+}
