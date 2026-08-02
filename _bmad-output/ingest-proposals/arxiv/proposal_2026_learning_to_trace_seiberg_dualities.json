@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_learning_to_trace_seiberg_dualities",
+  "type": "paper",
+  "title": "Learning to Trace Seiberg Dualities",
+  "authors": [
+    "Jonathan J. Heckman",
+    "Shani Meynet",
+    "Alessandro Mininno",
+    "Gary Shiu"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28628",
+  "url": "https://arxiv.org/abs/2607.28628",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of supersymmetric quiver gauge theories. Mathematically, this involves establishing mutations of quivers, which is in turn a variation on the theme of \"learning to unknot\". On the one hand, this leads us to a practical tool for establishing the computational complexity of different dualities. On the other hand, it also allows us to study how different network architectures learn how to trace Seiberg dualities. We find that for quivers with a modest number of quiver nodes (of order $10$), different network architectures consisting of transformers and multi-layer perceptrons tend to outperform deterministic algorithms. Supplementing the network by well-established pathfinder algorithms (essentially \"Google Maps for quivers\") leads to an additional improvement in the efficiency and accuracy of the search strategy. We anticipate that this class of questions can serve as a useful benchmark for frontier AI models applied to theoretical physics.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28628"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Learning to Trace Seiberg Dualities?",
+    "Tell me about Learning to Trace Seiberg Dualities"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.646Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: transformer, benchmark, emergent. 4 authors. Categories: hep-th, cs.AI, cs.LG, hep-ph, hep-th."
+  }
+}
