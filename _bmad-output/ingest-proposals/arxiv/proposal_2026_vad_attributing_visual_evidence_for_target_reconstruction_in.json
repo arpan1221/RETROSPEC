@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_vad_attributing_visual_evidence_for_target_reconstruction_in",
+  "type": "paper",
+  "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+  "authors": [
+    "Kangning Zhang",
+    "Yixing Li",
+    "Shuai Shao",
+    "Qingyao Li",
+    "Zhengxi Lu",
+    "Zhiyuan Yao",
+    "Jianghao Lin",
+    "Wenxiang Jiao",
+    "Yuan Lu",
+    "Weiwen Liu",
+    "Weinan Zhang",
+    "Yong Yu"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28590",
+  "url": "https://arxiv.org/abs/2607.28590",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-mixed, combining visual signals with linguistic priors and teacher-specific effects. The key challenge is to estimate which corrections are supported by visual evidence, not merely where or how strongly to distill. We introduce Visual Attribution Distillation (VAD), a counterfactual target-reconstruction algorithm that estimates the visually attributable part of a teacher correction. At each student-generated prefix, VAD evaluates the same fixed teacher with the relevant evidence present and removed. The corresponding change in centered log-probabilities defines ut, a signed proxy for the visual evidence direction that estimates how revealing the evidence supports or refutes candidate tokens. VAD projects the original correction onto this proxy to obtain an intervention-aligned component and a proxy-unexplained residual, then reconstructs a student-anchored target from the former. During training, this reconstructed target supplies the primary supervision signal, while the privileged teacher contributes a weak regularizer. Across six fine-grained visual benchmarks at 4B and 9B scales, VAD outperforms direct privileged-view distillation and visual-advantage weighting. Token- level and controlled-target analyses show that the proxy-aligned component is enriched in task-relevant visual corrections and yields stronger target shifts, especially when evidence refutes a mistaken answer. These results support counterfactual target reconstruction as an effective alternative to source-mixed supervision.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28590"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation?",
+    "Tell me about VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.650Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: multimodal, benchmark. 12 authors. Categories: cs.CV, cs.CL, cs.CV."
+  }
+}

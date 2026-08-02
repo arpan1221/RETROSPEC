@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_opsd_deriving_with_policy_optimization_training_with_selfdis",
+  "type": "paper",
+  "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+  "authors": [
+    "Jiawei Xu",
+    "Minghui Liu",
+    "Juzheng Zhang",
+    "Tom Goldstein",
+    "Furong Huang"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28582",
+  "url": "https://arxiv.org/abs/2607.28582",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort. We identify a structural source of this difficulty: vanilla OPSD is precisely the $β=1$ member of a broader policy-optimization family, where $β$ weights the KL penalty anchoring the student to a reference policy. This equivalence turns $β$ from an implicit value fixed at one into a controllable regularization parameter, yielding a more general formulation that trades off proximity to a reference policy against privileged teacher guidance. We introduce $β$-OPSD and derive its optimal policy as a geometric interpolation between the reference policy and the privileged teacher. Directly optimizing this objective with reinforcement learning, however, would be costly and high-variance. Rather than optimize the RL objective directly, we turn its closed-form solution into a distillation target. Each value of $β$ selects a target along the reference-to-teacher path, which we implement efficiently by mixing their token-level logits. In this way, inexpensive distillation approximates the solution of expensive policy optimization. Return-to-go credit assignment further aligns token updates with the sequence-level objective while retaining the simplicity of OPSD. Experiments on mathematical reasoning benchmarks show that $β$-OPSD consistently outperforms vanilla OPSD, improving optimization stability and downstream reasoning performance. Our results provide a principled route from self-distillation to policy optimization and back without sacrificing the efficiency that makes OPSD practical.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28582"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is $β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation?",
+    "Tell me about $β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.651Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: language model, reinforcement learning, benchmark, reasoning. 5 authors. Categories: cs.LG, cs.LG."
+  }
+}

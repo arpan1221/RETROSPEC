@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_apo_unsupervised_atomic_policy_optimization_for_3d_structure",
+  "type": "paper",
+  "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+  "authors": [
+    "Shentong Mo",
+    "Yatao Bian"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28553",
+  "url": "https://arxiv.org/abs/2607.28553",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Predicting the 3D structures of atomic systems is fundamental to advancing material science and drug discovery. While flow-matching models (, FlowDPO) have recently shown promise in this domain, their performance relies heavily on alignment with ground-truth coordinates via supervised preference learning. However, obtaining experimental labels for novel crystal phases or de novo proteins is prohibitively expensive, creating a bottleneck for structural modeling in data-scarce regimes. In this work, we propose (Atomic Policy Optimization), a fully unsupervised alignment framework that eliminates the need for ground-truth reference structures. APO adapts group-relative policy optimization to 3D atomic environments, utilizing a novel dual-reward mechanism: (i) a that reinforces the policy's dominant latent structural modes through eigen-decomposition of sample similarities, and (ii) a that enforces thermodynamic stability. Our framework enables the model to ``self-correct'' by identifying physically plausible configurations within sampled groups. Extensive benchmarks on crystal and antibody structure prediction demonstrate that APO consistently outperforms fully supervised baselines, achieving a new state-of-the-art in match rates and structural fidelity. Furthermore, we show that APO effectively straightens probability paths, significantly improving inference efficiency. Our results suggest that intrinsic physical consistency can serve as a superior guide for alignment compared to noisy, supervised coordinate matching.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28553"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems?",
+    "Tell me about APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.653Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: alignment, benchmark. 2 authors. Categories: cs.LG, cs.AI, cs.MA, cs.LG."
+  }
+}

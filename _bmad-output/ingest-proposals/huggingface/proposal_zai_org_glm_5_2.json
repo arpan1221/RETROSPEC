@@ -1,0 +1,43 @@
+{
+  "id": "model_glm_5_2",
+  "type": "model",
+  "name": "GLM-5.2",
+  "organization": "org_zai_org",
+  "release_date": "2026-06-16",
+  "architecture": "unknown",
+  "parameter_count": "unknown",
+  "training_approach": "unknown",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [],
+  "benchmark_highlights": {},
+  "lineage_path": "",
+  "significance": 8,
+  "cultural_impact": "",
+  "_meta": {
+    "source": "huggingface",
+    "ingested_at": "2026-08-02T01:30:01.849Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Very high downloads: 1,683,442. Very high likes: 4737. Trending on HuggingFace.",
+    "huggingface_id": "zai-org/GLM-5.2",
+    "huggingface_url": "https://huggingface.co/zai-org/GLM-5.2",
+    "downloads": 1683442,
+    "likes": 4737,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "glm_moe_dsa",
+      "text-generation",
+      "conversational",
+      "en",
+      "zh",
+      "arxiv:2602.15763",
+      "arxiv:2603.12201",
+      "license:mit",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

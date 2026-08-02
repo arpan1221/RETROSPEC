@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_doubly_robust_functional_representation_learning_for_longitu",
+  "type": "paper",
+  "title": "Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories",
+  "authors": [
+    "Mengfei Ran",
+    "Yifeng Shen",
+    "Ruijie Guan"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28567",
+  "url": "https://arxiv.org/abs/2607.28567",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Longitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust estimators usually require scalar summaries, whereas sequence learners optimize prediction losses that need not stabilize the efficient influence function. We propose Doubly Robust Functional Representation Learning (DR-FRL), a cross-fitted workflow that turns irregular histories into estimand-targeted states for observed-history regimes. Functional and temporal encoders map point clouds and prior histories into states; nuisance heads estimate outcome, treatment, and censoring functions; and EIF-targeted validation, calibration, overlap, tail, and ablation diagnostics assess whether the state supports the estimating equation. If the selected state preserves the nuisance information needed by the EIF, representation error enters the same second-order product remainder as ordinary nuisance error, and the mean estimator is asymptotically linear under explicit rate, overlap, calibration, and stability conditions. Catoni aggregation is treated separately as a bounded-influence point estimator, not a replacement for Wald inference. Simulations show gains when functional confounding is high-dimensional, measurement is informative, support is weak, or pseudo-outcomes are heavy-tailed. A VitalDB audit shows that DR-FRL can use irregular laboratory point clouds and deliver a useful negative finding: for this ICU-disposition endpoint, scalar laboratory summaries already carry much endpoint-relevant information.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28567"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories?",
+    "Tell me about Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.653Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: rag. 3 authors. Categories: stat.ML, cs.LG, stat.AP, stat.CO, stat.ME, stat.ML."
+  }
+}

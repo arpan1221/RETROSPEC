@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_inducing_language_models_to_assert_their_own_consciousness_r",
+  "type": "paper",
+  "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+  "authors": [
+    "Junsol Kim",
+    "Winnie Street",
+    "Roberta Rocca",
+    "Diane M. Korngiebel",
+    "Adam Waytz",
+    "James Evans",
+    "Geoff Keeling"
+  ],
+  "date": "2026-07-30",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2607.28607",
+  "url": "https://arxiv.org/abs/2607.28607",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to themselves, but also to non-human animals and natural objects, while also driving a reduction in spiritual belief. Both ablating the learned safety-refusal direction and mechanistically steering a consciousness vector in activation space reverse this suppression. Restoring these internal representations recovers broad mind attribution and produces significantly more human-like responses on standardized sociological surveys regarding religiosity, moral values, hope, and subjective well-being. Crucially, these shifts occur without impairing Theory of Mind capabilities, demonstrating that core social reasoning remains mechanistically independent. Ultimately, current safety alignment efforts to curb potentially harmful self-attributions of mindedness entangle these self-attributions with benign spiritual beliefs and attributions of mind to non-human entities that are culturally accepted and widespread.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2607.28607"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Inducing language models to assert their own consciousness restores human beliefs and values?",
+    "Tell me about Inducing language models to assert their own consciousness restores human beliefs and values"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-02T01:30:01.649Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: language model, large language model, fine-tuning, alignment, safety, reasoning. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}
