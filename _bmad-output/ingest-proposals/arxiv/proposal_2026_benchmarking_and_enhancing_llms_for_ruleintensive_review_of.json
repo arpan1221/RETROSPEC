@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_benchmarking_and_enhancing_llms_for_ruleintensive_review_of",
+  "type": "paper",
+  "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+  "authors": [
+    "Tao Wang",
+    "Qihao Yang",
+    "Rongjiao Liang",
+    "Lianghong Lin",
+    "Haitao Wang",
+    "Xinyu Cao",
+    "Tianyong Hao"
+  ],
+  "date": "2026-08-06",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.06312",
+  "url": "https://arxiv.org/abs/2608.06312",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and governed by explicit rules for scope, terminology, normative wording, and cross-section consistency. Existing benchmarks focus on domain knowledge and question answering, largely overlooking intrinsic quality review for professional documents. Such reviews rely heavily on human experts, making them costly and difficult to scale. To bridge this gap, we introduce GB/T-Bench, the first benchmark for the structured review of national standard documents. Its GB/T Review Taxonomy is a hierarchical schema covering document structure, scope alignment, normative modality, terminology consistency, and normative references, with 25 diagnosable error types. A controllable counterexample generation mechanism combines deterministic rules and constrained LLM rewriting to process 488 documents into 7,306 traceable review error instances for evaluation. We also develop a diagnosis-oriented evaluation protocol requiring exact matches on error location, review dimension, and error type, plus document-level coverage metrics. We further propose GB/T-Reviewer, a multi-agent framework that converts review knowledge into specialized skills and coordinates global inspection, targeted diagnosis, rule scanning, and result verification. Experiments with 14 mainstream LLMs reveal a substantial human-LLM gap: the strongest model achieves only 0.3280 CMCS versus 0.6640 for experts. GB/T-Reviewer raises the best CMCS to 0.5094, showing the value of structured skill coordination for rule-intensive document review. This work paves the way for trustworthy AI in standardization and other high-stakes document domains.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.06312"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents?",
+    "Tell me about Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-09T00:48:25.186Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: language model, large language model, llm, agent, alignment, rag, benchmark. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}

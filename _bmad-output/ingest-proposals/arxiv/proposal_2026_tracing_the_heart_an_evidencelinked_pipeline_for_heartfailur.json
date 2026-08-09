@@ -1,0 +1,47 @@
+{
+  "id": "paper_2026_tracing_the_heart_an_evidencelinked_pipeline_for_heartfailur",
+  "type": "paper",
+  "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+  "authors": [
+    "Soorya Ram Shimgekar",
+    "Michelle Hu",
+    "Dorisa Shehi",
+    "Daniel Kang",
+    "Roy Ka-Wei Lee",
+    "Koustuv Saha",
+    "Christian Poellabauer",
+    "Christopher Lee",
+    "Sajeev Singh",
+    "Piyum Zonooz",
+    "Navin Kumar",
+    "Zeeshan Ahmed",
+    "Priyadarshini Kachroo"
+  ],
+  "date": "2026-08-06",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.06366",
+  "url": "https://arxiv.org/abs/2608.06366",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence traceability. We developed the Nimblemind Multi-Agent System (nMAS), an evidence-linked, rubric-grounded pipeline for automated heart-failure feature engineering, and evaluated it on 500 dummy patient records from nine EHR source tables. nMAS generated 132 structured and 70 rubric-scored aggregated features, verified for structural integrity, rubric compliance, and provenance, and audited by a restricted LLM. Adding the aggregated features improved held-out AUROC from 0.895 to 0.963 for HFrEF and 0.870 to 0.910 for HFpEF phenotyping, and an independent LLM-based rubric assessment of evidence support and methodological soundness scored the features at 81.5% of maximum points. These results demonstrate the feasibility of automated, auditable feature engineering for complex cardiovascular EHR data, though evaluation was limited to a single-institution cohort and external validation is needed.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.06366"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering?",
+    "Tell me about Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-09T00:48:25.182Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Matched keywords: language model, large language model, llm, agent, rag, reasoning. 13 authors. Categories: cs.AI, cs.LG, cs.AI."
+  }
+}

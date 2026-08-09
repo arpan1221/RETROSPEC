@@ -16,14 +16,14 @@
   "cultural_impact": "",
   "_meta": {
     "source": "huggingface",
-    "ingested_at": "2026-03-29T01:18:21.396Z",
+    "ingested_at": "2026-08-09T00:48:25.392Z",
     "status": "proposed",
     "confidence": 0.9,
-    "reason": "Notable org: openai. Very high downloads: 4,415,075. Very high likes: 4621. Trending on HuggingFace.",
+    "reason": "Notable org: openai. Very high downloads: 4,133,677. Very high likes: 5088. Trending on HuggingFace.",
     "huggingface_id": "openai/gpt-oss-120b",
     "huggingface_url": "https://huggingface.co/openai/gpt-oss-120b",
-    "downloads": 4415075,
-    "likes": 4621,
+    "downloads": 4133677,
+    "likes": 5088,
     "tags": [
       "transformers",
       "safetensors",
@@ -37,6 +37,7 @@
       "endpoints_compatible",
       "8-bit",
       "mxfp4",
+      "deploy:sagemaker",
       "deploy:azure",
       "region:us"
     ]
