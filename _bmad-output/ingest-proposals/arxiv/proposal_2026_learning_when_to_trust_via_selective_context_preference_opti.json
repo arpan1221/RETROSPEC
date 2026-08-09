@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_learning_when_to_trust_via_selective_context_preference_opti",
+  "type": "paper",
+  "title": "Learning When to Trust via Selective Context Preference Optimization",
+  "authors": [
+    "Xian Sun",
+    "Wei Chow",
+    "Yingshuo Wang",
+    "Junhao Liu",
+    "Wei Gao",
+    "Qing Wu",
+    "Lingdong Kong"
+  ],
+  "date": "2026-08-06",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.06377",
+  "url": "https://arxiv.org/abs/2608.06377",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong failures and optimizes a standard Direct Preference Optimization (DPO) objective over matched preference pairs balanced equally across all four conditions, rather than over misleading items alone. Our approach substantially reduces SC2W on popular open-sourced models while preserving accuracy when the added context is clean, correct, or irrelevant. With this work, we argue that models should be judged on selective trust, not on resistance alone.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.06377"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Learning When to Trust via Selective Context Preference Optimization?",
+    "Tell me about Learning When to Trust via Selective Context Preference Optimization"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-09T00:48:25.180Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, benchmark, reasoning. 7 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

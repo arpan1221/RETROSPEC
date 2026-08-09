@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_rrc_unlocking_generative_reward_models_in_llm_reinforcement",
+  "type": "paper",
+  "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+  "authors": [
+    "Chenglong Wang",
+    "Ziming Zhu",
+    "Yifu Huo",
+    "Bei Li",
+    "Qiaozhi He",
+    "Yan Ding",
+    "Xiaoyang Hao",
+    "Yuxin Gao",
+    "Tianhua Zhou",
+    "Xiaojia Chang",
+    "Tongran Liu",
+    "Jingbo Zhu"
+  ],
+  "date": "2026-08-06",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.06310",
+  "url": "https://arxiv.org/abs/2608.06310",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not realized their potential in reinforcement learning (RL). Our analysis reveals that this limitation arises from a mismatch between the comparative nature of generative reward modeling and the scalar scoring paradigm adopted by existing RL algorithms. To bridge this gap, we propose a Ranking-based Reward Construction (RRC) approach, which enables generative reward models to provide more effective RL learning signals by deriving rewards from relative preference rankings. RRC introduces two complementary strategies: self-competitive ranking, which exploits comparisons among sampled responses, and anchor-guided ranking, which enables scalable ranking-based reward construction with a small set of reference responses. Experiments across open-ended chat and reasoning benchmarks demonstrate that RRC substantially improves RL training with generative reward models, achieving consistent gains over existing reward construction approaches. Our code can be found at https://github.com/wangclnlp/RRC.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.06310"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction?",
+    "Tell me about RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-09T00:48:25.187Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: llm, reinforcement learning, benchmark, reasoning. 12 authors. Categories: cs.LG, cs.CL, cs.LG."
+  }
+}
