@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_saeverbalizer_generating_explanations_for_sparse_autoencoder",
+  "type": "paper",
+  "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+  "authors": [
+    "Weihan Meng",
+    "Hongzhu Guo",
+    "Yi Jing",
+    "Dewen Liu",
+    "Zijun Yao",
+    "Xiaozhi Wang",
+    "Lei Hou",
+    "Juanzi Li"
+  ],
+  "date": "2026-08-13",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.13538",
+  "url": "https://arxiv.org/abs/2608.13538",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Sparse autoencoders (SAEs) are proposed to extract numerous features from large language model (LLM) representations, yet explaining these features still relies primarily on external observation. This reliance leads to superficial explanations inferred from observed model behavior and computational inefficiency from collecting such behavioral evidence at scale. We introduce SAEVerbalizer, a framework that injects SAE decoder directions into an LLM's representations and fine-tunes the LLM's downstream layers to generate natural-language explanations of the injected features. Once trained, the resulting verbalizer explains SAE features directly from decoder directions, addressing both limitations. Our experiments show that the learned verbalization capability generalizes to unseen features, transfers across separately trained SAE dictionaries, and, with a lightweight adapter, extends to SAE features from different LLMs. Intervention experiments show that injecting multiple directions yields an explanation combining their meanings, while reversing individual directions produces corresponding meaning shifts.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.13538"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization?",
+    "Tell me about SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-16T00:35:04.812Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm. 8 authors. Categories: cs.CL, cs.CL."
+  }
+}

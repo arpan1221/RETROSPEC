@@ -1,0 +1,48 @@
+{
+  "id": "paper_2026_humantracker_towards_comprehensive_and_humanaligned_motion_t",
+  "type": "paper",
+  "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+  "authors": [
+    "Dairu Liu",
+    "Zekun Qi",
+    "Jiayu Zeng",
+    "Ruixi Yu",
+    "Yu Guan",
+    "Yintianrun Zhang",
+    "Xuchuan Chen",
+    "Sikai Liang",
+    "Zekai Li",
+    "Chenghuai Lin",
+    "Xinqiang Yu",
+    "Wenyao Zhang",
+    "He Wang",
+    "Li Yi"
+  ],
+  "date": "2026-08-13",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.13555",
+  "url": "https://arxiv.org/abs/2608.13555",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to make humanoid tracking evaluation both perceptually aligned and scalable. The HumanTracker benchmark contains approximately 153 hours of optical motion trajectories from multiple professional performers, organized into four motion families with text labels for fine-grained diagnosis. We further propose HumanScore, a preference-aligned metric trained on 12K motion pairs containing 24K motions. Across representative state-of-the-art trackers, HumanScore better predicts human preferences and reveals contact and stability failures that kinematic metrics often miss.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.13555"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark?",
+    "Tell me about HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-16T00:35:04.810Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: rag, benchmark. 14 authors. Categories: cs.RO, cs.AI, cs.CV, cs.RO."
+  }
+}

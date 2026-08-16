@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_the_data_geometry_of_masking_diffusion_certifiedoptimal_sche",
+  "type": "paper",
+  "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
+  "authors": [
+    "Martin J. Wainwright"
+  ],
+  "date": "2026-08-13",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.13520",
+  "url": "https://arxiv.org/abs/2608.13520",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be estimated from samples via KL increments along coupled reveal trajectories. This leads to \\emph{certified-optimal} samplers that achieve a prescribed KL error with high probability and iteration complexity within a constant factor of the corresponding oracle procedure. Collapsing the \\ugc path yields the aggregate {\\textsf{UGC}\\xspace} mass, which connects to classical multivariate dependence measures and complexity measures from previous analyses of discrete diffusion. In the fine-partition limit, the squared integral of the square-root {\\textsf{UGC}\\xspace} density determines the sharp leading-order optimal Euler discretization error. Examples exhibit substantial dimension-dependent gains over coarse schedules, including $\\widetildeΩ(\\sqrt{d})$ improvements achievable with a constant number of adaptively placed blocks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.13520"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity?",
+    "Tell me about The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-16T00:35:04.814Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: diffusion. 1 authors. Categories: cs.LG, cs.AI, cs.IT, math.ST, stat.ML, cs.LG."
+  }
+}
