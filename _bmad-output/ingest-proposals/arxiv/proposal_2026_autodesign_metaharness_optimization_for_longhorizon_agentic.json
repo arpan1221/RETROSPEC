@@ -1,0 +1,48 @@
+{
+  "id": "paper_2026_autodesign_metaharness_optimization_for_longhorizon_agentic",
+  "type": "paper",
+  "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+  "authors": [
+    "Yaxin Luo",
+    "Haobin Jiang",
+    "Jialv Zou",
+    "Xu Huang",
+    "Wenhao Yan",
+    "Haodong Li",
+    "Zhengrong Yue",
+    "Jing Li",
+    "Xiaofu Chen",
+    "Xiaohan Zhao",
+    "Jiacheng Liu",
+    "Jiacheng Cui",
+    "Zhiqiang Shen",
+    "Xiaotong Li"
+  ],
+  "date": "2026-08-13",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.13560",
+  "url": "https://arxiv.org/abs/2608.13560",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design priors, where a meta-harness optimizer guides a code agent to recursively improve harness based on rollout feedback. To instantiate and evaluate this framework, we focus on the academic paper-to-poster generation task and introduce PosterBench, comprising a 100-paper Main Track spanning five disciplines and PosterBench-mini, a shared 10-paper subset for controlled evaluation. On the PosterBench Main Track, AutoDesign achieves the highest score of 78.32, surpassing the closed-source commercial system Claude Design by 7.45 points. Across seven controlled code-agent-model configurations, integrating the learned DesignHarness consistently improves performance, increasing the average PosterBench Score from 54.99 to 67.39 (+12.4%). In a fully autonomous long-horizon loop, it executes 253 tool calls and 11 editing turns within 40 minutes for under $3, reaching average conference-poster quality in human evaluation. A system-blind human study further demonstrates that AutoDesign achieves the highest human preference among evaluated systems.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.13560"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design?",
+    "Tell me about AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-16T00:35:04.809Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: agent, agentic, multimodal, rag. 14 authors. Categories: cs.CV, cs.AI, cs.CL, cs.CV."
+  }
+}

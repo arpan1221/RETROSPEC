@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_dartree_speculative_diffusion_decoding_with_autoregressive_d",
+  "type": "paper",
+  "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+  "authors": [
+    "Tianyi Li",
+    "Yaxin Luo",
+    "Xinyi Shang",
+    "Zhiqiang Shen"
+  ],
+  "date": "2026-08-13",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.13524",
+  "url": "https://arxiv.org/abs/2608.13524",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditioned on tokens selected along each draft path. Existing recurrent correction incorporates causal information along a single draft chain, whereas diffusion-based tree construction broadens candidate coverage without carrying this correction along individual branches. We introduce DARTree, a training-free speculative decoding method that extends a pretrained AR correction head from chains to trees. DARTree first constructs a fixed-width candidate tree by expanding and scoring all nodes at each depth in a single batch, and then only applies best-first pruning to select the verification tree, decoupling AR-head inference from sequential heap operations. Across seven math, code, and chat benchmarks, DARTree achieves the highest average acceptance length and speedup in all four model--temperature configurations, accepting up to 12.97 tokens per verification round, 98.6\\% more than DFlash and 27.9\\% more than Domino in the same setting, and reaching up to 9.73$\\times$ lossless speedup over locally measured autoregressive decoding.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.13524"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees?",
+    "Tell me about DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-16T00:35:04.813Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, diffusion, rag, benchmark. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}
