@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_gcarl_grounded_checklistaligned_reward_learning_for_patiento",
+  "type": "paper",
+  "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+  "authors": [
+    "Shiao Xie",
+    "Siyu Chen",
+    "Jianwei Lv",
+    "Bo Yuan",
+    "Yujin Wang",
+    "Xiandong Li"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20331",
+  "url": "https://arxiv.org/abs/2608.20331",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical reports in accurate and accessible language based on a user's query and dialogue history. These two objectives differ fundamentally in their verifiability, yet remain tightly coupled, making them difficult to optimize jointly under conventional supervised fine-tuning and holistic reinforcement learning paradigms. To address this challenge, we propose G-CARL, a grounded, checklist-aligned reinforcement learning framework that combines multi-source retrieval for atomic claim verification with context-aware, instance-specific weighted checklists for response coverage, providing structured supervision for factuality, user-demand satisfaction, and expression quality without constraining response diversity. We further construct MMedReport, a real-world PMRI benchmark, along with a clinician-designed three-dimensional evaluation protocol. Extensive experiments demonstrate that G-CARL consistently outperforms existing post-training baselines in overall quality, claim-level precision, and checklist recall. Pairwise preference evaluation by clinicians further confirms that G-CARL produces interpretations that are more accurate and better aligned with patient needs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20331"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation?",
+    "Tell me about G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.835Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: reinforcement learning, fine-tuning, multimodal, rag, benchmark. 6 authors. Categories: cs.CL, cs.AI, cs.CV, cs.CL."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_break_it_down_pass_it_on_crosstask_skill_transfer_in_llm_age",
+  "type": "paper",
+  "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+  "authors": [
+    "Yiyang Feng",
+    "Biddut Sarker Bijoy",
+    "Niranjan Balasubramanian",
+    "Jiawei Zhou"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20274",
+  "url": "https://arxiv.org/abs/2608.20274",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains an open question. We conduct a comprehensive and controlled study of how the way skills are induced shapes their transfer across tasks. Specifically, we compare task-level with subtask-level skill induction and text with code skill formats, the two axes along which existing methods differ. Task-level skills mostly reduce the agent's performance below its no-memory baseline while subtask-level skills raise it above on average, and text skills transfer better than code skills. To further understand our findings, we examine two complementary properties of the induced skills: specificity, which measures how closely a skill matches real tasks, and abstractness, which measures how evenly its relevance spreads across tasks. Neither property alone predicts task success, but their combined effect does, which we propose as a skill utility score. The score correlates consistently with task success when skills are transferred, and subtask-level and text skills score higher. Computing skill utility only needs the skills and task descriptions but not any task execution, so our score serves as a practical diagnostic of a skill memory before any new task runs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20274"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents?",
+    "Tell me about Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.839Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, agent, rag. 4 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

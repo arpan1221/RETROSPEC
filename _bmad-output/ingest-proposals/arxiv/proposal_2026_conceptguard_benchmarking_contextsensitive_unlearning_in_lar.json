@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_conceptguard_benchmarking_contextsensitive_unlearning_in_lar",
+  "type": "paper",
+  "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+  "authors": [
+    "Sahil Kale",
+    "Ian Harris"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20338",
+  "url": "https://arxiv.org/abs/2608.20338",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques from such a practical viewpoint, we introduce the notion of dual-use concepts: concepts that can be used in both harmful and benign contexts. Building on these concepts, we construct a benchmark called ConceptGuard where forget and retain sets are explicitly complementary in concept usage. Our benchmark uniquely enables unlearning to be explored and gauged at the level of concepts, instead of sparse facts, and evaluation is intent-sensitive with the goal of maximizing contextual separation to promote safer behavior. We demonstrate that current unlearning techniques perform poorly under this setting, showing weak contextual separation alongside poor performance in ROUGE and concept-level metrics. Our results reveal strong forgetting-utility trade-offs, limited gains in contextual sensitivity, and poor consistency in concept-level control across methods, and provide ideas for unlearning approaches that better align with real-world safety requirements. Our dataset is publicly available.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20338"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models?",
+    "Tell me about ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.834Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, llm, benchmark, safety. 2 authors. Categories: cs.CL, cs.CL."
+  }
+}
