@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_dics_datainformed_centroid_splitting_for_decision_tree_class",
+  "type": "paper",
+  "title": "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers",
+  "authors": [
+    "MD Saifur Rahman Mazumder",
+    "Feng Yu"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20258",
+  "url": "https://arxiv.org/abs/2608.20258",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Decision tree-based models are widely used in machine learning due to their interpretability and strong empirical performance. However, training decision trees can be computationally expensive, particularly for large and high-dimensional datasets, largely due to the exhaustive search over candidate splits at each node. To improve computational efficiency, we propose Data-Informed Centroid Splitting (DICS), a clustering-based framework that constructs a compact and informative set of candidate splits using data-driven priors. By incorporating class-aware structure, DICS significantly reduces the split search space for classification tasks while preserving predictive performance. We further provide theoretical analysis showing that under the stated assumptions, DICS does not degrade the performance of classification trees compared to exhaustive split search. DICS can be incorporated into classification trees, random forests, and gradient-boosting models. Extensive experiments demonstrate that DICS achieves comparable accuracy while substantially reducing training time across synthetic and benchmark datasets, highlighting the benefit of integrating data-informed priors into split selection for scalable classification tree learning.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20258"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers?",
+    "Tell me about DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.839Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: benchmark, interpretability. 2 authors. Categories: cs.LG, stat.ML, cs.LG."
+  }
+}

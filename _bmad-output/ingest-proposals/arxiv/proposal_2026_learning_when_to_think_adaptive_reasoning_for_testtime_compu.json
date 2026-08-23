@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_learning_when_to_think_adaptive_reasoning_for_testtime_compu",
+  "type": "paper",
+  "title": "Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation",
+  "authors": [
+    "Gijs Kassenaar",
+    "Zhao Yang",
+    "Vincent François-Lavet"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20256",
+  "url": "https://arxiv.org/abs/2608.20256",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Reasoning language models trained with reinforcement learning typically operate under a fixed token budget rather than an explicitly adaptive one, which can lead to over-computation on easy problems and insufficient computation on difficult ones. We study whether a model can learn to allocate its own reasoning effort by choosing, as the first token of its response, one of three modes: \\textsc{NoThink} (answer as quickly as possible), \\textsc{Short} (brief reasoning), or \\textsc{Long} (extended reasoning). The choice is learned inside Group Relative Policy Optimization (GRPO) with no separate router, through a shaped reward that makes each mode worthwhile at a different response length, together with hard per-mode token caps that keep the modes distinct. On a 1.5B distilled model trained on MATH, the three modes emerge without collapsing to a single choice, and the brief modes end up more accurate than \\textsc{Long}, which shows that the router sorts problems by difficulty rather than at random. Averaged over three seeds, the resulting policy stays close to the base model's accuracy on the held-out MATH500 ($0.782$ vs.\\ $0.796$) while cutting the mean response length from $4{,}796$ to $2{,}811$ tokens (a $41\\%$ reduction). Interestingly, it also transfers to other benchmarks without retraining, with the largest savings where problems are easier, with for instance 76\\% token reduction on GSM8K and at higher accuracy than the baselines at similar response length. In short, we build a reasoning model that adaptively chooses how much to reason for each problem.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20256"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation?",
+    "Tell me about Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.840Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, reinforcement learning, rag, benchmark, reasoning. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}

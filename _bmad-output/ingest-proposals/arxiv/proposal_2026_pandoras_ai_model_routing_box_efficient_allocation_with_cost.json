@@ -1,0 +1,42 @@
+{
+  "id": "paper_2026_pandoras_ai_model_routing_box_efficient_allocation_with_cost",
+  "type": "paper",
+  "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+  "authors": [
+    "Adam Fisch",
+    "Shubhendu Trivedi",
+    "Fantine Huot",
+    "William W. Cohen",
+    "Michael Kaisers",
+    "Mirella Lapata",
+    "Kate Larson",
+    "Jacob Eisenstein"
+  ],
+  "date": "2026-08-20",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.20316",
+  "url": "https://arxiv.org/abs/2608.20316",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial reasoning traces) are expensive. We formalize this tradeoff as an instance of Pandora's Box, the classical problem of optimal search with costly inspection. Under a Gaussian signal model, the resulting policies have closed-form value-of-information expressions that determine, for each specialist and input, whether refining the value estimate is worth its cost. We call the centralized policy Pandora's Router. We extend this to a decentralized setting, Pandora's Bidder, where specialists independently decide whether to invest in self-assessment before accepting an offered price to claim a query. Experiments across three domains---a standard multi-LLM benchmark, retrieval-augmented specialists, and LLMs with variable inference-time reasoning---show that Pandora's Router matches the routing quality of exhaustive estimation, while querying the expensive estimator far less often. In the decentralized setting, value-of-information reasoning improves allocative efficiency when competing estimates are accurate; when competing estimates are noisy, however, it can increase the strategic specialist's utility at the expense of others.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.20316"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation?",
+    "Tell me about Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-23T00:36:17.837Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: llm, benchmark, reasoning. 8 authors. Categories: cs.AI, cs.AI."
+  }
+}
