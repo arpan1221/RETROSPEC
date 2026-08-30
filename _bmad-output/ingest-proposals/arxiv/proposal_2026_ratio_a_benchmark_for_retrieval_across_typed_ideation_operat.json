@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_ratio_a_benchmark_for_retrieval_across_typed_ideation_operat",
+  "type": "paper",
+  "title": "RATIO: A Benchmark for Retrieval Across Typed Ideation Operations in Scientific Literature",
+  "authors": [
+    "Maayan Sharon",
+    "Tom Hope"
+  ],
+  "date": "2026-08-27",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.27394",
+  "url": "https://arxiv.org/abs/2608.27394",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Retrieved scientific literature can serve as inspiration for both human and AI scientists. Inspiration can take different forms: prior work may directly suggest how to address a problem, or surface directions at different levels of abstraction - zooming out to a more general view or zooming in to a concrete realization. We introduce RATIO (Retrieval Across Typed Ideation Operations), a large-scale benchmark in which relevance is defined by three operations which we name ideation moves: Address retrieves potential approaches for stated problems, Broaden retrieves more general formulations, and Specify retrieves concrete instantiations. RATIO is constructed from millions of full-text scientific papers across CS literature via a general recipe that extends discourse-marker distant supervision - previously used only for classification - to corpus-scale retrieval, combined with extensive LLM and human vetting. Experiments show that operation-specific fine-tuning substantially boosts retrievers but leaves much room for further improvements. RATIO provides a scalable training and evaluation framework for retrieval components that support literature-grounded ideation, opening up new research avenues on scientific inspiration retrieval.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.27394"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RATIO: A Benchmark for Retrieval Across Typed Ideation Operations in Scientific Literature?",
+    "Tell me about RATIO: A Benchmark for Retrieval Across Typed Ideation Operations in Scientific Literature"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-30T02:08:48.413Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, fine-tuning, benchmark. 2 authors. Categories: cs.CL, cs.IR, cs.CL."
+  }
+}
