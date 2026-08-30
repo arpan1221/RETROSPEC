@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_criticl_inferencetime_weaktostrong_generalization_from_small",
+  "type": "paper",
+  "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+  "authors": [
+    "Yufan Wu",
+    "Yinghui He",
+    "Zhengyi Hu",
+    "Lang Wei",
+    "Ruichen Li",
+    "Qifan Yang",
+    "Ting Zhu"
+  ],
+  "date": "2026-08-27",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.27455",
+  "url": "https://arxiv.org/abs/2608.27455",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as a source of guidance. Specifically, we utilize failure modes derived from weaker models and incorporate them into inference through critique-based in-context examples. We propose two variants: CritICL-dynamic, which adaptively predicts input-specific failure modes and retrieves critiques, and CritICL-static, which uses a global failure mode profile to provide stable guidance. Experimental results show that CritICL consistently outperforms standard in-context learning and achieves performance competitive with or superior to test-time scaling methods, while requiring significantly fewer generations and lower token cost. Code available at: https://github.com/umwyf/CRITICL",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.27455"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes?",
+    "Tell me about CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-30T02:08:48.407Z",
+    "status": "proposed",
+    "confidence": 0.75,
+    "reason": "Matched keywords: language model, large language model, llm, in-context learning, rag, reasoning. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_redevoagent_automatic_redteaming_agent_with_experiencedriven",
+  "type": "paper",
+  "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+  "authors": [
+    "Junjie Zhang",
+    "Hui Liu",
+    "Kecheng Chen",
+    "Xianbo Mo",
+    "Changsheng Chen",
+    "Haoliang Li"
+  ],
+  "date": "2026-08-27",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2608.27439",
+  "url": "https://arxiv.org/abs/2608.27439",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unclear tool credit, and full trajectories add context overhead while reducing interpretability. We propose RedEvoAgent, a black-box red-teaming agent that distills cross-case attack trajectories into a concise, human-readable attack skill. The attack skill adaptively evolves through tool-effectiveness profiling and Deciding-Tool Attribution for skill updates, and a validation ratchet that retains only updates improving validation performance. Experiments on multiple benchmarks, target models, and target execution harnesses show that RedEvoAgent outperforms fixed and agentic baselines, improves tool efficiency, and transfers across attacker models and target execution harnesses.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2608.27439"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution?",
+    "Tell me about RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-08-30T02:08:48.410Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: llm, agent, agentic, benchmark, interpretability. 6 authors. Categories: cs.CR, cs.AI, cs.CR."
+  }
+}
