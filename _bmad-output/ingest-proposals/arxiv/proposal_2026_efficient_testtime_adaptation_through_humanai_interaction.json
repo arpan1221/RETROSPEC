@@ -1,0 +1,59 @@
+{
+  "id": "paper_2026_efficient_testtime_adaptation_through_humanai_interaction",
+  "type": "paper",
+  "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+  "authors": [
+    "Zora Zhiruo Wang",
+    "Apurva Gandhi",
+    "Rulin Shao",
+    "Aspen Chen",
+    "Jonas Mueller",
+    "Zhiqi Liang",
+    "Jett Chen",
+    "Michael Ryan",
+    "Qianou Ma",
+    "Luxi He",
+    "Zhoujun Cheng",
+    "Andre He",
+    "Seungone Kim",
+    "Jiayi Geng",
+    "Mingqian Zheng",
+    "Weiwei Sun",
+    "Zheyuan Zhang",
+    "Xinran Zhao",
+    "Yike Wang",
+    "Abe Hou",
+    "Liwei Jiang",
+    "Pang Wei Koh",
+    "Diyi Yang",
+    "Graham Neubig",
+    "Daniel Fried"
+  ],
+  "date": "2026-09-03",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.04141",
+  "url": "https://arxiv.org/abs/2609.04141",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "AI agents are trained on population-scale data to encode broad capabilities spanning those of many practitioners. Yet the artifacts they produce rarely meet the personal bar professionals need to stake their reputation on. On realistic, open-ended tasks where success criteria are heterogeneous and insufficiently documented, individual expertise lives precisely in the elevation and departure from the average. In practice, iterative human-agent interaction surfaces criteria that users cannot fully specify up front, yet apply repeatedly across tasks. We argue this cross-session interaction data is a rich, underused signal for closing the gap to individual expertise. In this work, we propose test-time adaptation through human-agent interaction (TAHI), which integrates these signals into agent context and weights, and crystallizes each user's training and evaluation criteria via an evolving rubric module. We adapt agents to 30 individuals in two high-utility domains, writing and visual creation, on a total of 600 tasks. Our agents improve solo task success by 4.5-20.9% within only tens of tasks. Meanwhile, our evolving rubric module serves as a scalable annotation tool, creating evaluation rubrics that catch 16.0-22.3% more failures than those from LMs or humans alone. While agents are adapted towards individuals, we show these personalized agents also produce improvements in success of up to 8.8% that generalize across users.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.04141"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Efficient Test-Time Adaptation through Human-AI Interaction?",
+    "Tell me about Efficient Test-Time Adaptation through Human-AI Interaction"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-06T01:41:37.402Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: agent, rag. 25 authors. Categories: cs.AI, cs.AI."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_seeing_before_synthesizing_vlmguided_transition_event_discov",
+  "type": "paper",
+  "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+  "authors": [
+    "Ye-Chan Kim",
+    "Seunghee Choi",
+    "SeungJu Cha",
+    "Si-Woo Kim",
+    "Hwiseon Kim",
+    "Hyungee Kim",
+    "Dong-Jin Kim"
+  ],
+  "date": "2026-09-03",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.04183",
+  "url": "https://arxiv.org/abs/2609.04183",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Weakly-Supervised Dense Video Captioning aims to localize and describe multiple events in untrimmed videos given only an ordered set of event-level captions per video. Recent work synthesizes auxiliary transition captions via LLM to provide additional vision-language alignment, but these captions lack visual grounding and are rigidly assigned to every inter-event gap at a fixed location and duration. To address these, we propose Seeing Before Synthesizing (SBS), a framework that adaptively provides visually grounded linguistic guidance only where warranted. Leveraging a VLM, we generate frame-level narratives for the inter-event gaps and detect transitions from the semantic variation across them. For identified transitions, we then refine inter-event temporal masks by blending the temporal midpoint with the semantic change point and selecting the width that maximizes vision-language alignment. Experiments on ActivityNet Captions and YouCook2 demonstrate state-of-the-art performance in both captioning and localization.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.04183"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning?",
+    "Tell me about Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-06T01:41:37.399Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, alignment, rag. 7 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}
