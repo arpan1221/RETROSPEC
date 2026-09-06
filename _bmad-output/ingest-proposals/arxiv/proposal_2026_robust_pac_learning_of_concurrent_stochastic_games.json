@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_robust_pac_learning_of_concurrent_stochastic_games",
+  "type": "paper",
+  "title": "Robust PAC Learning of Concurrent Stochastic Games",
+  "authors": [
+    "Angel Y. He",
+    "David Parker"
+  ],
+  "date": "2026-09-03",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.04189",
+  "url": "https://arxiv.org/abs/2609.04189",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash equilibrium (NE) existence. Our algorithm maintains data-driven $L^1$ confidence sets over transition kernels and solves a robust CSG to compute a social-welfare optimal $\\varepsilon$-NE, using a robust MDP-based exploration mechanism to drive joint state-action coverage. Crucially, we introduce a Nash margin characterisation that enables principled reasoning about equilibrium existence: the framework either returns an $\\varepsilon$-approximate NE whose social-welfare value is $\\varepsilon$-close to optimal, or provides a sound certificate that no exact NE exists. Under a minimum reachability condition $p_{\\mathrm{reach}}&gt;0$ over relevant state-action pairs, the algorithm terminates after a polynomial number of trajectory samples, with sample complexity $\\widetilde{O}\\left( {R_{\\max}^2 H^4 |S|^2 |A| / (p_{\\mathrm{reach}} \\varepsilon^2)} \\right)$. Empirical results on benchmark CSGs demonstrate near-optimal performance, correct handling of equilibrium (non-)existence, and sample complexity consistent with theory.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.04189"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Robust PAC Learning of Concurrent Stochastic Games?",
+    "Tell me about Robust PAC Learning of Concurrent Stochastic Games"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-06T01:41:37.399Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: rag, benchmark, reasoning. 2 authors. Categories: cs.LG, cs.GT, cs.LO, cs.MA, cs.LG."
+  }
+}

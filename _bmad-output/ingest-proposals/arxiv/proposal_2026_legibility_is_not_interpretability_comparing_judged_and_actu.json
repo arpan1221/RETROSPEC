@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_legibility_is_not_interpretability_comparing_judged_and_actu",
+  "type": "paper",
+  "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+  "authors": [
+    "Kevin Du",
+    "Alexander Hoyle",
+    "Laura Ruis",
+    "Acyr Locatelli"
+  ],
+  "date": "2026-09-03",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.04194",
+  "url": "https://arxiv.org/abs/2609.04194",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Reasoning traces from chain-of-thought models appear to offer a legible window into how a model arrives at its answer. A growing body of work treats them as such, using LLM judges to diagnose errors, evaluate faithfulness, and provide step-level supervision via process reward models and generative critics. These practices rely on the text of a reasoning step carrying information about its functional role. But does the text actually encode information about which reasoning steps matter? We operationalize the importance of a reasoning step as its advantage: the change in expected reward, e.g., producing the correct final answer, from including that step, estimated via Monte Carlo rollouts. Basing ground truth on these estimates, we evaluate whether LLM judges can identify high-advantage steps and find that sufficiently capable LLMs can outperform a prevalence baseline but fall well short of a noise ceiling. Fine-tuning a model as a step-level critic yields strong improvement for incorrect responses but remains distant from ceiling for correct responses, suggesting that step importance is only partially recoverable from the text of the reasoning trace. Our findings contribute to a growing body of chain-of-thought faithfulness work that cautions against treating the legibility of reasoning traces as interpretability, especially with implications for process reward modeling.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.04194"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning?",
+    "Tell me about Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-06T01:41:37.399Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: llm, fine-tuning, interpretability, reasoning. 4 authors. Categories: cs.CL, cs.LG, cs.CL."
+  }
+}

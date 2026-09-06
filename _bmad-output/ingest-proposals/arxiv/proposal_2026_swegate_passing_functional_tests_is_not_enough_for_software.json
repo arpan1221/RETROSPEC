@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_swegate_passing_functional_tests_is_not_enough_for_software",
+  "type": "paper",
+  "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+  "authors": [
+    "Xin He",
+    "Yanlin Wang",
+    "Mingwei Liu",
+    "Jiachi Chen",
+    "Hongyu Zhang",
+    "Guanbin Li"
+  ],
+  "date": "2026-09-03",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.04167",
+  "url": "https://arxiv.org/abs/2609.04167",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-derived acceptance constraints (review constraints) that often influence whether a patch is acceptable in real-world software development. We introduce SWE-Gate, a repository-level benchmark for software engineering agents that explicitly evaluates review constraint compliance alongside functional correctness. SWE-Gate derives review constraints from real pull request review comments and synthesizes repository-level repair instances around these constraints. Each instance provides separate functional and constraint tests, together with non-compliant and gold patches, enabling explicit separation between issue resolution capability and review constraint compliance. We construct SWE-Gate with 303 repository-level repair instances spanning 75 open-source Python repositories across diverse software domains. Experiments with four LLM backends spanning different capability levels under a common coding-agent scaffold reveal a substantial gap between functional success and success under the complete repair specification: among 644 repairs that pass the functional tests, 221 fail to satisfy the provided review constraints. These findings show that functional-only evaluation overestimates agents' ability to satisfy the full requirements of repository-level repair tasks. The replication package including code, data, and experimental results is available at https://github.com/DeepSoftwareAnalytics/SWE-Gate.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.04167"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents?",
+    "Tell me about SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-06T01:41:37.401Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, agent, benchmark. 6 authors. Categories: cs.SE, cs.AI, cs.SE."
+  }
+}
