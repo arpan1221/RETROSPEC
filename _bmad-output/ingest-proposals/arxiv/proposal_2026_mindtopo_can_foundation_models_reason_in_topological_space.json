@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_mindtopo_can_foundation_models_reason_in_topological_space",
+  "type": "paper",
+  "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+  "authors": [
+    "Yunfei Ge",
+    "Anbang Liu",
+    "Qineng Wang",
+    "Johnalbert Garnica",
+    "Jianwen Lyu",
+    "Zihan Wang",
+    "Reuben Tan",
+    "Jianfeng Gao",
+    "Ruohan Zhang",
+    "Yining Hong",
+    "Jiajun Wu",
+    "Manling Li"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11900",
+  "url": "https://arxiv.org/abs/2609.11900",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations largely focus on metric or viewpoint-dependent relations. We introduce MindTopo, a benchmark of topological intuition across five properties grounded in cognitive science and formal topology: continuity, separation, order, enclosure, and knots. MindTopo evaluates each property at two cognitive levels. Reasoning asks a model to identify topological relations or infer how they change. Planning instantiates a foundation model as a closed-loop agent whose policy selects environment actions. MindTopo contains 11,030 instances across 13 procedurally generated task types with controllable difficulty. We benchmark 14 MLLMs and study agent configurations augmented with image and video generation, including 3 video generative models in planning settings. Every MLLM performs better on reasoning than on planning, and the best-performing model remains far below observed human performance. On Qwen3-VL-2B-Instruct, supervised fine-tuning and reinforcement learning improve reasoning more than planning. Generated observations retain local cues and reach plausible endpoints, but audited rollouts do not reliably follow environment dynamics or preserve topology across transitions. Our website is at https://mind-topo.github.io/",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11900"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MindTopo: Can Foundation Models Reason in Topological Space??",
+    "Tell me about MindTopo: Can Foundation Models Reason in Topological Space?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.675Z",
+    "status": "proposed",
+    "confidence": 0.75,
+    "reason": "Matched keywords: llm, reinforcement learning, agent, fine-tuning, benchmark, reasoning, foundation model. 12 authors. Categories: cs.AI, cs.CL, cs.CV, cs.AI."
+  }
+}

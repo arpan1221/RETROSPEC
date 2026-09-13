@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_from_protocols_to_evidence_bounded_claims_for_ai_in_service",
+  "type": "paper",
+  "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
+  "authors": [
+    "Nitesh V. Chawla",
+    "Paulo Benanti"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11910",
+  "url": "https://arxiv.org/abs/2609.11910",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deployed, AI becomes an intervention in those conditions. It can repair, compound, substitute for, or conceal the failures it encounters. Responsible AI must therefore evaluate both the system and the institutional rupture into which it is introduced. The move from principles to protocols is already underway. The EU AI Act, NIST AI RMF, ISO/IEC 42001, and assurance practices translate commitments into roles, requirements, records, oversight, and assessment. The harder questions are what these protocols actually establish, whose power they leave untouched, and where measurement must stop. Pope Leo XIV's Magnifica Humanitas provides a broader moral frame centered on dignity, technological power, and the common good. Drawing on that frame, we develop a rupture test that links institutional baselines to system evaluation. We distinguish evidence-bounded deployment, which limits claims to what has actually been evaluated, from measurement-bounded governance, which records constraints that favorable evidence cannot override. Within those limits, RISE AI provides an architecture for making bounded, evidence-based claims about Responsibility, Inclusivity, Safety, and Empowerment. Responsible AI requires better engineering, institutional repair, and continued moral and political judgment.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11910"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good?",
+    "Tell me about From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.674Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: safety. 2 authors. Categories: cs.LG, cs.LG."
+  }
+}

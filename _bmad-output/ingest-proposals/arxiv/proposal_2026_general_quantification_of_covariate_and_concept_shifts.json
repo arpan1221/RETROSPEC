@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_general_quantification_of_covariate_and_concept_shifts",
+  "type": "paper",
+  "title": "General Quantification of Covariate and Concept Shifts",
+  "authors": [
+    "Hongbo Chen",
+    "Li Charlie Xia"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11918",
+  "url": "https://arxiv.org/abs/2609.11918",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging entropic optimal transport, we propose a key notion: $γ^{*}\\!$-concept shifts, and derive a general error bound unifying covariate and $γ^{*}\\!$-concept shifts, which applies to broad loss functions, label spaces, and stochastic labeling. We further develop estimators for these shifts with concentration guarantees, and the DataShifts algorithm, which can quantify distribution shifts and estimate the error bound in most applications - a rigorous and general tool for analyzing learning error under distribution shift.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11918"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is General Quantification of Covariate and Concept Shifts?",
+    "Tell me about General Quantification of Covariate and Concept Shifts"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.672Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: rag. 2 authors. Categories: cs.LG, cs.AI, stat.ML, cs.LG."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_on_the_regularization_landscape_for_the_linear_recommendatio",
+  "type": "paper",
+  "title": "On the Regularization Landscape for the Linear Recommendation Models",
+  "authors": [
+    "Dong Li",
+    "Zhenming Liu",
+    "Ruoming Jin",
+    "Hao Zhou",
+    "Zhi Liu",
+    "Jing Gao",
+    "Bin Ren"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11876",
+  "url": "https://arxiv.org/abs/2609.11876",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Recently, a wide range of recommendation algorithms inspired by deep learning techniques have emerged as the performance leaders on several standard recommendation benchmarks. While these algorithms were built on different DL techniques (e.g., dropouts, autoencoder), they have similar performance and even similar cost functions. This paper studies whether the models' comparable performance are sheer coincidence, or they can be unified under a single framework. We find that all linear performance leaders effectively add only a nuclear-norm based regularizer, or a Frobenius-norm based regularizer. The former ones possess a (surprising) rigid structure that limits the models' predictive power but their solutions are low rank and have closed form. The latter ones are more expressive and more efficient for recommendation but their solutions are either full-rank or require executing hard-to-tune numeric procedures such as ADMM. Along this line of finding, we further propose two low-rank, closed-form solutions, derived from carefully generalizing Frobenius-norm based regularizers. The new solutions get the best of both nuclear-norm and Frobenius-norm world.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11876"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is On the Regularization Landscape for the Linear Recommendation Models?",
+    "Tell me about On the Regularization Landscape for the Linear Recommendation Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.677Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: benchmark. 7 authors. Categories: cs.AI, cs.AI."
+  }
+}
