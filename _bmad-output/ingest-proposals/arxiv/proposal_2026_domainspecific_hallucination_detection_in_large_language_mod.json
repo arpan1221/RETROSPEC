@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_domainspecific_hallucination_detection_in_large_language_mod",
+  "type": "paper",
+  "title": "Domain-Specific Hallucination Detection in Large Language Models",
+  "authors": [
+    "Varun Teja Chundru",
+    "Debasmita Biswas"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11878",
+  "url": "https://arxiv.org/abs/2609.11878",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantification, and temperature-scaled calibration for response-level hallucination detection. Evaluated on the HaluEval benchmark, our pipeline achieves F1=0.915 and AUROC=0.977 on general-domain tasks, with per-task F1 scores of 0.97 (QA), 0.96 (Summarization), and 0.82 (Dialogue). MC Dropout inference further improves accuracy to 93.2%. A context ablation study confirms the model performs genuine entailment reasoning rather than exploiting surface patterns, with summarization F1 dropping 24% when knowledge context is removed. Learning curve analysis reveals that 25% of training data captures 77% of full-data performance. Beyond detection, we apply Direct Preference Optimization (DPO) to a Qwen2.5-0.5B generator, reducing its hallucination rate from 85.5% to 37.7% (55.9% relative reduction) as measured by our detector. Cross-domain evaluation on the SciFact biomedical benchmark shows that general-domain training transfers poorly (F1=0.52), motivating domain-specific fine-tuning. PubMedBERT fine-tuned on SciFact achieves F1=0.63 and AUROC=0.81, demonstrating that domain-matched pre-training is the strongest adaptation strategy. Code and models are available at https://github.com/varunteja99/hallucination-detection-nlp",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11878"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Domain-Specific Hallucination Detection in Large Language Models?",
+    "Tell me about Domain-Specific Hallucination Detection in Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.677Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, large language model, fine-tuning, benchmark, reasoning. 2 authors. Categories: cs.CL, cs.AI, cs.LG, cs.CL."
+  }
+}

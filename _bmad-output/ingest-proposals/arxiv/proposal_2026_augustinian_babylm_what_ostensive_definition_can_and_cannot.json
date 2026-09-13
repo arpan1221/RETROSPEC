@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_augustinian_babylm_what_ostensive_definition_can_and_cannot",
+  "type": "paper",
+  "title": "Augustinian BabyLM: What Ostensive Definition Can and Cannot Teach a Small Language Model",
+  "authors": [
+    "Lisa Bylinina"
+  ],
+  "date": "2026-09-10",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.11870",
+  "url": "https://arxiv.org/abs/2609.11870",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "A language model normally begins training with random word embeddings: whatever 'banana' means must be learned from training corpora. I implement St. Augustine's picture of word learning, meaning by ostension, for a small masked language model (DeBERTa) trained on 10M words: before training, visually grounded tokens receive embeddings derived from the image regions they label; other tokens start random. Visual initialization leaves a measurable imprint that lasts until the end of training. At the same time, the effect remains invisible under most BabyLM benchmarks, which probe abstract grammatical knowledge: visual initialization does not affect performance there. The only zero-shot exception is object-property knowledge (COMPS, Misra et al. 2023), where seeding helps in every configuration. To follow up on this result, I build a corpus-tailored version of the Visual-Property Swap benchmark (Lin et al., 2026), which tests color, material, size, and shape knowledge, with per-item training frequency and seeded status. Here, vision-seeded models have a persistent, seed- replicated advantage, confined to the seeded words. As a causal test, I show that synthetic grounding of previously unseeded words transfers the advantage to exactly those words. Function words and abstract vocabulary also receive strong visual seeds and retain them throughout training, and the training objective draws on them: held-out mask-prediction loss falls for these words in every seed. However, no benchmark I run registers this. What evaluation would pick this up remains an open question.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.11870"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Augustinian BabyLM: What Ostensive Definition Can and Cannot Teach a Small Language Model?",
+    "Tell me about Augustinian BabyLM: What Ostensive Definition Can and Cannot Teach a Small Language Model"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-13T01:49:38.679Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: language model, benchmark. 1 authors. Categories: cs.CL, cs.CL."
+  }
+}
