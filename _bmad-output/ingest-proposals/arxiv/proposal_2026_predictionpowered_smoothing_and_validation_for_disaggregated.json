@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_predictionpowered_smoothing_and_validation_for_disaggregated",
+  "type": "paper",
+  "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+  "authors": [
+    "Sho Kawano",
+    "Zehang Richard Li",
+    "Paul A. Parker"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20758",
+  "url": "https://arxiv.org/abs/2609.20758",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population and seek accurate point and interval estimates of each domain mean. Direct estimators, including prediction-powered inference (PPI), use only a domain's own labels and are imprecise where labels are few. Small area estimation addresses this problem, and we build on it to develop an integrated workflow for estimation and validation. For estimation, we propose prediction-powered smoothing (PP-S), a Bayesian model fit to each domain's prediction-powered estimate, with an extension that borrows strength across a reporting taxonomy (PP-TS). For validation, we derive a new, approximately unbiased design-based cross-validation score for choosing among direct and smoothed estimators. We study a curated benchmark with verifiable grading and deployed agent traffic graded by humans, each with every outcome observed. In both, the proposed estimators improve on the direct estimators in point and interval estimation, with near-nominal coverage. At the same sampling budget, our score selects as well as an independent validation sample does and estimates the selected estimator's error far more accurately.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20758"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation?",
+    "Tell me about Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.602Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: agent, rag, benchmark. 3 authors. Categories: stat.ML, cs.AI, cs.LG, stat.AP, stat.ME, stat.ML."
+  }
+}
