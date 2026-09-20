@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_calibrated_rffingerprinting_under_interference_with_heteroge",
+  "type": "paper",
+  "title": "Calibrated RF-Fingerprinting Under Interference With Heterogeneous Transmission Protocols",
+  "authors": [
+    "Tariq Abdul-Quddoos",
+    "Xiangfang Li",
+    "Lijun Qian"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20765",
+  "url": "https://arxiv.org/abs/2609.20765",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Radio Frequency(RF)-Fingerprinting is a spectrum monitoring technique that identifies specific transmitters based on hardware impairments imprinted within the emitted signal. Although widely researched, studies almost exclusively consider scenarios where only one transmitter is emitting at a time, limiting real world applicability. In this work, we further the study of RF-Fingerprinting by considering co-channel interference, with multiple emitted signals interfering with each other, overlapping in time and frequency. Specifically, we formulate this problem as a multi-label classification problem and employ a 1D convolutional neural network (CNN). Furthermore, the models are calibrated such that the confidence thresholds for the label probabilities are derived, with guarantees on the upper bound on the average number of False Negatives, providing a degree of confidence in not missing a true spectrum policy violation. The proposed method is validated using real world data from the POWDER 5G testbed on devices transmitting 802.11a(Wi-Fi), 4G LTE, and 5G NR waveforms. The results show accuracy as high as 97% and as low as 73% after calibration depending on channel conditions. Also calibrating for various average false negatives upper bounds achieves micro recall scores of approximately (1 - calibrated false negatives) with the calibration robust to out-of-distribution interference, demonstrating the potential of the proposed method in a realistic high contention wireless environment",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20765"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Calibrated RF-Fingerprinting Under Interference With Heterogeneous Transmission Protocols?",
+    "Tell me about Calibrated RF-Fingerprinting Under Interference With Heterogeneous Transmission Protocols"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.601Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: rag. 3 authors. Categories: cs.LG, cs.LG."
+  }
+}

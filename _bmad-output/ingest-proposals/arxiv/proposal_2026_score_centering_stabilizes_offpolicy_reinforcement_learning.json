@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_score_centering_stabilizes_offpolicy_reinforcement_learning",
+  "type": "paper",
+  "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+  "authors": [
+    "Martin Marek",
+    "Max Ryabinin"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20807",
+  "url": "https://arxiv.org/abs/2609.20807",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We derive an additive \"score centering\" correction term that stabilizes RL under TIM by canceling drift. When training models from 0.6B to 30B parameters, score centering alone matches or outperforms methods based on importance sampling under quantization, with the gap growing as the mismatch becomes more severe. Because the correction is additive, score centering also composes with importance sampling -- their composition outperforms pure importance-sampling baselines in our staleness experiments.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20807"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Score Centering Stabilizes Off-policy Reinforcement Learning?",
+    "Tell me about Score Centering Stabilizes Off-policy Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.597Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, reinforcement learning. 2 authors. Categories: cs.LG, cs.LG."
+  }
+}

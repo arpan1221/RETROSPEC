@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_coding_agents_with_an_obstacleaware_harness_for_safe_robot_m",
+  "type": "paper",
+  "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+  "authors": [
+    "Bingxin Xu",
+    "Yuzhang Shang",
+    "Zhen Dong",
+    "Emilio Ferrara"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20822",
+  "url": "https://arxiv.org/abs/2609.20822",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority. By decomposing manipulation into a route phase and a contact-rich moment, we locate the source of the failure. Along the route, the model cannot prioritize the safety constraint, having no notion of a clearing route and none of replanning once a chosen route becomes infeasible. At the contact, it is unaware that contact execution is bounded by the same constraint. To close this gap, we present SafeHarness, which equips the model with two obstacle-aware harnesses that enable it to prioritize the safety constraint. Obstacle-aware route planning grounds the objects as bounding boxes and draws candidate routes over them as sequences of waypoints. The agent then plans a route in advance, verifies it, replans when necessary, and only then executes it. Obstacle-aware contact execution instead selects the contact position so that the contact itself avoids the obstacle. SafeHarness attains 71.9% task success and 87.5% collision avoidance, surpassing the previous SOTA by 6.5% and 27.0%, respectively. These results are $2.3\\times$ and $1.5\\times$ those of the same agent without harnesses.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20822"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation?",
+    "Tell me about Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.594Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, agent, safety, prompt. 4 authors. Categories: cs.RO, cs.AI, cs.CL, cs.CV, cs.RO."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_semantic_action_graph_a_shared_representation_for_agent_grou",
+  "type": "paper",
+  "title": "Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights",
+  "authors": [
+    "Tica Lin",
+    "Deepak Chandran",
+    "Gauri Jagatap",
+    "Chen Chen",
+    "Andrea Fanelli",
+    "David Gunawan",
+    "Josh Kimball"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20768",
+  "url": "https://arxiv.org/abs/2609.20768",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Generative agents are increasingly used to select and narrate video highlights, but they typically operate over unstructured or frame-level representations. Their output is consequently difficult for a viewer to verify and steer toward individual preferences. We present the semantic action graph, a lightweight domain schema that represents a sports match as performer, action, recipient, moment, and state nodes connected by role, temporal, and outcome edges. The schema demonstrates three key properties: 1) connected event sequences, 2) a shared, closed vocabulary, and 3) frame-addressable moments, making it suitable to serve two consumers at once: an agentic pipeline that composes narrated highlights, and a visual interface through which viewers query and inspect the same structure. We instantiate it in SportSAGE, a design probe pairing a four-module highlight pipeline with a graph interface, and report feedback from 12 soccer fans. Participants were satisfied with the quality of the generated highlights and narratives, and used the graph interface to search, navigate, and interpret the match highlights. These results provide early evidence that one small, human-readable schema can ground agent generation and support human interpretation at the same time.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20768"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights?",
+    "Tell me about Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.600Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: agent, agentic. 7 authors. Categories: cs.HC, cs.AI, cs.HC."
+  }
+}

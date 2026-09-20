@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_agilewam_an_agile_tactile_world_action_model_for_contactrich",
+  "type": "paper",
+  "title": "Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control",
+  "authors": [
+    "Hanchu Zhou",
+    "Brendan Lynch",
+    "Raman Goyal",
+    "Dechen Gao",
+    "Begum Kasap",
+    "Boqi Zhao",
+    "Junshan Zhang"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20761",
+  "url": "https://arxiv.org/abs/2609.20761",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "World Action Models (WAMs) advance beyond conventional visuomotor policies by jointly predicting future world states and robot actions, enabling the policy to learn physical dynamics that support effective control. However, recent tactile WAMs often rely on large-scale pretrained generative backbones to capture contact-rich physical dynamics, which limit their inference efficiency and flexible deployment. In this paper, we present \\ABBR{}, an agile tactile World Action Model for contact-rich robot control. \\ABBR{} encodes visual and tactile observations into a shared latent that serves as the source of a direct vision-tactile-to-action flow-matching process, which can jointly generate latent representations of action chunks and future visual/tactile latents. A key observation is that vision and tactile signals evolve at inherently different timescales: adjacent visual frames are often highly similar, whereas tactile signals can change abruptly upon contact. We therefore introduce multi-horizon multimodal prediction in \\ABBR{}, which provides supervision for visual latent at a larger temporal offset while predicting the tactile latent in the next frame to capture fine-grained contact dynamics. Across nine simulated and five real-world contact-rich manipulation tasks, \\ABBR{} demonstrates strong and robust performance, outperforming the strongest baseline in success rate while maintaining low inference latency. In particular, in five real-world experiments, \\ABBR{} yields a relative gain of $\\textbf{29.4\\%}$ in overall success rates while achieving inference latency of $\\textbf{11.9 ms}$. These results demonstrate that multimodal WAM can be achieved with an agile architecture suitable for precise and high-frequency robot control. More details are available on our project page: https://hanchuzhou.github.io/TARO_project_page/.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20761"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control?",
+    "Tell me about Agile-WAM: An Agile Tactile World Action Model for Contact-Rich Robot Control"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.601Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: multimodal. 7 authors. Categories: cs.RO, cs.LG, cs.RO."
+  }
+}

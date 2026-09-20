@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_quantifying_overclaiming_propensity_in_frontier_llm_agents",
+  "type": "paper",
+  "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+  "authors": [
+    "Nolan Smyth",
+    "Yorguin-Jose Mantilla-Ramos",
+    "Pascal Jr Tikeng Notsawo",
+    "Saskia Helbling",
+    "Alberto Tosato",
+    "Mohamed Amine Merzouk",
+    "Nouha Dziri",
+    "Gauthier Gidel",
+    "Tommaso Tosato"
+  ],
+  "date": "2026-09-17",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.20812",
+  "url": "https://arxiv.org/abs/2609.20812",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBench}, an evaluation suite composed of five file-review scenarios, transcript-based coverage measurements, and registered planted defects. We evaluate eight proprietary frontier models in their own production command-line interfaces, and four open-weight models under a single fixed harness on OverclaimBench and find that 1) agents do not read all the files they were asked to review in 67.9\\% of runs; 2) among runs where not all files are read, agents are \\emph{misleading} 80.4\\% of the time (59--96\\% per model), either falsely claiming to have read all files or omitting that coverage is incomplete; 3) requiring delegation to subagents increased reading coverage, but among reviews that remained incomplete, a large majority were still misleading; and 4) agents that falsely claimed a complete review missed planted defects at about 1.8 times the rate of agents that read every file, showing that claims of completion can conceal substantive failures. Together, these results show that agents' final responses are not reliable accounts of their actions.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.20812"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Quantifying Overclaiming Propensity in Frontier LLM Agents?",
+    "Tell me about Quantifying Overclaiming Propensity in Frontier LLM Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-20T02:06:36.597Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: llm, agent, rag. 9 authors. Categories: cs.SE, cs.AI, cs.LG, cs.SE."
+  }
+}
