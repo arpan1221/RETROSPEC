@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_the_alignment_illusion_in_multimodal_large_language_models",
+  "type": "paper",
+  "title": "The Alignment Illusion in Multimodal Large Language Models",
+  "authors": [
+    "Hong-Han Wang",
+    "Yuntao Wang",
+    "Hu Ding"
+  ],
+  "date": "2026-09-24",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.30210",
+  "url": "https://arxiv.org/abs/2609.30210",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level cross-modal interaction. To test this assumption, we apply controlled interventions to the visual stream. Across 13 MLLMs from five families spanning 0.5B to 72B parameters, replacing projector-output visual tokens with Gaussian noise sharply reduces task accuracy, yet four standard scalar measures (CKA, SVCCA, MIR, and the leading principal-angle cosine) fail to consistently separate the corrupted stream from the original. We call this failure the alignment illusion and trace it to the shared language-model pathway: anisotropic MLP down-projections pull visual and text tokens toward common output directions, producing weight-induced alignment. Because this component is essentially one-dimensional, we introduce the principal-angle gap (PA gap), defined as the difference between the top two principal-angle cosines, which separates weight-induced similarity from multi-directional visual structure. Under graded visual corruption, the PA gap tracks task accuracy more consistently than the scalar scores we consider; under a structured but irrelevant image, it further exposes regimes in which internal geometry and task accuracy come apart. Internal visual-text alignment in MLLMs is therefore best read as a geometric diagnostic of the visual stream inside the language model rather than a direct proxy for content-level cross-modal interaction, and is most informative when calibrated by controlled task evidence.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.30210"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is The Alignment Illusion in Multimodal Large Language Models?",
+    "Tell me about The Alignment Illusion in Multimodal Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-27T02:16:53.381Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, alignment, multimodal. 3 authors. Categories: cs.CV, cs.LG, cs.CV."
+  }
+}

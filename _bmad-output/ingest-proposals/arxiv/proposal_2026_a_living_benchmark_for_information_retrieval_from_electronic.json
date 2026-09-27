@@ -1,0 +1,60 @@
+{
+  "id": "paper_2026_a_living_benchmark_for_information_retrieval_from_electronic",
+  "type": "paper",
+  "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+  "authors": [
+    "Jordan L. Cahoon",
+    "Chloe O. Stanwyck",
+    "Sulaiman Somani",
+    "Philip Chung",
+    "Kevin R Keet",
+    "Kameron C. Black",
+    "Andrea T. Fisher",
+    "Sarita Khemani",
+    "Jerry Liu",
+    "Stephen Ma",
+    "Saloni K. Maharaj",
+    "Rita M. Pandya",
+    "Eduardo Perez-Guerrero",
+    "Priyanka Pillai",
+    "Lisa Shieh",
+    "David J. H. Wu",
+    "James Xie",
+    "James C. McAvoy",
+    "Teresa Nguyen",
+    "Jessica Tran",
+    "Lucy Yin",
+    "Bridget Lin",
+    "Alison Callahan",
+    "Jason A. Fries",
+    "Nigam H. Shah",
+    "Emily Alsentzer"
+  ],
+  "date": "2026-09-24",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.30205",
+  "url": "https://arxiv.org/abs/2609.30205",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Their safety and utility depend on rigorous evaluation, yet existing benchmarks are manually curated, costly to update, and rapidly become obsolete with evolving technological advancements. We present a scalable framework that automatically generates question--answer pairs from longitudinal EHR notes. Nineteen clinicians validate the benchmark generator, producing the Benchmark for Retrieving Information in EHRs (BRIE), a continuously maintainable evaluation dataset. Across nine LLMs and five inference strategies, state-of-the-art systems frequently omit clinically important information, particularly for questions requiring synthesis across multiple documents and encounters. Because the generator itself is validated, BRIE supports evaluations that static benchmarks cannot, including the generation of multiple answers that reflect variation in clinician reasoning for robust performance assessment and continuously refreshing benchmark content to guard against leakage. Our results demonstrate that scalable benchmark generation enables rigorous, up-to-date evaluation of clinical LLMs as they are deployed in rapidly evolving healthcare settings.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.30205"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is A Living Benchmark for Information Retrieval from Electronic Health Records?",
+    "Tell me about A Living Benchmark for Information Retrieval from Electronic Health Records"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-27T02:16:53.381Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Matched keywords: language model, large language model, llm, benchmark, safety, reasoning. 26 authors. Categories: cs.AI, cs.AI."
+  }
+}

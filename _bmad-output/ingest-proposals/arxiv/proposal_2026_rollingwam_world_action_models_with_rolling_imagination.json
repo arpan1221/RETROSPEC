@@ -1,0 +1,45 @@
+{
+  "id": "paper_2026_rollingwam_world_action_models_with_rolling_imagination",
+  "type": "paper",
+  "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+  "authors": [
+    "Yinghua Zhou",
+    "Junjie Ye",
+    "Yiqi Zhao",
+    "Hao Dong",
+    "Celina Shiyu Wang",
+    "Ruohai Ge",
+    "Tingyi Yang",
+    "Basile Van Hoorick",
+    "Gaurav Sukhatme",
+    "Vitor Guizilini",
+    "Yue Wang"
+  ],
+  "date": "2026-09-24",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.30247",
+  "url": "https://arxiv.org/abs/2609.30247",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency, delaying action updates and limiting closed-loop responsiveness. We present Rolling-WAM, a formulation that distributes joint denoising across successive replanning cycles. Our method maintains a sliding window of video-action chunks at staggered noise levels. At each step, a rolling noise schedule fully denoises the imminent action chunk for execution, while partially refining farther-future chunks. As the window advances with new camera observations, the retained future chunks continue their denoising process. This distributes the computational cost over time while carrying an evolving visual-action context across chunk boundaries. Evaluations on LIBERO, RoboTwin, and a real-world Unitree G1 humanoid show that Rolling-WAM achieves competitive manipulation performance. By removing the need to denoise the entire prediction horizon from scratch, it delivers a 4.5x steady-state replanning speedup over standard joint WAMs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.30247"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Rolling-WAM: World Action Models with Rolling Imagination?",
+    "Tell me about Rolling-WAM: World Action Models with Rolling Imagination"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-27T02:16:53.375Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: . 11 authors. Categories: cs.RO, cs.AI, cs.CV, cs.RO."
+  }
+}

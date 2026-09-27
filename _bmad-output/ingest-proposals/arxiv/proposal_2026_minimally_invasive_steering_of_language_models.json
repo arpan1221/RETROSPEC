@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_minimally_invasive_steering_of_language_models",
+  "type": "paper",
+  "title": "Minimally Invasive Steering of Language Models",
+  "authors": [
+    "Taha Entesari",
+    "Jingyu Zhang",
+    "Daniel Khashabi",
+    "Mahyar Fazlyab"
+  ],
+  "date": "2026-09-24",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.30218",
+  "url": "https://arxiv.org/abs/2609.30218",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its final hidden states. Unregularized reward optimization can substantially alter the output distribution and degrade generation quality. We propose Minimally Invasive Steering Vector Optimization (MISVO), which penalizes interventions using the local KL geometry of the induced token distribution. The resulting Fisher quadratic measures distributional sensitivity and admits an analytic gradient computed through matrix--vector products with the frozen language-model head. We derive an exact decomposition of the sequence-level KL gradient into an analytic Fisher term and a suffix score-function term. For a fixed generation horizon, we show that the suffix term is second order in the steering magnitude and that three Fisher surrogates agree with the full KL gradient to first order. MISVO uses the frozen-reference surrogate to optimize position-specific interventions without updating model parameters. Across preference and code-generation tasks on models with approximately 1B--14B parameters, MISVO achieves the highest mean reward in six of seven model--task settings, with diversity and coherence scores close to those of Best-of-N.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.30218"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Minimally Invasive Steering of Language Models?",
+    "Tell me about Minimally Invasive Steering of Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-27T02:16:53.378Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: language model. 4 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}
