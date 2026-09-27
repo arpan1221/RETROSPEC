@@ -1,0 +1,41 @@
+{
+  "id": "model_deepseek_v4_1_flash",
+  "type": "model",
+  "name": "DeepSeek-V4.1-Flash",
+  "organization": "org_deepseek",
+  "release_date": "2026-09-10",
+  "architecture": "decoder_only_transformer",
+  "parameter_count": "unknown",
+  "training_approach": "unknown",
+  "parent_models": [],
+  "child_models": [],
+  "key_innovations": [],
+  "benchmark_highlights": {},
+  "lineage_path": "",
+  "significance": 9,
+  "cultural_impact": "",
+  "_meta": {
+    "source": "huggingface",
+    "ingested_at": "2026-09-27T02:16:53.695Z",
+    "status": "proposed",
+    "confidence": 0.8,
+    "reason": "Notable org: deepseek-ai. High downloads: 640,577. Very high likes: 3772. Trending on HuggingFace.",
+    "huggingface_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "downloads": 640577,
+    "likes": 3772,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deepseek_v41",
+      "text-generation",
+      "image-text-to-text",
+      "license:mit",
+      "eval-results",
+      "endpoints_compatible",
+      "8-bit",
+      "fp8",
+      "region:us"
+    ]
+  }
+}

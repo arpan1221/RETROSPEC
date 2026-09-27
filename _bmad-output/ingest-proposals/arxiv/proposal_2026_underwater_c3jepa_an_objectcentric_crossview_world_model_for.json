@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_underwater_c3jepa_an_objectcentric_crossview_world_model_for",
+  "type": "paper",
+  "title": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
+  "authors": [
+    "Yuncong Yang",
+    "Jinlong Li",
+    "Yulong Xue",
+    "Feng Wu",
+    "Chunwen Zhang",
+    "Lei Qiao",
+    "Xuyang Wang"
+  ],
+  "date": "2026-09-24",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2609.30214",
+  "url": "https://arxiv.org/abs/2609.30214",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-centric multi-view predictive world model for near-field heavy-load underwater ROV salvage. Without contact sensors, it predicts in latent space how the task-object state evolves through contact interaction and under the hydrodynamic lag of the vehicle, from synchronized multi-view RGB observations and vehicle control signals. C$^{3}$-JEPA encodes multi-camera observations into task-object and context tokens, fuses cross-camera evidence through held-out-view attention, and directly predicts future states conditioned on control. Weak binding anchors the target and gripper at low annotation cost, while SIGReg sharpens the geometric representation. Experiments show that the learned representation transfers substantially more task-relevant information to downstream probes than a reconstruction-free latent baseline, while keeping the predictor lightweight. The resulting predictive interface supports model-predictive-control (MPC) candidate evaluation and imagined-rollout behavior-agent training. Validation on real underwater video shows the same architecture recovering a withheld camera's object state and staying ahead of persistence, so the recipe transfers beyond simulation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2609.30214"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage?",
+    "Tell me about Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-09-27T02:16:53.380Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: agent, world model. 7 authors. Categories: cs.RO, cs.AI, cs.RO."
+  }
+}
