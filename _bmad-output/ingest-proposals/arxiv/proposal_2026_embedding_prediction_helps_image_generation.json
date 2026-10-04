@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_embedding_prediction_helps_image_generation",
+  "type": "paper",
+  "title": "Embedding Prediction Helps Image Generation",
+  "authors": [
+    "Sihan Xu",
+    "Ji Xie",
+    "Zilin Wang",
+    "Hui Shen",
+    "Stella X. Yu"
+  ],
+  "date": "2026-10-01",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.02203",
+  "url": "https://arxiv.org/abs/2610.02203",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its embeddings are the next embeddings after the condition and the noisy image. We train a NEPA model to predict them all at once with Multi-Embedding Prediction, and in Embedding Conditioned Generation, a DiT generator is conditioned on these predictions, recomputed at every denoising step, so the conditioning signal adapts to the current noisy state. Experiments on class-conditional ImageNet $256\\times256$ study the condition of the generator, the design of Multi-Embedding Prediction, and the scaling of both models. The NEPA model adds a second network to every sampling step; with it, and combined with REPA, our final model, NEPA-DiT-XL, reaches an FID of 1.32 using about a third of the training compute of REPA.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.02203"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Embedding Prediction Helps Image Generation?",
+    "Tell me about Embedding Prediction Helps Image Generation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-04T03:14:13.136Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: transformer, diffusion, prompt. 5 authors. Categories: cs.CV, cs.LG, cs.CV."
+  }
+}

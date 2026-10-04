@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_vista_a_visual_harness_for_reasoning_in_an_interactive_world",
+  "type": "paper",
+  "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+  "authors": [
+    "Qiushi Han",
+    "Keya Hu",
+    "Linlu Qiu",
+    "Cathy Wu",
+    "Kaiming He"
+  ],
+  "date": "2026-10-01",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.02200",
+  "url": "https://arxiv.org/abs/2610.02200",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless visual memory that preserves past observations in their original form. The model can actively retrieve these observations and reorganize its visual input as it reasons. On ARC-AGI-3, VISTA improves Claude Opus 5.0's Relative Human Action Efficiency score from 40.68 to a perfect 100.00, with the model completing all 25 public games using 57.4% fewer actions than first-time human participants. VISTA's simple design also allows it to extend naturally to diverse visual environments with minimal adaptation. Across three additional benchmarks covering a diverse range of visual games and puzzles, it substantially outperforms baselines using the same underlying model with minimal harnesses. Our results highlight VISTA's potential as a general-purpose visual harness for advancing multimodal agents in complex visual environments.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.02200"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is VISTA: A Visual Harness for Reasoning in an Interactive World?",
+    "Tell me about VISTA: A Visual Harness for Reasoning in an Interactive World"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-04T03:14:13.136Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: agent, multimodal, benchmark, reasoning. 5 authors. Categories: cs.AI, cs.CV, cs.AI."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_generative_cinematographer_composing_camera_and_object_motio",
+  "type": "paper",
+  "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+  "authors": [
+    "Jiahan Zhang",
+    "Chaohao Yang",
+    "Namitha Guruprasad",
+    "Vivekjyoti Banerjee",
+    "Trong-Tung Nguyen",
+    "Alan Yuille",
+    "Anand Bhattad"
+  ],
+  "date": "2026-10-01",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.02180",
+  "url": "https://arxiv.org/abs/2610.02180",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Generative Cinematographer (GenCine), a system that lifts a single image into an editable 3D scene scaffold where artists jointly author camera and foreground motion. Artists specify a camera path and move selected foreground regions using local 3D motion handles. Several handles can move different parts of a subject independently, providing a piecewise-rigid approximation to non-rigid motion without a physics simulator or category-specific prior. To communicate these controls to a pretrained video model, we project them into guidance maps. These maps record where the controlled regions appear in each frame, assign each handle a fixed color across frames and encode the current 3D positions of its controlled points in the same world coordinate system as the background. This lets us describe object motion relative to the scene even as the camera moves. For training, we recover controls from the motion observed in real videos and use ground-truth geometry and trajectories from synthetic videos. We train a lightweight guidance branch and LoRA adapters on a pretrained Wan model to follow these controls. Our experiments show consistent camera-relative motion, improved geometric consistency under viewpoint changes, and strong controllability across diverse real-world scenes.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.02180"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Generative Cinematographer: Composing Camera and Object Motion in 3D?",
+    "Tell me about Generative Cinematographer: Composing Camera and Object Motion in 3D"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-04T03:14:13.139Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: rag. 7 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}
