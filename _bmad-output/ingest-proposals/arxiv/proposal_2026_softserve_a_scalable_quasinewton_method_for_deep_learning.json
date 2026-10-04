@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_softserve_a_scalable_quasinewton_method_for_deep_learning",
+  "type": "paper",
+  "title": "SoftServe: A Scalable Quasi-Newton Method for Deep Learning",
+  "authors": [
+    "Joohwan Ko",
+    "Tetiana Parshakova",
+    "Diana Cai",
+    "Robert M. Gower"
+  ],
+  "date": "2026-10-01",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.02182",
+  "url": "https://arxiv.org/abs/2610.02182",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Quasi-Newton (QN) methods have long been among the most effective methods for large-scale unconstrained convex optimization. Two obstacles have limited their use in deep learning: non-convexity and enormous parameter sizes. We introduce SoftServe, a family of QN methods designed to overcome these obstacles without line searches or ad hoc curvature corrections. SoftServe derives positivedefinite curvature estimates from the variational objective of Berglund et al. (2025), even in the presence of negative curvature. We develop diagonal and Kroneckerfactored variants that preserve positive definiteness by construction and scale to massive neural networks. Finally, SoftServe relies on the stable coupled Newton-Schulz iteration for the required matrix operations, replacing costly matrix decompositions with GPU-friendly matrix multiplications. SoftServe excels on problems that are severely ill-conditioned, including tasks such as recurrent networks, deep autoencoders, physics-informed neural networks, and a 136M-parameter physics-informed diffusion model, often achieving lower losses than established baselines including Adam, Muon, and SOAP.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.02182"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is SoftServe: A Scalable Quasi-Newton Method for Deep Learning?",
+    "Tell me about SoftServe: A Scalable Quasi-Newton Method for Deep Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-04T03:14:13.139Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: diffusion. 4 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

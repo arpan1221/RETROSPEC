@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_trust_the_direction_search_the_step_zeroandfirstorder_method",
+  "type": "paper",
+  "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+  "authors": [
+    "Cristian McGee",
+    "El Houcine Bergou",
+    "Aritra Dutta"
+  ],
+  "date": "2026-10-01",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.02190",
+  "url": "https://arxiv.org/abs/2610.02190",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how far to move. Using the current {gradient information} and two additional objective function evaluations, ZFO instances construct a local model of the objective function along the proposed direction and select a curvature-aware step within a bounded search interval. This yields an adaptive step-selection mechanism that costs less than a full line search. We provide theoretical guarantees to show that shared-sample evaluations produce reliable finite-difference curvature estimates, that the induced local model selects a near-optimal step along the search interval, and that ZFO converges to a neighborhood of a stationary point. Across the evaluated settings, language models and datasets, ZFO frequently improves optimization and final performance relative to fixed-step first-order baselines, with the magnitude and preferred local model depending on the objective. Our code is publicly available at: https://github.com/nizswan/Zeroth-First-Order-Framework.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.02190"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning?",
+    "Tell me about Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-04T03:14:13.138Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, llm, fine-tuning. 3 authors. Categories: cs.LG, math.OC, cs.LG."
+  }
+}
