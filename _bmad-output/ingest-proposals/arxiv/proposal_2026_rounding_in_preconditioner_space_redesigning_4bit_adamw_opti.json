@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_rounding_in_preconditioner_space_redesigning_4bit_adamw_opti",
+  "type": "paper",
+  "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+  "authors": [
+    "Hanyang Li",
+    "Shao Tang",
+    "Daniel Thomas Braithwaite",
+    "Gregory Dexter",
+    "Leonardo Neves",
+    "Aman Gupta",
+    "Hiroto Udagawa",
+    "Abhishek Shivanna",
+    "Daniel Silva",
+    "Rohan Ramanath"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12444",
+  "url": "https://arxiv.org/abs/2610.12444",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-state quantization for AdamW from the perspective of \\emph{rounding space}: the coordinate in which a quantizer chooses between adjacent reconstruction levels. For the second moment, a local analysis of the quantization cell adjacent to zero shows that small mean state error need not imply small mean preconditioner error at the next step. A one-dimensional quadratic construction further shows qualitatively different optimization dynamics under state-space and preconditioner-space rounding. These results motivate Zero-Inclusive Preconditioner-space Stochastic Rounding (\\textbf{ZIP-SR}), which retains zero in the second-moment codebook and computes stochastic-rounding probabilities in preconditioner space. As a complementary route, Zero-Excluding EDEN calibration (\\textbf{ZE-EDEN}) uses a zero-excluding second-moment codebook and rescales the quantized second-moment block to mitigate the preconditioner distortion caused by the positive quantization floor. Both configurations use 4-bit NormalFloat (NF4) for the first moment, with targeted stochastic rounding of the LM-head first moment during the final 10\\% of training. Across GPT- and Llama-style pretraining experiments ranging from \\textbf{130M} to \\textbf{2.7B} parameters, both methods reduce TorchAO 4-bit AdamW's mean validation-loss gap to 32-bit AdamW at every evaluated model size, with the largest reported gap reduction reaching \\textbf{70\\%}. In full-parameter supervised fine-tuning, both recipes achieve lower validation loss than TorchAO while remaining close to 32-bit AdamW on downstream tasks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12444"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization?",
+    "Tell me about Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.341Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: fine-tuning, rag. 10 authors. Categories: cs.LG, cs.LG."
+  }
+}

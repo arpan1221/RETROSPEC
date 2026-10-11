@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_a_unified_bellman_operator_for_safetycritical_reinforcement",
+  "type": "paper",
+  "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+  "authors": [
+    "Nishanth Arun Rao",
+    "Royina Karegoudra Jayanth",
+    "Benjamin Eysenbach",
+    "Jaime Fernández Fisac"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12420",
+  "url": "https://arxiv.org/abs/2610.12420",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Reinforcement learning in safety-critical domains requires maximizing task performance while strictly adhering to safety constraints. Existing safe reinforcement learning paradigms typically force a trade-off: they either require a priori knowledge to provide strict safety guarantees (e.g., safety filters), or they enable joint learning but only satisfy safety constraints on average. In this work, we propose a novel Bellman operator that unifies performance and safety objectives into a joint value function. We show that temporal difference learning with the joint Bellman operator converges under a two-timescale stochastic approximation framework. On the fast timescale, the safety value of the learning joint policy is estimated, while the joint value is estimated on the slow timescale. Convergence is ensured by formulating the limiting dynamics as an occupation-averaged differential inclusion, and showing that it asymptotically converges to a set of limiting optimal safety-constrained task value functions. Theoretically, once converged, the resulting optimal policy maximizes task return while maintaining safety at all times. Empirical evaluations on continuous control tasks with neural approximations demonstrate stable convergence with near-zero safety violations at test time.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12420"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is A Unified Bellman Operator for Safety-Critical Reinforcement Learning?",
+    "Tell me about A Unified Bellman Operator for Safety-Critical Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.342Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: llm, reinforcement learning, rag, safety. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}

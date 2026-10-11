@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_faith_feasibilityaware_safetyfiltered_rl_for_highdimensional",
+  "type": "paper",
+  "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+  "authors": [
+    "Songyuan Zhang",
+    "Baljeet Singh",
+    "Sarthak Ranjeet Kaingade",
+    "Chuchu Fan",
+    "Bryan Trinh"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12432",
+  "url": "https://arxiv.org/abs/2610.12432",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation. Hard projections are also undefined when no safe action exists. We present FAITH, a feasibility-aware, model-free framework that approximates the optimal state-action safety value and amortizes minimal-intervention filtering with a feedforward network. The task policy optimizes the task return through the filtered dynamics, which recovers the feasible constrained problem without a competing safety term in the task-policy update. When no action satisfies the learned safety condition, the same filter approaches the action with minimum predicted peak harm. On a double integrator example and a Safety Gym environment, FAITH achieves the highest return among methods with no feasible-start violations and matches the lowest harm from infeasible starts. On a 29-DoF humanoid, it reaches a 99.95% safety rate while retaining 97% of the unfiltered return in Walking-Avoid, and obtains the highest measured safety rate in Push-Avoid by learning to sacrifice balancing and fall away from the protected region. The same policies are also demonstrated on a real-world Unitree G1 humanoid.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12432"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems?",
+    "Tell me about FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.342Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: reinforcement learning, safety. 5 authors. Categories: cs.RO, cs.LG, eess.SY, cs.RO."
+  }
+}
