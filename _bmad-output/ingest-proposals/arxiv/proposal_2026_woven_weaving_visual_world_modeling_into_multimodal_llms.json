@@ -1,0 +1,46 @@
+{
+  "id": "paper_2026_woven_weaving_visual_world_modeling_into_multimodal_llms",
+  "type": "paper",
+  "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+  "authors": [
+    "Zheyu Fan",
+    "Yue Zhang",
+    "Mingkai Deng",
+    "Kangrui Wang",
+    "Qineng Wang",
+    "Canyu Chen",
+    "Jie Hao",
+    "Xing Fan",
+    "Chenlei Guo",
+    "Eric P. Xing",
+    "Mohit Bansal",
+    "Manling Li"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12417",
+  "url": "https://arxiv.org/abs/2610.12417",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do not support controlled comparisons across scenes, actions, and reasoning operations. We therefore introduce WOVEN, a training source and benchmark for visual transition reasoning that organizes transition supervision by scene, action, and reasoning type, using diverse, realistic rollouts from video-pretrained generative models: 36,076 examples across 20 scene types, 5 action types, and 8 reasoning types. We first evaluate 38 frontier MLLMs (e.g., GPT-5.4 and Qwen3-VL-235B-A22B) and find a substantial and systematic deficit: even the strongest models fall far below humans, and the failures recur across model families and persist with scale. We then train MLLMs at multiple scales on WOVEN and find that they learn a shared capability that transfers broadly: training subsets of only about 2,000 items each collectively improve 22 of 26 external benchmarks by up to 27.3 percentage points, and WOVEN data can replace 30-50% of a task's own training data with comparable accuracy. Controlled comparisons further yield a training recipe for visual world modeling, validated prospectively on held-out benchmarks: select supervision by the reasoning operation it teaches rather than by the actions, scenes, or domains it shows, and prefer larger changes to the visual state for robustness. Our work establishes visual transition reasoning as a reusable foundation for systematic visual world-model training in MLLMs.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12417"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is WOVEN: Weaving Visual World Modeling into Multimodal LLMs?",
+    "Tell me about WOVEN: Weaving Visual World Modeling into Multimodal LLMs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.342Z",
+    "status": "proposed",
+    "confidence": 0.9,
+    "reason": "Matched keywords: language model, large language model, llm, multimodal, world model, benchmark, reasoning. 12 authors. Categories: cs.CV, cs.CL, cs.LG, cs.CV."
+  }
+}

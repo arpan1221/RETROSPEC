@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_bifork_generative_modeling_of_highdimensional_bifurcating_sy",
+  "type": "paper",
+  "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+  "authors": [
+    "Anna Zimmel",
+    "Fleur Hendriks",
+    "Markus Holzleitner",
+    "Florian Sestak",
+    "Martin Weichselbaumer",
+    "Vlado Menkovski",
+    "Johannes Brandstetter"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12449",
+  "url": "https://arxiv.org/abs/2610.12449",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12449"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems?",
+    "Tell me about Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.340Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: multimodal. 7 authors. Categories: cs.LG, cs.AI, cs.CE, physics.comp-ph, cs.LG."
+  }
+}

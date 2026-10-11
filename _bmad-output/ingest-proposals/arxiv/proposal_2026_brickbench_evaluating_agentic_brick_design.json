@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_brickbench_evaluating_agentic_brick_design",
+  "type": "paper",
+  "title": "BrickBench: Evaluating Agentic Brick Design",
+  "authors": [
+    "Peter Kulits",
+    "Yiqing Xu",
+    "R. Kenny Jones",
+    "Cordelia Schmid",
+    "Jiajun Wu"
+  ],
+  "date": "2026-10-08",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.12452",
+  "url": "https://arxiv.org/abs/2610.12452",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding agents to construct, inspect, and validate their designs. We find that leading agents largely satisfy verifiable physical and semantic requirements, but fall short of human designs. We release our benchmark and environment at http://www.brickben.ch",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.12452"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is BrickBench: Evaluating Agentic Brick Design?",
+    "Tell me about BrickBench: Evaluating Agentic Brick Design"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-11T02:39:14.340Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: agent, agentic, alignment, benchmark, prompt. 5 authors. Categories: cs.AI, cs.CV, cs.GR, cs.AI."
+  }
+}
