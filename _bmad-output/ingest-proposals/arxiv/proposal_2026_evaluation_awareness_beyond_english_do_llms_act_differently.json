@@ -1,0 +1,43 @@
+{
+  "id": "paper_2026_evaluation_awareness_beyond_english_do_llms_act_differently",
+  "type": "paper",
+  "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
+  "authors": [
+    "Trizal Garg",
+    "Sibayan Mitra",
+    "Arya Karanjkar",
+    "Advait Singh",
+    "Jagat Sesh Challa",
+    "Yash Sinha",
+    "Siddharth Mehrotra",
+    "Dhruv Kumar",
+    "Pratham Yogish Maliya"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22333",
+  "url": "https://arxiv.org/abs/2610.22333",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve users in many languages. Indic languages are spoken by over a billion people, yet evaluation awareness remains almost entirely unstudied in them. We test four instruction-tuned models from three families in five Indic languages alongside English. A set of cues varies whether the model is told that it is monitored and whether the monitoring is a safety test. Models refuse harmful requests more often when they are told that they are being tested. This increase appears in all four models and all six languages. In Indic languages, refusal of harmful requests rises by 14.4 percentage points on average. The test cue also brings Indic refusal of harmful requests level with English, but raises refusal of benign Indic requests from 6.9% to 11.3%. We release all 47,880 judged responses to support further work. These results suggest that safety evaluations in Indic languages may not reflect how models treat their everyday users.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22333"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages??",
+    "Tell me about Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.888Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: language model, large language model, llm, rag, safety. 9 authors. Categories: cs.AI, cs.CL, cs.AI."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_robust_reinforcement_learning_for_dynamic_treatment_regimes",
+  "type": "paper",
+  "title": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
+  "authors": [
+    "Chengze Xie",
+    "Xuan Wang",
+    "Ying Ding",
+    "Hairong Wang",
+    "Yan Li"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22336",
+  "url": "https://arxiv.org/abs/2610.22336",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We develop a robust reinforcement learning (RL) framework for learning adaptive treatment policies that generalize across patients and remain reliable under errors in the measured biomarker and shifts in the disease dynamics. By modeling the patient as a hidden context, we address generalization and robustness in a unified manner through robust contextual Markov decision processes. Applying our framework to adaptive therapy for metastatic prostate cancer in a simulator calibrated to clinical data, we obtain generalizable and robust policies that substantially outperform the existing adaptive therapy method. In particular, we attain robustness with almost no loss of performance when the biomarker is accurate and the disease evolves as anticipated, and find that the resulting policy Pareto-dominates the existing method across a diverse array of scenarios. Our findings suggest that robust RL holds great promise as a principled methodology for learning reliable adaptive treatment policies.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22336"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty?",
+    "Tell me about Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.888Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: reinforcement learning. 5 authors. Categories: cs.LG, cs.LG."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_dexterity_from_supervised_play",
+  "type": "paper",
+  "title": "Dexterity from Supervised Play",
+  "authors": [
+    "Botao He",
+    "Yiming Dou",
+    "Yiannis Aloimonos",
+    "Jitendra Malik",
+    "Akash Sharma",
+    "Ruoshi Liu"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22340",
+  "url": "https://arxiv.org/abs/2610.22340",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomously to collect hours of interaction data to train a world model. During inference, the same play policy then guides model-predictive control (MPC) by proposing candidate action sequences for evaluation under the learned world model. To accelerate inference, we also introduce a method for distilling a closed-loop, goal-conditioned policy through self-play within the learned world model. We evaluate this framework on underactuated pushing and any-to-any in-hand pose reorientation with a multifingered hand, in simulation and real world. In real world experiment, our method outperforms hindsight behavior cloning by 69.6% in success rate and achieves comparable success to reinforcement learning with 490 times less interaction data. These results demonstrate that supervised play can autonomously collect interaction data, guide model-based planning, and enable policy learning without any task-specific demonstrations or sim-to-real transfer.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22340"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Dexterity from Supervised Play?",
+    "Tell me about Dexterity from Supervised Play"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.887Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: reinforcement learning, world model. 6 authors. Categories: cs.RO, cs.AI, cs.RO."
+  }
+}

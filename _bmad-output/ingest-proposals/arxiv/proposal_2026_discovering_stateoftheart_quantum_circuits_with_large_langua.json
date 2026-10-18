@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_discovering_stateoftheart_quantum_circuits_with_large_langua",
+  "type": "paper",
+  "title": "Discovering state-of-the-art quantum circuits with large language models",
+  "authors": [
+    "Andi Gu",
+    "Alek H. Kemeny",
+    "Susanne F. Yelin",
+    "Mikhail D. Lukin"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22367",
+  "url": "https://arxiv.org/abs/2610.22367",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here we introduce an evolutionary framework in which large language models (LLMs) propose circuit designs and an independent evaluator verifies and scores them. We apply this framework to tasks spanning numerical computation, chemistry, optimization, quantum simulation, and number theory. In seven of the eight tasks, the discovered circuits significantly reduce both Toffoli and qubit counts relative to the state of the art. In the eighth, the search discovers a new reversible architecture for prime-field modular inversion. By handling reversibility differently, the architecture makes divsteps -- a classical algorithm previously impractical for reversible integer arithmetic -- viable and substantially improves the Toffoli-qubit trade-off for modular inversion. These results open the door for evaluator-guided LLM co-design of new algorithmic structures for quantum computation.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22367"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Discovering state-of-the-art quantum circuits with large language models?",
+    "Tell me about Discovering state-of-the-art quantum circuits with large language models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.884Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, llm. 4 authors. Categories: quant-ph, cs.AI, quant-ph."
+  }
+}
