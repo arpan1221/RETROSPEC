@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_liberoperm_benchmarking_personalized_robotic_manipulation",
+  "type": "paper",
+  "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+  "authors": [
+    "Zhixu Li",
+    "Keqian Tang",
+    "Litian Gong",
+    "Jingyu Yao",
+    "Wenqian Zhang",
+    "Tianze Xu",
+    "Zehao Wang",
+    "Yuping Wang",
+    "Junge Zhang",
+    "Jiachen Li"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22372",
+  "url": "https://arxiv.org/abs/2610.22372",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation and taxonomy of observable preferences in simulation, covering motion, skill, and user-profile choices. This formulation is restricted to language-expressible preferences that can be instantiated in LIBERO without changing the task goal, evaluated automatically, and reused across tasks. Building on LIBERO, our procedural pipeline generates paired demonstrations with and without preferences. We create five task suites (312 tasks) with high-quality demonstrations, rich metadata, and preference-satisfaction metrics. Experiments show that current VLA policies struggle with zero-shot personalization, while SFT makes preferences learnable. Mixed training achieves better no-preference retention than sequential adaptation and improves performance with contextual prompts compared with preference-only training, but can weaken motion-preference learning; preference generalization, decomposition, and conflict handling remain difficult. The code, datasets, and demos can be found on the project website: https://libero-perm.github.io/.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22372"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation?",
+    "Tell me about LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.883Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: agent, benchmark, prompt. 10 authors. Categories: cs.RO, cs.AI, cs.LG, cs.RO."
+  }
+}

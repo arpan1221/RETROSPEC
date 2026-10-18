@@ -1,0 +1,47 @@
+{
+  "id": "paper_2026_omniverifierc1_decomposed_graded_verifier_for_rulegoverned_g",
+  "type": "paper",
+  "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+  "authors": [
+    "Bowei Liu",
+    "Xinchen Zhang",
+    "Xuhuan Li",
+    "Tianlin Zhang",
+    "Kaian Jiang",
+    "Jingwei Liu",
+    "Congyang Zhao",
+    "Yifei Qian",
+    "Junhong Liu",
+    "Zhiheng Li",
+    "Yujiu Yang",
+    "Yang Cai",
+    "Ling Yang"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22355",
+  "url": "https://arxiv.org/abs/2610.22355",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-grained components and assigns pointwise scores to provide a continuous and more informative critique signal. Our experiments further demonstrate that these structured and interpretable outputs improve the verifier's generalization to out-of-domain multimodal critic tasks. To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level. Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios. We then extend our investigation to rule-governed generative world modeling where generative models are leveraged for world simulation and world reasoning under explicit rules. From a theoretical standpoint, we further show that a pairwise verification paradigm yields more accurate critiques than the pointwise formulation when ground-truth images are available, with empirical results on diverse structured world-modeling tasks such as Maze and Sudoku further validating the effectiveness of our approach. Overall, our findings suggest a key insight: the transition from generative models to structured world-modeling agents critically hinges on the availability of accurate pairwise graded visual verifiers.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22355"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling?",
+    "Tell me about OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.885Z",
+    "status": "proposed",
+    "confidence": 0.85,
+    "reason": "Matched keywords: reinforcement learning, agent, alignment, multimodal, world model, rag, reasoning, prompt. 13 authors. Categories: cs.CL, cs.CL."
+  }
+}

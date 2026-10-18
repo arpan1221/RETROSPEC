@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_designing_transformers_for_continuous_diffusion_language_mod",
+  "type": "paper",
+  "title": "Designing Transformers for Continuous Diffusion Language Models",
+  "authors": [
+    "Weijian Luo",
+    "Yujian Chen",
+    "Hao Jiang",
+    "Guang Cheng",
+    "Tianyang Hu"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22330",
+  "url": "https://arxiv.org/abs/2610.22330",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not optimized for CDLMs. In this paper, we conduct a systematic study on Transformer architectures for CDLMs and introduce Language Diffusion Transformer (LangDiT), combining feature and query-key normalization, wider noise conditioning, likelihood-shortcut gradient routing and calibration, and confidence-gated training self-conditioning. LangDiT significantly reduces generation perplexity in matched LangFlow comparisons, establishing a new state of the art in continuous language generation across different model formulations. Using LangFlow as a representative CDLM, LangDiT as a plug-and-play backbone leads to a new state-of-the-art model with a generation perplexity (GenPPL) of 21.72 using 1024 NFEs and 44.72 GenPPL using 128 NFEs on the unconditional generation of 1024-token sequences on the OpenWebText dataset. When adapted to Plaid-style CDLM formulations, LangDiT results in a new leading GenPPL of 11.33 using 1024 denoising NFEs, and 27.51 GenPPL using 128 denoising NFEs. These gains are achieved while retaining each model's underlying representation, training objective, and inference sampler, isolating transformer architecture as a fundamental source of improvement. Our study identifies architectural design as an important source of improvement in continuous diffusion language models.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22330"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Designing Transformers for Continuous Diffusion Language Models?",
+    "Tell me about Designing Transformers for Continuous Diffusion Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.889Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: transformer, language model, large language model, llm, diffusion. 5 authors. Categories: cs.AI, cs.AI."
+  }
+}

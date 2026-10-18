@@ -1,0 +1,47 @@
+{
+  "id": "paper_2026_knowgpo_knowledgegrouped_policy_optimization_for_search_agen",
+  "type": "paper",
+  "title": "KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents",
+  "authors": [
+    "Siqi Chen",
+    "Zhengxi Lu",
+    "Yuchen Yan",
+    "Xingyu Wu",
+    "Qipeng Chen",
+    "Xin Zhang",
+    "Aiting Liu",
+    "Chao Deng",
+    "Jie Liu",
+    "Jin Ma",
+    "Weiming Lu",
+    "Jun Xiao",
+    "Yongliang Shen"
+  ],
+  "date": "2026-10-15",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.22331",
+  "url": "https://arxiv.org/abs/2610.22331",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Deep search agents solve knowledge-intensive tasks through long-horizon, multi-turn interactions, where assigning credit to individual search decisions is fundamentally difficult. Outcome-based reinforcement learning provides only a single terminal reward shared across an entire trajectory. Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor credit to either surface-level trajectory states or model-internal signals, both of which become unreliable in deep search where observations are heterogeneous and retrieved contexts are long and noisy. We propose KnowGPO, a reinforcement learning framework that aligns trajectories by the task-relevant knowledge they have acquired rather than by their surface observations. For each query, KnowGPO decomposes the information required to derive the answer into atomic knowledge conditions, and represents the state of a trajectory at each step by the subset of conditions it has satisfied. Trajectories sharing the same knowledge state are grouped for within-group comparison, and the incremental knowledge gain between consecutive steps serves as an environment-grounded process reward. Experiments on Xbench, BrowseComp-ZH, and GAIA show KnowGPO consistently outperforms outcome-only (GRPO) and process-supervision baselines (GiGPO, IGPO) by 3.8 to 4.2 points, with our 8B model rivaling or exceeding most 32B open-source systems.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.22331"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents?",
+    "Tell me about KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-18T01:54:43.888Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: reinforcement learning, agent. 13 authors. Categories: cs.AI, cs.AI."
+  }
+}
