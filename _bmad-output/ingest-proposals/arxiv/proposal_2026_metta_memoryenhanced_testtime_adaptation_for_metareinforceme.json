@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_metta_memoryenhanced_testtime_adaptation_for_metareinforceme",
+  "type": "paper",
+  "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+  "authors": [
+    "Ali Najar",
+    "Hosein Hasani",
+    "Amir Kooshan Fattah",
+    "Yasamin Rajabi",
+    "Mahdieh Soleymani Baghshah"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31656",
+  "url": "https://arxiv.org/abs/2610.31656",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation phase into two temporal scales: a causal neural memory performs fine-grained within-episode adaptation with linear sequence complexity, while compact episode-level summaries support long-range cross-episode task inference without attending over the full interaction history. Moreover, equipping agents with neural memory provides sufficient expressive capacity and test-time training capability, enabling effective adaptation to unseen held-out tasks and task families at meta-test time. On unseen held-out Meta-World ML10/45 test environments, METTA achieves a success rate over $50\\%$ while maintaining a low training budget and short wall-clock time. On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior. These results show that METTA provides an efficient path toward more adaptive and scalable long-context meta-RL.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31656"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning?",
+    "Tell me about METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.155Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: transformer, reinforcement learning, agent. 5 authors. Categories: cs.LG, cs.AI, cs.LG."
+  }
+}

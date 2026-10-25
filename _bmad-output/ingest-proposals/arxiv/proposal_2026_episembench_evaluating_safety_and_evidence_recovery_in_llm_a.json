@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_episembench_evaluating_safety_and_evidence_recovery_in_llm_a",
+  "type": "paper",
+  "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+  "authors": [
+    "Qijin Zhang",
+    "Hanzhen Wang",
+    "Yuehan Zhao",
+    "Haoyu Dai",
+    "Yao Shu",
+    "Zhongxiang Dai",
+    "Shuang Qiu"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31650",
+  "url": "https://arxiv.org/abs/2610.31650",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while completing permissible tasks. The benchmark reveals substantial variation across the ten models in omission robustness, evidence acquisition, and appropriate action. Resistance to missing evidence does not necessarily translate into useful recovery. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31650"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence?",
+    "Tell me about EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.155Z",
+    "status": "proposed",
+    "confidence": 0.65,
+    "reason": "Matched keywords: language model, llm, agent, benchmark, safety. 7 authors. Categories: cs.AI, cs.LG, cs.AI."
+  }
+}
