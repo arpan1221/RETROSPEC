@@ -1,0 +1,35 @@
+{
+  "id": "paper_2026_costaware_abstention_for_llmbased_it_ticket_classification",
+  "type": "paper",
+  "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+  "authors": [
+    "Sachin Gupta"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31657",
+  "url": "https://arxiv.org/abs/2610.31657",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_triage, c_wrong) = (0, 1, 5), TF-IDF with logistic regression and a threshold of 0.60 selected on calibration reduces test cost from 0.763 to 0.472, a 38.1% relative reduction (paired ratio-bootstrap 95% CI [35.7%, 40.4%]), while lowering wrong routes from 15.3% to 3.5%. Frozen calibration-selected policies also beat both always-route and always-defer on held-out test data in 14 of 16 settings in a post-hoc cost-parameter analysis. The strongest prompted configuration reaches 0.477 accuracy on a stratified 1,000-ticket test subset, versus 0.879 for fine-tuned DistilBERT on the same tickets. Isotonic lowers expected calibration error without reliably improving discrimination: GPT-4o-mini few-shot has one confidence value before and after recalibration and correctness AUROC 0.500. We therefore report correctness AUROC and tie-aware risk-coverage area alongside ECE. At the analytically derived break-even probability 0.80, seven prompted configurations defer all tickets; Haiku few-shot routes only 19/1,000. An LLM-only agreement control and margin/entropy rejection baselines further separate calibration from discrimination. The findings are scoped to this dataset, prompt design, model endpoints, and illustrative costs; the work is an evaluation framework, not a new abstention algorithm or universal deployment certification.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31657"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Cost-Aware Abstention for LLM-Based IT Ticket Classification?",
+    "Tell me about Cost-Aware Abstention for LLM-Based IT Ticket Classification"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.155Z",
+    "status": "proposed",
+    "confidence": 0.5,
+    "reason": "Matched keywords: language model, large language model, llm, rag, prompt. 1 authors. Categories: cs.LG, cs.AI, cs.CL, cs.LG."
+  }
+}

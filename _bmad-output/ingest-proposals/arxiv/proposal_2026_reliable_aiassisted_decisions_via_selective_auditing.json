@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_reliable_aiassisted_decisions_via_selective_auditing",
+  "type": "paper",
+  "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+  "authors": [
+    "Isaac Gibbs",
+    "Elise L. Han",
+    "Ryan J. Tibshirani",
+    "Tijana Zrnic"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31662",
+  "url": "https://arxiv.org/abs/2610.31662",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. The decision and confidence score need not be produced by the same model: for example, one agent may propose a decision, while a separate verifier agent evaluates it and outputs a correctness or safety score. Based on this information, we must decide whether to accept the AI decision automatically or consult an expert, such as a human auditor, who reviews the proposal and either accepts or corrects it. We formulate this task as an online constrained optimization problem in which the goal is to minimize the frequency of expert auditing while guaranteeing that the fraction of AI errors that go unaudited stays below a user-defined threshold. We derive a family of algorithms with provable error-control guarantees with no assumptions, including a method that is optimally efficient: it asymptotically attains the best achievable auditing rate for both adversarial and i.i.d. data streams. Experiments on screening harmful requests to large language models, qualitative text annotation, and data labeling show that our methods achieve valid error control in practice while substantially reducing the need for human auditing compared to baselines.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31662"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Reliable AI-Assisted Decisions via Selective Auditing?",
+    "Tell me about Reliable AI-Assisted Decisions via Selective Auditing"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.154Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, large language model, agent, safety. 4 authors. Categories: stat.ML, cs.LG, stat.ME, stat.ML."
+  }
+}

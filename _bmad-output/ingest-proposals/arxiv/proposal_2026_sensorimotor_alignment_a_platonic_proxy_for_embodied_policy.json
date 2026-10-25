@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_sensorimotor_alignment_a_platonic_proxy_for_embodied_policy",
+  "type": "paper",
+  "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+  "authors": [
+    "Yunfei Xie",
+    "Howard H. Qian",
+    "Shiyi Lan",
+    "Kaiyu Hang",
+    "Chen Wei"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31670",
+  "url": "https://arxiv.org/abs/2610.31670",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion? To examine this, we propose Sensorimotor Alignment ($S^2$), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion. We find that $S^2$ correlates positively with downstream robot task success across embodied model families, making it a low-cost offline proxy for prioritizing models before closed-loop evaluation. $S^2$ can also identify promising vision-language model (VLM) backbones even before costly fine-tuning into vision-language-action models (VLAs). Beyond this correlation, $S^2$ offers representation-level explanations for phenomena observed in VLAs and world action models (WAMs). With $S^2$, we extend PRH to embodied models and make sensorimotor alignment empirically measurable, offering insight into why an embodied model succeeds beyond its closed-loop success rate.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31670"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success?",
+    "Tell me about Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.153Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: language model, fine-tuning, alignment, foundation model. 5 authors. Categories: cs.CV, cs.LG, cs.RO, cs.CV."
+  }
+}

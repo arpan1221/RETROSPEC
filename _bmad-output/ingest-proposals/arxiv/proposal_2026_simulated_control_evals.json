@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_simulated_control_evals",
+  "type": "paper",
+  "title": "Simulated Control Evals",
+  "authors": [
+    "Jeffrey Olmo",
+    "David Zhang",
+    "Tyler Tracy"
+  ],
+  "date": "2026-10-22",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.31593",
+  "url": "https://arxiv.org/abs/2610.31593",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so. These evaluations typically use purpose-built control settings and extrapolate their results to a model's deployment. However, the effectiveness of safeguards in deployment can depend on features of environments and tasks that control settings do not represent. To broaden where control evaluations can be run, we introduce simulated control evaluations (SCEs), which use a language model to simulate tool responses in place of an environment. We evaluate SCEs on LinuxArena, where execution provides ground-truth outcomes. We compare SCE prediction errors with those from a separate control setting, BashArena, and with variation in control metrics within LinuxArena. For independently sampled evaluation and deployment task sets, SCEs predict safety with a root mean squared error of 3.6 percentage points across five monitors at a 5% audit budget, compared with 10.1 for BashArena. SCEs closely reproduce distributions of attack strategies, attacker reasoning, and monitor reasoning, with over tenfold lower KL divergence from execution than BashArena. SCEs explain 78-85% of the between-environment variance in attack success, monitor scores, and safety. This accuracy is sample efficient: SCEs predict safety with less error than BashArena using fewer than 5% as many task-pair draws as the deployment task set. Strategies discovered through simulation also improve monitor performance on held-out LinuxArena attacks, outperforming BashArena and approximately matching improvement from executed strategies. These results suggest that deployment-specific SCEs can be more predictive than control evaluations executed in separate control settings.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.31593"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Simulated Control Evals?",
+    "Tell me about Simulated Control Evals"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-10-25T02:05:50.160Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: language model, safety, reasoning. 3 authors. Categories: cs.AI, cs.AI."
+  }
+}
