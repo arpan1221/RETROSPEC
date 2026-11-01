@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_an_odebased_sampler_for_discrete_diffusion_models",
+  "type": "paper",
+  "title": "An ODE-based Sampler for Discrete Diffusion Models",
+  "authors": [
+    "Samson Gourevitch",
+    "Yazid Janati",
+    "Eric Moulines",
+    "Eric P. Xing",
+    "Alain Durmus",
+    "Giacomo Zanella"
+  ],
+  "date": "2026-10-29",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.40618",
+  "url": "https://arxiv.org/abs/2610.40618",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponential residual flows (ERFs). Our framework augments the discrete state with a continuous residual variable for each token and position. These residuals evolve deterministically according to piecewise-defined ODEs whose vector fields depend on the current discrete state and the forward and backward rate matrices of the prescribed diffusion model. The discrete state changes whenever a residual reaches zero. We prove that this construction preserves the marginals of the original diffusion. We derive a practical discretization of our sampler and specialize it to masked and uniform diffusion. The deterministic trajectories of ERFs support consistency distillation and yield empirical improvements over previous approaches across a variety of benchmarks including code and text generation tasks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.40618"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is An ODE-based Sampler for Discrete Diffusion Models?",
+    "Tell me about An ODE-based Sampler for Discrete Diffusion Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-01T02:57:38.461Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: diffusion, benchmark. 6 authors. Categories: cs.LG, stat.ML, cs.LG."
+  }
+}
