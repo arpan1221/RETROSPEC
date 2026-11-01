@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_world2vec_mechanistic_world_models_through_latent_dynamics_l",
+  "type": "paper",
+  "title": "world2vec: Mechanistic world models through latent dynamics learning",
+  "authors": [
+    "Tobias Schmidt",
+    "Rodrigo Gonzalez Laiz",
+    "Krisztián Szuppinger",
+    "Steffen Schneider"
+  ],
+  "date": "2026-10-29",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.40637",
+  "url": "https://arxiv.org/abs/2610.40637",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous environments from pixels and accurate system identification across a benchmark of 71 attractors, demonstrating how world models are amenable to scientific discovery.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.40637"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is world2vec: Mechanistic world models through latent dynamics learning?",
+    "Tell me about world2vec: Mechanistic world models through latent dynamics learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-01T02:57:38.459Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: world model, benchmark, interpretability, mechanistic interpretability. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}

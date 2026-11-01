@@ -1,0 +1,36 @@
+{
+  "id": "paper_2026_luggage_reidentification_a_study_of_strategies_towards_a_rea",
+  "type": "paper",
+  "title": "Luggage re-identification: A study of strategies towards a real-world application",
+  "authors": [
+    "Quentin Dhôte",
+    "Romaric Audigier"
+  ],
+  "date": "2026-10-29",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2610.40643",
+  "url": "https://arxiv.org/abs/2610.40643",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean conditions, real-world scenarios are characterized by frequent occlusions, cluttered background and crowded scenes which significantly degrade performance. Yet, strategies leveraging the complementarity of multiple shots and views from different video streams is overlooked. In this paper, we study strategies for an end-to-end pipeline that operates from multiple video streams to detect and re-identify luggage. We evaluate different variants on a benchmark dataset acquired in real-world environments to address the questions of selecting and merging different views and shots of the same luggage as well as training on different environment datasets for an overall ReID performance improvement in practical applications.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2610.40643"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Luggage re-identification: A study of strategies towards a real-world application?",
+    "Tell me about Luggage re-identification: A study of strategies towards a real-world application"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-01T02:57:38.458Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: rag, benchmark. 2 authors. Categories: cs.CV, cs.AI, cs.CV."
+  }
+}
