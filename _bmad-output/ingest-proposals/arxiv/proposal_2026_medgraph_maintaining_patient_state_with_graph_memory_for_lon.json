@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_medgraph_maintaining_patient_state_with_graph_memory_for_lon",
+  "type": "paper",
+  "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+  "authors": [
+    "Donghua Zhang",
+    "Zizheng Wang",
+    "Ze Dong",
+    "Yiding Feng",
+    "Siyu Qian"
+  ],
+  "date": "2026-11-05",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.08433",
+  "url": "https://arxiv.org/abs/2611.08433",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each session, attributes each fact to the person it describes, and links medication, diagnosis, and measurement records into chains that keep earlier states. Retrieval ranks the patient's chains as units, reads each chain at the time the question asks about, and adds the original dialogue text; a patient profile lists every recorded safety fact with every question. On MedMemoryBench, MedGraph has the highest overall accuracy with both a GPT and a Qwen backbone, 10.5 and 10.4 points above the strongest of five baselines, with efficient memory construction and answering in the GPT setting.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.08433"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue?",
+    "Tell me about MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-08T03:03:43.367Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: llm, safety. 5 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}
