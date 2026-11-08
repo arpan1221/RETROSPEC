@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_benchmarks_as_software_terminalbench_and_the_case_for_contin",
+  "type": "paper",
+  "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+  "authors": [
+    "E. Kelly Buchanan",
+    "Crystal Zhou",
+    "Scott W. Linderman",
+    "Christopher Ré"
+  ],
+  "date": "2026-11-05",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.08417",
+  "url": "https://arxiv.org/abs/2611.08417",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and tests. We call the resulting accumulation of defects benchmark maintenance debt: a growing gap between benchmark scores and the capabilities they are intended to measure. We introduce a continuous-validation workflow for agentic benchmarks that combines community reports, task artifacts, agent traces, automated oracle checks, and human-gated repairs. We apply this workflow to Terminal-Bench 2.0, a benchmark that underwent extensive human and LM-assisted review and red-teaming before release. Our audit identifies issues in roughly 30% of the benchmark, and we release the resulting repairs as Terminal-Bench 2.1. These repairs change evaluation results: accuracy increased by over 10 percentage points and leaderboard positions move by up to three ranks, even as the overall ranking remains highly correlated (Spearman rho = 0.958). We evaluate how resource allocation shapes benchmark conclusions. We show that fixed wall-clock can materially change agent performance: For example, extending the time limit closes a 20pp harness gap on GPT 5.4 and shrinks a 30 pp gap on GPT 5.4 mini to 5 pp. Benchmark maintenance is therefore not only about repairing task artifacts: resource budgets are part of the measurement specification and must be validated alongside the tasks themselves. More broadly, benchmark maintenance debt is not just accumulated implementation bugs: our results show that as models improve, both evaluation assumptions and resource settings may need to be revalidated.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.08417"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks?",
+    "Tell me about Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-08T03:03:43.368Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: llm, agent, agentic, benchmark. 4 authors. Categories: cs.AI, cs.AI."
+  }
+}

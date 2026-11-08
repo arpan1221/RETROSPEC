@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_spectral_and_subspace_dynamics_of_lora_in_supervised_finetun",
+  "type": "paper",
+  "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+  "authors": [
+    "Chenruo Liu",
+    "Zihan Wang",
+    "Yijun Dong",
+    "Qi Lei"
+  ],
+  "date": "2026-11-05",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.08414",
+  "url": "https://arxiv.org/abs/2611.08414",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear. Tracking the singular spectrum and subspaces of LoRA updates on mathematical reasoning tasks, we find that RL concentrates the spectrum at every learning rate, while SFT expands it at moderate learning rates; moreover, RL rotates the singular subspaces much faster than SFT at small learning rates. Interpolating between SFT and RL one ingredient at a time, we pinpoint group-mean baseline subtraction as the source of both contrasts. A quadratic multi-index model updated via LoRA unveils the underlying mechanism: group-mean baseline subtraction tilts the balance between two competing forces, coherent fitting and gradient noise, toward spectral concentration and faster subspace rotation, while forcing the risk-favorable learning rate to be low. Guided by these dynamics, we tailor LoRA updates to each stage: in SFT, we flatten the spectrum of the full update to spread adaptation across singular directions, whereas in RL, we flatten the part of the update outside the current LoRA increment span to promote subspace rotation. Experiments on mathematical reasoning tasks across multiple models show that the respective configurations for SFT and RL yield the best performance among the compared methods in most evaluated settings.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.08414"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning?",
+    "Tell me about Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-08T03:03:43.368Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: reinforcement learning, fine-tuning, reasoning. 4 authors. Categories: cs.LG, stat.ML, cs.LG."
+  }
+}
