@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_negativeonly_policy_optimization_for_onesided_verifiable_rew",
+  "type": "paper",
+  "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+  "authors": [
+    "Jiacheng Xu",
+    "Shuo He",
+    "Fuxiang Zhang",
+    "Chaojie Wang",
+    "Bo An"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17287",
+  "url": "https://arxiv.org/abs/2611.17287",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified positives are merely non-falsified candidates and may contain many false positives. This asymmetry makes standard RLVR unreliable, because reinforcing verified positives can directly reward shortcuts that pass partial checks. To address this issue, we propose Negative-Only Policy Optimization (NOPO), which treats verified positives as unlabeled and updates the policy only by suppressing trusted verified negatives. Specifically, NOPO combines a reference-relative negative suppression loss with a group-level adapter that scales each update by the proportion of non-falsified responses. Across unit-test, constraint-check, and LLM self-verifiers, NOPO improves pass@k over baselines on code, logic, and math benchmarks when oracle rewards are unavailable. These gains persist under inference-time scaling and cross-benchmark transfer.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17287"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Negative-Only Policy Optimization for One-Sided Verifiable Rewards?",
+    "Tell me about Negative-Only Policy Optimization for One-Sided Verifiable Rewards"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.755Z",
+    "status": "proposed",
+    "confidence": 0.3,
+    "reason": "Matched keywords: llm, reinforcement learning, benchmark. 5 authors. Categories: cs.LG, cs.CL, cs.LG."
+  }
+}

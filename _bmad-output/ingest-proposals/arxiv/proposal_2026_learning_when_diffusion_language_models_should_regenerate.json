@@ -1,0 +1,41 @@
+{
+  "id": "paper_2026_learning_when_diffusion_language_models_should_regenerate",
+  "type": "paper",
+  "title": "Learning When Diffusion Language Models Should Regenerate",
+  "authors": [
+    "Minhae Oh",
+    "Jeonghye Kim",
+    "Jinwoo Koo",
+    "Yeongoon Kim",
+    "Jimin Seo",
+    "Minsik Seol",
+    "Jungwoo Lee"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17320",
+  "url": "https://arxiv.org/abs/2611.17320",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a verifier that predicts whether a partially generated sequence will reach a correct answer. Trained on the final correctness of the model's own trajectories, DiVR decides when to regenerate a block and which alternative to retain, while the generator itself stays unchanged. On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3\\% to 43.4\\% at $1.9$-$3.5\\times$ the cost of greedy decoding, above search baselines that use $3.8$-$7.4\\times$. It also complements post-training such as supervised fine-tuning and reinforcement learning, and generalizes to other generators, including Dream.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17320"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Learning When Diffusion Language Models Should Regenerate?",
+    "Tell me about Learning When Diffusion Language Models Should Regenerate"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.752Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: language model, diffusion, reinforcement learning, fine-tuning, rag, benchmark, reasoning. 7 authors. Categories: cs.CL, cs.CL."
+  }
+}

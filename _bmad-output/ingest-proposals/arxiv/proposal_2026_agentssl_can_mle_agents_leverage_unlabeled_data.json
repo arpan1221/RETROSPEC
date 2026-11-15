@@ -1,0 +1,39 @@
+{
+  "id": "paper_2026_agentssl_can_mle_agents_leverage_unlabeled_data",
+  "type": "paper",
+  "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+  "authors": [
+    "Ethan Lin",
+    "Akanksha Sarkar",
+    "Ziang Liu",
+    "Kristin Branson",
+    "Jennifer J. Sun"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17323",
+  "url": "https://arxiv.org/abs/2611.17323",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision. We find that even under weak feedback and matched compute, agents can synthesize code that combines and adapts established SSL techniques, exceeding the strongest human-engineered baselines in 8 of 12 settings by up to +21.8%. However, our results identify program selection as a critical bottleneck in AgentSSL, where performance drops by as much as 47% when selecting based on the agent's feedback metric. To systematically study this bottleneck, we introduce ProgramSelectBench, a large-scale benchmark with a combined total of 16,977 agent-generated and human-engineered SSL programs, and evaluate both unsupervised and active program selection methods. We further evaluate AgentSSL on real-world ecology detection tasks, highlighting the opportunities and challenges of transferring agent-discovered strategies beyond controlled benchmarks.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17323"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is AgentSSL: Can MLE Agents Leverage Unlabeled Data??",
+    "Tell me about AgentSSL: Can MLE Agents Leverage Unlabeled Data?"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.752Z",
+    "status": "proposed",
+    "confidence": 0.55,
+    "reason": "Matched keywords: agent, agentic, rag, benchmark. 5 authors. Categories: cs.AI, cs.LG, cs.AI."
+  }
+}
