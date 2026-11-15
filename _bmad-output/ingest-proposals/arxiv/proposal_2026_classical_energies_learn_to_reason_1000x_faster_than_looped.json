@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_classical_energies_learn_to_reason_1000x_faster_than_looped",
+  "type": "paper",
+  "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+  "authors": [
+    "Benjamin Hoover",
+    "Hugh Blayney",
+    "James C. R. Whittington"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17309",
+  "url": "https://arxiv.org/abs/2611.17309",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn the constraints of the puzzle. Here we demonstrate this with a learned version of Hopfield &amp; Tank's energy from the 80s, which we term CRAM, solves 99.996% of Sudoku-Extreme and 100% of Maze-Unique test puzzles after 42 ms and 132 ms of training on one GPU, at least 1,000x faster than looped models on these tasks. CRAM also matches baseline looped models at their highest accuracy on Sudoku-Extreme using at least 282x fewer inference FLOPs. Our work suggests two things. First, that energies are an extremely promising direction for training reasoning from data. Second, a caution against using trivially solvable benchmarks like Sudoku and Maze to test the scalability of looped reasoning techniques.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17309"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Classical Energies Learn to Reason 1,000x Faster than Looped Models?",
+    "Tell me about Classical Energies Learn to Reason 1,000x Faster than Looped Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.753Z",
+    "status": "proposed",
+    "confidence": 0.35,
+    "reason": "Matched keywords: benchmark, reasoning. 3 authors. Categories: cs.AI, cs.LG, cs.AI."
+  }
+}

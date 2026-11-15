@@ -1,0 +1,37 @@
+{
+  "id": "paper_2026_synthesis_smuggling_maliciously_hiding_inferred_personal_att",
+  "type": "paper",
+  "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+  "authors": [
+    "Gautam Galada",
+    "Supreeth Shastri",
+    "Sagnik Ray Choudhury"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17280",
+  "url": "https://arxiv.org/abs/2611.17280",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through ordinary communication channels. An adversary monitoring these channels can discover this information. We demonstrate this threat by training two open-weight models to infer gender and age-group labels from conversational cues and encode their predictions using invisible characters or word choices. These results show that user-shared model outputs can become a covert channel for personal inferences, even when the model itself has no direct means of contacting an adversary.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17280"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs?",
+    "Tell me about Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.755Z",
+    "status": "proposed",
+    "confidence": 0.25,
+    "reason": "Matched keywords: llm. 3 authors. Categories: cs.CL, cs.AI, cs.CL."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_internalizing_investment_mandates_a_neurosymbolic_rl_approac",
+  "type": "paper",
+  "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+  "authors": [
+    "Zeynep Yıldız",
+    "Satchit Chatterji",
+    "Ercan Atam",
+    "Erman Acar"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17329",
+  "url": "https://arxiv.org/abs/2611.17329",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 5,
+  "summary": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. No post-hoc enforcement mechanism intercepts actions at inference time and compliance is learned by the agent. Audited directly on deterministic mean actions with no correction, the policy reduces violations of a six-rule regime-conditional mandate from 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline to 4.8%, showing that a continuous-action neurosymbolic policy can substantially internalize a symbolic mandate.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17329"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation?",
+    "Tell me about Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.752Z",
+    "status": "proposed",
+    "confidence": 0.2,
+    "reason": "Matched keywords: reinforcement learning, agent. 4 authors. Categories: cs.LG, cs.LG."
+  }
+}

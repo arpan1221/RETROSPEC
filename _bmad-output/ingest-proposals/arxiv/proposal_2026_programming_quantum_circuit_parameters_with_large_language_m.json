@@ -1,0 +1,40 @@
+{
+  "id": "paper_2026_programming_quantum_circuit_parameters_with_large_language_m",
+  "type": "paper",
+  "title": "Programming Quantum Circuit Parameters with Large Language Models",
+  "authors": [
+    "Tiago de Souza Farias",
+    "Caio Moraes Porto",
+    "Matheus da Silva Fonseca",
+    "Nicolas Armando Cabrera Carpi",
+    "Anderson de Araujo Oliveira",
+    "Celso Jorge Villas-Boas"
+  ],
+  "date": "2026-11-12",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.17246",
+  "url": "https://arxiv.org/abs/2611.17246",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that generates complete circuit parameter vectors from symbolic circuit and Hamiltonian descriptions, with optional iterative energy feedback. We evaluate the approach on general random Hamiltonians, structured parent Hamiltonians, and molecular systems. For general Hamiltonians, LLM-generated parameters exhibit larger energy errors than conventional Adam optimization, while additional feedback generally provides limited improvement. In contrast, for structured Hamiltonians, the LLM can generate promising low-energy parameter configurations, suggesting that identifiable physical and mathematical structure facilitates parameter inference. We also show that direct LLM predictions of minimum energies can violate the Hamiltonian spectral lower bound, whereas generated circuit parameters allow independent evaluation of physically realizable energy expectation values. Finally, we investigate blind circuit interpretation and find that the LLM can predict measurement outcomes even when it fails to identify the underlying quantum algorithm. These findings highlight the role of problem structure, the limitations of iterative LLM optimization, and the importance of independently verifiable predictions in quantum parameter programming.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.17246"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Programming Quantum Circuit Parameters with Large Language Models?",
+    "Tell me about Programming Quantum Circuit Parameters with Large Language Models"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-15T03:35:20.756Z",
+    "status": "proposed",
+    "confidence": 0.45,
+    "reason": "Matched keywords: language model, large language model, llm. 6 authors. Categories: quant-ph, cs.LG, quant-ph."
+  }
+}
