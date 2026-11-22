@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_textaware_visionblind_how_multimodal_image_editing_systems_h",
+  "type": "paper",
+  "title": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
+  "authors": [
+    "Ziqing Yang",
+    "Yixin Wu",
+    "Michael Backes",
+    "Yang Zhang"
+  ],
+  "date": "2026-11-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.26569",
+  "url": "https://arxiv.org/abs/2611.26569",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 6,
+  "summary": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the uploaded image may itself carry risk. We thus introduce EditSafetyBench, a benchmark that measures system-level safety awareness of advanced image editing systems, containing 5,940 image-instruction pairs, covering safe and unsafe images across 11 risk categories and three edit intents. We then probe the benchmark dataset on four systems, including Gemini, GPT, Qwen API, and Qwen Local. Based on our evaluation, we observe a systematic text-vision safety mismatch: Gemini and GPT refuse 87.1\\% and 81.6\\% cases containing unsafe-intent editing prompts, while only refusing 24.2\\% and 22.4\\% cases with both unsafe images and neutral instructions. At the category level, most risks are considered inconsistently by different systems, e.g., GPT allows 70.4\\% editing attempts of unsafe political content while Gemini only allows 34.8\\%. Notably, sexual content shows the strongest visual sensitivity, likely benefiting from mature NSFW identification works. Our findings highlight the need for safety guardrails that jointly reason over both visual and textual modalities in image editing systems.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.26569"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs?",
+    "Tell me about Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-22T03:51:49.379Z",
+    "status": "proposed",
+    "confidence": 0.4,
+    "reason": "Matched keywords: multimodal, benchmark, safety, prompt. 4 authors. Categories: cs.CR, cs.CV, cs.LG, cs.CR."
+  }
+}
