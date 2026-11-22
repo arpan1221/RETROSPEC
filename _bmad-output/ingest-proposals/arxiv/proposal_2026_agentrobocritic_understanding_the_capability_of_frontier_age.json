@@ -1,0 +1,44 @@
+{
+  "id": "paper_2026_agentrobocritic_understanding_the_capability_of_frontier_age",
+  "type": "paper",
+  "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+  "authors": [
+    "Yiyang Du",
+    "Yuxuan Kuang",
+    "Qitao Zhao",
+    "Yixuan Wang",
+    "Zhanqiu Guo",
+    "Yi Xu",
+    "Xin Li",
+    "Wenbin He",
+    "Liu Ren",
+    "Chenyan Xiong"
+  ],
+  "date": "2026-11-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.26613",
+  "url": "https://arxiv.org/abs/2611.26613",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 7,
+  "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agents on direct robot control across 12 manipulation benchmarks. We introduce AgentRoboCritic, an intent-grounded critique framework in which the policy agent states a local intent alongside each action, and a critic evaluates the action's outcome and failure mode against this intent. Our action-level analysis demonstrates the promising capabilities of frontier agents on direct robot control, including closed-loop recovery from local execution failures, reliable semantic grounding across diverse scenes, and strong zero-shot manipulation without task-specific adaptation. It also identifies their current limitations, including task-relevant physical execution bottlenecks such as grasping and alignment, and uneven recovery across failure modes. Finally, we validate our critic on a 400-action human-annotated benchmark and release a dataset of 12,844 annotated actions alongside a fine-tuned open-source critic, Muse-Glimmer-30B, whose failure-mode accuracy rises from 32.58% to 74.24%, enabling low-cost action-level analysis.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.26613"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control?",
+    "Tell me about AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-22T03:51:49.376Z",
+    "status": "proposed",
+    "confidence": 0.6,
+    "reason": "Matched keywords: agent, alignment, multimodal, benchmark. 10 authors. Categories: cs.RO, cs.CL, cs.CV, cs.RO."
+  }
+}

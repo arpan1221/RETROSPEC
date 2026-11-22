@@ -1,0 +1,38 @@
+{
+  "id": "paper_2026_replication_of_agentic_security_events_audit_and_investigati",
+  "type": "paper",
+  "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+  "authors": [
+    "Mengxiao Wang",
+    "Mahbub Alam",
+    "Kalyan Nakka",
+    "Nitesh Saxena"
+  ],
+  "date": "2026-11-19",
+  "venue": "arXiv preprint",
+  "arxiv_id": "2611.26553",
+  "url": "https://arxiv.org/abs/2611.26553",
+  "citation_count_approx": 0,
+  "epoch": "10_agentic_era",
+  "significance": 8,
+  "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks record whether agents fail, but neither replicates an incident nor tests the cause its report might identify. In this paper, we present ROGUE-AI (Replication of Agentic Security Events: Audit and Investigation), a multi-agent framework that closes the above gap and rebuilds each reported incident offline together with a matched control that lacks only the blamed cause, and runs agents on both. Our results suggest that ROGUE-AI is able to reproduce the reported harm in 89% of its 108 attempted replications. Agents built on five current GPT, Claude, Gemini and DeepSeek models made the reported mistake in 18% to 33% of runs, against at most 1% without the blamed cause. Of the 72 incidents with real-world harm, 62 had no underlying attacker, and in these, agents did what their task asked for but missed an ordinary hazard, such as a database shared with the live site. Replications without an attacker caused more harm than replications of prompt injection for all five models. Defenses against prompt injection look for injected instructions, but these replications contain none. Further, a warning after each tool output that names the hazard and its consequence lowered harm for all five models, whereas a note of the same length that does not mention the hazard left most of the harm in place. Built from real incidents, the ROGUE-AI replications form a reusable audit framework that vendors can rerun before each new release.",
+  "key_contributions": [
+    "See full paper: https://arxiv.org/abs/2611.26553"
+  ],
+  "preceded_by": [],
+  "succeeded_by": [],
+  "related_events": [],
+  "related_concepts": [],
+  "impact": "To be determined upon review.",
+  "query_hooks": [
+    "What is Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)?",
+    "Tell me about Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)"
+  ],
+  "_meta": {
+    "source": "arxiv",
+    "ingested_at": "2026-11-22T03:51:49.380Z",
+    "status": "proposed",
+    "confidence": 0.7,
+    "reason": "Matched keywords: language model, large language model, llm, agent, agentic, benchmark, prompt. 4 authors. Categories: cs.CR, cs.AI, cs.MA, cs.CR."
+  }
+}
